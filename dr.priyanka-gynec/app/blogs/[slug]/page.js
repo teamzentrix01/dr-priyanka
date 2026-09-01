@@ -15,7 +15,7 @@ export async function generateMetadata({ params }) {
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {};
   return {
-    title: `${post.title} | Dr. Priyanka Gynec`,
+    title: `${post.title} | Dr. Priyanka Gynaecologist`,
     description: post.excerpt,
   };
 }
@@ -156,7 +156,7 @@ export default async function BlogDetailPage({ params }) {
                     &ldquo;Every woman&apos;s biological profile is unique. Prior to starting any treatment or surgical procedure, an in-person clinical assessment provides the safest path forward.&rdquo;
                   </p>
                   <p className="text-sm font-semibold text-[#e181b5] pt-2">
-                    — Dr. Priyanka Gynec Specialist Team
+                    — Dr. Priyanka Gynaecologist Specialist Team
                   </p>
                 </div>
               </div>

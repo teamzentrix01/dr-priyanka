@@ -2,9 +2,9 @@ import ContactForm from "@/components/ContactForm";
 import { siteInfo } from "@/data/site";
 
 export const metadata = {
-  title: "Contact Us | Dr. Priyanka Gynec",
+  title: "Contact Us | Dr. Priyanka Gynaecologist",
   description:
-    "Get in touch with Dr. Priyanka Gynec for appointment queries, directions, or quick questions. Call, WhatsApp, or send us a message.",
+    "Get in touch with Dr. Priyanka Gynaecologist for appointment queries, directions, or quick questions. Call, WhatsApp, or send us a message.",
 };
 
 export default function ContactPage() {
