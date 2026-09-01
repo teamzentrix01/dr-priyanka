@@ -1,13 +1,13 @@
 import Content from "./Content";
 export const metadata = {
   title:
-    "Services | Dr. Priyanka Gynaecologist – Gynaecologistology, Fertility, IVF & Laparoscopy in Moradabad",
+    "Our Services | Dr. Priyanka Pachauri – Best Gynaecologist in Moradabad",
 
   description:
-    "Explore the full range of care at Dr. Priyanka Gynaecologist — 3D laparoscopy, fertility & IVF, pregnancy and birthing support, antenatal services, and advanced Gynaecologistological surgeries, all delivered with expertise and genuine warmth in Moradabad.",
+    "Explore comprehensive gynaecological care by Dr. Priyanka Pachauri in Moradabad — antenatal & postnatal care, high-risk pregnancy management, laparoscopic gynaecological surgery, fertility & IVF, and menstrual disorder treatment.",
 
   keywords:
-    "Dr. Priyanka Gynaecologist services, Gynaecologistology services Moradabad, IVF Moradabad, fertility treatment, laparoscopic surgery, pregnancy care, antenatal services, normal delivery, laparoscopic hysterectomy, endometriosis surgery, paediatric care Moradabad",
+    "gynaecologist services Moradabad, best gynaecologist Moradabad, laparoscopic surgery Moradabad, IVF fertility treatment Moradabad, high-risk pregnancy care, antenatal postnatal services, menstrual disorder treatment, normal delivery Moradabad, endometriosis treatment",
 
   alternates: {
     canonical: "https://www.gynaecologistmoradabad.com/services",
@@ -18,33 +18,33 @@ export const metadata = {
     url: "https://www.gynaecologistmoradabad.com/services",
 
     title:
-      "Services | Dr. Priyanka Gynaecologist – Gynaecologistology, Fertility, IVF & Laparoscopy in Moradabad",
+      "Our Services | Dr. Priyanka Pachauri – Best Gynaecologist in Moradabad",
 
     description:
-      "Explore the full range of care at Dr. Priyanka Gynaecologist — 3D laparoscopy, fertility & IVF, pregnancy and birthing support, antenatal services, and advanced Gynaecologistological surgeries, all delivered with expertise and genuine warmth in Moradabad.",
+      "From fertility & IVF to advanced laparoscopic surgery and high-risk pregnancy care — explore the full range of women's healthcare services by Dr. Priyanka Pachauri in Moradabad.",
 
     images: [
       {
-        url: "https://res.cloudinary.com/dv9tivfvq/image/upload/v1786522486/ChatGPT_Image_Aug_12_2026_01_44_14_PM_eovk1z.png",
+        url: "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
         width: 1200,
         height: 630,
-        alt: "Services | Dr. Priyanka Gynaecologist – Gynaecologistology, Fertility, IVF & Laparoscopy",
+        alt: "Our Services | Dr. Priyanka Pachauri – Best Gynaecologist in Moradabad",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    site: "@DrPriyankaGynaecologist",
+    site: "@DrPriyankaGynaec",
 
     title:
-      "Services | Dr. Priyanka Gynaecologist – Gynaecologistology, Fertility, IVF & Laparoscopy in Moradabad",
+      "Our Services | Dr. Priyanka Pachauri – Best Gynaecologist in Moradabad",
 
     description:
-      "Explore the full range of care at Dr. Priyanka Gynaecologist — 3D laparoscopy, fertility & IVF, pregnancy and birthing support, antenatal services, and advanced Gynaecologistological surgeries, all delivered with expertise and genuine warmth in Moradabad.",
+      "Comprehensive gynaecological care — laparoscopic surgery, fertility & IVF, high-risk pregnancy management, and menstrual disorder treatment in Moradabad.",
 
     images: [
-      "https://res.cloudinary.com/dv9tivfvq/image/upload/v1786522486/ChatGPT_Image_Aug_12_2026_01_44_14_PM_eovk1z.png",
+      "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
     ],
   },
 
@@ -52,6 +52,9 @@ export const metadata = {
     icon: "/favicon.ico",
   },
 };
+
+  
+
 
 export default function Services() {
   return (

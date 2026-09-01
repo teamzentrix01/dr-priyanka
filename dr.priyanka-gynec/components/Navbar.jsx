@@ -104,7 +104,7 @@ export default function Navbar() {
             Dr. Priyanka
           </span>
 
-          {/* LOTUS ICON */}
+          {/* LOTUS ICON
           <svg
             width="24"
             height="24"
@@ -129,10 +129,10 @@ export default function Navbar() {
               fill="currentColor"
               opacity="0.7"
             />
-          </svg>
+          </svg> */}
 
           <span className="font-display text-2xl md:text-[28px] text-[#004b28] tracking-tight">
-            Gynec
+            Gynaec
           </span>
         </Link>
 

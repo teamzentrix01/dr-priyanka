@@ -8,6 +8,56 @@ import SpecialityScroll from "@/components/SpecialityScroll";
 import HomeBlogs from "@/components/HomeBlogs";
 import { services } from "@/data/site";
 
+export const metadata = {
+  title: "Best Gynaecologist in Moradabad – Dr. Priyanka Pachauri",
+  description:
+    "Dr. Priyanka Pachauri is a trusted gynaecologist in Moradabad specializing in antenatal & postnatal care, high-risk pregnancies, laparoscopic gynaecological surgery, and menstrual disorder treatment — known for empathetic, safe-motherhood focused care.",
+  keywords: [
+    "gynaecologist in Moradabad",
+    "best gynaecologist Moradabad",
+    "IVF centre Moradabad",
+    "fertility specialist Moradabad",
+    "laparoscopic surgeon Moradabad",
+    "pregnancy care Moradabad",
+    "Dr. Priyanka Pachauri",
+  ],
+  alternates: {
+    canonical: "https://www.gynaecologistmoradabad.com/",
+  },
+  openGraph: {
+    title: "Best Gynaecologist in Moradabad – Dr. Priyanka Pachauri",
+    description:
+      "Dr. Priyanka Pachauri is a trusted gynaecologist in Moradabad specializing in antenatal & postnatal care, high-risk pregnancies, laparoscopic gynaecological surgery, and menstrual disorder treatment — known for empathetic, safe-motherhood focused care.",
+    url: "https://www.gynaecologistmoradabad.com/",
+    siteName: "Dr. Priyanka Gynaec",
+    images: [
+      {
+        url: "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Best Gynaecologist in Moradabad – Dr. Priyanka Pachauri",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Gynaecologist in Moradabad – Dr. Priyanka Pachauri",
+    description:
+      "Dr. Priyanka Pachauri is a trusted gynaecologist in Moradabad specializing in antenatal & postnatal care, high-risk pregnancies, laparoscopic gynaecological surgery, and menstrual disorder treatment — known for empathetic, safe-motherhood focused care.",
+    images: [
+      "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
+    ],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+
+  
+  
+};
+
 export default function HomePage() {
   return (
     <>

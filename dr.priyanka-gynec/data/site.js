@@ -2,7 +2,7 @@ export const siteInfo = {
   name: "Dr. Priyanka Gynec",
   tagline: "Her Health First",
   address: "A2, near Old Roadways, Gandhi Nagar, Moradabad, Uttar Pradesh, 244001",
-  email: "contact@Dr. Priyankagynec.com",
+  email: "drpriyanka@gynaecologistmoradabad.com",
 
   phones: [
     {

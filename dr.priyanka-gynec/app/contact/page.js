@@ -2,9 +2,57 @@ import ContactForm from "@/components/ContactForm";
 import { siteInfo } from "@/data/site";
 
 export const metadata = {
-  title: "Contact Us | Dr. Priyanka Gynaecologist",
+  title:
+    "Contact Us | Dr. Priyanka Pachauri – Best Gynaecologist in Moradabad",
+
   description:
-    "Get in touch with Dr. Priyanka Gynaecologist for appointment queries, directions, or quick questions. Call, WhatsApp, or send us a message.",
+    "Get in touch with Dr. Priyanka Pachauri, a trusted gynaecologist in Moradabad, for antenatal & postnatal care, high-risk pregnancy management, laparoscopic surgery, and menstrual disorder treatment. Book your appointment today.",
+
+  keywords:
+    "contact Dr. Priyanka Pachauri, best gynaecologist Moradabad, gynaecologist appointment Moradabad, IVF centre contact Moradabad, laparoscopy surgeon Moradabad, book gynaecologist appointment, Gandhi Nagar Moradabad gynaecologist",
+
+  alternates: {
+    canonical: "https://www.gynaecologistmoradabad.com/contact",
+  },
+
+  openGraph: {
+    type: "website",
+    url: "https://www.gynaecologistmoradabad.com/contact",
+
+    title:
+      "Contact Us | Dr. Priyanka Pachauri – Best Gynaecologist in Moradabad",
+
+    description:
+      "Book an appointment with Dr. Priyanka Pachauri for expert gynaecological care, high-risk pregnancy management, laparoscopic surgery & fertility treatment in Moradabad.",
+
+    images: [
+      {
+        url: "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Contact Us | Dr. Priyanka Pachauri – Best Gynaecologist in Moradabad",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    site: "@DrPriyankaGynaec",
+
+    title:
+      "Contact Us | Dr. Priyanka Pachauri – Best Gynaecologist in Moradabad",
+
+    description:
+      "Reach out to Dr. Priyanka Pachauri for gynaecological consultations, high-risk pregnancy care & laparoscopic surgery in Moradabad.",
+
+    images: [
+      "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
+    ],
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function ContactPage() {

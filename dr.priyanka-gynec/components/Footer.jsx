@@ -44,7 +44,7 @@ export default function Footer() {
               <span className="font-display text-2xl text-[#004b28]">Gynec</span>
             </div>
             <p className="font-display italic text-[#004b28] text-lg mb-4">
-              Fertility • Maternity • 3D Laparoscopy • Paediatrics
+              Fertility • Maternity • 3D Laparoscopy
             </p>
             <p className="text-sm leading-relaxed text-[#14271d]/75 max-w-sm">
               Dr. Priyanka Gynec is a leading women&apos;s health and fertility center in
