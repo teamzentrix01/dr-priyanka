@@ -1,5 +1,5 @@
 export const siteInfo = {
-  name: "Dr. Priyanka Gynec",
+  name: "Dr. Priyanka Gynaec",
   tagline: "Her Health First",
   address: "A2, near Old Roadways, Gandhi Nagar, Moradabad, Uttar Pradesh, 244001",
   email: "drpriyanka@gynaecologistmoradabad.com",
@@ -12,26 +12,26 @@ export const siteInfo = {
   ],
 
   whatsapp: {
-    label: "+91 96803 21761",
-    href: "https://wa.me/919680321761",
+    label: "+91 89796 70705",
+    href: "https://wa.me/918979670705",
   },
 
   socials: [
     {
       label: "Facebook",
-      href: "https://www.facebook.com/people/Dr. Priyanka-Gynec/61586318647453/",
+      href: "https://www.facebook.com/people/Dr. Priyanka-Gynaec/61586318647453/",
     },
     {
       label: "Instagram",
-      href: "https://www.instagram.com/Dr. Priyanka_gynec/",
+      href: "https://www.instagram.com/Dr. Priyanka_Gynaec/",
     },
     {
       label: "YouTube",
-      href: "https://www.youtube.com/@Dr. Priyanka_gynec",
+      href: "https://www.youtube.com/@Dr. Priyanka_Gynaec",
     },
     {
       label: "WhatsApp",
-      href: "https://wa.me/919680321761",
+      href: "https://wa.me/918979670705",
     },
   ],
 };
@@ -56,8 +56,8 @@ export const navLinks = [
         category: "Laparoscopy & Surgery",
         items: [
           {
-            label: "Laparoscopy & Gynecology",
-            href: "/services/laparoscopy-gynecology",
+            label: "Laparoscopy & Gynaecology",
+            href: "/services/laparoscopy-Gynaecology",
           },
           {
             label: "Fertility & IVF",
@@ -151,9 +151,9 @@ export const navLinks = [
 
 export const services = [
   {
-    slug: "laparoscopy-gynecology",
+    slug: "laparoscopy-Gynaecology",
     title: "Laparoscopy & Gynaecology",
-    short: "Gynecology & Laparoscopy",
+    short: "Gynaecology & Laparoscopy",
     category: "Women's Care",
     blurb:
       "Where surgical precision meets compassionate care. High-definition 3D laparoscopic expertise that prioritizes your comfort, safety, minimal scarring, and rapid recovery.",
@@ -235,7 +235,7 @@ export const services = [
     homeBlurb:
       "Personalized fertility & IVF treatments to help you achieve your dream of parenthood.",
     overview:
-      "Struggling to conceive can feel overwhelming, but you are not alone. At Dr. Priyanka Gynec, fertility care begins with listening, thorough diagnostic clarity, and individual tailor-made protocols. Supported by state-of-the-art GERI time-lapse embryo incubators, advanced IVF laboratories, and AI-assisted semen analysis, Dr. Priyanka Pachauri provides comprehensive reproductive care ranging from ovulation induction to advanced ICSI and donor programs with warmth and transparency.",
+      "Struggling to conceive can feel overwhelming, but you are not alone. At Dr. Priyanka Gynaec, fertility care begins with listening, thorough diagnostic clarity, and individual tailor-made protocols. Supported by state-of-the-art GERI time-lapse embryo incubators, advanced IVF laboratories, and AI-assisted semen analysis, Dr. Priyanka Pachauri provides comprehensive reproductive care ranging from ovulation induction to advanced ICSI and donor programs with warmth and transparency.",
     keyBenefits: [
       "Personalized Protocols: Tailored stimulation plans based on ovarian reserve (AMH) and maternal age.",
       "GERI Time-Lapse Incubators: Undisturbed 24/7 embryo development monitoring for optimal embryo selection.",
@@ -266,7 +266,7 @@ export const services = [
     ],
     faqs: [
       {
-        question: "What is the success rate of IVF at Dr. Priyanka Gynec?",
+        question: "What is the success rate of IVF at Dr. Priyanka Gynaec?",
         answer:
           "Success rates depend on maternal age and individual clinical factors, but with our state-of-the-art GERI time-lapse technology and personalized blastocyst transfers, we achieve industry-leading success rates.",
       },
@@ -361,7 +361,7 @@ export const services = [
           "We offer epidural analgesia (walking epidural), which blocks labor pain while keeping you conscious, comfortable, and able to actively push during birth.",
       },
       {
-        question: "How are high-risk pregnancies managed at Dr. Priyanka Gynec?",
+        question: "How are high-risk pregnancies managed at Dr. Priyanka Gynaec?",
         answer:
           "High-risk conditions (gestational diabetes, preeclampsia, twin gestation, thyroid disorders) receive specialized frequent monitoring, Doppler scans, CTG tracking, and multidisciplinary care.",
       },
@@ -457,7 +457,7 @@ export const services = [
     homeBlurb:
       "Expert and gentle care prioritizing natural and normal vaginal delivery.",
     overview:
-      "At Dr. Priyanka Gynec, we strongly advocate for natural birthing whenever safe and clinically feasible. Our delivery suite is designed to offer a peaceful, soothing environment equipped with continuous fetal heart monitoring, painless epidural labor analgesia, and skilled labor management to help mothers experience a joyful normal childbirth.",
+      "At Dr. Priyanka Gynaec, we strongly advocate for natural birthing whenever safe and clinically feasible. Our delivery suite is designed to offer a peaceful, soothing environment equipped with continuous fetal heart monitoring, painless epidural labor analgesia, and skilled labor management to help mothers experience a joyful normal childbirth.",
     keyBenefits: [
       "Empathetic Labor Care: One-on-one nursing and expert medical supervision during active labor.",
       "Painless Labor Options: Advanced pain relief including walking epidural assistance.",
@@ -1084,7 +1084,7 @@ export const services = [
     homeBlurb:
       "Compassionate pediatric consultations, vaccinations, and newborn care.",
     overview:
-      "Your child's health and development require gentle, expert care at every step. From newborn assessments and immunizations to managing common childhood illnesses, growth tracking, and adolescent health, Dr. Priyanka Gynec offers a supportive environment where parents feel confident and children feel safe.",
+      "Your child's health and development require gentle, expert care at every step. From newborn assessments and immunizations to managing common childhood illnesses, growth tracking, and adolescent health, Dr. Priyanka Gynaec offers a supportive environment where parents feel confident and children feel safe.",
     keyBenefits: [
       "Newborn Screening: Comprehensive infant wellness assessment and jaundice screening.",
       "Cold-Chain Immunization: Strict WHO-compliant cold-chain storage for safe vaccinations.",
@@ -1154,25 +1154,25 @@ export const services = [
 export const testimonials = [
   {
     quote:
-      "We came to know about Dr. Priyanka Gynec through Instagram and decided to consult her. From our first visit, we felt comfortable and understood. The doctor explained everything clearly and guided us at every step. We are truly grateful for the care and support we received and highly recommend Dr. Priyanka Gynec.",
+      "We came to know about Dr. Priyanka Gynaec through Instagram and decided to consult her. From our first visit, we felt comfortable and understood. The doctor explained everything clearly and guided us at every step. We are truly grateful for the care and support we received and highly recommend Dr. Priyanka Gynaec.",
     name: "Rudri J",
   },
 
   {
     quote:
-      "I have been following Dr. Priyanka Gynec on Instagram for a long time. Her positive approach and the way she explains things gave me a lot of confidence. The doctor and her entire team were extremely supportive, caring, and friendly throughout. Thank you for making our journey so much easier.",
+      "I have been following Dr. Priyanka Gynaec on Instagram for a long time. Her positive approach and the way she explains things gave me a lot of confidence. The doctor and her entire team were extremely supportive, caring, and friendly throughout. Thank you for making our journey so much easier.",
     name: "Sneha Singh",
   },
 
   {
     quote:
-      "Dr. Priyanka Gynec is a wonderful place for women's healthcare. The doctor is knowledgeable, caring, and very supportive. She listens patiently and explains every treatment and procedure clearly. The entire team is professional and compassionate. Highly recommended for anyone looking for trusted and personalized women's care.",
+      "Dr. Priyanka Gynaec is a wonderful place for women's healthcare. The doctor is knowledgeable, caring, and very supportive. She listens patiently and explains every treatment and procedure clearly. The entire team is professional and compassionate. Highly recommended for anyone looking for trusted and personalized women's care.",
     name: "Helna Mary Nelson",
   },
 
   {
     quote:
-      "Dr. Priyanka Gynec provided us with excellent care and made us feel comfortable from the very beginning. The doctor's expertise, patience, and genuine concern for patients made a huge difference. The staff was also very kind, cooperative, and always ready to help. We are truly thankful for the wonderful experience.",
+      "Dr. Priyanka Gynaec provided us with excellent care and made us feel comfortable from the very beginning. The doctor's expertise, patience, and genuine concern for patients made a huge difference. The staff was also very kind, cooperative, and always ready to help. We are truly thankful for the wonderful experience.",
     name: "Shaista Maniyar",
   },
 
@@ -1184,7 +1184,7 @@ export const testimonials = [
 
   {
     quote:
-      "Dr. Priyanka is extremely caring, approachable, and dedicated towards her patients. She made me feel comfortable and confident throughout my pregnancy journey. The staff is also very kind and helpful. I am truly grateful for the care and attention I received and would highly recommend Dr. Priyanka Gynec.",
+      "Dr. Priyanka is extremely caring, approachable, and dedicated towards her patients. She made me feel comfortable and confident throughout my pregnancy journey. The staff is also very kind and helpful. I am truly grateful for the care and attention I received and would highly recommend Dr. Priyanka Gynaec.",
     name: "Poojitha N",
   },
 ];
@@ -1216,7 +1216,7 @@ export const doctors = [
 
     experience: [
       "Co-Founder & Consultant, Shree Advanced Urogynae Clinic, Moradabad",
-      "Consultant Gynecologist, Ujala Cygnus BrightStar Hospital, New Moradabad",
+      "Consultant Gynaecologist, Ujala Cygnus BrightStar Hospital, New Moradabad",
     ],
   },
 ];
@@ -1229,14 +1229,14 @@ export const doctors = [
 export const blogPosts = [
   {
     slug: "pcos-infertility-treatment",
-    title: "Navigating PCOS & Infertility: A Gynecologist's Step-by-Step Guide to Conceiving",
+    title: "Navigating PCOS & Infertility: A Gynaecologist's Step-by-Step Guide to Conceiving",
     excerpt:
       "Polycystic Ovary Syndrome (PCOS) is one of the most common—yet highly treatable—causes of difficulty in conceiving. Discover how lifestyle changes, ovulation induction, and personalized fertility plans help over 85% of women achieve pregnancy.",
     category: "Fertility & IVF",
     date: "August 18, 2026",
     readTime: "6 min read",
     author: "Dr. Priyanka",
-    authorRole: "Senior Gynecologist & Fertility Specialist (MBBS, MS)",
+    authorRole: "Senior Gynaecologist & Fertility Specialist (MBBS, MS)",
     image: "https://res.cloudinary.com/dv9tivfvq/image/upload/v1787293425/Gemini_Generated_Image_1b0lda1b0lda1b0l_nxqlrl.png",
     takeaways: [
       "PCOS causes irregular ovulation, but eggs remain healthy and responsive to medical care.",
@@ -1272,7 +1272,7 @@ export const blogPosts = [
     date: "August 14, 2026",
     readTime: "5 min read",
     author: "Dr. Priyanka",
-    authorRole: "Laparoscopic Surgeon & Gynecologist (MBBS, MS)",
+    authorRole: "Laparoscopic Surgeon & Gynaecologist (MBBS, MS)",
     image: "https://res.cloudinary.com/dv9tivfvq/image/upload/v1787293425/Gemini_Generated_Image_585exs585exs585e_zcaq9n.png",
     takeaways: [
       "Endometriosis occurs when tissue similar to the uterine lining grows outside the uterus, causing pain and scarring.",

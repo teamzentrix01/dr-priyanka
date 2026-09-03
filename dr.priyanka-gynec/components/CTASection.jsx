@@ -29,7 +29,7 @@ export default function CTASection() {
     <div className="overflow-hidden rounded-b-[320px]">
       <Image
         src="https://res.cloudinary.com/dv9tivfvq/image/upload/v1786522486/ChatGPT_Image_Aug_12_2026_01_44_14_PM_eovk1z.png"
-        alt="Shanthi Gynec"
+        alt="Shanthi Gynaec"
         width={1200}
         height={1200}
         priority

@@ -12,7 +12,7 @@ export default function AboutPage() {
       <PageHero
         title="Your Health"
         italic="Matters"
-        description="At the heart of Dr. Priyanka Gynec are two exceptional specialists—one leading women's health, fertility, and advanced laparoscopy, the other a trusted expert in pediatrics. Deeply current with the latest treatments and technology, they bring not just skill, but warmth, joy, and deeply personal care to every patient interaction."
+        description="At the heart of Dr. Priyanka Gynaec are two exceptional specialists—one leading women's health, fertility, and advanced laparoscopy, the other a trusted expert in pediatrics. Deeply current with the latest treatments and technology, they bring not just skill, but warmth, joy, and deeply personal care to every patient interaction."
         bgClass="bg-cream text-emerald-950 border-b border-emerald-900/10"
         eyebrowClass="text-emerald-700"
         italicClass="text-emerald-700 text "
@@ -143,7 +143,7 @@ export default function AboutPage() {
             </h2>
 
             <p className="text-emerald-900/80 max-w-6xl text-2xl mb-4">
-              At Dr. Priyanka Gynec, Her Health First isn&apos;t just a
+              At Dr. Priyanka Gynaec, Her Health First isn&apos;t just a
               philosophy—it&apos;s how we practice medicine every day. We listen
               before we advise. We personalize before we prescribe. We put her
               comfort, her choices, and her voice at the center of every

@@ -51,7 +51,7 @@ export default function ContactForm() {
       </p>
 
       <form
-        action="https://formsubmit.co/drpriyankagynec@gmail.com"
+        action="https://formsubmit.co/drpriyankaGynaec@gmail.com"
         method="POST"
         onSubmit={handleSubmit}
       >

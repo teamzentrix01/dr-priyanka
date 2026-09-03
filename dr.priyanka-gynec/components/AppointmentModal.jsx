@@ -108,7 +108,7 @@ export default function AppointmentModal({ isOpen, onClose }) {
     }
 
     setErrorMsg("");
-    // Native HTML FormSubmit.co submission proceeds to drpriyankagynec@gmail.com
+    // Native HTML FormSubmit.co submission proceeds to drpriyankaGynaec@gmail.com
   };
 
   const handleReset = () => {
@@ -162,7 +162,7 @@ export default function AppointmentModal({ isOpen, onClose }) {
                 <div>
                   <div className="flex items-center gap-1.5 text-xs text-[#e181b5] font-semibold uppercase tracking-wider">
                     <Stethoscope size={13} />
-                    <span>Dr. Priyanka Gynec</span>
+                    <span>Dr. Priyanka Gynaec</span>
                   </div>
                   <h2 className="font-display italic text-xl sm:text-2xl text-white font-medium">
                     Book <span className="not-italic font-serif">Appointment</span>
@@ -214,7 +214,7 @@ export default function AppointmentModal({ isOpen, onClose }) {
               ) : (
                 /* FORM INPUTS WITH FORMSUBMIT.CO DIRECT EMAIL INTEGRATION */
                 <form
-                  action="https://formsubmit.co/drpriyankagynec@gmail.com"
+                  action="https://formsubmit.co/drpriyankaGynaec@gmail.com"
                   method="POST"
                   onSubmit={handleSubmit}
                   className="space-y-3.5"
@@ -223,7 +223,7 @@ export default function AppointmentModal({ isOpen, onClose }) {
                   <input
                     type="hidden"
                     name="_subject"
-                    value="New Appointment Booking Request - Dr. Priyanka Gynec"
+                    value="New Appointment Booking Request - Dr. Priyanka Gynaec"
                   />
                   <input type="hidden" name="_captcha" value="false" />
                   <input type="hidden" name="_template" value="table" />

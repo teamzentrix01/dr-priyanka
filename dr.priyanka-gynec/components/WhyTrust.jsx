@@ -46,7 +46,7 @@ export default function WhyTrust() {
             Why women across India{" "}
             <span className="block">
               <em className="font-display italic">trust</em> Dr. Priyanka{" "}
-              <em className="font-display italic">Gynec</em>
+              <em className="font-display italic">Gynaec</em>
             </span>
           </h2>
         </motion.div>

@@ -508,7 +508,7 @@ export default function ServiceDetailView({ service }) {
                   {drPriyanka.name || "Dr. Priyanka Pachauri"}
                 </h3>
                 <p className="text-xs text-[#e181b5] uppercase tracking-wider font-semibold mt-1">
-                  Obstetrician, Gynecologist &amp; IVF Specialist
+                  Obstetrician, Gynaecologist &amp; IVF Specialist
                 </p>
               </div>
 

@@ -21,7 +21,7 @@ import { services as siteServices } from "@/data/site";
 
 function getServiceIcon(slug) {
   const map = {
-    "laparoscopy-gynecology": Microscope,
+    "laparoscopy-Gynaecology": Microscope,
     "fertility-ivf": FlaskConical,
     "pregnancy-birthing": HeartPulse,
     "antenatal-services": HeartPulse,

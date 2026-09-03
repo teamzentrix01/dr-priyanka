@@ -32,7 +32,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    site: "@DrPriyankaGynec",
+    site: "@DrPriyankaGynaec",
 
     title: "Thank You | Dr. Priyanka Gynaecologist – Appointment Request Received",
 

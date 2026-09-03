@@ -14,7 +14,7 @@ function getServiceBySlug(rawSlug) {
     "cystectomy": "laparoscopic-cystectomy",
     "myomectomy": "laparoscopic-myomectomy",
     "hysterectomy": "laparoscopic-hysterectomy",
-    "laparoscopy-gynecology": "laparoscopy-gynecology",
+    "laparoscopy-Gynaecology": "laparoscopy-Gynaecology",
   };
 
   const mappedSlug = aliasMap[rawSlug];
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }) {
   if (!service) return {};
 
   return {
-    title: `${service.title} | Dr. Priyanka Gynec Moradabad`,
+    title: `${service.title} | Dr. Priyanka Gynaec Moradabad`,
     description: service.blurb || service.overview,
   };
 }

@@ -384,8 +384,8 @@ export default function BestGynaecologistMoradabad() {
 
       <span className="text-gray-400">|</span>
 
-      <a href="tel:9680321761 " className="hover:underline">
-        9680321761 (WhatsApp)
+      <a href="tel:8979670705 " className="hover:underline">
+        8979670705 (WhatsApp)
       </a>
     </div>
   </div>

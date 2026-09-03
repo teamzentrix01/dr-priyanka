@@ -41,14 +41,14 @@ export default function Footer() {
                   opacity="0.7"
                 />
               </svg>
-              <span className="font-display text-2xl text-[#004b28]">Gynec</span>
+              <span className="font-display text-2xl text-[#004b28]">Gynaec</span>
             </div>
             <p className="font-display italic text-[#004b28] text-lg mb-4">
               Fertility • Maternity • 3D Laparoscopy
             </p>
             <p className="text-sm leading-relaxed text-[#14271d]/75 max-w-sm">
-              Dr. Priyanka Gynec is a leading women&apos;s health and fertility center in
-              Moradabad, offering advanced gynecology, laparoscopy, IVF, and pregnancy
+              Dr. Priyanka Gynaec is a leading women&apos;s health and fertility center in
+              Moradabad, offering advanced Gynaecology, laparoscopy, IVF, and pregnancy
               care with expert doctors and compassionate support at every stage of a
               woman&apos;s life.
             </p>
@@ -77,7 +77,7 @@ export default function Footer() {
               <li><Link href="/" className="hover:text-[#004b28] hover:underline transition-colors">Home</Link></li>
               <li><Link href="/about-us " className="hover:text-[#004b28] hover:underline transition-colors">About Us</Link></li>
               <li><Link href="/services" className="hover:text-[#004b28] hover:underline transition-colors">Our Services</Link></li>
-              <li><Link href="/services/laparoscopy-gynecology" className="hover:text-[#004b28] hover:underline transition-colors">Laparoscopy & Gynecology</Link></li>
+              <li><Link href="/services/laparoscopy-Gynaecology" className="hover:text-[#004b28] hover:underline transition-colors">Laparoscopy & Gynaecology</Link></li>
               <li><Link href="/services/pregnancy-birthing" className="hover:text-[#004b28] hover:underline transition-colors">Pregnancy & Birthing</Link></li>
               <li><Link href="/services/fertility-ivf" className="hover:text-[#004b28] hover:underline transition-colors">Fertility & IVF</Link></li>
               <li><Link href="/services/paediatric-care" className="hover:text-[#004b28] hover:underline transition-colors">Paediatric Care</Link></li>
@@ -121,7 +121,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-16 pt-6 border-t border-[#004b28]/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#14271d]/60">
-          <p>© {new Date().getFullYear()} Dr. Priyanka Gynec. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Dr. Priyanka Gynaec. All rights reserved.</p>
           <p>Designed with care for Her Health First.</p>
         </div>
       </div>

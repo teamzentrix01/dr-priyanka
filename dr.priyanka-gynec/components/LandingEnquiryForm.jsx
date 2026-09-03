@@ -95,7 +95,7 @@ export default function LandingEnquiryForm() {
   <span className="mx-4 text-gray-300">|</span>
 
   <a
-    href="tel:9680321761"
+    href="tel:8979670705"
     className="flex items-center gap-2 hover:underline"
   >
     <Phone size={16} />
@@ -103,7 +103,7 @@ export default function LandingEnquiryForm() {
       className="font-normal"
       style={{ fontFamily: "Arial, sans-serif" }}
     >
-      9680321761
+      8979670705
     </span>
   </a>
 

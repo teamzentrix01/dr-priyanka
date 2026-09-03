@@ -37,7 +37,7 @@ function getServiceIcon(service) {
     "pregnancy-birthing": HeartPulse,
     "antenatal-services": HeartPulse,
     paediatrics: Baby,
-    "laparoscopy-gynecology": Microscope,
+    "laparoscopy-Gynaecology": Microscope,
 
     /* Laparoscopic Services */
     cystectomy: CircleDot,

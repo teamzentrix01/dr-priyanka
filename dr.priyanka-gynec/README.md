@@ -1,6 +1,6 @@
-# Dr. Priyanka Gynec — Clone
+# Dr. Priyanka Gynaec — Clone
 
-A pixel-inspired, fully animated clone of [shanthigynec.com](https://shanthigynec.com/), built with
+A pixel-inspired, fully animated clone of [shanthiGynaec.com](https://shanthiGynaec.com/), built with
 Next.js (App Router) and plain JavaScript/JSX — no TypeScript, no separate backend.
 
 ## Stack
@@ -59,7 +59,7 @@ data/
 ## Notes
 
 - All copy (services, doctor bios, testimonials, contact numbers, address) is taken from the
-  real shanthigynec.com content.
+  real shanthiGynaec.com content.
 - Photography from the original site isn't reproduced — decorative gradient/CSS panels stand in
   for photos so you can drop in your own licensed images later (just swap the placeholder `div`s
   in `Hero.jsx`, `ServiceCard.jsx`, `about-us/page.js`, etc. for `<Image>` components).

@@ -30,7 +30,7 @@ export default function MomentsSection() {
                 <Play size={26} className="text-emerald-900 ml-1" fill="currentColor" />
               </motion.span>
               <p className="font-display italic text-cream/90 text-lg">
-                Watch stories from Dr. Priyanka Gynec
+                Watch stories from Dr. Priyanka Gynaec
               </p>
             </div>
           </motion.button>

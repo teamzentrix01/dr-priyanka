@@ -69,7 +69,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.34 }}
           className="mt-7 max-w-6xl text-sm leading-relaxed font-display italic text-[#14271d]/80 md:text-[15px]"
         >
-          Her journey. Her choices. Always. At Dr. Priyanka Gynec, we combine genuine
+          Her journey. Her choices. Always. At Dr. Priyanka Gynaec, we combine genuine
           warmth with world-class expertise and cutting-edge technology,
           supporting every stage of your journey.
         </motion.p>
