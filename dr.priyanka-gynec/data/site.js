@@ -19,16 +19,13 @@ export const siteInfo = {
   socials: [
     {
       label: "Facebook",
-      href: "https://www.facebook.com/people/Dr. Priyanka-Gynaec/61586318647453/",
+      href: "https://www.facebook.com/priyanka.pachauri.790080/",
     },
     {
       label: "Instagram",
-      href: "https://www.instagram.com/Dr. Priyanka_Gynaec/",
+      href: "https://www.instagram.com/dr.priyanka.gynae/",
     },
-    {
-      label: "YouTube",
-      href: "https://www.youtube.com/@Dr. Priyanka_Gynaec",
-    },
+    
     {
       label: "WhatsApp",
       href: "https://wa.me/918979670705",

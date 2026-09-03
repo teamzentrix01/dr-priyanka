@@ -82,6 +82,8 @@ export default function Footer() {
               <li><Link href="/services/fertility-ivf" className="hover:text-[#004b28] hover:underline transition-colors">Fertility & IVF</Link></li>
               <li><Link href="/services/paediatric-care" className="hover:text-[#004b28] hover:underline transition-colors">Paediatric Care</Link></li>
               <li><Link href="/contact" className="hover:text-[#004b28] hover:underline transition-colors">Contact Us</Link></li>
+              <li><Link href="/privacy-policy" className="hover:text-[#004b28] hover:underline transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms-and-conditions" className="hover:text-[#004b28] hover:underline transition-colors">Terms & Conditions</Link></li>
             </ul>
           </div>
 
@@ -120,10 +122,20 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 pt-6 border-t border-[#004b28]/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#14271d]/60">
-          <p>© {new Date().getFullYear()} Dr. Priyanka Gynaec. All rights reserved.</p>
-          <p>Designed with care for Her Health First.</p>
-        </div>
+       <div className="mt-16 pt-6 border-t border-[#004b28]/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#14271d]/60">
+  <p>© {new Date().getFullYear()} Dr. Priyanka Gynaec. All rights reserved.</p>
+  <p>
+  Developed by{" "}
+  <a
+    href="https://zentrixinfotech.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-[#004b28] transition-colors"
+  >
+    Zentrix Infotech
+  </a>
+</p>
+</div>
       </div>
     </footer>
   );
