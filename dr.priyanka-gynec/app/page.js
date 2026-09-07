@@ -77,7 +77,7 @@ export default function HomePage() {
             {/* Right */}
             <div className="max-w-[640px]">
               <p className="text-[#24333B] text-[16px] md:text-[18px] leading-[1.2] font-light">
-                At Dr. Priyanka Gynaec, Her Health First isn't just a promise—
+                At Dr. Priyanka Gynec, Her Health First isn't just a promise—
                 it's a philosophy. We place your comfort, your choices, and your
                 story at the center of everything we do. Whether you're
                 navigating fertility, preparing for birth, or managing complex
