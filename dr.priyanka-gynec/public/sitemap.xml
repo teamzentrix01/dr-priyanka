@@ -44,8 +44,7 @@
     <priority>0.3</priority>
   </url>
 
-</urlset>
-<url>
+  <url>
     <loc>https://www.gynaecologistmoradabad.com/ivf-treatment-in-moradabad</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -164,3 +163,5 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
+
+</urlset>
