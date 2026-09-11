@@ -569,10 +569,10 @@ export default function GynaecologistInMoradabad() {
                     <div className="mt-2">
                       <Mail size={18} className="inline mr-2 text-black" />
                       <a
-                        href="mailto:drpriyanka@Gynaecologistmoradabad.com"
+                        href="mailto:drpriyankagynec@gmail.com"
                         className="hover:underline"
                       >
-                        drpriyanka@Gynaecologistmoradabad.com
+                        drpriyankagynec@gmail.com
                       </a>
                     </div>
                   </div>

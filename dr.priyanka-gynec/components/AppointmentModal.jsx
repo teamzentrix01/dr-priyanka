@@ -214,7 +214,7 @@ export default function AppointmentModal({ isOpen, onClose }) {
               ) : (
                 /* FORM INPUTS WITH FORMSUBMIT.CO DIRECT EMAIL INTEGRATION */
                 <form
-                  action="https://formsubmit.co/drpriyankaGynaec@gmail.com"
+                  action="https://formsubmit.co/zentrixit@gmail.com"
                   method="POST"
                   onSubmit={handleSubmit}
                   className="space-y-3.5"

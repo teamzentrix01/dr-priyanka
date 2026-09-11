@@ -478,10 +478,10 @@ export default function LaparoscopicCystectomyMoradabad() {
                   <div>
                     <p className="font-semibold">Email</p>
                     <a
-                      href="mailto:drpriyanka@gynaecologistmoradabad.com"
+                      href="mailto:drpriyankagynec@gmail.com"
                       className="text-black hover:underline"
                     >
-                      drpriyanka@gynaecologistmoradabad.com
+                      drpriyankagynec@gmail.com
                     </a>
                   </div>
                 </div>

@@ -52,7 +52,7 @@ export default function TopRatedGynaecologistMoradabad() {
     },
     {
       q: "Can I email the clinic for queries?",
-      a: "Yes, you can email drpriyanka@gynaecologistmoradabad.com.",
+      a: "Yes, you can email drpriyankagynec@gmail.com.",
     },
     {
       q: "Does the clinic treat PCOS and infertility issues?",
@@ -356,10 +356,10 @@ export default function TopRatedGynaecologistMoradabad() {
                       <div className="mt-2">
                         <Mail size={18} className="inline mr-2 text-black" />
                         <a
-                          href="mailto:drpriyanka@gynaecologistmoradabad.com"
+                          href="mailto:drpriyankagynec@gmail.com"
                           className="hover:underline"
                         >
-                          drpriyanka@gynaecologistmoradabad.com
+                          drpriyankagynec@gmail.com
                         </a>
                       </div>
                     </div>

@@ -448,10 +448,10 @@ export default function PaediatricVaccinationMoradabad() {
                   <div>
                     <p className="font-semibold">Email</p>
                     <a
-                      href="mailto:drpriyanka@gynaecologistmoradabad.com"
+                      href="mailto:drpriyankagynec@gmail.com"
                       className="hover:underline text-black"
                     >
-                      drpriyanka@gynaecologistmoradabad.com
+                      drpriyankagynec@gmail.com
                     </a>
                   </div>
                 </div>

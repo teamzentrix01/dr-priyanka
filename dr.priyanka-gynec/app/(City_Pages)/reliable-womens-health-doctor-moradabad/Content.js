@@ -52,7 +52,7 @@ export default function ReliableWomensHealthDoctorMoradabad() {
     },
     {
       q: "Can I email the clinic instead of calling?",
-      a: "Yes, you can email drpriyanka@gynaecologistmoradabad.com for queries.",
+      a: "Yes, you can email drpriyankagynec@gmail.com for queries.",
     },
     {
       q: "Does the clinic treat PCOS and infertility?",
@@ -312,10 +312,10 @@ export default function ReliableWomensHealthDoctorMoradabad() {
                       <div className="mt-2">
                         <Mail size={18} className="inline mr-2 text-black" />
                         <a
-                          href="mailto:drpriyanka@gynaecologistmoradabad.com"
+                          href="mailto:drpriyankagynec@gmail.com"
                           className="hover:underline"
                         >
-                          drpriyanka@gynaecologistmoradabad.com
+                          drpriyankagynec@gmail.com
                         </a>
                       </div>
                     </div>

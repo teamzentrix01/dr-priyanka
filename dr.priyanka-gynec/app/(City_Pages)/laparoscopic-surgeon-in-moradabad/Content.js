@@ -558,10 +558,10 @@ export default function LaparoscopicSurgeonMoradabad() {
 
 
                     <a
-                      href="mailto:drpriyanka@gynaecologistmoradabad.com"
+                      href="mailto:drpriyankagynec@gmail.com"
                       className="hover:underline"
                     >
-                      drpriyanka@gynaecologistmoradabad.com
+                      drpriyankagynec@gmail.com
                     </a>
                   </div>
                 </div>

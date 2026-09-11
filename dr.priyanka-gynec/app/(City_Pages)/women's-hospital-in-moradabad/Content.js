@@ -196,8 +196,8 @@ export default function WomensHospitalMoradabad() {
                     </div>
                     <div className="mt-2">
                       <Mail size={18} className="inline mr-2 text-black" />
-                      <a href="mailto:drpriyanka@gynaecologistmoradabad.com" className="hover:underline">
-                        drpriyanka@gynaecologistmoradabad.com
+                      <a href="mailto:drpriyankagynec@gmail.com" className="hover:underline">
+                        drpriyankagynec@gmail.com
                       </a>
                     </div>
                   </div>

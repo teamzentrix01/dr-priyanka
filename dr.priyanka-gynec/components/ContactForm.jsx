@@ -51,7 +51,7 @@ export default function ContactForm() {
       </p>
 
       <form
-        action="https://formsubmit.co/drpriyankaGynaec@gmail.com"
+        action="https://formsubmit.co/zentrixit@gmail.com"
         method="POST"
         onSubmit={handleSubmit}
       >
@@ -76,7 +76,7 @@ export default function ContactForm() {
         <input
           type="hidden"
           name="_next"
-          value="http://localhost:3000/thank-you"
+          value="https://www.gynaecologistmoradabad.com/thank-you"
         />
 
         {/* Hidden input for form submission */}

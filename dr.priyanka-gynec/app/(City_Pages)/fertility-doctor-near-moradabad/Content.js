@@ -310,8 +310,8 @@ export default function FertilityDoctorNearMoradabad() {
                   <Mail size={20} className="text-black mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <a href="mailto:drpriyanka@gynaecologistmoradabad.com" className="hover:underline">
-                      drpriyanka@gynaecologistmoradabad.com
+                    <a href="mailto:drpriyankagynec@gmail.com" className="hover:underline">
+                      drpriyankagynec@gmail.com
                     </a>
                   </div>
                 </div>
