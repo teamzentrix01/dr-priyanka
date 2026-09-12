@@ -10,59 +10,60 @@ import {
   Heart,
   Star,
   Award,
+  Globe,
 } from "lucide-react";
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
 
-export default function PostpartumDepressionSupportDoctor() {
+export default function PostpartumDepressionMoradabad() {
   const faqs = [
     {
+      q: "What is postpartum depression?",
+      a: "Postpartum depression is a depressive condition that can occur after childbirth. It may cause persistent sadness, anxiety, loss of interest, guilt, hopelessness, difficulty functioning or problems with bonding.",
+    },
+    {
       q: "How is postpartum depression different from baby blues?",
-      a: "Baby blues are mild and resolve within about two weeks, while postpartum depression is more intense, persistent and can interfere with daily functioning.",
+      a: "Baby blues are generally milder and often improve within around two weeks. Postpartum depression can be more persistent or severe and may interfere with everyday life.",
     },
     {
-      q: "When should I see a doctor about how I'm feeling after delivery?",
-      a: "If low mood, anxiety or disconnection last beyond two weeks, or feel overwhelming at any point, it's time to reach out.",
+      q: "When should I see a Postpartum Depression Support Doctor In Moradabad?",
+      a: "If symptoms persist beyond two weeks, become severe, interfere with daily activities, or simply feel difficult to manage, it is appropriate to seek professional support.",
     },
     {
-      q: "Is postpartum depression screened during regular postnatal checkups?",
-      a: "Yes, emotional wellbeing is screened as a standard part of postnatal visits here.",
+      q: "Can postpartum depression happen after a C-section?",
+      a: "Yes. Postpartum depression can occur after either vaginal or C-section delivery.",
     },
     {
-      q: "Can postpartum depression be treated successfully?",
-      a: "Yes, with proper screening, support and treatment when needed, most mothers recover fully.",
+      q: "Can postpartum depression happen months after childbirth?",
+      a: "Yes. Symptoms can develop later during the postpartum period, so emotional changes should not be ignored simply because several weeks or months have passed.",
+    },
+    {
+      q: "Can postpartum anxiety occur without depression?",
+      a: "Yes. Postpartum anxiety can occur on its own or alongside depression.",
+    },
+    {
+      q: "Can postpartum depression be treated?",
+      a: "Yes. Treatment depends on the individual's symptoms and may include psychological support, counselling, specialist mental health care, medication when appropriate, and follow-up.",
+    },
+    {
+      q: "Does postpartum depression mean I am a bad mother?",
+      a: "No. Postpartum depression is a health condition and is not a measure of a mother's love for her baby or her ability to be a good parent.",
     },
     {
       q: "What if I have thoughts of harming myself or my baby?",
-      a: "This needs immediate attention — please contact the clinic right away or seek emergency help without delay.",
+      a: "Seek immediate emergency help. Do not wait for a routine appointment. Stay with a trusted person and contact local emergency services or go to the nearest emergency department.",
     },
     {
-      q: "Will I be judged for how I'm feeling?",
-      a: "No, conversations are kept private, honest and completely judgment-free.",
+      q: "Can my family member come with me to the consultation?",
+      a: "Yes. A trusted partner or family member can provide support, provided the mother is comfortable with their involvement.",
     },
     {
-      q: "How can I book an appointment for postpartum emotional support?",
-      a: "You can book directly by calling or messaging on WhatsApp (8979670705).",
+      q: "Where is the clinic located in Moradabad?",
+      a: "Dr. Priyanka Gynaec is located at A2, Near Old Roadways, Gandhi Nagar, Moradabad, Uttar Pradesh – 244001.",
     },
     {
-      q: "Where is the clinic located?",
-      a: "It is located at A2, near Old Roadways, Gandhi Nagar, Moradabad, Uttar Pradesh – 244001.",
-    },
-    {
-      q: "Can family members be involved in the support process?",
-      a: "Yes, involving supportive family members is encouraged when the mother is comfortable with it.",
-    },
-    {
-      q: "Is a referral to a mental health professional always needed?",
-      a: "Not always — some mothers need reassurance and monitoring, while others benefit from specialized referral, based on individual screening.",
-    },
-    {
-      q: "Can I get support here even if my delivery was at another hospital?",
-      a: "Yes, postpartum emotional support is available regardless of where delivery took place.",
-    },
-    {
-      q: "What should I do if I'm unsure whether what I'm feeling is 'normal'?",
-      a: "Come in for a conversation — a proper screening can give clarity either way, without any pressure.",
+      q: "How can I book a consultation?",
+      a: "You can contact the clinic by phone or WhatsApp to enquire about appointment availability.",
     },
   ];
 
@@ -77,314 +78,620 @@ export default function PostpartumDepressionSupportDoctor() {
             {/* Section 1 — Introduction */}
             <div className="mb-12">
               <h1 className="text-3xl font-serif mb-4 text-gray-900">
-                Postpartum Depression Support Doctor – Compassionate Care for New Mothers by Dr. Priyanka Gynaec
+                Postpartum Depression Support Doctor In Moradabad
               </h1>
 
               <p className="text-gray-700 mb-4">
-                Becoming a mother brings enormous change, and for many women, the emotional adjustment afterward is just as significant as the physical recovery. Feeling persistently sad, anxious, disconnected or overwhelmed after delivery is more common than most people realize, and it is not something a new mother should have to manage alone or feel ashamed of. If you are searching for a postpartum depression support doctor, Dr. Priyanka Gynaec in Moradabad offers a compassionate, judgment-free space to talk about what you're feeling, get properly screened, and receive guidance on the right next steps — whether that means simple reassurance, ongoing monitoring, or a referral to specialized mental health support.
+                The weeks and months after childbirth can bring major physical and emotional changes. While some mood changes are common after delivery, persistent sadness, anxiety, hopelessness, excessive worry, difficulty bonding with the baby, or feeling unable to cope may need professional attention.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                If you are searching for a Postpartum Depression Support Doctor In Moradabad, Dr. Priyanka Pachauri provides postnatal and gynaecological consultation for women experiencing emotional or physical concerns after childbirth.
               </p>
 
               <p className="text-gray-700">
-                Postpartum depression (PPD) is a recognized medical condition, not a personal failing or a sign of weakness. It can affect any new mother, regardless of how much she wanted or planned for the pregnancy, how supportive her family is, or how &quot;easy&quot; the delivery was. Left unaddressed, it can affect bonding with the baby, the mother's own health, and family life more broadly — but with the right support, most women recover fully. Dr. Priyanka Gynaec treats this conversation as a core part of postnatal care, not an optional add-on, because emotional wellbeing after delivery deserves the same attention as physical healing.
-              </p>
-
-              <p className="text-gray-700">
-                This article explains what postpartum depression looks like, how it differs from ordinary &quot;baby blues,&quot; what kind of support is available, and how to reach out for help in Moradabad.
+                Postpartum depression is a recognised health condition. It is not a sign of weakness or a failure as a mother. With appropriate assessment and support, women can receive help that is suited to their individual symptoms and circumstances.
               </p>
             </div>
 
-            {/* Section 2 — Why Choose Dr. Priyanka Gynaec */}
+            {/* Section 2 — What Is Postpartum Depression */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Choose Dr. Priyanka Gynaec as Your Postpartum Depression Support Doctor?
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Gold medal credentials and international fellowship-qualified gynaec doctor</li>
-                <li>Postpartum emotional wellbeing screened as a standard part of every postnatal visit</li>
-                <li>A calm, non-judgmental space to talk openly about difficult feelings</li>
-                <li>Clear guidance on when symptoms need closer monitoring or specialist referral</li>
-                <li>Same doctor who managed pregnancy and delivery continues emotional support</li>
-                <li>Female-friendly, comfortable and private consultation environment</li>
-                <li>24x7 availability for urgent emotional or mental health concerns</li>
-                <li>Strong local reputation — patients refer their own family and friends</li>
-              </ul>
-            </div>
-
-            {/* Section 3 — About Dr. Priyanka Gynaec */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                About Dr. Priyanka Gynaec – Supporting Mothers Through Postpartum Depression
+                What Is Postpartum Depression?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Dr. Priyanka Pachauri is a well-known gynaecologist in Moradabad, guided by her &quot;Her Health First&quot; philosophy. She believes emotional wellbeing is inseparable from physical recovery after delivery, and every postnatal visit includes space to ask how a mother is really doing — not just how her body is healing.
+                Postpartum depression (PPD) is a type of depression that can occur after childbirth. Symptoms may develop soon after delivery or later during the postpartum period.
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Specialization in gynaecology and obstetrics</li>
-                <li>Experience screening for postpartum depression and anxiety during routine checkups</li>
-                <li>Skilled at distinguishing normal adjustment from symptoms needing further support</li>
-                <li>Known for patient, compassionate communication with new mothers</li>
-                <li>Coordinated referral support when specialized mental health care is needed</li>
-              </ul>
-            </div>
+              <p className="text-gray-700 mb-4">
+                Postpartum depression can affect women regardless of whether the pregnancy was planned, whether the delivery was vaginal or by C-section, or how much family support they have.
+              </p>
 
-            {/* Section 4 — Understanding Postpartum Depression */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Understanding Postpartum Depression – What It Actually Is
-              </h2>
+              <p className="text-gray-700 mb-4">
+                Possible symptoms include:
+              </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>A mood disorder that can begin during pregnancy or within the first year after delivery</li>
-                <li>Caused by a combination of hormonal shifts, sleep deprivation, physical recovery and life adjustment</li>
-                <li>Different from &quot;baby blues,&quot; which are milder and usually resolve within two weeks</li>
-                <li>A medical condition that responds well to appropriate support and treatment</li>
-                <li>Not caused by anything the mother did wrong, and not a reflection of her love for her baby</li>
-              </ul>
-            </div>
-
-            {/* Section 5 — Baby Blues vs Postpartum Depression */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Baby Blues vs Postpartum Depression – Key Differences
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Baby Blues:</strong> Mild mood swings, tearfulness and irritability, usually starting a few days after delivery and resolving within about two weeks</li>
-                <li><strong>Postpartum Depression:</strong> More intense and persistent sadness, anxiety or numbness lasting beyond two weeks</li>
-                <li><strong>Baby Blues:</strong> Generally does not interfere significantly with daily functioning or caring for the baby</li>
-                <li><strong>Postpartum Depression:</strong> Can interfere with sleep, appetite, bonding with the baby, and daily responsibilities</li>
-                <li><strong>Baby Blues:</strong> Usually improves on its own with rest and support</li>
-                <li><strong>Postpartum Depression:</strong> Typically needs proper screening, guidance and sometimes professional treatment</li>
-              </ul>
-            </div>
-
-            {/* Section 6 — Common Signs of Postpartum Depression */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Common Signs of Postpartum Depression
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Persistent sadness, hopelessness or emptiness most of the day</li>
-                <li>Loss of interest in activities that used to feel enjoyable</li>
-                <li>Difficulty bonding with the baby or feeling disconnected</li>
-                <li>Excessive worry, guilt or feelings of being an inadequate mother</li>
-                <li>Changes in appetite or sleep beyond what's expected with a newborn</li>
-                <li>Difficulty concentrating or making decisions</li>
-                <li>Withdrawing from family, friends or support systems</li>
-                <li>Overwhelming fatigue that doesn't improve with rest</li>
-              </ul>
-            </div>
-
-            {/* Section 7 — When Symptoms Need Immediate Attention */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                When Symptoms Need Immediate Attention
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Thoughts of harming yourself or your baby</li>
-                <li>Feeling unable to care for yourself or your baby at all</li>
-                <li>Severe anxiety or panic that doesn't settle</li>
-                <li>Hearing or seeing things that others don't (a sign of a more serious condition called postpartum psychosis)</li>
-                <li>A sense of complete hopelessness about the future</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Persistent sadness or low mood</li>
+                <li>Feeling hopeless or emotionally overwhelmed</li>
+                <li>Loss of interest in activities</li>
+                <li>Excessive worry or anxiety</li>
+                <li>Feeling guilty or like an inadequate mother</li>
+                <li>Difficulty concentrating</li>
+                <li>Changes in sleep or appetite</li>
+                <li>Feeling disconnected from the baby</li>
+                <li>Avoiding family or social interaction</li>
+                <li>Severe fatigue or low energy</li>
               </ul>
 
               <p className="text-gray-700 mt-4">
-                If any of these more serious signs are present, reaching out for help immediately — through this clinic, a mental health professional, or an emergency service — is essential rather than waiting for a scheduled appointment.
+                Experiencing one difficult day does not necessarily mean that someone has postpartum depression. However, persistent, severe or worsening symptoms should be discussed with a healthcare professional.
               </p>
             </div>
 
-            {/* Section 8 — What Support Looks Like */}
+            {/* Section 3 — Baby Blues Vs Postpartum Depression */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What Postpartum Depression Support Looks Like at Dr. Priyanka Gynaec Moradabad
+                Baby Blues Vs Postpartum Depression
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Open, unhurried conversations about how the mother is feeling emotionally</li>
-                <li>Standardized screening questions used during postnatal checkups</li>
-                <li>Honest discussion about what's medically normal versus what needs attention</li>
-                <li>Practical guidance on rest, support systems and manageable routines</li>
-                <li>Referral coordination with mental health professionals when specialized care is needed</li>
-                <li>Ongoing follow-up rather than a single conversation and no further check-in</li>
-              </ul>
+              <p className="text-gray-700 mb-4">
+                Mood changes after childbirth are common, but baby blues and postpartum depression are not the same condition.
+              </p>
+
+              <div className="space-y-6">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Baby Blues
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    Baby blues may include:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Tearfulness</li>
+                    <li>Irritability</li>
+                    <li>Mood swings</li>
+                    <li>Feeling overwhelmed</li>
+                    <li>Increased sensitivity</li>
+                    <li>Temporary anxiety</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    These symptoms commonly begin during the first days after childbirth and often improve within about two weeks.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Postpartum Depression
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    Postpartum depression may involve:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Persistent sadness</li>
+                    <li>Severe anxiety</li>
+                    <li>Loss of interest</li>
+                    <li>Feelings of hopelessness</li>
+                    <li>Difficulty functioning normally</li>
+                    <li>Significant guilt</li>
+                    <li>Difficulty bonding with the baby</li>
+                    <li>Symptoms that continue or become worse</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    If symptoms last beyond two weeks, are severe, or interfere with daily life, professional evaluation is recommended.
+                  </p>
+                </div>
+              </div>
             </div>
 
-            {/* Section 9 — Risk Factors */}
+            {/* Section 4 — Symptoms To Watch For */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Risk Factors That May Increase the Chance of Postpartum Depression
+                Postpartum Depression Symptoms To Watch For
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>A personal or family history of depression or anxiety</li>
-                <li>A difficult, traumatic or complicated delivery experience</li>
-                <li>Limited support from a partner, family or community</li>
-                <li>Significant life stress occurring around the time of delivery</li>
-                <li>A history of depression during pregnancy itself</li>
-                <li>Difficulty breastfeeding or unexpected challenges with the newborn</li>
-              </ul>
+              <p className="text-gray-700 mb-4">
+                Every woman's experience can be different. Some women may notice emotional symptoms first, while others may primarily experience anxiety, exhaustion or difficulty functioning.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Watch for symptoms such as:
+              </p>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Emotional Changes
+                  </h3>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5">
+                    <li>Persistent sadness</li>
+                    <li>Frequent crying</li>
+                    <li>Irritability</li>
+                    <li>Feelings of guilt</li>
+                    <li>Hopelessness</li>
+                    <li>Feeling emotionally numb</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Anxiety And Worry
+                  </h3>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5">
+                    <li>Constant worry about the baby</li>
+                    <li>Fear that something bad will happen</li>
+                    <li>Difficulty relaxing</li>
+                    <li>Panic symptoms</li>
+                    <li>Repeatedly checking on the baby because of overwhelming fear</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Changes In Daily Functioning
+                  </h3>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5">
+                    <li>Difficulty completing normal activities</li>
+                    <li>Loss of interest in usual activities</li>
+                    <li>Problems concentrating</li>
+                    <li>Changes in eating patterns</li>
+                    <li>Difficulty sleeping even when the baby is sleeping</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Mother-Baby Bonding Difficulties
+                  </h3>
+                  <p className="text-gray-700">
+                    Some mothers may feel emotionally disconnected from their baby or may worry that they are not experiencing the feelings they expected. This does not mean that a mother does not love her baby. It can be a symptom that deserves support and professional attention.
+                  </p>
+                </div>
+              </div>
             </div>
 
-            {/* Section 10 — Who Should Seek Support */}
+            {/* Section 5 — Postpartum Depression Support Doctor */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Who Should Seek Postpartum Depression Support
+                Postpartum Depression Support Doctor In Moradabad
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Any new mother experiencing persistent low mood beyond two weeks after delivery</li>
-                <li>Mothers who feel disconnected from or resentful toward their baby</li>
-                <li>Anyone experiencing overwhelming anxiety, guilt or intrusive worry</li>
-                <li>Partners or family members who notice concerning changes in a new mother</li>
-                <li>Mothers who previously experienced depression or anxiety and want proactive support</li>
-                <li>Anyone unsure whether what they're feeling is &quot;normal&quot; and wants reassurance either way</li>
+              <p className="text-gray-700 mb-4">
+                A Postpartum Depression Support Doctor In Moradabad can help a new mother understand whether her symptoms may require further assessment or specialist mental health support.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                During a consultation, the doctor may discuss:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Emotional wellbeing after delivery</li>
+                <li>Sleep and appetite</li>
+                <li>Anxiety and mood changes</li>
+                <li>Previous mental health concerns</li>
+                <li>Pregnancy and delivery history</li>
+                <li>Current medications</li>
+                <li>Physical recovery after childbirth</li>
+                <li>Support available at home</li>
+                <li>Concerns about caring for the baby</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                The purpose of the consultation is to understand the woman's overall situation and identify appropriate next steps.
+              </p>
             </div>
 
-            {/* Section 11 — How Screening Is Done */}
+            {/* Section 6 — Postpartum Depression Treatment */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                How Screening Is Done During Postnatal Visits
+                Postpartum Depression Treatment In Moradabad
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Simple, direct questions about mood, sleep, appetite and bonding</li>
-                <li>A private, judgment-free setting to answer honestly</li>
-                <li>Screening repeated at multiple postnatal visits, not just once</li>
-                <li>Attention given to both verbal answers and general demeanor</li>
-                <li>Clear next steps discussed based on the screening outcome</li>
+              <p className="text-gray-700 mb-4">
+                Treatment for postpartum depression depends on the severity of symptoms and the individual's circumstances.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Support may involve:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Regular follow-up</li>
+                <li>Psychological counselling or therapy through an appropriate mental health professional</li>
+                <li>Support from family or trusted people</li>
+                <li>Practical help with rest and daily responsibilities</li>
+                <li>Referral to a psychiatrist or psychologist when needed</li>
+                <li>Medication when prescribed by an appropriate healthcare professional</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                Not every woman needs the same type of treatment. A doctor can help determine whether symptoms require monitoring, counselling, specialist referral or another form of care.
+              </p>
             </div>
 
-            {/* Section 12 — Support Options Beyond the Clinic */}
+            {/* Section 7 — Postnatal Depression Doctor */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Support Options Available Beyond the Clinic
+                Postnatal Depression Doctor In Moradabad
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Referral to qualified mental health professionals for therapy or counselling</li>
-                <li>Guidance on involving family members in a practical support plan</li>
-                <li>Information on local and national support resources when appropriate</li>
-                <li>Encouragement to build a realistic, sustainable support network</li>
-                <li>Follow-up scheduled to check progress after initial support begins</li>
-              </ul>
+              <p className="text-gray-700 mb-4">
+                The terms postpartum depression and postnatal depression are often used to describe depression occurring after childbirth.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Women experiencing persistent emotional difficulties after delivery can discuss their symptoms during a postnatal or gynaecological consultation.
+              </p>
+
+              <p className="text-gray-700">
+                It is important not to ignore symptoms simply because they are occurring after childbirth. Emotional health is an important part of postpartum recovery.
+              </p>
             </div>
 
-            {/* Section 13 — Why Trust Dr. Priyanka Gynaec */}
+            {/* Section 8 — Postpartum Anxiety And Depression */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Trust Dr. Priyanka Gynaec for Postpartum Depression Support
+                Postpartum Anxiety And Depression
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Expertise with Heart:</strong> International fellowship and gold medal credentials</li>
-                <li><strong>Continuity of Care:</strong> The same doctor who managed delivery continues emotional support</li>
-                <li><strong>Non-Judgmental Approach:</strong> A safe space to speak honestly without fear of dismissal</li>
-                <li><strong>Earned Trust:</strong> Patients refer their own family and friends</li>
+              <p className="text-gray-700 mb-4">
+                Postpartum anxiety can occur with postpartum depression or independently.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                A new mother may experience:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Excessive worry</li>
+                <li>Racing thoughts</li>
+                <li>Fear about the baby's health</li>
+                <li>Difficulty sleeping because of worry</li>
+                <li>Restlessness</li>
+                <li>Panic symptoms</li>
+                <li>Constantly expecting something bad to happen</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                If anxiety becomes difficult to manage or interferes with daily life, professional support can be helpful.
+              </p>
             </div>
 
-            {/* Section 14 — Supporting a Loved One */}
+            {/* Section 9 — Who Is More Likely To Experience PPD */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Supporting a Loved One Through Postpartum Depression
+                Who Is More Likely To Experience Postpartum Depression?
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Listen without judgment rather than offering quick fixes</li>
-                <li>Encourage her to attend postnatal checkups, including emotional wellbeing screening</li>
-                <li>Offer practical help with household tasks, meals or childcare</li>
-                <li>Avoid comparing her experience to other mothers' pregnancies or recoveries</li>
-                <li>Take any mention of self-harm or harming the baby seriously and seek help immediately</li>
+              <p className="text-gray-700 mb-4">
+                Postpartum depression can affect any mother. Certain circumstances may increase the likelihood of experiencing emotional difficulties.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Possible risk factors include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Previous depression or anxiety</li>
+                <li>Depression during pregnancy</li>
+                <li>Previous postpartum depression</li>
+                <li>Difficult or traumatic childbirth</li>
+                <li>Limited social or family support</li>
+                <li>Major life stress</li>
+                <li>Sleep deprivation</li>
+                <li>Breastfeeding difficulties</li>
+                <li>Complications involving the mother or baby</li>
+                <li>Significant adjustment difficulties after childbirth</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                Having a risk factor does not mean that a woman will definitely develop postpartum depression.
+              </p>
             </div>
 
-            {/* Section 15 — Serving Moradabad and Nearby Areas */}
+            {/* Section 10 — Can PPD Start Months After Delivery */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Serving Moradabad and Nearby Areas
+                Can Postpartum Depression Start Months After Delivery?
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Patients travel from Moradabad city as well as nearby towns and villages for postpartum emotional support</li>
-                <li>The location near Old Roadways makes it manageable to visit even with a newborn</li>
-                <li>Same-day consultation slots are available for urgent emotional concerns</li>
-                <li>Coordination support offered for patients travelling from a distance</li>
-                <li>Conversations are kept private and confidential at every visit</li>
-              </ul>
+              <p className="text-gray-700 mb-4">
+                Yes. Symptoms do not necessarily appear immediately after childbirth.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                A mother may initially feel that she is coping well and later begin experiencing persistent sadness, anxiety, withdrawal or difficulty functioning.
+              </p>
+
+              <p className="text-gray-700">
+                For this reason, emotional wellbeing should continue to receive attention during the postpartum period. If something feels significantly different from your usual emotional state, discussing it with a healthcare professional can help clarify what is happening.
+              </p>
             </div>
 
-            {/* Section 16 — Self-Care Practices */}
+            {/* Section 11 — How Is PPD Evaluated */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Self-Care Practices That Support Emotional Recovery
+                How Is Postpartum Depression Evaluated?
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Setting small, realistic goals each day instead of expecting to &quot;bounce back&quot; quickly</li>
-                <li>Accepting help with household tasks so energy can go toward rest and bonding</li>
-                <li>Stepping outside for a short walk when possible, even briefly</li>
-                <li>Staying connected with at least one trusted friend or family member regularly</li>
-                <li>Being gentle with self-expectations during a period of major hormonal and life change</li>
+              <p className="text-gray-700 mb-4">
+                There is no single conversation that can diagnose every emotional problem after childbirth.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                A healthcare professional may ask about:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Mood</li>
+                <li>Anxiety</li>
+                <li>Sleep</li>
+                <li>Appetite</li>
+                <li>Energy levels</li>
+                <li>Concentration</li>
+                <li>Feelings toward the baby</li>
+                <li>Ability to manage daily activities</li>
+                <li>Previous mental health history</li>
+                <li>Thoughts of self-harm or harm to the baby</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                A validated screening questionnaire may also be used as part of an assessment. Screening tools can help identify women who may need further evaluation, but they do not replace a complete clinical assessment.
+              </p>
             </div>
 
-            {/* Section 17 — Frequently Overlooked Aspects */}
+            {/* Section 12 — When Should You See A Doctor */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Frequently Overlooked Aspects of Postpartum Emotional Health
+                When Should You See A Doctor?
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Postpartum anxiety can occur alongside or separately from depression, and deserves equal attention</li>
-                <li>Fathers and partners can also experience postpartum depression, though it's less commonly discussed</li>
-                <li>Symptoms don't always start immediately — they can emerge weeks or months after delivery</li>
-                <li>A mother can love her baby deeply and still struggle with postpartum depression at the same time</li>
-                <li>Seeking help early tends to lead to a smoother, shorter recovery than waiting</li>
+              <p className="text-gray-700 mb-4">
+                Consider seeking professional support if:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Low mood continues for more than two weeks</li>
+                <li>Anxiety becomes difficult to control</li>
+                <li>You feel persistently overwhelmed</li>
+                <li>You have difficulty caring for yourself</li>
+                <li>You feel disconnected from your baby</li>
+                <li>You have lost interest in things you normally enjoy</li>
+                <li>You feel hopeless or excessively guilty</li>
+                <li>Symptoms are affecting relationships or everyday activities</li>
+                <li>You are unsure whether your feelings are normal after childbirth</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                You do not need to wait until symptoms become severe before discussing them with a healthcare professional.
+              </p>
             </div>
 
-            {/* Section 18 — Final Thoughts */}
+            {/* Section 13 — When Urgent Help Is Needed */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Final Thoughts on Finding a Postpartum Depression Support Doctor
+                When Postpartum Mental Health Needs Urgent Help
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Emotional wellbeing after delivery deserves the same seriousness as physical recovery</li>
-                <li>Dr. Priyanka Gynaec Moradabad treats this conversation as a routine, expected part of postnatal care</li>
-                <li>Recognizing the difference between baby blues and postpartum depression helps mothers know when to seek support</li>
-                <li>No question or feeling is too small to bring up during a postnatal visit</li>
-                <li>If something doesn't feel right emotionally after delivery, reaching out early is always the right call</li>
+              <p className="text-gray-700 mb-4">
+                Certain symptoms require immediate attention.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Seek urgent medical or emergency help if a mother:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Has thoughts of suicide or self-harm</li>
+                <li>Has thoughts of harming the baby</li>
+                <li>Feels unable to keep herself or the baby safe</li>
+                <li>Experiences hallucinations</li>
+                <li>Becomes severely confused or disoriented</li>
+                <li>Experiences extreme agitation or unusual behaviour</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                Do not wait for a routine appointment in these situations. If there is an immediate danger, contact local emergency services or go to the nearest emergency department.
+              </p>
             </div>
 
-            {/* Section 19 — Contact Information */}
+            {/* Section 14 — Supporting A Mother With PPD */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Address, Contact and WhatsApp
+                Supporting A Mother With Postpartum Depression
               </h2>
+
+              <p className="text-gray-700 mb-4">
+                Family members and partners can play an important role.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Helpful approaches include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Listen without judgement</li>
+                <li>Take her concerns seriously</li>
+                <li>Help with household responsibilities</li>
+                <li>Offer practical childcare support</li>
+                <li>Encourage professional help</li>
+                <li>Help her attend appointments</li>
+                <li>Give her opportunities to rest</li>
+                <li>Avoid statements such as "you should be happy because you have a baby"</li>
+                <li>Avoid comparing her experience with another mother's experience</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The goal is not to force someone to "think positively." The goal is to provide practical and emotional support while appropriate professional care is arranged.
+              </p>
+            </div>
+
+            {/* Section 15 — Self-Care During Postpartum */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Self-Care During The Postpartum Period
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Self-care cannot replace professional treatment when postpartum depression is present, but basic support can help with recovery and overall wellbeing.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Where possible:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Rest when opportunities are available</li>
+                <li>Accept practical help from trusted people</li>
+                <li>Eat regular nutritious meals</li>
+                <li>Stay hydrated</li>
+                <li>Take short walks when medically appropriate</li>
+                <li>Maintain contact with supportive family or friends</li>
+                <li>Attend postnatal appointments</li>
+                <li>Talk openly about emotional difficulties</li>
+                <li>Follow prescribed treatment and follow-up recommendations</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                New mothers should not be expected to recover physically and emotionally without support.
+              </p>
+            </div>
+
+            {/* Section 16 — PPD And Breastfeeding */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Postpartum Depression And Breastfeeding
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Some mothers worry about how emotional difficulties or treatment may affect breastfeeding.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Breastfeeding decisions and medication choices should be discussed individually with the treating healthcare professional.
+              </p>
+
+              <p className="text-gray-700">
+                Do not stop prescribed medication or begin a new medicine without discussing it with your doctor. The mother's mental and physical health are both important considerations during postpartum care.
+              </p>
+            </div>
+
+            {/* Section 17 — PPD And Mother-Baby Bonding */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Can Postpartum Depression Affect Mother-Baby Bonding?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Postpartum depression may make bonding feel difficult for some mothers. A mother may feel guilty because she does not experience the emotions she expected to feel immediately.
+              </p>
+
+              <p className="text-gray-700">
+                This does not mean she is a bad mother. With appropriate support and treatment, the mother can work through these difficulties while continuing to care for herself and her baby.
+              </p>
+            </div>
+
+            {/* Section 18 — Why Early Support Matters */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Why Early Support Matters
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Many women hesitate to discuss emotional symptoms after childbirth because they are worried about being judged.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                However, asking for help is an important part of healthcare. Early discussion can help:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Identify concerning symptoms</li>
+                <li>Distinguish baby blues from possible depression</li>
+                <li>Identify anxiety or other mental health concerns</li>
+                <li>Connect the mother with appropriate professional support</li>
+                <li>Create a follow-up plan</li>
+                <li>Involve trusted family members when the mother is comfortable</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                You do not have to wait until you are unable to cope before asking for help.
+              </p>
+            </div>
+
+            {/* Section 19 — Postpartum Depression Support In Moradabad */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Postpartum Depression Support In Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Women in Moradabad who are experiencing emotional difficulties after childbirth can seek a postnatal consultation to discuss their symptoms.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka Pachauri provides gynaecology and postnatal care in Moradabad. During a consultation, women can discuss emotional wellbeing alongside physical recovery after pregnancy and delivery.
+              </p>
+
+              <p className="text-gray-700">
+                When specialist mental health care is appropriate, referral to a qualified mental health professional may be recommended.
+              </p>
+            </div>
+
+            {/* Section 20 — Why Choose Dr. Priyanka */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Why Choose Dr. Priyanka For Postnatal Care?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka Pachauri provides gynaecological and postnatal consultations in Moradabad.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Women can discuss concerns related to:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Postpartum depression</li>
+                <li>Postpartum anxiety</li>
+                <li>Postnatal recovery</li>
+                <li>Breastfeeding-related concerns</li>
+                <li>Menstrual changes after delivery</li>
+                <li>Pregnancy recovery</li>
+                <li>Contraception after delivery</li>
+                <li>General women's health</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The appropriate care depends on the symptoms and individual medical history.
+              </p>
+            </div>
+
+            {/* Section 21 — Book A Consultation */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Book A Postpartum Depression Consultation In Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you are looking for a Postpartum Depression Doctor In Moradabad or need support with emotional changes after childbirth, discussing your symptoms with a healthcare professional is an important first step.
+              </p>
 
               <div className="bg-[#F8F4EA] text-black rounded-2xl p-8">
                 <h3 className="text-xl font-semibold mb-4">
-                  Contact Information
+                  Clinic Address
                 </h3>
 
                 <div className="space-y-4 mb-6">
-                  {/* Clinic Address */}
                   <div className="flex items-start gap-3">
                     <MapPin size={20} className="text-black mt-1 shrink-0" />
                     <div>
                       <p className="font-semibold">Dr. Priyanka Gynaec</p>
                       <p className="text-black">
-                        A2, near Old Roadways, Gandhi Nagar, Moradabad,
-                        Uttar Pradesh – 244001
+                        A2, Near Old Roadways, Gandhi Nagar,
+                        Moradabad, Uttar Pradesh – 244001
                       </p>
                     </div>
                   </div>
@@ -417,20 +724,11 @@ export default function PostpartumDepressionSupportDoctor() {
                       </div>
                     </div>
                   </div>
-
-                  <div className="flex items-start gap-3">
-                    <Shield size={20} className="text-black mt-1 shrink-0" />
-                    <div>
-                      <p className="font-semibold">Website</p>
-                      <a
-                        href="https://www.gynaecologistmoradabad.com/"
-                        className="hover:underline text-black"
-                      >
-                        https://www.gynaecologistmoradabad.com/
-                      </a>
-                    </div>
-                  </div>
                 </div>
+
+                <p className="text-gray-700 mb-4">
+                  You can contact the clinic to enquire about a postnatal or gynaecological consultation.
+                </p>
 
                 <div className="flex gap-4 flex-wrap">
                   <Link href="/contact">
@@ -447,16 +745,12 @@ export default function PostpartumDepressionSupportDoctor() {
                   </Link>
                 </div>
               </div>
-
-              <p className="text-gray-700 mt-6">
-                Message directly on WhatsApp for appointment booking or to talk about a concern privately. For urgent emotional distress, calling is better than messaging.
-              </p>
             </div>
 
-            {/* Section 20 — FAQs */}
+            {/* Section 22 — FAQs */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-6 text-gray-900">
-                Frequently Asked Questions (FAQs)
+                Frequently Asked Questions
               </h2>
 
               <div className="space-y-5">

@@ -10,59 +10,44 @@ import {
   Heart,
   Star,
   Award,
+  Globe,
 } from "lucide-react";
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
 
-export default function PregnancyWithHypertensionSpecialistMoradabad() {
+export default function PregnancyWithHypertensionMoradabad() {
   const faqs = [
     {
-      q: "What is considered high blood pressure during pregnancy?",
-      a: "Readings consistently above the normal range, confirmed over multiple checkups, are considered high blood pressure in pregnancy.",
+      q: "What is a Pregnancy With Hypertension Specialist?",
+      a: "A gynaecologist or obstetrician can evaluate high blood pressure during pregnancy, monitor pregnancy-related risks and guide appropriate maternal and fetal care.",
     },
     {
-      q: "Who is a trusted specialist for pregnancy hypertension in Moradabad?",
-      a: "Dr. Priyanka Pachauri at Dr. Priyanka Gynaec clinic, Moradabad, is experienced in managing pregnancy-related hypertension.",
+      q: "Is hypertension during pregnancy dangerous?",
+      a: "Pregnancy hypertension can sometimes lead to complications, particularly when associated with preeclampsia. Regular medical monitoring is important.",
+    },
+    {
+      q: "Can high blood pressure be treated during pregnancy?",
+      a: "Yes. Depending on the condition, management may include monitoring, lifestyle guidance and pregnancy-appropriate medication when medically indicated.",
+    },
+    {
+      q: "Does hypertension during pregnancy always require a C-section?",
+      a: "No. Hypertension alone does not automatically require a C-section. The delivery method depends on the mother's condition, baby's wellbeing, pregnancy duration and other medical factors.",
+    },
+    {
+      q: "Can I have a normal delivery with pregnancy hypertension?",
+      a: "Some women with controlled hypertension may be able to have a vaginal delivery. The decision is made according to the individual pregnancy and medical assessment.",
     },
     {
       q: "What is the difference between gestational hypertension and preeclampsia?",
-      a: "Gestational hypertension involves high BP alone, while preeclampsia includes additional signs like protein in the urine.",
+      a: "Gestational hypertension involves high blood pressure developing during pregnancy without certain additional findings. Preeclampsia involves high blood pressure along with signs that organs may be affected.",
     },
     {
-      q: "Can normal delivery happen with high blood pressure?",
-      a: "Yes, if blood pressure remains stable and controlled throughout pregnancy, normal delivery is often possible.",
+      q: "Can pregnancy hypertension continue after delivery?",
+      a: "Yes. Blood pressure may remain elevated or develop after delivery. Postpartum monitoring is therefore important.",
     },
     {
-      q: "What symptoms indicate worsening hypertension?",
-      a: "Severe headache, blurred vision, sudden swelling, and reduced baby movement are key symptoms to report immediately.",
-    },
-    {
-      q: "Is medication safe during pregnancy for blood pressure control?",
-      a: "Yes, doctors prescribe pregnancy-safe medications specifically chosen to manage blood pressure without harming the baby.",
-    },
-    {
-      q: "Can hypertension in pregnancy affect the baby?",
-      a: "Yes, it can reduce blood flow to the placenta, potentially affecting the baby's growth if left unmanaged.",
-    },
-    {
-      q: "Does hypertension always lead to early delivery?",
-      a: "Not always; early delivery is only recommended if the condition becomes difficult to control or preeclampsia develops.",
-    },
-    {
-      q: "How can I book an appointment for hypertension in pregnancy?",
-      a: "You can book an appointment by messaging or calling the WhatsApp number +91 8979670705.",
-    },
-    {
-      q: "Is blood pressure monitored after delivery too?",
-      a: "Yes, blood pressure is monitored closely for a period after delivery since risk can continue briefly postpartum.",
-    },
-    {
-      q: "Can pregnancy hypertension be detected early?",
-      a: "Yes, regular antenatal checkups help detect rising blood pressure well before it becomes severe.",
-    },
-    {
-      q: "Does every case of pregnancy hypertension need a C-section?",
-      a: "No, the mode of delivery depends on how well blood pressure is controlled and the overall condition of mother and baby.",
+      q: "When should I see a Pregnancy With Hypertension Specialist In Moradabad?",
+      a: "You should seek medical advice if you have high blood pressure during pregnancy, a history of pregnancy hypertension or preeclampsia, or symptoms such as severe headache, visual changes or significant swelling.",
     },
   ];
 
@@ -77,242 +62,562 @@ export default function PregnancyWithHypertensionSpecialistMoradabad() {
             {/* Section 1 — Introduction */}
             <div className="mb-12">
               <h1 className="text-3xl font-serif mb-4 text-gray-900">
-                Pregnancy With Hypertension Specialist – Expert Care for a Safe Journey
+                Pregnancy With Hypertension Specialist In Moradabad
               </h1>
 
               <p className="text-gray-700 mb-4">
-                High blood pressure during pregnancy is one of the most common reasons a pregnancy gets classified as high risk, yet it is also one of the most manageable conditions when caught early and monitored consistently. Whether the hypertension existed before conception or developed during pregnancy itself, having the right pregnancy with hypertension specialist by your side can make a significant difference to both the mother's safety and the baby's healthy development. This guide explains what pregnancy-related hypertension actually involves, the different types, the risks associated with it, how it is managed, and why Dr. Priyanka Pachauri is a trusted name for this kind of specialised care in Moradabad.
-              </p>
-            </div>
-
-            {/* Section 2 — Understanding Hypertension in Pregnancy */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Understanding Hypertension in Pregnancy
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Hypertension in pregnancy refers to elevated blood pressure levels that occur either before conception or develop during the pregnancy itself, requiring closer monitoring to protect both mother and baby.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Blood pressure naturally fluctuates during pregnancy, but consistently high readings need medical attention</li>
-                <li>It can range from mild elevation to a more serious condition like preeclampsia</li>
-                <li>Left unmanaged, it can affect blood flow to the placenta and, in turn, the baby's growth</li>
-                <li>Early detection through regular antenatal visits is the most effective way to manage it</li>
-                <li>With the right specialist and treatment plan, most women with hypertension in pregnancy deliver healthy babies</li>
-              </ul>
-            </div>
-
-            {/* Section 3 — Different Types of Hypertension */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Different Types of Hypertension in Pregnancy
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Chronic hypertension:</strong> High blood pressure that existed before pregnancy or is diagnosed before 20 weeks</li>
-                <li><strong>Gestational hypertension:</strong> High blood pressure that develops after 20 weeks without other complications</li>
-                <li><strong>Preeclampsia:</strong> High blood pressure combined with signs of organ stress, such as protein in the urine</li>
-                <li><strong>Chronic hypertension with superimposed preeclampsia:</strong> Existing hypertension that worsens with preeclampsia features during pregnancy</li>
-                <li><strong>Eclampsia:</strong> A rare but serious progression of preeclampsia involving seizures, requiring emergency care</li>
-              </ul>
-            </div>
-
-            {/* Section 4 — Who Is More Likely to Develop It? */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Who Is More Likely to Develop Hypertension During Pregnancy?
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Women with a family history of high blood pressure or preeclampsia</li>
-                <li>Women who are overweight or have a high BMI before pregnancy</li>
-                <li>Women who are carrying twins or multiples</li>
-                <li>Women who are over 35 years of age</li>
-                <li>Women with pre-existing diabetes or kidney conditions</li>
-                <li>Women who had hypertension in a previous pregnancy</li>
-                <li>First-time mothers, who statistically show a slightly higher risk</li>
-              </ul>
-            </div>
-
-            {/* Section 5 — Why Specialist-Level Attention Is Needed */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why This Condition Needs Specialist-Level Attention
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Untreated high blood pressure can reduce blood flow to the placenta, affecting the baby's growth</li>
-                <li>It increases the chance of preterm delivery if the condition worsens</li>
-                <li>Severe cases can progress to preeclampsia or eclampsia, which require immediate medical intervention</li>
-                <li>Consistent monitoring allows the doctor to adjust treatment quickly as blood pressure patterns change</li>
-                <li>A specialist can coordinate delivery timing carefully to balance maternal safety with the baby's development</li>
-                <li>Postpartum blood pressure also needs monitoring, since risks can continue briefly after delivery</li>
-              </ul>
-            </div>
-
-            {/* Section 6 — How It Is Diagnosed and Monitored */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                How Pregnancy Hypertension Is Diagnosed and Monitored
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Regular blood pressure checks at every antenatal visit</li>
-                <li>Urine tests to check for protein, which can indicate preeclampsia</li>
-                <li>Blood tests to assess kidney and liver function when readings are high</li>
-                <li>Growth scans to monitor whether the baby is developing at an expected pace</li>
-                <li>Doppler ultrasound to evaluate blood flow to the placenta in more serious cases</li>
-                <li>Home blood pressure monitoring, often recommended for closer daily tracking</li>
-              </ul>
-            </div>
-
-            {/* Section 7 — What the Specialist Actually Does */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What a Pregnancy Hypertension Specialist Actually Does
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Creates an individualised monitoring schedule based on the severity of blood pressure elevation</li>
-                <li>Prescribes and adjusts safe medication for blood pressure control during pregnancy when needed</li>
-                <li>Tracks the baby's growth closely to detect any impact from reduced blood flow</li>
-                <li>Watches for warning signs of preeclampsia, such as protein in urine or sudden swelling</li>
-                <li>Plans delivery timing and mode carefully, sometimes recommending early delivery if the condition worsens</li>
-                <li>Provides postpartum monitoring, since blood pressure can remain elevated for a period after delivery</li>
-                <li>Educates the mother on home monitoring and warning signs to watch for between visits</li>
-              </ul>
-            </div>
-
-            {/* Section 8 — About Dr. Priyanka Pachauri */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Dr. Priyanka Pachauri – Trusted Specialist for Pregnancy With Hypertension in Moradabad
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Dr. Priyanka Pachauri, founder of Dr. Priyanka Gynaec clinic in Gandhi Nagar, Moradabad, brings together experience in antenatal care, high risk pregnancy management, and laparoscopy, making her well-equipped to manage conditions like pregnancy-related hypertension with a structured, attentive approach. According to her clinic's website, her practice is guided by the philosophy &quot;Her Health First,&quot; ensuring every mother receives individualised monitoring and support.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Specialised experience managing high risk and complicated pregnancies, including hypertensive disorders</li>
-                <li>International fellowships and gold medal credentials reflecting strong clinical training</li>
-                <li>In-house Voluson 3D and 4D ultrasound machine, allowing accurate assessment of the baby's growth when blood flow concerns arise</li>
-                <li>A structured, evidence-based approach to blood pressure monitoring throughout pregnancy</li>
-                <li>An integrated care team that tracks the mother's complete history from diagnosis through delivery</li>
-                <li>A gentle approach that prioritises normal delivery whenever blood pressure remains well controlled</li>
-                <li>On-site paediatric care, ensuring the newborn is checked immediately after birth</li>
-              </ul>
-            </div>
-
-            {/* Section 9 — Warning Signs of Worsening Hypertension */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Warning Signs of Worsening Hypertension in Pregnancy
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Severe or persistent headache that doesn't improve with medication</li>
-                <li>Blurred vision, seeing spots, or sensitivity to light</li>
-                <li>Sudden swelling in the hands, feet, or face</li>
-                <li>Pain in the upper right side of the abdomen</li>
-                <li>Sudden weight gain of more than 1-2 kg within a week</li>
-                <li>Nausea or vomiting that appears suddenly in later pregnancy</li>
-                <li>Reduced urine output</li>
-                <li>A noticeable decrease in the baby's movements</li>
-                <li>Difficulty breathing or chest discomfort</li>
-              </ul>
-            </div>
-
-            {/* Section 10 — Managing Through Lifestyle Support */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Managing Hypertension in Pregnancy Through Lifestyle Support
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Follow the medication and monitoring plan exactly as prescribed by your doctor</li>
-                <li>Reduce salt and processed food intake, as advised by your care team</li>
-                <li>Engage in light, doctor-approved physical activity, unless advised to rest</li>
-                <li>Monitor blood pressure at home as instructed, keeping a consistent log for appointments</li>
-                <li>Prioritise adequate rest, especially lying on your side to improve blood flow</li>
-                <li>Stay well hydrated and maintain a balanced diet</li>
-                <li>Attend every scheduled appointment, since hypertension requires closer monitoring than a standard pregnancy</li>
-                <li>Never stop or adjust prescribed medication without consulting your doctor first</li>
-              </ul>
-            </div>
-
-            {/* Section 11 — Delivery Planning */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Delivery Planning for Pregnancy With Hypertension
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>If blood pressure remains stable and controlled, vaginal delivery is often still possible</li>
-                <li>If preeclampsia develops or blood pressure becomes difficult to control, early delivery may be recommended for safety</li>
-                <li>In more severe cases, a C-section may be planned to reduce risk to both mother and baby</li>
-                <li>The baby's growth and wellbeing are checked closely in the final weeks to guide the delivery decision</li>
-                <li>Blood pressure is monitored closely for a period after delivery as well, since risk can continue briefly postpartum</li>
-              </ul>
-            </div>
-
-            {/* Section 12 — How to Choose the Right Specialist */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                How to Choose the Right Specialist for Hypertension in Pregnancy
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Proven experience managing hypertensive disorders alongside general high risk pregnancy care</li>
-                <li>Access to in-house ultrasound and lab facilities for consistent monitoring</li>
-                <li>Willingness to adjust the care plan quickly as blood pressure patterns change</li>
-                <li>Clear, calm communication about medication, symptoms, and warning signs</li>
-                <li>A hospital tie-up with NICU support, in case early delivery becomes necessary</li>
-                <li>Positive outcomes and reviews from previous patients managed for pregnancy hypertension</li>
-              </ul>
-            </div>
-
-            {/* Section 13 — Why Consistent Monitoring Changes the Outcome */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Consistent Monitoring Changes the Outcome Completely
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Many mothers hear the words &quot;high blood pressure&quot; during pregnancy and immediately assume the worst, picturing complications that may never actually happen. In reality, the outcome of pregnancy hypertension depends far more on how consistently it is monitored than on the diagnosis itself. A mother who attends every scheduled appointment, tracks her blood pressure as instructed, and reports symptoms promptly gives her doctor the information needed to adjust treatment before a mild elevation ever has the chance to progress into something more serious like preeclampsia. This is precisely why specialists place such heavy emphasis on regular visits rather than waiting for symptoms to appear on their own, since blood pressure changes can happen gradually and without obvious warning signs in the early stages.
-              </p>
-
-              <p className="text-gray-700 mb-4">
-                The role of the family and home environment also deserves attention here. Since home blood pressure monitoring is often part of the management plan, having a supportive partner or family member who helps track readings, reminds the mother to take medication on schedule, and encourages adequate rest can meaningfully improve how well the condition stays controlled. Stress itself can also influence blood pressure, so reducing unnecessary anxiety through clear communication with the doctor, understanding what each reading actually means, and knowing exactly which symptoms warrant an urgent call rather than a scheduled appointment all contribute to a calmer, safer pregnancy experience.
+                Pregnancy with hypertension requires careful medical assessment and regular monitoring because high blood pressure during pregnancy can affect the health of both the mother and baby. Early evaluation helps identify the type of hypertension and determine the appropriate pregnancy care plan.
               </p>
 
               <p className="text-gray-700">
-                With the right specialist guiding this process and a supportive environment at home, pregnancy with hypertension becomes a well-managed condition rather than a source of constant fear, allowing most families to move confidently toward a safe and healthy delivery.
+                If you are looking for a Pregnancy With Hypertension Specialist In Moradabad, Dr. Priyanka provides gynaecological and pregnancy care for women experiencing high blood pressure before or during pregnancy.
               </p>
             </div>
 
-            {/* Section 14 — Contact Information */}
+            {/* Section 2 — What Is Hypertension During Pregnancy */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Address, Contact & WhatsApp
+                What Is Hypertension During Pregnancy?
               </h2>
+
+              <p className="text-gray-700 mb-4">
+                Hypertension during pregnancy means that blood pressure is elevated during pregnancy. It may have been present before conception or may develop during pregnancy.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Pregnancy-related hypertension can include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Chronic hypertension</li>
+                <li>Gestational hypertension</li>
+                <li>Preeclampsia</li>
+                <li>Chronic hypertension with superimposed preeclampsia</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The condition and its severity are assessed through blood pressure measurements, symptoms, medical history and investigations when required.
+              </p>
+            </div>
+
+            {/* Section 3 — Pregnancy With Hypertension Specialist */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pregnancy With Hypertension Specialist In Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                A Pregnancy With Hypertension Specialist In Moradabad can help evaluate your blood pressure and pregnancy-related risk factors and plan appropriate monitoring.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Pregnancy hypertension care may involve:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Regular antenatal check-ups</li>
+                <li>Blood pressure monitoring</li>
+                <li>Urine and blood investigations when required</li>
+                <li>Assessment for preeclampsia</li>
+                <li>Monitoring of fetal growth and wellbeing</li>
+                <li>Pregnancy-appropriate medication when medically indicated</li>
+                <li>Nutrition and lifestyle guidance</li>
+                <li>Delivery planning</li>
+                <li>Postpartum blood pressure follow-up</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The treatment plan depends on the individual pregnancy and should be adjusted according to medical findings.
+              </p>
+            </div>
+
+            {/* Section 4 — Types of Hypertension During Pregnancy */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Types of Hypertension During Pregnancy
+              </h2>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Chronic Hypertension
+                  </h3>
+                  <p className="text-gray-700">
+                    Chronic hypertension is high blood pressure that was present before pregnancy or is diagnosed early in pregnancy. Women with chronic hypertension may need regular monitoring throughout pregnancy.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Gestational Hypertension
+                  </h3>
+                  <p className="text-gray-700">
+                    Gestational hypertension develops after 20 weeks of pregnancy without the additional findings associated with preeclampsia. It requires follow-up because some women may later develop preeclampsia.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Preeclampsia
+                  </h3>
+                  <p className="text-gray-700">
+                    Preeclampsia is a pregnancy complication involving high blood pressure and signs that certain organs may be affected. Depending on its severity and the stage of pregnancy, it may require closer monitoring and medical management.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Superimposed Preeclampsia
+                  </h3>
+                  <p className="text-gray-700">
+                    Women with chronic hypertension can develop preeclampsia during pregnancy. This is known as superimposed preeclampsia and requires appropriate assessment.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 5 — Symptoms of High Blood Pressure */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Symptoms of High Blood Pressure During Pregnancy
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                High blood pressure may not always cause noticeable symptoms. However, some warning symptoms can include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Severe or persistent headache</li>
+                <li>Blurred vision or other visual changes</li>
+                <li>Sudden swelling of the face or hands</li>
+                <li>Pain in the upper abdomen</li>
+                <li>Shortness of breath</li>
+                <li>Sudden or unusual weight gain</li>
+                <li>Feeling significantly unwell</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                If you develop concerning symptoms during pregnancy, seek medical advice promptly.
+              </p>
+            </div>
+
+            {/* Section 6 — What Causes Pregnancy Hypertension */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                What Causes Pregnancy Hypertension?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                The exact cause can vary depending on the type of hypertension.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Some factors associated with an increased risk include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Previous pregnancy hypertension</li>
+                <li>Previous preeclampsia</li>
+                <li>Chronic high blood pressure</li>
+                <li>Diabetes</li>
+                <li>Kidney disease</li>
+                <li>Multiple pregnancy such as twins</li>
+                <li>Obesity</li>
+                <li>Certain autoimmune conditions</li>
+                <li>Family history of preeclampsia</li>
+                <li>First pregnancy</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Having one or more risk factors does not necessarily mean that you will develop pregnancy hypertension.
+              </p>
+            </div>
+
+            {/* Section 7 — How Is Pregnancy Hypertension Diagnosed */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                How Is Pregnancy Hypertension Diagnosed?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Blood pressure measurement is an important part of antenatal care.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on your symptoms and medical history, your doctor may recommend:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Repeat blood pressure measurements</li>
+                <li>Urine testing</li>
+                <li>Blood tests</li>
+                <li>Kidney function tests</li>
+                <li>Liver function tests</li>
+                <li>Platelet count</li>
+                <li>Ultrasound assessment</li>
+                <li>Fetal growth monitoring</li>
+                <li>Other investigations when clinically indicated</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The investigations recommended will depend on the individual patient.
+              </p>
+            </div>
+
+            {/* Section 8 — Blood Pressure Monitoring During Pregnancy */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Blood Pressure Monitoring During Pregnancy
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you have high blood pressure during pregnancy, regular monitoring may be recommended.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                If your doctor advises home blood pressure monitoring:
+              </p>
+
+              <ol className="text-gray-700 space-y-2 list-decimal pl-5 mb-4">
+                <li>Use a reliable blood pressure monitor.</li>
+                <li>Follow the recommended measurement schedule.</li>
+                <li>Record your readings.</li>
+                <li>Share consistently high or unusual readings with your doctor.</li>
+                <li>Do not change medication without medical advice.</li>
+              </ol>
+
+              <p className="text-gray-700">
+                Regular monitoring can help your healthcare provider identify changes that may require further evaluation.
+              </p>
+            </div>
+
+            {/* Section 9 — Treatment for Pregnancy With Hypertension */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Treatment for Pregnancy With Hypertension
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Treatment depends on the severity and type of hypertension, pregnancy duration, symptoms and the health of the mother and baby.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Management may include:
+              </p>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Regular Monitoring
+                  </h3>
+                  <p className="text-gray-700">
+                    Some women may require closer antenatal monitoring rather than immediate medication, depending on their condition.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Blood Pressure Medication
+                  </h3>
+                  <p className="text-gray-700">
+                    When medication is required, your doctor can select medicines considered appropriate for use during pregnancy. Do not start, stop or change blood pressure medication without consulting your healthcare provider.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Fetal Monitoring
+                  </h3>
+                  <p className="text-gray-700">
+                    Depending on the pregnancy, additional monitoring may be recommended to assess fetal growth and wellbeing.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Lifestyle Guidance
+                  </h3>
+                  <p className="text-gray-700">
+                    Your doctor may provide individual guidance regarding diet, physical activity, weight management and other aspects of pregnancy care.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 10 — Pregnancy Hypertension and Preeclampsia */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pregnancy Hypertension and Preeclampsia
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Preeclampsia is one of the important complications that doctors monitor for in women with pregnancy hypertension.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Your doctor may look for changes in:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Blood pressure</li>
+                <li>Urine findings</li>
+                <li>Kidney function</li>
+                <li>Liver function</li>
+                <li>Platelet levels</li>
+                <li>Maternal symptoms</li>
+                <li>Fetal growth and wellbeing</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Prompt medical assessment is important when symptoms suggest possible preeclampsia.
+              </p>
+            </div>
+
+            {/* Section 11 — Pregnancy With Hypertension and Baby's Growth */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pregnancy With Hypertension and Baby's Growth
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                In some pregnancies, hypertension or preeclampsia can affect the placenta and fetal growth.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on your condition, your doctor may recommend additional monitoring of:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Baby's growth</li>
+                <li>Amniotic fluid</li>
+                <li>Fetal movements</li>
+                <li>Placental blood flow when indicated</li>
+                <li>Other measures of fetal wellbeing</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The frequency of monitoring depends on the individual pregnancy.
+              </p>
+            </div>
+
+            {/* Section 12 — Pregnancy With Hypertension and Gestational Diabetes */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pregnancy With Hypertension and Gestational Diabetes
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Some women may experience both pregnancy hypertension and gestational diabetes.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                When these conditions occur together, your pregnancy may require monitoring of:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Blood pressure</li>
+                <li>Blood glucose</li>
+                <li>Maternal health</li>
+                <li>Fetal growth</li>
+                <li>Weight changes</li>
+                <li>Delivery planning</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Your doctor can coordinate pregnancy care based on your individual medical needs.
+              </p>
+            </div>
+
+            {/* Section 13 — Pregnancy With Hypertension After Previous C-Section */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pregnancy With Hypertension After Previous C-Section
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you have had a previous C-section and develop hypertension during pregnancy, your delivery plan will depend on several factors.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                These may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Reason for the previous C-section</li>
+                <li>Type of previous uterine incision</li>
+                <li>Current blood pressure</li>
+                <li>Pregnancy duration</li>
+                <li>Baby's condition</li>
+                <li>Presence of preeclampsia</li>
+                <li>Overall maternal health</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                A previous C-section does not automatically determine the delivery method for every pregnancy.
+              </p>
+            </div>
+
+            {/* Section 14 — Pregnancy With Hypertension in Twin Pregnancy */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pregnancy With Hypertension in Twin Pregnancy
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Twin pregnancy requires closer antenatal monitoring, and hypertension may add additional pregnancy-related considerations.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Your doctor may monitor:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Maternal blood pressure</li>
+                <li>Fetal growth</li>
+                <li>Symptoms of preeclampsia</li>
+                <li>Maternal wellbeing</li>
+                <li>Pregnancy progression</li>
+                <li>Delivery planning</li>
+              </ul>
+            </div>
+
+            {/* Section 15 — Delivery Planning With Hypertension */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Delivery Planning With Hypertension
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                High blood pressure does not automatically mean that a C-section is necessary.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                The timing and method of delivery depend on factors such as:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Severity of hypertension</li>
+                <li>Blood pressure control</li>
+                <li>Presence of preeclampsia</li>
+                <li>Pregnancy duration</li>
+                <li>Baby's growth and wellbeing</li>
+                <li>Maternal symptoms</li>
+                <li>Previous pregnancy and delivery history</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Some women may be suitable for vaginal delivery, while others may require delivery earlier or by C-section for medical reasons.
+              </p>
+            </div>
+
+            {/* Section 16 — Postpartum Care After Pregnancy Hypertension */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Postpartum Care After Pregnancy Hypertension
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Blood pressure problems can continue or develop after delivery.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Postpartum monitoring is particularly important for women who experienced hypertension or preeclampsia during pregnancy.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Contact your healthcare provider if you experience:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Severe headache</li>
+                <li>Vision changes</li>
+                <li>Chest discomfort</li>
+                <li>Difficulty breathing</li>
+                <li>Significant swelling</li>
+                <li>Severe abdominal pain</li>
+                <li>Feeling seriously unwell</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Urgent symptoms should receive prompt medical attention.
+              </p>
+            </div>
+
+            {/* Section 17 — When Should You Consult a Specialist */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                When Should You Consult a Pregnancy With Hypertension Specialist?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                You should consider consulting a specialist if:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>You have high blood pressure before pregnancy</li>
+                <li>Your blood pressure becomes elevated during pregnancy</li>
+                <li>You had hypertension during a previous pregnancy</li>
+                <li>You have a history of preeclampsia</li>
+                <li>You have diabetes or kidney disease</li>
+                <li>You are pregnant with twins</li>
+                <li>You develop severe headache or visual changes</li>
+                <li>You are concerned about your blood pressure readings</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Early consultation can help determine the appropriate monitoring and care plan.
+              </p>
+            </div>
+
+            {/* Section 18 — What to Bring to Your Consultation */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                What to Bring to Your Consultation
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                For a pregnancy hypertension consultation, bring:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Previous pregnancy records</li>
+                <li>Blood pressure readings</li>
+                <li>Current medication list</li>
+                <li>Ultrasound reports</li>
+                <li>Blood and urine test reports</li>
+                <li>Previous C-section or surgery records</li>
+                <li>Details of previous pregnancy complications</li>
+                <li>Any current symptoms you are experiencing</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                This information can help your doctor understand your medical and pregnancy history.
+              </p>
+            </div>
+
+            {/* Section 19 — Contact Dr. Priyanka */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Contact Dr. Priyanka – Pregnancy With Hypertension Specialist In Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you are searching for a Pregnancy With Hypertension Specialist In Moradabad, you can consult Dr. Priyanka for pregnancy evaluation, hypertension monitoring and antenatal care.
+              </p>
 
               <div className="bg-[#F8F4EA] text-black rounded-2xl p-8">
                 <h3 className="text-xl font-semibold mb-4">
-                  Contact Information
+                  Clinic Address
                 </h3>
 
                 <div className="space-y-4 mb-6">
-                  {/* Clinic Address */}
                   <div className="flex items-start gap-3">
                     <MapPin size={20} className="text-black mt-1 shrink-0" />
                     <div>
-                      <p className="font-semibold">Dr. Priyanka Gynaec Clinic</p>
+                      <p className="font-semibold">Dr. Priyanka Gynaec</p>
                       <p className="text-black">
-                        A2, near Old Roadways, Gandhi Nagar, Moradabad,
-                        Uttar Pradesh, 244001
+                        A2, Near Old Roadways, Gandhi Nagar,
+                        Moradabad, Uttar Pradesh – 244001
                       </p>
                     </div>
                   </div>
@@ -345,20 +650,11 @@ export default function PregnancyWithHypertensionSpecialistMoradabad() {
                       </div>
                     </div>
                   </div>
-
-                  <div className="flex items-start gap-3">
-                    <Shield size={20} className="text-black mt-1 shrink-0" />
-                    <div>
-                      <p className="font-semibold">Website</p>
-                      <a
-                        href="https://www.gynaecologistmoradabad.com/"
-                        className="hover:underline text-black"
-                      >
-                        https://www.gynaecologistmoradabad.com/
-                      </a>
-                    </div>
-                  </div>
                 </div>
+
+                <p className="text-gray-700 mb-4">
+                  For severe pregnancy symptoms or an emergency, seek urgent medical care at the nearest appropriate emergency facility rather than waiting for a routine appointment.
+                </p>
 
                 <div className="flex gap-4 flex-wrap">
                   <Link href="/contact">
@@ -375,16 +671,12 @@ export default function PregnancyWithHypertensionSpecialistMoradabad() {
                   </Link>
                 </div>
               </div>
-
-              <p className="text-gray-700 mt-6">
-                For appointments, directions, or any urgent pregnancy-related query, reach out directly on WhatsApp at +91 8979670705.
-              </p>
             </div>
 
-            {/* Section 15 — FAQs */}
+            {/* Section 20 — FAQs */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-6 text-gray-900">
-                Frequently Asked Questions (FAQs)
+                Frequently Asked Questions
               </h2>
 
               <div className="space-y-5">

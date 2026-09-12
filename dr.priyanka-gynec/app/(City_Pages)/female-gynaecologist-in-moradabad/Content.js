@@ -1,239 +1,61 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone } from "lucide-react";
+import {
+  Phone,
+  CheckCircle2,
+  MapPin,
+  Shield,
+  Mail,
+  Clock,
+  Activity,
+  Heart,
+  Star,
+  Award,
+  Globe,
+} from "lucide-react";
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
-
 
 export default function FemaleGynaecologistMoradabad() {
   const faqs = [
     {
-      q: "Is Dr. Priyanka Pachauri a female gynaecologist in Moradabad?",
-      a: "Yes, she is a female gynaecologist and IVF specialist practicing in Moradabad.",
+      q: "Is Dr. Priyanka Pachauri a Female Gynaecologist in Moradabad?",
+      a: "Yes. Dr. Priyanka Pachauri provides gynaecological and women's healthcare consultation in Moradabad.",
     },
     {
-      q: "Does she offer pregnancy and antenatal care?",
-      a: "Yes, structured antenatal services and support for normal delivery are part of her offerings.",
+      q: "What conditions can I discuss with a female gynaecologist?",
+      a: "You can discuss menstrual problems, PCOS, hormonal concerns, pregnancy, fertility issues, fibroids, ovarian cysts, endometriosis, pelvic pain, and other gynaecological concerns.",
     },
     {
-      q: "Is fertility and IVF treatment available with this female specialist?",
-      a: "Yes, personalized fertility and IVF treatments are offered using advanced diagnostic technology.",
+      q: "Can I consult a female gynaecologist for pregnancy care?",
+      a: "Yes. A gynaecologist can provide antenatal consultation and pregnancy-related guidance based on your individual healthcare requirements.",
     },
     {
-      q: "Does she perform laparoscopic surgery for fibroids and cysts?",
-      a: "Yes, laparoscopic myomectomy and cystectomy are listed among her core surgical services.",
+      q: "Does a female gynaecologist provide infertility consultation?",
+      a: "Yes. Fertility concerns can be discussed during consultation, and appropriate evaluation and treatment options can be considered according to the patient's circumstances.",
     },
     {
-      q: "Is paediatric care available alongside women's health services?",
-      a: "Yes, newborn checkups and vaccination services are included in her practice.",
+      q: "Can fibroids and ovarian cysts be treated with laparoscopic surgery?",
+      a: "Laparoscopic procedures may be suitable for selected patients with fibroids or ovarian cysts. The appropriate treatment depends on the individual diagnosis and clinical assessment.",
     },
     {
-      q: "Does the clinic treat menstrual irregularities and hormonal concerns?",
-      a: "Yes, general gynaecology consultations cover menstrual and hormonal health concerns.",
+      q: "What is laparoscopic gynaecological surgery?",
+      a: "Laparoscopic surgery is a minimally invasive surgical approach that uses small incisions and specialized instruments for selected gynaecological procedures.",
     },
     {
-      q: "What technology is used during pregnancy monitoring?",
-      a: "The clinic uses 3D and 4D ultrasound imaging for detailed pregnancy assessments.",
+      q: "Can I consult a gynaecologist for irregular periods?",
+      a: "Yes. Persistent irregular periods should be evaluated because they can have different underlying causes, including hormonal and reproductive health conditions.",
     },
     {
-      q: "What qualifications does Dr. Priyanka Pachauri hold?",
-      a: "She holds an MS in Obstetrics and Gynaecology, FMAS, and an advanced infertility fellowship.",
+      q: "What should I bring to my first appointment?",
+      a: "Previous medical reports, prescriptions, ultrasound reports, medication details, and menstrual history can be useful during your consultation.",
     },
     {
-      q: "Where is her clinic located in Moradabad?",
-      a: "The clinic is located in Gandhi Nagar, Moradabad, Uttar Pradesh.",
+      q: "Where is Dr. Priyanka Pachauri's clinic located?",
+      a: "The clinic is located at A2, Near Old Roadways, Gandhi Nagar, Moradabad, Uttar Pradesh – 244001.",
     },
     {
-      q: "How can I book an appointment with this female gynaecologist?",
-      a: "You can call or WhatsApp the clinic directly using the contact details listed above.",
-    },
-  ];
-
-  const sections = [
-    {
-      title: "Why Many Women Choose A Female Gynaecologist",
-      intro: "This choice is deeply personal and often rooted in genuine comfort during some of life's most sensitive health conversations that can otherwise feel difficult to navigate alone.",
-      items: [
-        "Greater ease discussing intimate symptoms without hesitation or embarrassment",
-        "A shared sense of understanding around pregnancy and reproductive experiences",
-        "Increased comfort during physical examinations related to gynaecological care",
-        "Cultural or personal preferences that make a female doctor feel more appropriate",
-        "A perceived sense of empathy during emotionally difficult consultations",
-        "Confidence that sensitive concerns will be heard without judgment",
-      ],
-    },
-    {
-      title: "Comprehensive Services Offered By A Female Gynaecologist",
-      intro: "A well rounded female gynaecologist typically provides a broad range of women's health services across every life stage, from adolescence through motherhood and beyond.",
-      items: [
-        "General gynaecology consultations for menstrual and hormonal health concerns",
-        "Antenatal and postnatal pregnancy care from early pregnancy through delivery",
-        "Fertility evaluation and IVF related treatment support",
-        "Laparoscopic surgery for fibroids, ovarian cysts, and endometriosis",
-        "Diagnostic hysteroscopy and hysteroscopic polypectomy procedures",
-        "Paediatric care including newborn checkups and vaccination services",
-      ],
-    },
-    {
-      title: "Pregnancy Care From A Female Gynaecologist",
-      intro: "Pregnancy is one of the most personal experiences in a woman's life, and many feel more supported being guided through it by a female specialist.",
-      items: [
-        "Regular antenatal checkups to monitor maternal and fetal wellbeing",
-        "Close monitoring for high risk pregnancies requiring extra attention",
-        "Guidance on nutrition, lifestyle, and preparation for childbirth",
-        "Support for natural, normal vaginal delivery whenever medically appropriate",
-        "Postnatal care and recovery support after childbirth",
-        "A calm, reassuring presence throughout an emotionally significant journey",
-      ],
-    },
-    {
-      title: "Fertility Treatment From A Female Specialist",
-      intro: "Fertility challenges can be emotionally overwhelming, and many women find it easier to open up about these struggles with a female doctor.",
-      items: [
-        "Thorough evaluation to identify potential causes of infertility",
-        "Personalized treatment plans based on individual health history",
-        "Management of conditions like PCOS that commonly affect fertility",
-        "Access to advanced IVF technology and embryo monitoring systems",
-        "Honest, realistic guidance about treatment options and expected outcomes",
-        "Continued emotional support throughout the fertility treatment journey",
-      ],
-    },
-    {
-      title: "Laparoscopic Surgery Performed By An Experienced Female Surgeon",
-      intro: "Many women feel more confident undergoing gynaecological surgery when it is performed by a skilled and experienced female surgeon.",
-      items: [
-        "Laparoscopic cystectomy for ovarian cyst removal while preserving fertility",
-        "Laparoscopic myomectomy for uterus preserving fibroid treatment",
-        "Laparoscopic hysterectomy using minimally invasive keyhole techniques",
-        "Endometriosis excision surgery for chronic pelvic pain relief",
-        "Sacrocolpopexy for pelvic organ prolapse repair",
-        "Laparoscopic sterilization as a safe, permanent day care procedure",
-      ],
-    },
-    {
-      title: "Why Advanced Technology Matters In Female Gynaecological Care",
-      intro: "Modern diagnostic and surgical technology significantly improves the safety, precision, and comfort of gynaecological treatment.",
-      items: [
-        "High definition 3D laparoscopic systems for greater surgical precision",
-        "3D and 4D ultrasound imaging for detailed pregnancy assessments",
-        "Time lapse embryo monitoring technology used during IVF procedures",
-        "AI supported semen analysis and reproductive diagnostic testing",
-        "Minimally invasive techniques that generally support faster recovery",
-        "Better visualization that helps protect healthy tissue during surgery",
-      ],
-    },
-    {
-      title: "Signs You Should Consult A Female Gynaecologist",
-      intro: "Certain symptoms and life stages call for a timely consultation rather than waiting for a routine annual visit.",
-      items: [
-        "Irregular, painful, or unusually heavy menstrual periods",
-        "Persistent pelvic pain or discomfort during daily activities",
-        "Difficulty conceiving after several months of trying",
-        "Confirmed or suspected pregnancy requiring antenatal care",
-        "Symptoms suggestive of fibroids, cysts, or endometriosis",
-        "A general need for reproductive health guidance or screening",
-      ],
-    },
-    {
-      title: "What To Look For In A Trusted Female Gynaecologist",
-      intro: "Choosing the right specialist involves considering a few important factors beyond simple convenience.",
-      items: [
-        "Relevant qualifications, fellowships, and specialized surgical training",
-        "Broad experience across pregnancy, fertility, and gynaecological surgery",
-        "Access to modern diagnostic and surgical technology",
-        "A warm, respectful communication style during every consultation",
-        "Consistent, long term continuity of care rather than one time visits",
-        "Genuine patient trust reflected through consistent positive experiences",
-      ],
-    },
-    {
-      title: "Common Concerns Women Discuss With A Female Gynaecologist",
-      intro: "Certain concerns are often easier to bring up with a doctor who understands these experiences firsthand.",
-      items: [
-        "Irregular periods, unusual discharge, or unexplained pelvic discomfort",
-        "Difficulty conceiving and questions about fertility treatment options",
-        "Concerns during pregnancy about symptoms, screening, or delivery choices",
-        "Questions about menstrual health during adolescence",
-        "Support and guidance through perimenopause and menopause related changes",
-      ],
-    },
-    {
-      title: "Paediatric Care Alongside Women's Health",
-      intro: "Many female gynaecologists also extend their care to newborns, creating continuity from pregnancy through early childhood.",
-      items: [
-        "Newborn assessments shortly after birth",
-        "Vaccination following recommended immunization schedules",
-        "Growth and developmental milestone tracking",
-        "Guidance for parents on common newborn concerns",
-        "A consistent care relationship from pregnancy through infancy",
-      ],
-    },
-    {
-      title: "How To Prepare For Your First Visit",
-      intro: "A little preparation before your first consultation can make the appointment feel smoother and more productive.",
-      items: [
-        "Bring any previous medical records, reports, or prescriptions you have",
-        "Write down your symptoms, including when they started and how they feel",
-        "Note your menstrual cycle history if relevant to your visit",
-        "List any medications or supplements you are currently taking",
-        "Prepare a list of questions or concerns you want to discuss openly",
-        "Bring a family member along if that helps you feel more comfortable",
-      ],
-    },
-    {
-      title: "Why Empathy Matters As Much As Expertise",
-      intro: "Technical skill alone does not define great care. Genuine empathy plays an equally important role in the overall patient experience.",
-      items: [
-        "Sensitive topics become easier to discuss with a compassionate doctor",
-        "Anxiety around procedures or diagnoses is reduced through clear reassurance",
-        "Patients feel more comfortable following through with recommended care",
-        "Emotional support during fertility struggles can be as important as treatment",
-        "A caring approach often leads to more open, honest communication overall",
-      ],
-    },
-    {
-      title: "Building Long Term Trust With Your Female Gynaecologist",
-      intro: "Consistent care over time often leads to a stronger, more effective doctor patient relationship.",
-      items: [
-        "A familiar doctor can identify subtle changes in your health more easily",
-        "Trust built over multiple visits leads to more open, honest conversations",
-        "Continuity reduces the need to repeat your medical history every visit",
-        "Comfort grows naturally the more consistently you see the same doctor",
-        "Long term patients often feel more supported through major life changes",
-      ],
-    },
-    {
-      title: "Questions To Ask A Female Gynaecologist During Your Visit",
-      intro: "Asking thoughtful questions during a consultation helps ensure you leave with complete clarity about your health and treatment options.",
-      items: [
-        "What could be causing my current symptoms or concerns",
-        "What diagnostic tests are recommended and why are they necessary",
-        "What treatment options are available and what do they each involve",
-        "Are there any lifestyle changes that could help my condition",
-        "What is the expected timeline for improvement or recovery",
-        "When should I schedule a follow up visit after this consultation",
-      ],
-    },
-    {
-      title: "Common Mistakes To Avoid When Choosing A Female Gynaecologist",
-      intro: "A few common mistakes can lead women to settle for a doctor who may not truly fit their needs.",
-      items: [
-        "Choosing a doctor based only on distance without checking qualifications",
-        "Ignoring patient reviews or genuine feedback before booking a first visit",
-        "Assuming every clinic offers the same range of women's health services",
-        "Skipping questions about available technology for surgery or diagnosis",
-        "Not asking about follow up care before committing to any treatment",
-      ],
-    },
-    {
-      title: "How Location And Accessibility Support Consistent Care",
-      intro: "Practical factors like location and easy communication also play a role in maintaining consistent, reliable women's healthcare.",
-      items: [
-        "A conveniently located clinic makes regular checkups easier to maintain",
-        "Accessible appointment scheduling reduces delays in urgent situations",
-        "Clear communication channels like phone and WhatsApp simplify quick queries",
-        "Proximity matters especially during frequent pregnancy or fertility visits",
-        "Consistent access supports better long term monitoring and outcomes",
-      ],
+      q: "How can I book an appointment?",
+      a: "You can contact the clinic by phone or WhatsApp using the contact details provided above.",
     },
   ];
 
@@ -243,149 +65,555 @@ export default function FemaleGynaecologistMoradabad() {
 
       <section className="py-16 px-6">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10">
+          {/* Main Content */}
           <div className="flex-1 order-1">
+            {/* Section 1 — Introduction */}
             <div className="mb-12">
               <h1 className="text-3xl font-serif mb-4 text-gray-900">
-                Female Gynaecologist In Moradabad: Expert Care Built Around Women&apos;s Comfort
+                Female Gynaecologist in Moradabad: Expert Care for Women's Health, Pregnancy & Fertility
               </h1>
 
               <p className="text-gray-700 mb-4">
-                Choosing a female gynaecologist is a natural preference for many women, especially when discussing personal reproductive health concerns, pregnancy, or fertility struggles. This preference often comes from a genuine desire for comfort, understanding, and open communication during consultations that can otherwise feel vulnerable. In Moradabad, women now have access to a highly qualified female gynaecologist who combines advanced surgical technology with a deeply patient centered approach to care, ensuring every concern is heard with genuine attention and respect.
+                Choosing a Female Gynaecologist in Moradabad is a personal decision for many women. When discussing menstrual health, pregnancy, fertility, hormonal concerns, or other reproductive health conditions, feeling comfortable with your doctor can make it easier to communicate openly and ask important questions.
               </p>
 
               <p className="text-gray-700">
-                This guide covers everything you need to know about choosing a female gynaecologist in Moradabad, including the range of services typically offered, why this choice matters to many women, and what to look for in a specialist you can trust completely.
+                Dr. Priyanka Pachauri provides women's healthcare and gynaecological consultation in Moradabad, with a focus on pregnancy care, fertility, IVF-related treatment, and gynaecological procedures. Her approach combines medical expertise, modern technology, and patient-focused communication to help women understand their condition and available treatment options.
               </p>
             </div>
 
-            {sections.slice(0, 7).map((section) => (
-              <div key={section.title} className="mb-12">
-                <h2 className="text-3xl font-serif mb-4 text-gray-900">{section.title}</h2>
-                <p className="text-gray-700 mb-4">{section.intro}</p>
-                <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                  {section.items.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-
+            {/* Section 2 — Why Many Women Choose a Female Gynaecologist */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What To Expect During Your First Consultation
+                Why Many Women Choose a Female Gynaecologist
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Understanding what a typical visit involves can help new patients feel more prepared and at ease.
+                Women's health involves many sensitive and personal concerns. Some women feel more comfortable discussing intimate symptoms, reproductive problems, pregnancy-related concerns, or fertility challenges with a female doctor.
               </p>
 
-              <ol className="text-gray-700 space-y-4 mb-4 list-decimal pl-5">
-                <li><strong>Medical History Review</strong><br />Your symptoms and health background are discussed</li>
-                <li><strong>Physical Examination</strong><br />Conducted respectfully and only when clinically necessary</li>
-                <li><strong>Diagnostic Tests</strong><br />Ultrasound or lab tests are recommended if appropriate</li>
-                <li><strong>Clear Discussion</strong><br />Findings are explained in simple, understandable language</li>
-                <li><strong>Treatment Planning</strong><br />A personalized plan is outlined based on your specific needs</li>
-                <li><strong>Follow Up Scheduling</strong><br />Next steps or future appointments are arranged as needed</li>
-              </ol>
+              <p className="text-gray-700 mb-4">
+                Choosing a Female Gynaecologist in Moradabad may provide additional comfort during conversations about:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Irregular or painful periods</li>
+                <li>Heavy menstrual bleeding</li>
+                <li>Vaginal or pelvic symptoms</li>
+                <li>Pregnancy and childbirth</li>
+                <li>Fertility and infertility</li>
+                <li>PCOS and hormonal concerns</li>
+                <li>Menopause-related changes</li>
+                <li>Gynaecological examinations</li>
+                <li>Surgical treatment</li>
+                <li>Reproductive health planning</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Comfort and trust are important parts of the doctor-patient relationship. A consultation should provide a respectful environment where patients can explain their concerns without hesitation and understand their treatment options clearly.
+              </p>
             </div>
 
-            {sections.slice(7, 12).map((section) => (
-              <div key={section.title} className="mb-12">
-                <h2 className="text-3xl font-serif mb-4 text-gray-900">{section.title}</h2>
-                <p className="text-gray-700 mb-4">{section.intro}</p>
-                <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                  {section.items.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-
+            {/* Section 3 — Comprehensive Women's Healthcare */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Choose Dr. Priyanka Pachauri As Your Female Gynaecologist In Moradabad
+                Comprehensive Women's Healthcare in Moradabad
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Dr. Priyanka Pachauri is a gynaecologist and IVF specialist in Moradabad who combines advanced 3D laparoscopic surgery, structured pregnancy care, and personalized fertility treatment with a warm, understanding approach that helps women feel genuinely comfortable discussing sensitive health concerns at every stage of their reproductive journey.
+                A gynaecologist can support women through different stages of life, from menstrual health and reproductive concerns to pregnancy, fertility treatment, and gynaecological surgery.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the patient's individual requirements, women's healthcare may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>General gynaecology consultation</li>
+                <li>Menstrual disorder evaluation</li>
+                <li>PCOS and hormonal health management</li>
+                <li>Antenatal and postnatal care</li>
+                <li>High-risk pregnancy monitoring</li>
+                <li>Fertility evaluation</li>
+                <li>IVF-related treatment support</li>
+                <li>Laparoscopic gynaecological surgery</li>
+                <li>Fibroid and ovarian cyst treatment</li>
+                <li>Endometriosis management</li>
+                <li>Hysteroscopy and selected hysteroscopic procedures</li>
+                <li>Pelvic organ prolapse-related surgical care</li>
+              </ul>
+
+              <p className="text-gray-700">
+                The exact treatment recommended depends on the patient's symptoms, medical history, examination, and investigation results.
               </p>
             </div>
 
-            {sections.slice(12).map((section) => (
-              <div key={section.title} className="mb-12">
-                <h2 className="text-3xl font-serif mb-4 text-gray-900">{section.title}</h2>
-                <p className="text-gray-700 mb-4">{section.intro}</p>
-                <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                  {section.items.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-
+            {/* Section 4 — Pregnancy Care */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Finding A Female Gynaecologist In Moradabad
+                Pregnancy Care From a Female Gynaecologist in Moradabad
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Choosing a female gynaecologist is a personal decision rooted in comfort, trust, and the desire to be truly heard during sensitive health conversations. Finding a specialist who combines genuine empathy with advanced medical technology makes it easier to navigate everything from routine checkups to complex fertility or surgical care with confidence and peace of mind, at every stage of a woman&apos;s health journey.
+                Pregnancy is an important stage of a woman's life and requires regular medical monitoring. Many women prefer having a female specialist throughout pregnancy because they may feel more comfortable discussing personal symptoms and pregnancy-related concerns.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Antenatal care may include regular consultations, monitoring of maternal and fetal wellbeing, appropriate investigations, pregnancy-related guidance, and preparation for childbirth.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Women may seek pregnancy consultation for:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Pregnancy planning</li>
+                <li>Early pregnancy</li>
+                <li>Routine antenatal checkups</li>
+                <li>Pregnancy-related symptoms</li>
+                <li>High-risk pregnancy assessment</li>
+                <li>Fetal growth monitoring</li>
+                <li>Delivery planning</li>
+                <li>Postnatal care</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Every pregnancy is different. Women with previous pregnancy complications or identified risk factors may require additional monitoring according to their individual medical condition.
               </p>
             </div>
 
-            <div className="mb-12 bg-[#F8F4EA] text-black rounded-2xl p-8">
-              <h2 className="text-3xl font-serif mb-4">Contact &amp; Clinic Address</h2>
+            {/* Section 5 — High-Risk Pregnancy Care */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                High-Risk Pregnancy Care
+              </h2>
 
-              <div className="space-y-4 mb-6">
-                <div className="flex items-start gap-3">
-                  <MapPin size={20} className="text-black mt-1 shrink-0" />
-                  <div>
-                    <p className="font-semibold">Dr. Priyanka Pachauri</p>
-                    <p className="text-black">A2, near Old Roadways, Gandhi Nagar, Moradabad, Uttar Pradesh, 244001</p>
+              <p className="text-gray-700">
+                Some pregnancies require closer medical observation because of maternal health conditions, previous pregnancy complications, multiple pregnancy, or other risk factors. If you have been advised that your pregnancy is high-risk, regular consultation and appropriate investigations can help your doctor monitor your health and pregnancy more closely. The treatment and monitoring plan should always be individualized according to the patient's medical condition.
+              </p>
+            </div>
+
+            {/* Section 6 — Fertility and IVF Consultation */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Fertility and IVF Consultation
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Difficulty conceiving can be a stressful experience for couples. For many women, discussing fertility concerns with a female specialist can make conversations about reproductive health more comfortable.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                A fertility consultation may begin with a detailed medical and reproductive history. Depending on the circumstances, the doctor may recommend appropriate investigations to understand possible factors affecting conception.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Fertility-related consultation may involve:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Evaluation of infertility</li>
+                <li>Ovulation-related concerns</li>
+                <li>PCOS-related fertility problems</li>
+                <li>Previous pregnancy loss</li>
+                <li>Endometriosis-related fertility concerns</li>
+                <li>Reproductive health assessment</li>
+                <li>Fertility treatment planning</li>
+                <li>IVF-related treatment guidance</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Treatment options vary according to the patient's age, medical history, reproductive health, investigation results, and fertility goals. Women searching for a Female Gynaecologist in Moradabad for fertility consultation can discuss their concerns openly and understand which evaluation or treatment approach may be appropriate for them.
+              </p>
+            </div>
+
+            {/* Section 7 — Laparoscopic Gynaecological Surgery */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Laparoscopic Gynaecological Surgery
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Laparoscopic surgery is a minimally invasive approach used for selected gynaecological conditions. Women may require surgical consultation when conditions such as ovarian cysts, fibroids, endometriosis, or certain pelvic problems need further treatment.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the diagnosis, laparoscopic procedures may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Laparoscopic cystectomy</li>
+                <li>Laparoscopic myomectomy</li>
+                <li>Laparoscopic hysterectomy</li>
+                <li>Endometriosis surgery</li>
+                <li>Laparoscopic sterilization</li>
+                <li>Selected pelvic organ prolapse procedures</li>
+              </ul>
+
+              <p className="text-gray-700">
+                The suitability of laparoscopic surgery depends on the patient's condition and clinical assessment. A doctor may discuss the expected benefits, limitations, risks, recovery, and alternative treatment options before surgery.
+              </p>
+            </div>
+
+            {/* Section 8 — Treatment for Fibroids and Ovarian Cysts */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Treatment for Fibroids and Ovarian Cysts
+              </h2>
+
+              <p className="text-gray-700">
+                Fibroids are common growths that develop in or around the uterus. Some women have no symptoms, while others may experience heavy periods, pelvic discomfort, pressure, or fertility-related concerns. Ovarian cysts can also occur for different reasons. Some may require observation and follow-up, while others may require medical or surgical treatment. A proper evaluation helps determine the appropriate approach. If you have been diagnosed with a fibroid or ovarian cyst, or if you experience persistent pelvic symptoms, consultation with a gynaecologist can help you understand the condition and available treatment options.
+              </p>
+            </div>
+
+            {/* Section 9 — Endometriosis and Pelvic Pain */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Endometriosis and Pelvic Pain
+              </h2>
+
+              <p className="text-gray-700">
+                Endometriosis can be associated with symptoms such as painful periods, chronic pelvic pain, discomfort during intercourse, and fertility difficulties. Persistent pelvic pain should not automatically be considered a normal part of menstruation. A gynaecological evaluation can help identify possible causes of pelvic pain and determine whether further investigation or treatment is required. For selected patients, surgical management may be considered after appropriate assessment.
+              </p>
+            </div>
+
+            {/* Section 10 — PCOS and Menstrual Health */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                PCOS and Menstrual Health
+              </h2>
+
+              <p className="text-gray-700">
+                Polycystic ovary syndrome, commonly known as PCOS, can affect menstrual cycles and ovulation. Some women may also experience acne, changes in body weight, excess hair growth, or fertility-related concerns. Menstrual problems can have many different causes. Irregular periods, heavy periods, prolonged bleeding, or severe menstrual pain may require medical evaluation. A Female Gynaecologist in Moradabad can assess your symptoms, medical history, and reproductive goals before recommending appropriate investigations or treatment. Treatment should be personalized because the symptoms and healthcare needs of every woman are different.
+              </p>
+            </div>
+
+            {/* Section 11 — Hysteroscopy and Gynaecological Procedures */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Hysteroscopy and Gynaecological Procedures
+              </h2>
+
+              <p className="text-gray-700">
+                Hysteroscopy is a procedure that allows the inside of the uterus to be examined using a specialized instrument. It may be used for selected uterine conditions and can also be used for certain treatments. Depending on the clinical situation, hysteroscopic procedures may be considered for conditions such as uterine polyps. Whether hysteroscopy is required depends on symptoms, examination findings, imaging results, and the doctor's assessment.
+              </p>
+            </div>
+
+            {/* Section 12 — When Should You Consult */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                When Should You Consult a Female Gynaecologist?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                You do not always need to wait for symptoms to become severe before seeking medical advice.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Consider consulting a gynaecologist if you experience:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Irregular periods</li>
+                <li>Very heavy menstrual bleeding</li>
+                <li>Severe period pain</li>
+                <li>Persistent pelvic pain</li>
+                <li>Unusual vaginal symptoms</li>
+                <li>Difficulty conceiving</li>
+                <li>Repeated pregnancy loss</li>
+                <li>Symptoms associated with PCOS</li>
+                <li>A diagnosed fibroid</li>
+                <li>An ovarian cyst</li>
+                <li>Suspected endometriosis</li>
+                <li>Pregnancy-related concerns</li>
+                <li>Menopause or perimenopause-related symptoms</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Timely evaluation can help identify the possible cause of persistent symptoms and allow appropriate treatment planning.
+              </p>
+            </div>
+
+            {/* Section 13 — What to Expect During Your First Consultation */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                What to Expect During Your First Consultation
+              </h2>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    1. Medical History
+                  </h3>
+                  <p className="text-gray-700">
+                    The doctor may ask about your current symptoms, menstrual cycle, previous pregnancies, medical conditions, medications, and previous treatments.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    2. Discussion of Symptoms
+                  </h3>
+                  <p className="text-gray-700">
+                    You can explain when your symptoms started, how frequently they occur, and whether they affect your daily activities.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    3. Examination When Required
+                  </h3>
+                  <p className="text-gray-700">
+                    A physical examination may be recommended when clinically necessary. The doctor should explain the purpose of any examination before proceeding.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    4. Diagnostic Tests
+                  </h3>
+                  <p className="text-gray-700">
+                    Depending on your symptoms, the doctor may recommend investigations such as ultrasound, blood tests, or other diagnostic procedures.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    5. Treatment Discussion
+                  </h3>
+                  <p className="text-gray-700">
+                    Once the available information has been reviewed, the doctor can explain possible treatment options and answer your questions.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    6. Follow-Up
+                  </h3>
+                  <p className="text-gray-700">
+                    Some conditions require monitoring or follow-up appointments. Your doctor can explain when you should return and what symptoms should be monitored.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 14 — How to Prepare for Your Appointment */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                How to Prepare for Your Gynaecology Appointment
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Preparing a few details before your appointment can make the consultation more useful.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                You can:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Bring previous medical reports</li>
+                <li>Carry ultrasound or scan reports</li>
+                <li>Bring previous prescriptions</li>
+                <li>Note your menstrual cycle dates</li>
+                <li>Write down your current symptoms</li>
+                <li>Make a list of medicines you take</li>
+                <li>Note any previous surgeries</li>
+                <li>Prepare questions you want to ask</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Do not hesitate to discuss sensitive symptoms. Accurate information helps your doctor understand your situation more clearly.
+              </p>
+            </div>
+
+            {/* Section 15 — Why Empathy Matters */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Why Empathy Matters in Women's Healthcare
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Medical expertise is important, but communication and empathy also contribute to a positive healthcare experience.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Women may hesitate to discuss fertility problems, menstrual symptoms, sexual health concerns, pregnancy complications, or other personal issues.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                A comfortable consultation environment can make it easier to communicate openly. A patient-focused approach can help women:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Ask questions without unnecessary hesitation</li>
+                <li>Understand their diagnosis</li>
+                <li>Discuss treatment options</li>
+                <li>Express concerns about procedures</li>
+                <li>Understand follow-up requirements</li>
+                <li>Participate more confidently in healthcare decisions</li>
+              </ul>
+            </div>
+
+            {/* Section 16 — Why Choose Dr. Priyanka Pachauri */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Why Choose Dr. Priyanka Pachauri as Your Female Gynaecologist in Moradabad?
+              </h2>
+
+              <p className="text-gray-700">
+                Dr. Priyanka Pachauri provides gynaecological and women's healthcare services in Moradabad. Her areas of care include pregnancy, fertility, IVF-related treatment, and laparoscopic gynaecological procedures. Women looking for a Female Gynaecologist in Moradabad can consult her for concerns related to menstrual health, pregnancy, fertility, PCOS, fibroids, ovarian cysts, endometriosis, and other gynaecological conditions. Her approach focuses on understanding each patient's medical requirements and discussing suitable treatment options according to individual circumstances.
+              </p>
+            </div>
+
+            {/* Section 17 — Building a Long-Term Relationship */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Building a Long-Term Doctor-Patient Relationship
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Women's healthcare is often not limited to a single appointment. Pregnancy requires regular monitoring, fertility treatment may involve multiple consultations, and chronic gynaecological conditions may require continued follow-up.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Developing a long-term relationship with a trusted gynaecologist can make it easier to discuss changes in symptoms and maintain continuity of care.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Regular follow-up can be particularly useful for women managing:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>PCOS</li>
+                <li>Menstrual disorders</li>
+                <li>Fertility concerns</li>
+                <li>Pregnancy</li>
+                <li>Menopause-related symptoms</li>
+                <li>Fibroids</li>
+                <li>Ovarian cysts</li>
+                <li>Endometriosis</li>
+              </ul>
+            </div>
+
+            {/* Section 18 — Questions to Ask Your Gynaecologist */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Questions to Ask Your Female Gynaecologist
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                During your appointment, consider asking:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>What could be causing my symptoms?</li>
+                <li>Do I need any diagnostic tests?</li>
+                <li>What treatment options are available?</li>
+                <li>Are there non-surgical treatment options?</li>
+                <li>Would surgery be necessary in my case?</li>
+                <li>How long might treatment take?</li>
+                <li>What should I expect during recovery?</li>
+                <li>When should I return for follow-up?</li>
+                <li>Could my condition affect fertility or pregnancy?</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Asking questions helps you understand your diagnosis and participate in decisions about your healthcare.
+              </p>
+            </div>
+
+            {/* Section 19 — Contact Information */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Contact a Female Gynaecologist in Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you are searching for a Female Gynaecologist in Moradabad for pregnancy care, fertility consultation, menstrual problems, PCOS, IVF-related treatment, or gynaecological surgery, you can contact Dr. Priyanka Pachauri for consultation.
+              </p>
+
+              <div className="bg-[#F8F4EA] text-black rounded-2xl p-8">
+                <h3 className="text-xl font-semibold mb-4">
+                  Clinic Address
+                </h3>
+
+                <div className="space-y-4 mb-6">
+                  {/* Clinic Address */}
+                  <div className="flex items-start gap-3">
+                    <MapPin size={20} className="text-black mt-1 shrink-0" />
+                    <div>
+                      <p className="font-semibold">Dr. Priyanka Pachauri</p>
+                      <p className="text-black">
+                        A2, Near Old Roadways, Gandhi Nagar,
+                        Moradabad, Uttar Pradesh – 244001
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Phone size={20} className="text-black mt-1 shrink-0" />
+                    <div>
+                      <p className="font-semibold">Contact Us</p>
+
+                      <div className="flex items-center gap-3 text-black">
+                        <a href="tel:9079765578" className="hover:underline">
+                          +91 90797 65578
+                        </a>
+
+                        <span className="text-gray-400">|</span>
+
+                        <a href="tel:8979670705" className="hover:underline">
+                          +91 8979670705 (WhatsApp)
+                        </a>
+                      </div>
+
+                      <div className="mt-2">
+                        <Mail size={18} className="inline mr-2 text-black" />
+                        <a
+                          href="mailto:drpriyankagynec@gmail.com"
+                          className="hover:underline"
+                        >
+                          drpriyankagynec@gmail.com
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <Phone size={20} className="text-black mt-1 shrink-0" />
-                  <div>
-                    <p className="font-semibold">Contact Us</p>
-                    <div className="flex items-center gap-3 text-black">
-                      <a href="tel:9079765578" className="hover:underline">+91 90797 65578</a>
-                      <span className="text-gray-400">|</span>
-                      <a href="tel:8979670705" className="hover:underline">+91 8979670705 (WhatsApp)</a>
-                    </div>
-                    <div className="mt-2">
-                      <Mail size={18} className="inline mr-2 text-black" />
-                      <a href="mailto:drpriyankagynec@gmail.com" className="hover:underline">
-                        drpriyankagynec@gmail.com
-                      </a>
-                    </div>
-                  </div>
+                <div className="flex gap-4 flex-wrap">
+                  <Link href="/contact">
+                    <button className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+                      <Phone className="inline mr-2" size={18} />
+                      Contact Us
+                    </button>
+                  </Link>
+
+                  <Link href="/services">
+                    <button className="border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e181b5] transition">
+                      Explore Services
+                    </button>
+                  </Link>
                 </div>
-              </div>
-
-              <div className="flex gap-4 flex-wrap">
-                <Link href="/contact">
-                  <button className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
-                    <Phone className="inline mr-2" size={18} />
-                    Contact Us
-                  </button>
-                </Link>
-
-                <Link href="/services">
-                  <button className="border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e181b5] transition">
-                    Explore Services
-                  </button>
-                </Link>
               </div>
             </div>
 
+            {/* Section 20 — FAQs */}
             <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-6 text-gray-900">Frequently Asked Questions</h2>
+              <h2 className="text-3xl font-serif mb-6 text-gray-900">
+                Frequently Asked Questions
+              </h2>
+
               <div className="space-y-5">
                 {faqs.map((faq) => (
-                  <div key={faq.q} className="border border-gray-200 rounded-lg p-5">
-                    <h3 className="font-semibold text-gray-900 mb-2">{faq.q}</h3>
+                  <div
+                    key={faq.q}
+                    className="border border-gray-200 rounded-lg p-5"
+                  >
+                    <h3 className="font-semibold text-gray-900 mb-2">
+                      {faq.q}
+                    </h3>
+
                     <p className="text-gray-700">{faq.a}</p>
                   </div>
                 ))}
@@ -393,6 +621,7 @@ export default function FemaleGynaecologistMoradabad() {
             </div>
           </div>
 
+          {/* Sidebar */}
           <div className="w-full lg:w-[380px] xl:w-[420px] order-2">
             <div className="lg:sticky lg:top-28 space-y-6">
               <LandingEnquiryForm />

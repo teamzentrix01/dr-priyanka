@@ -10,6 +10,7 @@ import {
   Heart,
   Star,
   Award,
+  Globe,
 } from "lucide-react";
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
@@ -17,36 +18,52 @@ import Banner from "./Banner";
 export default function InfertilityTreatmentMoradabad() {
   const faqs = [
     {
-      q: "What is the most common cause of infertility in women?",
-      a: "PCOS and ovulation disorders are among the most common causes of female infertility.",
+      q: "What is the most common cause of infertility?",
+      a: "Infertility can have many causes. Ovulation disorders, tubal problems, endometriosis, uterine conditions, age-related fertility changes, and male-factor infertility are among the possible causes. Sometimes no specific cause is identified.",
     },
     {
-      q: "Can infertility be caused by the male partner?",
-      a: "Yes, male factors such as low sperm count or poor sperm motility contribute to nearly half of all infertility cases.",
+      q: "When should I see a doctor for infertility?",
+      a: "Generally, evaluation is recommended after 12 months of trying to conceive if the woman is under 35. Women aged 35 or older are generally advised to seek evaluation after about 6 months of trying. Earlier evaluation may be appropriate when there are irregular periods, known reproductive conditions, or other concerns.",
     },
     {
-      q: "When should a couple seek fertility treatment?",
-      a: "After one year of trying to conceive without success, or six months if the woman is above 35 years old.",
+      q: "Can PCOS cause infertility?",
+      a: "PCOS can cause irregular or absent ovulation, which may make conception more difficult. Many women with PCOS can become pregnant with appropriate management.",
+    },
+    {
+      q: "Can infertility affect men?",
+      a: "Yes. Male factors can contribute to infertility. Semen analysis is commonly used to evaluate sperm concentration, movement, and morphology.",
+    },
+    {
+      q: "What tests are done for female infertility?",
+      a: "Depending on the situation, testing may include ultrasound, hormonal tests, ovarian-reserve assessment, HSG, hysteroscopy, or laparoscopy.",
     },
     {
       q: "What is the difference between IUI and IVF?",
-      a: "IUI places prepared sperm directly into the uterus, while IVF involves fertilizing eggs outside the body before transferring the embryo into the uterus.",
+      a: "IUI involves placing prepared sperm directly into the uterus around ovulation. IVF involves collecting eggs, fertilizing them in a laboratory, and considering embryo transfer into the uterus.",
     },
     {
-      q: "Is IVF painful?",
-      a: "IVF involves minor discomfort during egg retrieval, but the procedure is performed under sedation and is generally well tolerated.",
+      q: "Is IVF required for every infertility case?",
+      a: "No. Some couples may conceive with medical treatment, ovulation induction, timed intercourse, IUI, or treatment of an underlying condition. IVF is considered when medically appropriate.",
     },
     {
-      q: "How successful is IVF treatment?",
-      a: "Success rates depend on age, cause of infertility, and embryo quality, and are generally highest in women under 35.",
+      q: "Can blocked fallopian tubes be treated?",
+      a: "Treatment depends on the location and severity of the blockage and the overall fertility situation. Your doctor can discuss whether surgery or assisted reproductive treatment may be appropriate.",
     },
     {
-      q: "Can PCOS patients conceive naturally after treatment?",
-      a: "Yes, many PCOS patients conceive naturally or with ovulation-inducing medication after proper treatment.",
+      q: "Can endometriosis affect fertility?",
+      a: "Yes. Endometriosis can be associated with difficulty conceiving. Treatment depends on symptoms, severity, age, fertility goals, and previous treatment.",
     },
     {
-      q: "How can I book a consultation for infertility treatment in Moradabad?",
-      a: "You can call or WhatsApp the clinic directly using the contact details above to schedule a consultation and evaluation.",
+      q: "Can fibroids affect pregnancy?",
+      a: "Some fibroids can affect fertility or pregnancy depending on their size and location. Many fibroids do not cause fertility problems. Evaluation helps determine whether treatment is needed.",
+    },
+    {
+      q: "Does age affect fertility?",
+      a: "Yes. Female fertility generally declines with age, particularly because egg quantity and quality decrease over time. Age is therefore an important consideration when planning fertility evaluation.",
+    },
+    {
+      q: "How can I book an infertility consultation in Moradabad?",
+      a: "You can contact Dr. Priyanka Gynaec by phone or WhatsApp using the details provided above to schedule a consultation.",
     },
   ];
 
@@ -61,302 +78,608 @@ export default function InfertilityTreatmentMoradabad() {
             {/* Section 1 — Introduction */}
             <div className="mb-12">
               <h1 className="text-3xl font-serif mb-4 text-gray-900">
-                Infertility Treatment in Moradabad – Expert Fertility Care by Dr. Priyanka Gynaec
+                Infertility Treatment in Moradabad – Fertility Care for Couples
               </h1>
 
               <p className="text-gray-700 mb-4">
-                Struggling to conceive can be one of the most emotionally challenging experiences a couple faces. The good news is that infertility is a treatable medical condition in the majority of cases, and couples in Moradabad no longer need to travel to metro cities for advanced fertility care. Dr. Priyanka Gynaec offers comprehensive infertility treatment in Moradabad, combining compassionate counselling with cutting-edge reproductive technology to help couples achieve their dream of parenthood.
+                Trying to conceive without success can be frustrating and emotionally difficult for couples. Infertility can have many different causes, and sometimes more than one factor contributes to difficulty in achieving pregnancy. The good news is that evaluation can help identify possible causes and determine which treatment options may be appropriate.
               </p>
 
               <p className="text-gray-700">
-                This detailed guide explains what infertility means, its common causes in both men and women, how it is diagnosed, and the range of treatment options available right here in Moradabad.
+                If you are searching for infertility treatment in Moradabad, Dr. Priyanka Pachauri provides gynaecological and fertility care for women experiencing difficulties with conception. Fertility evaluation may include assessment of ovulation, menstrual health, ovarian function, fallopian tubes, uterus, and other factors. Because fertility involves both partners, evaluation of the male partner may also be recommended.
               </p>
             </div>
 
-            {/* Section 2 — Common Causes of Infertility */}
+            {/* Section 2 — What Is Infertility */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Common Causes of Infertility
+                What Is Infertility?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Infertility can arise from female factors, male factors, or a combination of both. Understanding the underlying cause is the first step toward effective treatment.
+                Infertility generally refers to difficulty achieving pregnancy after regular unprotected intercourse for a certain period of time.
               </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Female Infertility Causes
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>PCOS (Polycystic Ovary Syndrome):</strong> One of the leading causes of ovulation-related infertility, affecting a large number of women of reproductive age.</li>
-                <li><strong>Ovulation Disorders:</strong> Irregular or absent ovulation due to hormonal imbalance.</li>
-                <li><strong>Blocked Fallopian Tubes:</strong> Often caused by past infections, endometriosis, or previous pelvic surgery.</li>
-                <li><strong>Endometriosis:</strong> A condition where uterine tissue grows outside the uterus, affecting egg quality and implantation.</li>
-                <li><strong>Uterine Abnormalities:</strong> Fibroids, polyps, or structural issues in the uterus that interfere with implantation.</li>
-                <li><strong>Age-Related Decline:</strong> Egg quantity and quality naturally decline with age, especially after 35.</li>
-                <li><strong>Thyroid and Hormonal Disorders:</strong> Imbalances in thyroid or prolactin levels can disrupt ovulation.</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Male Infertility Causes
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Low Sperm Count (Oligospermia):</strong> Reduced number of sperm in semen.</li>
-                <li><strong>Poor Sperm Motility or Morphology:</strong> Sperm that cannot move properly or are abnormally shaped.</li>
-                <li><strong>Varicocele:</strong> Enlarged veins in the scrotum that can affect sperm production and quality.</li>
-                <li><strong>Hormonal Imbalances:</strong> Low testosterone or other hormonal issues affecting sperm production.</li>
-                <li><strong>Lifestyle Factors:</strong> Smoking, alcohol, obesity, and chronic stress can significantly impact sperm health.</li>
-                <li><strong>DNA Fragmentation:</strong> Damage to sperm DNA that can reduce fertilization and pregnancy success rates.</li>
-              </ul>
-            </div>
-
-            {/* Section 3 — When Should You See a Fertility Specialist? */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                When Should You See a Fertility Specialist?
-              </h2>
 
               <p className="text-gray-700 mb-4">
-                Couples are advised to consult a fertility specialist if:
+                Infertility can affect women, men, or both partners. In some couples, no specific cause is identified even after evaluation.
               </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>They have been trying to conceive for over a year without success (six months if the woman is above 35)</li>
-                <li>The woman has irregular or absent periods</li>
-                <li>There is a history of pelvic infections, endometriosis, or previous pelvic surgery</li>
-                <li>The man has known reproductive health issues</li>
-                <li>There has been a previous miscarriage or failed pregnancy</li>
-                <li>One or both partners have a known medical condition affecting fertility</li>
-              </ul>
-
-              <p className="text-gray-700">
-                Early evaluation increases the chances of identifying the cause quickly and starting effective treatment without unnecessary delay.
-              </p>
-            </div>
-
-            {/* Section 4 — How Is Infertility Diagnosed? */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                How Is Infertility Diagnosed?
-              </h2>
 
               <p className="text-gray-700 mb-4">
-                At Dr. Priyanka Gynaec, the diagnostic process is thorough and personalized for both partners, since infertility can stem from either side. Common diagnostic tests include:
+                Possible contributing factors include:
               </p>
 
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                For Women:
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Hormonal blood tests (FSH, LH, AMH, Thyroid, Prolactin)</li>
-                <li>Ultrasound to assess ovarian reserve, uterine health, and follicle development</li>
-                <li>Hysterosalpingography (HSG) to check for blocked fallopian tubes</li>
-                <li>Diagnostic hysteroscopy or laparoscopy, if structural abnormalities are suspected</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                For Men:
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Semen analysis to assess sperm count, motility, and morphology</li>
-                <li>AI-powered semen analysis and DNA integrity testing for a more precise evaluation</li>
-                <li>Hormonal evaluation, if required</li>
-              </ul>
-
-              <p className="text-gray-700">
-                This dual evaluation approach ensures that the treatment plan addresses the actual cause of infertility rather than relying on guesswork.
-              </p>
-            </div>
-
-            {/* Section 5 — Infertility Treatment Options Available in Moradabad */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Infertility Treatment Options Available in Moradabad
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Treatment for infertility depends on the underlying cause, the age of the woman, and how long the couple has been trying to conceive. Dr. Priyanka Gynaec offers a complete range of fertility treatments under one roof.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                1. Lifestyle and Medical Management
-              </h3>
-
-              <p className="text-gray-700 mb-3">
-                For couples with mild ovulation issues or PCOS, the first line of treatment often includes:
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-6 list-disc pl-5">
-                <li>Weight management and dietary guidance</li>
-                <li>Ovulation-inducing medications to regulate the menstrual cycle</li>
-                <li>Treatment of underlying thyroid or hormonal imbalances</li>
-                <li>Timed intercourse guidance based on ovulation tracking</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                2. Intrauterine Insemination (IUI)
-              </h3>
-
-              <p className="text-gray-700 mb-3">
-                IUI is a simpler and less invasive fertility treatment where prepared, healthy sperm is directly placed into the uterus around the time of ovulation. It is often recommended for:
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-6 list-disc pl-5">
-                <li>Mild male factor infertility</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Ovulation problems</li>
+                <li>Polycystic ovary syndrome (PCOS)</li>
+                <li>Blocked or damaged fallopian tubes</li>
+                <li>Endometriosis</li>
+                <li>Uterine fibroids or polyps</li>
+                <li>Reduced ovarian reserve</li>
+                <li>Age-related fertility changes</li>
+                <li>Sperm count or motility problems</li>
+                <li>Previous pelvic infections or surgeries</li>
+                <li>Certain hormonal conditions</li>
                 <li>Unexplained infertility</li>
-                <li>Ovulation disorders</li>
-                <li>Couples using donor sperm</li>
               </ul>
 
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                3. In Vitro Fertilization (IVF)
-              </h3>
-
-              <p className="text-gray-700 mb-3">
-                IVF is one of the most effective and widely used assisted reproductive technologies, recommended when other treatments have not been successful or when the cause of infertility requires a more advanced approach, such as blocked fallopian tubes, severe male factor infertility, or advanced maternal age.
+              <p className="text-gray-700">
+                Finding the possible cause is an important first step before choosing treatment.
               </p>
-
-              <p className="text-gray-700 mb-3">
-                The IVF process typically involves:
-              </p>
-
-              <ol className="text-gray-700 space-y-2 mb-6 list-decimal pl-5">
-                <li>Ovarian stimulation using fertility medications</li>
-                <li>Egg retrieval under monitored conditions</li>
-                <li>Fertilization of eggs with sperm in the laboratory</li>
-                <li>Embryo culture and monitoring</li>
-                <li>Embryo transfer into the uterus</li>
-              </ol>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                4. GERI Time-Lapse Embryo Monitoring
-              </h3>
-
-              <p className="text-gray-700 mb-4">
-                Dr. Priyanka Gynaec uses advanced GERI time-lapse imaging incubators that continuously monitor embryo development without disturbing the embryo. This technology helps embryologists select the healthiest embryo for transfer, improving the chances of a successful pregnancy.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                5. Laparoscopic Surgery for Fertility Issues
-              </h3>
-
-              <p className="text-gray-700 mb-4">
-                Many structural causes of infertility, such as blocked fallopian tubes, ovarian cysts, fibroids, and endometriosis, can be corrected through advanced 3D laparoscopic surgery, which is minimally invasive and helps preserve fertility while resolving the underlying issue.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                6. Male Infertility Treatment
-              </h3>
-
-              <p className="text-gray-700 mb-4">
-                For male factor infertility, treatment options may include:
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Medications to improve sperm count and quality</li>
-                <li>Lifestyle modification guidance</li>
-                <li>Surgical correction of varicocele, if present</li>
-                <li>Advanced sperm selection techniques combined with IUI or IVF</li>
-              </ul>
             </div>
 
-            {/* Section 6 — Why Choose Dr. Priyanka Gynaec for Infertility Treatment */}
+            {/* Section 3 — When Should You See a Doctor */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Choose Dr. Priyanka Gynaec for Infertility Treatment in Moradabad?
+                When Should You See a Doctor for Infertility?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Couples across Moradabad and surrounding regions choose Dr. Priyanka Gynaec for fertility treatment because of a genuine, patient-first philosophy backed by advanced technology. Key reasons include:
+                The appropriate time to seek evaluation depends on the woman's age and individual circumstances.
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Personalized fertility treatment plans based on individual diagnosis, not a one-size-fits-all approach</li>
-                <li>Access to advanced technology including 3D/4D ultrasound, GERI time-lapse incubators, and AI-based semen analysis</li>
-                <li>Expertise in both surgical and non-surgical fertility treatments under one roof</li>
-                <li>A compassionate team that supports couples emotionally through every step of the journey</li>
-                <li>Continuity of care from the first consultation through pregnancy confirmation</li>
-                <li>A strong track record built on patient trust and successful outcomes</li>
+              <p className="text-gray-700 mb-4">
+                A fertility evaluation may be recommended when:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Pregnancy has not occurred after 12 months of regular unprotected intercourse</li>
+                <li>The woman is 35 or older and pregnancy has not occurred after around 6 months of trying</li>
+                <li>Periods are very irregular or absent</li>
+                <li>There is a known history of PCOS or endometriosis</li>
+                <li>There has been previous pelvic surgery</li>
+                <li>There is a history of pelvic infection</li>
+                <li>A male partner has known sperm or reproductive problems</li>
+                <li>There have been recurrent pregnancy losses</li>
+                <li>There is another medical condition that may affect fertility</li>
               </ul>
+
+              <p className="text-gray-700">
+                Women with irregular periods or known fertility-related conditions do not necessarily need to wait a full year before seeking medical advice.
+              </p>
             </div>
 
-            {/* Section 7 — What to Expect During Your Fertility Journey */}
+            {/* Section 4 — Common Causes of Female Infertility */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What to Expect During Your Fertility Journey
+                Common Causes of Female Infertility
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Female infertility can have several causes. A proper evaluation is necessary because symptoms alone cannot determine the exact reason for difficulty conceiving.
+              </p>
+
+              <div className="space-y-6">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    PCOS and Ovulation Problems
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    PCOS is a common hormonal condition that can interfere with regular ovulation. Women with PCOS may experience:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Irregular periods</li>
+                    <li>Infrequent ovulation</li>
+                    <li>Acne</li>
+                    <li>Excess facial or body hair</li>
+                    <li>Weight-related concerns</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    Not every woman with PCOS has infertility, but irregular or absent ovulation can make conception more difficult. Treatment focuses on the individual woman's symptoms, fertility goals, and medical needs.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Blocked Fallopian Tubes
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    Fallopian tubes provide the pathway through which sperm and egg meet. Blocked or damaged tubes may occur due to:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Previous pelvic infections</li>
+                    <li>Endometriosis</li>
+                    <li>Previous pelvic surgery</li>
+                    <li>Certain other pelvic conditions</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    Tests such as hysterosalpingography (HSG) may be recommended to assess whether the fallopian tubes are open.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Endometriosis
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    Endometriosis occurs when tissue similar to the lining of the uterus grows outside the uterus. It may be associated with:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Painful periods</li>
+                    <li>Chronic pelvic pain</li>
+                    <li>Pain during intercourse</li>
+                    <li>Difficulty conceiving</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    Depending on the patient's condition, medical treatment, fertility treatment, or surgery may be considered.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Fibroids and Uterine Polyps
+                  </h3>
+                  <p className="text-gray-700">
+                    Fibroids are non-cancerous growths in the uterus. Some fibroids can affect fertility depending on their size and location. Uterine polyps can also affect the uterine cavity and may be evaluated when fertility problems are present. Hysteroscopy or other investigations may be recommended when an abnormality inside the uterus is suspected.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Age-Related Fertility Changes
+                  </h3>
+                  <p className="text-gray-700">
+                    Female fertility changes with age, particularly because both the number and quality of eggs decline over time. Age is therefore an important factor when planning fertility evaluation and treatment. A fertility consultation can help couples understand how age may affect their individual treatment options.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 5 — Male Infertility */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Male Infertility Can Also Affect Conception
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Infertility is not only a female health issue.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Male factors can contribute to difficulty conceiving and may involve:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Low sperm concentration</li>
+                <li>Reduced sperm motility</li>
+                <li>Abnormal sperm morphology</li>
+                <li>Varicocele</li>
+                <li>Hormonal problems</li>
+                <li>Certain infections</li>
+                <li>Previous testicular problems or surgery</li>
+                <li>Lifestyle and environmental factors</li>
+              </ul>
+
+              <p className="text-gray-700">
+                A semen analysis is commonly used as an initial investigation for male fertility. Both partners may need evaluation so that treatment focuses on the actual cause rather than assuming the problem is only with the woman.
+              </p>
+            </div>
+
+            {/* Section 6 — Infertility Diagnosis in Moradabad */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Infertility Diagnosis in Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                The first fertility consultation usually begins with a detailed medical and reproductive history.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Your doctor may discuss:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Menstrual cycle pattern</li>
+                <li>Previous pregnancies</li>
+                <li>Previous miscarriages</li>
+                <li>Duration of trying to conceive</li>
+                <li>Previous fertility treatment</li>
+                <li>Medical conditions</li>
+                <li>Previous surgeries</li>
+                <li>Current medications</li>
+                <li>Sexual and reproductive history</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Based on the consultation, appropriate investigations may be recommended.
+              </p>
+            </div>
+
+            {/* Section 7 — Fertility Tests for Women */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Fertility Tests for Women
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the individual case, evaluation may include:
+              </p>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Ultrasound
+                  </h3>
+                  <p className="text-gray-700">
+                    Ultrasound can help assess the uterus, ovaries, endometrium, follicles, and other pelvic structures.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Hormonal Tests
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    Blood tests may be recommended to evaluate certain hormones related to ovulation and reproductive health. These can include tests such as:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>AMH</li>
+                    <li>FSH</li>
+                    <li>LH</li>
+                    <li>Thyroid-related tests</li>
+                    <li>Prolactin</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    The specific tests required vary from patient to patient.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    HSG
+                  </h3>
+                  <p className="text-gray-700">
+                    Hysterosalpingography, commonly called HSG, is an imaging test used to assess the uterine cavity and whether the fallopian tubes are open.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Hysteroscopy
+                  </h3>
+                  <p className="text-gray-700">
+                    Hysteroscopy allows a doctor to examine the inside of the uterus using a thin camera. It may be recommended when conditions such as polyps, fibroids affecting the cavity, adhesions, or other abnormalities are suspected.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Laparoscopy
+                  </h3>
+                  <p className="text-gray-700">
+                    In selected patients, diagnostic or operative laparoscopy may be considered to evaluate conditions such as endometriosis, pelvic adhesions, or other pelvic abnormalities.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 8 — Fertility Tests for Men */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Fertility Tests for Men
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                A semen analysis is one of the most common initial investigations for male infertility.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                It may evaluate:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Sperm concentration</li>
+                <li>Sperm movement</li>
+                <li>Sperm morphology</li>
+                <li>Semen volume</li>
+                <li>Other semen characteristics</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Additional investigations may be recommended depending on the results and medical history.
+              </p>
+            </div>
+
+            {/* Section 9 — Infertility Treatment Options */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Infertility Treatment Options in Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                There is no single infertility treatment that works for every couple.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Treatment is selected according to the cause of infertility, age, duration of trying to conceive, previous treatment, test results, and reproductive goals. Treatment may include medical management, fertility procedures, surgery, or assisted reproductive techniques.
+              </p>
+
+              <div className="space-y-6">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    1. Ovulation Induction
+                  </h3>
+                  <p className="text-gray-700">
+                    Women who do not ovulate regularly may be prescribed medicines to help stimulate ovulation. Ovulation-induction treatment requires appropriate medical supervision because medication selection and monitoring depend on the individual patient.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    2. Timed Intercourse
+                  </h3>
+                  <p className="text-gray-700">
+                    When ovulation is occurring but timing is difficult to determine, your doctor may guide you regarding the fertile period. Ovulation tracking may involve menstrual-cycle monitoring, ultrasound, or other appropriate methods.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    3. IUI Treatment
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    Intrauterine insemination (IUI) is a fertility treatment in which prepared sperm is placed directly inside the uterus around the time of ovulation. IUI may be considered in selected cases such as:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Some cases of unexplained infertility</li>
+                    <li>Certain mild male-factor infertility cases</li>
+                    <li>Some ovulation-related fertility problems</li>
+                    <li>Situations involving donor sperm</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    Whether IUI is suitable depends on the couple's fertility evaluation.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    4. IVF Treatment
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    In vitro fertilization (IVF) is an assisted reproductive treatment in which eggs are collected from the ovaries and fertilized with sperm in a laboratory. The resulting embryos may then be considered for transfer into the uterus.
+                  </p>
+                  <p className="text-gray-700 mb-2">
+                    IVF may be recommended for certain situations, including:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Blocked fallopian tubes</li>
+                    <li>Some cases of severe male-factor infertility</li>
+                    <li>Certain cases of endometriosis</li>
+                    <li>Reduced ovarian reserve</li>
+                    <li>Some cases of unexplained infertility</li>
+                    <li>Previous unsuccessful fertility treatments</li>
+                    <li>Other conditions where IVF may provide an appropriate treatment option</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    IVF is a multi-step process and requires individualized medical planning.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    5. Laparoscopic Treatment for Fertility Problems
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    Certain structural pelvic conditions may be treated surgically when surgery is medically appropriate. Depending on the diagnosis, laparoscopic surgery may be considered for conditions such as:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Endometriosis</li>
+                    <li>Selected ovarian cysts</li>
+                    <li>Certain fibroids</li>
+                    <li>Pelvic adhesions</li>
+                    <li>Other pelvic abnormalities</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    The purpose of surgery is to address the underlying condition while considering the patient's reproductive goals.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    6. Hysteroscopy for Uterine Conditions
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    Hysteroscopy can be used to evaluate and treat selected abnormalities inside the uterine cavity. It may be considered for conditions such as:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Endometrial polyps</li>
+                    <li>Certain submucosal fibroids</li>
+                    <li>Intrauterine adhesions</li>
+                    <li>Other abnormalities of the uterine cavity</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    Treatment is determined after appropriate evaluation.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 10 — Fertility Treatment and Age */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Fertility Treatment and Age
               </h2>
 
               <p className="text-gray-700">
-                Every couple&apos;s fertility journey is different. At the first consultation, both partners&apos; medical history is reviewed, followed by relevant diagnostic tests. Based on the results, a personalized treatment plan is created, which may start with simpler options like ovulation induction or IUI before progressing to IVF if needed. Throughout the process, the team provides emotional support and clear communication, since fertility treatment can be as much an emotional journey as a medical one.
+                Age is an important factor in fertility treatment, particularly for women. As a woman gets older, ovarian reserve and egg quality generally decline. This can affect the chances of natural conception and may also influence fertility treatment outcomes. For this reason, couples should not unnecessarily delay fertility evaluation when there are concerns about conception. A consultation can help you understand which tests and treatment options may be appropriate for your age and circumstances.
               </p>
             </div>
 
-            {/* Section 8 — Tips to Support Fertility Naturally */}
+            {/* Section 11 — Can Infertility Be Treated Without IVF */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Tips to Support Fertility Naturally
+                Can Infertility Be Treated Without IVF?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                While medical treatment addresses the underlying cause, couples can also support their fertility through:
+                Yes, IVF is not required for every couple.
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Maintaining a healthy body weight</li>
-                <li>Eating a balanced, nutrient-rich diet</li>
-                <li>Avoiding smoking and limiting alcohol consumption</li>
-                <li>Managing stress through relaxation techniques or counselling</li>
-                <li>Tracking ovulation cycles accurately</li>
-                <li>Attending regular health check-ups</li>
+              <p className="text-gray-700 mb-4">
+                Depending on the cause, treatment may involve:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Lifestyle changes</li>
+                <li>Treatment of hormonal conditions</li>
+                <li>Ovulation induction</li>
+                <li>Timed intercourse</li>
+                <li>IUI</li>
+                <li>Surgery</li>
+                <li>IVF or other assisted reproductive options</li>
               </ul>
-            </div>
-
-            {/* Section 9 — The Role of Age in Fertility */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                The Role of Age in Fertility
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Age plays one of the most significant roles in a woman&apos;s ability to conceive, and understanding this can help couples make timely decisions about seeking treatment. A woman is born with a fixed number of eggs, and both the quantity and quality of these eggs decline gradually with time, with a more noticeable drop after the age of 35 and a sharper decline after 40. This decline affects not only the chances of natural conception but also the success rates of assisted reproductive treatments like IUI and IVF. Men also experience a gradual decline in sperm quality with age, although the effect is generally less pronounced than in women.
-              </p>
-
-              <p className="text-gray-700 mb-4">
-                This is why fertility specialists often recommend that couples above 35 seek evaluation after just six months of trying, rather than waiting a full year. Early testing allows the doctor to assess ovarian reserve through tests like AMH (Anti-Müllerian Hormone) and plan treatment before the biological window narrows further. For women who wish to delay childbearing for personal or professional reasons, options like fertility preservation and egg freezing can also be discussed during a consultation.
-              </p>
-            </div>
-
-            {/* Section 10 — Emotional Wellbeing During Fertility Treatment */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Emotional Wellbeing During Fertility Treatment
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                The journey through infertility diagnosis and treatment can be emotionally demanding for both partners, often involving stress, anxiety, and, at times, a sense of isolation. It is important to recognize that these feelings are a normal part of the process and not a sign of weakness. Open communication between partners, joining support groups, and seeking counselling when needed can make a meaningful difference in coping with the emotional ups and downs of treatment.
-              </p>
 
               <p className="text-gray-700">
-                At Dr. Priyanka Gynaec, the approach to fertility care goes beyond medical treatment alone. The team places equal importance on emotional support, ensuring that couples feel heard, informed, and reassured at every stage of their journey, from the first consultation to the moment they receive positive news.
+                The simplest appropriate treatment is generally considered based on the couple's evaluation.
               </p>
             </div>
 
-            {/* Section 11 — Speciality & Contact Information */}
+            {/* Section 12 — Fertility-Preserving Treatment */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Speciality &amp; Contact Information
+                Fertility-Preserving Treatment
+              </h2>
+
+              <p className="text-gray-700">
+                For some women, maintaining future fertility is an important part of treatment planning. When treating conditions such as fibroids, ovarian cysts, or endometriosis, the treatment approach may be selected with reproductive goals in mind. However, fertility preservation is not possible in every situation, and surgery or treatment itself can sometimes affect fertility. Discuss your future pregnancy plans with your gynaecologist before undergoing treatment.
+              </p>
+            </div>
+
+            {/* Section 13 — Lifestyle and Fertility */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Lifestyle and Fertility
               </h2>
 
               <p className="text-gray-700 mb-4">
-                <strong>Speciality:</strong> Fertility &amp; IVF, Gynaecology &amp; Advanced 3D Laparoscopy, Pregnancy &amp; Maternity Care, Paediatrics
+                Medical treatment is important when an underlying fertility problem is present, but healthy lifestyle habits can also support general reproductive health.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Couples may benefit from:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Maintaining a healthy weight</li>
+                <li>Eating a balanced diet</li>
+                <li>Staying physically active</li>
+                <li>Avoiding smoking</li>
+                <li>Limiting alcohol</li>
+                <li>Managing stress</li>
+                <li>Getting adequate sleep</li>
+                <li>Managing existing medical conditions</li>
+                <li>Taking medicines and supplements only as advised by a healthcare professional</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Lifestyle changes cannot treat every cause of infertility, but they can be an important part of overall health.
+              </p>
+            </div>
+
+            {/* Section 14 — What to Bring to Your Consultation */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                What to Bring to Your Infertility Consultation
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you are visiting a fertility doctor in Moradabad, bringing previous medical records can make the consultation more useful.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Consider bringing:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Previous ultrasound reports</li>
+                <li>HSG reports</li>
+                <li>Blood test results</li>
+                <li>Semen analysis reports</li>
+                <li>Previous IVF or IUI records</li>
+                <li>Previous surgery reports</li>
+                <li>Medication details</li>
+                <li>Menstrual-cycle information</li>
+                <li>Previous pregnancy records</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Your doctor can then determine which additional evaluation, if any, may be required.
+              </p>
+            </div>
+
+            {/* Section 15 — Why Choose Dr. Priyanka */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Why Choose Dr. Priyanka for Infertility Treatment in Moradabad?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka Pachauri provides gynaecological and fertility-related consultation in Moradabad.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                During a fertility consultation, the focus is on understanding the individual couple's circumstances before selecting treatment.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the diagnosis, fertility care may involve:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Evaluation of menstrual and ovulation problems</li>
+                <li>PCOS-related fertility management</li>
+                <li>Assessment of uterine and ovarian conditions</li>
+                <li>Fertility evaluation</li>
+                <li>Infertility counselling</li>
+                <li>IUI-related fertility care where appropriate</li>
+                <li>IVF counselling and treatment planning</li>
+                <li>Hysteroscopy</li>
+                <li>Laparoscopic treatment for selected gynaecological conditions</li>
+                <li>Pregnancy care after conception</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The appropriate treatment is decided according to medical evaluation rather than using a single approach for every couple.
+              </p>
+            </div>
+
+            {/* Section 16 — Consultation */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Infertility Treatment in Moradabad – Consultation
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you have been trying to conceive without success, an infertility consultation can help identify possible causes and explain your treatment options.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                You do not always need to begin with IVF. Depending on the diagnosis, treatment may start with simpler medical or fertility approaches before moving to assisted reproductive techniques when required.
               </p>
 
               <div className="bg-[#F8F4EA] text-black rounded-2xl p-8">
                 <h3 className="text-xl font-semibold mb-4">
-                  Contact &amp; Clinic Address
+                  Contact Information
                 </h3>
 
                 <div className="space-y-4 mb-6">
@@ -366,8 +689,8 @@ export default function InfertilityTreatmentMoradabad() {
                     <div>
                       <p className="font-semibold">Dr. Priyanka Gynaec</p>
                       <p className="text-black">
-                        A2, near Old Roadways, Gandhi Nagar, Moradabad,
-                        Uttar Pradesh, 244001
+                        A2, Near Old Roadways, Gandhi Nagar,
+                        Moradabad, Uttar Pradesh – 244001
                       </p>
                     </div>
                   </div>
@@ -392,25 +715,12 @@ export default function InfertilityTreatmentMoradabad() {
                       <div className="mt-2">
                         <Mail size={18} className="inline mr-2 text-black" />
                         <a
-                          href="mailto:contact@drpriyankaGynaec.com"
+                          href="mailto:drpriyankagynec@gmail.com"
                           className="hover:underline"
                         >
-                          contact@drpriyankaGynaec.com
+                          drpriyankagynec@gmail.com
                         </a>
                       </div>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3">
-                    <Shield size={20} className="text-black mt-1 shrink-0" />
-                    <div>
-                      <p className="font-semibold">Website</p>
-                      <a
-                        href="https://www.gynaecologistmoradabad.com/"
-                        className="hover:underline text-black"
-                      >
-                        https://www.gynaecologistmoradabad.com/
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -432,10 +742,10 @@ export default function InfertilityTreatmentMoradabad() {
               </div>
             </div>
 
-            {/* Section 12 — FAQs */}
+            {/* Section 17 — FAQs */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-6 text-gray-900">
-                Frequently Asked Questions (FAQs)
+                Frequently Asked Questions About Infertility Treatment in Moradabad
               </h2>
 
               <div className="space-y-5">

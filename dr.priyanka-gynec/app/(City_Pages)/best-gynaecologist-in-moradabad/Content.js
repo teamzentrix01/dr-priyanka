@@ -10,6 +10,7 @@ import {
   Heart,
   Star,
   Award,
+  Globe,
 } from "lucide-react";
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
@@ -17,28 +18,40 @@ import Banner from "./Banner";
 export default function BestGynaecologistMoradabad() {
   const faqs = [
     {
-      q: "What makes Dr. Priyanka Pachauri the best gynaecologist in Moradabad?",
-      a: "Dr. Priyanka Pachauri combines advanced 3D laparoscopic expertise, international fellowships, and a patient-first approach. She offers evidence-based gynaecological care with genuine empathy, unlike generalized clinics that lack specialized fertility and laparoscopy infrastructure.",
+      q: "Who is a good gynaecologist in Moradabad for women's health problems?",
+      a: "The right gynaecologist depends on your specific health concern, required treatment and the doctor's relevant qualifications and experience. Dr. Priyanka Pachauri provides gynaecology, obstetric, infertility and minimally invasive surgical care in Moradabad.",
     },
     {
-      q: "Does Dr. Priyanka Gynaec treat high-risk pregnancies?",
-      a: "Yes, high-risk pregnancy management is a core specialization, including preeclampsia, gestational diabetes, fetal growth restriction (FGR), and other complications, with structured antenatal monitoring throughout.",
+      q: "Does Dr. Priyanka Pachauri provide pregnancy care?",
+      a: "Yes. Dr. Priyanka provides antenatal and obstetric consultation, including monitoring of routine and high-risk pregnancies according to the patient's clinical needs.",
     },
     {
-      q: "Is 3D laparoscopic surgery available at the clinic?",
-      a: "Yes, Dr. Priyanka Pachauri performs high-definition 3D laparoscopic surgery for fibroids, ovarian cysts, endometriosis, and hysterectomy, ensuring minimal scarring, less pain, and faster recovery than open surgery.",
+      q: "Does she treat PCOS and irregular periods?",
+      a: "Yes. Women experiencing irregular periods, PCOS-related symptoms, heavy bleeding or other menstrual concerns can consult Dr. Priyanka for evaluation and treatment planning.",
     },
     {
-      q: "Do I need prior reports before my first consultation?",
-      a: "Not mandatory, but bringing existing ultrasound reports, hormonal profiles, or previous treatment history helps Dr. Priyanka design a more accurate, personalized care plan during your first visit.",
+      q: "Does Dr. Priyanka provide infertility and IVF treatment?",
+      a: "Yes. Fertility care includes fertility evaluation and treatment planning, with options such as ovulation induction, IUI, IVF and ICSI where clinically appropriate.",
     },
     {
-      q: "Can patients from outside Moradabad consult Dr. Priyanka Gynaec?",
-      a: "Yes, many patients travel from Rampur, Amroha, Sambhal, and surrounding districts for fertility treatment and laparoscopic surgery. WhatsApp consultation is also available for initial queries and reports review.",
+      q: "Does she perform laparoscopic surgery?",
+      a: "Dr. Priyanka has expertise in minimally invasive laparoscopic gynaecological procedures. Laparoscopic treatment may be considered for conditions such as fibroids, ovarian cysts and endometriosis depending on the individual case.",
     },
     {
-      q: "Does the clinic offer fertility and IVF treatment?",
-      a: "Yes, fertility care is a core specialization, including ovulation induction, IUI, IVF, ICSI, GERI time-lapse embryo monitoring, and AI-assisted semen analysis for comprehensive couple fertility evaluation.",
+      q: "Can I consult Dr. Priyanka for fibroids or ovarian cysts?",
+      a: "Yes. Fibroids and ovarian cysts can be evaluated during a gynaecological consultation. Treatment may range from monitoring to medication or surgery depending on the diagnosis.",
+    },
+    {
+      q: "When should I see a gynaecologist for period problems?",
+      a: "You should consider consultation if your periods are persistently irregular, unusually heavy, very painful, absent, or associated with pelvic pain or other concerning symptoms.",
+    },
+    {
+      q: "Where is Dr. Priyanka Pachauri's clinic in Moradabad?",
+      a: "The listed clinic address is A2, Near Old Roadways, Gandhi Nagar, Moradabad, Uttar Pradesh – 244001. Patients should confirm appointment availability and location details before visiting.",
+    },
+    {
+      q: "Can patients from Rampur, Amroha and Sambhal consult Dr. Priyanka?",
+      a: "Yes. Patients from Moradabad and nearby districts can contact the clinic for consultation and treatment-related information.",
     },
   ];
 
@@ -48,377 +61,492 @@ export default function BestGynaecologistMoradabad() {
 
       <section className="py-16 px-6">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10">
-
           {/* Main Content */}
           <div className="flex-1 order-1">
-
             {/* Section 1 — Introduction */}
             <div className="mb-12">
               <h1 className="text-3xl font-serif mb-4 text-gray-900">
-                Best Gynaecologist in Moradabad: Complete Women&apos;s Healthcare with Dr. Priyanka Pachauri
+                Best Gynaecologist in Moradabad – Dr. Priyanka Pachauri
               </h1>
 
               <p className="text-gray-700 mb-4">
-                When it comes to finding the best gynaecologist in Moradabad,
-                patients look for more than a prescription. They look for
-                accurate diagnosis, surgical precision, advanced technology, and
-                a doctor who genuinely listens. Dr. Priyanka Pachauri, Consultant
-                Obstetrician, Gynaecologist &amp; Infertility Specialist, has
-                emerged as one of the most trusted names in Moradabad for
-                women seeking expert gynaecological, fertility, and pregnancy
-                care.
+                Finding the best gynaecologist in Moradabad is an important decision when you need care for pregnancy, menstrual problems, infertility, PCOS, fibroids, ovarian cysts, endometriosis, or other women's health concerns. The right gynaecologist should provide accurate diagnosis, explain treatment options clearly, and recommend care according to your individual health needs.
               </p>
 
               <p className="text-gray-700">
-                Combining world-class expertise with cutting-edge technology
-                such as 3D laparoscopy, AI-based imaging, and GERI time-lapse
-                embryo monitoring, Dr. Priyanka Gynaec has become the preferred
-                choice for women across Moradabad, Rampur, Amroha, Sambhal, and
-                neighboring districts who want serious, hospital-grade women&apos;s
-                healthcare without having to travel to bigger cities.
+                Dr. Priyanka Pachauri is a Consultant Obstetrician, Gynaecologist and Infertility Specialist in Moradabad, providing comprehensive women's healthcare including gynaecology, pregnancy care, infertility treatment and minimally invasive laparoscopic procedures.
               </p>
             </div>
 
-            {/* Section 2 — Why Choose a Specialist Gynaecologist */}
+            {/* Section 2 — Dr. Priyanka Pachauri */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Choose a Specialist Gynaecologist Over General Treatment?
+                Dr. Priyanka Pachauri – Gynaecologist in Moradabad
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Women&apos;s health concerns, from menstrual disorders and PCOS
-                to infertility, high-risk pregnancy, and pelvic conditions,
-                require precise, individualized care. Generic treatment often
-                addresses only surface symptoms, leading to recurring problems
-                and delayed diagnosis of underlying conditions like endometriosis
-                or fibroids.
+                Dr. Priyanka Pachauri provides specialist care for women at different stages of life, from menstrual and hormonal concerns to pregnancy, fertility treatment and gynaecological surgery.
               </p>
 
               <p className="text-gray-700">
-                At Dr. Priyanka Gynaec, every case begins with thorough listening
-                and diagnostic clarity before any treatment plan is designed.
-                Patients don&apos;t have to choose between compassion and clinical
-                precision. They get both, backed by advanced 3D laparoscopic
-                and fertility technology.
+                Her approach begins with understanding the patient's symptoms, medical history and treatment goals. Depending on the condition, consultation may include clinical examination, ultrasound, laboratory investigations or other diagnostic tests before a treatment plan is recommended.
               </p>
             </div>
 
-            {/* Section 3 — Comprehensive Treatment Facilities */}
+            {/* Section 3 — Qualifications & Professional Expertise */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Comprehensive Care Offered by Dr. Priyanka Gynaec
-              </h2>
-
-              <p className="text-gray-700 mb-6">
-                Dr. Priyanka Gynaec in Moradabad is equipped to handle a wide
-                spectrum of women&apos;s health concerns through dedicated,
-                specialized care pathways.
-              </p>
-
-              <div className="space-y-6">
-
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">
-                    1. Gynaecology &amp; Laparoscopy
-                  </h3>
-                  <p className="text-gray-700">
-                    High-definition 3D laparoscopic evaluation and surgery for
-                    fibroids, ovarian cysts, and endometriosis, along with pelvic
-                    floor repair and prolapse corrective procedures, performed
-                    with minimal scarring and rapid recovery.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">
-                    2. Fertility &amp; IVF Treatment
-                  </h3>
-                  <p className="text-gray-700">
-                    Comprehensive fertility evaluation, ovulation induction, IUI,
-                    IVF, and ICSI supported by GERI time-lapse embryo incubators
-                    and AI-powered semen analysis, personalized to each
-                    couple&apos;s diagnosis and path to parenthood.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">
-                    3. Pregnancy, Birthing &amp; Antenatal Care
-                  </h3>
-                  <p className="text-gray-700">
-                    Structured antenatal check-ups, growth scans, 3D/4D fetal
-                    wellbeing monitoring, and supportive birth planning,
-                    including painless epidural labor assistance and continuous
-                    fetal monitoring during delivery.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">
-                    4. High-Risk Pregnancy Management
-                  </h3>
-                  <p className="text-gray-700">
-                    Specialized monitoring and management of preeclampsia,
-                    gestational diabetes, fetal growth restriction (FGR), and
-                    other complications requiring close obstetric supervision
-                    throughout pregnancy.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">
-                    5. Laparoscopic Myomectomy &amp; Hysterectomy
-                  </h3>
-                  <p className="text-gray-700">
-                    Uterus-preserving laparoscopic removal of fibroids and, when
-                    needed, minimally invasive total laparoscopic hysterectomy
-                    (TLH) with ovarian preservation options and minimal blood
-                    loss using vessel-sealing technology.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">
-                    6. Menstrual Disorders &amp; Hysteroscopy
-                  </h3>
-                  <p className="text-gray-700">
-                    Diagnostic hysteroscopy and hysteroscopic polypectomy for
-                    abnormal uterine bleeding, uterine polyps, and unexplained
-                    infertility, with histopathology verification for accurate
-                    diagnosis.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">
-                    7. Endometriosis Surgery &amp; Pain Relief
-                  </h3>
-                  <p className="text-gray-700">
-                    Advanced 3D laparoscopic excision of endometriotic implants,
-                    chocolate cysts, and pelvic adhesions with nerve-sparing
-                    dissection, aimed at long-term pain relief and fertility
-                    preservation.
-                  </p>
-                </div>
-
-              </div>
-            </div>
-
-            {/* Section 4 — Experienced Specialist */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                An Experienced, Research-Driven Specialist
+                Qualifications & Professional Expertise
               </h2>
 
               <p className="text-gray-700 mb-4">
-                What sets Dr. Priyanka Pachauri apart as a gynaecologist in
-                Moradabad is her commitment to individualized diagnosis. Rather
-                than prescribing generic treatment, she reviews each patient&apos;s
-                complete history, current symptoms, and reproductive goals
-                before designing a care plan, an approach that consistently
-                improves outcomes and reduces recovery time.
+                Dr. Priyanka Pachauri's professional background includes:
               </p>
 
-              <p className="text-gray-700">
-                MBBS from Gajra Raja Medical College (GRMC), Gwalior and MS in
-                Obstetrics &amp; Gynaecology from Sardar Patel Medical College
-                (SPMC), Bikaner, along with Fellowships in Minimal Access
-                Surgery (FMAS), Laparoscopic Surgery, and Advanced Infertility.
-                Dr. Priyanka co-leads Shree Advanced Urogynae Clinic and serves
-                as a Consultant at Ujala Cygnus BrightStar Hospital, New
-                Moradabad.
-              </p>
-            </div>
-
-            {/* Section 5 — Hygiene & Infrastructure */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Technology, Hygiene &amp; Patient Comfort
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                A common concern patients have when choosing a gynaecologist is
-                whether the clinic has the right technology and hygiene
-                standards. Dr. Priyanka Gynaec addresses this directly with:
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>High-Definition 3D Laparoscopic surgical setup</li>
-                <li>Voluson E22BT2024 with 3D &amp; 4D ultrasound machine</li>
-                <li>GERI time-lapse embryo incubator</li>
-                <li>AI-powered semen analysis and DNA integrity testing</li>
-                <li>Clean, private consultation and examination rooms</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>MBBS from Gajra Raja Medical College (GRMC), Gwalior</li>
+                <li>MS in Obstetrics & Gynaecology from Sardar Patel Medical College (SPMC), Bikaner</li>
+                <li>Fellowship in Minimal Access Surgery (FMAS)</li>
+                <li>Fellowship in Laparoscopic Surgery</li>
+                <li>Fellowship in Advanced Infertility</li>
+                <li>Consultant, Gynaecology at Ujala Cygnus BrightStar Hospital, Moradabad</li>
+                <li>Clinical association with Shree Advanced Urogynae Clinic</li>
               </ul>
 
               <p className="text-gray-700">
-                This attention to technology and comfort has made Dr. Priyanka
-                Gynaec a trusted choice not just for local Moradabad residents
-                but also for patients traveling from nearby towns for
-                specialized fertility and laparoscopic care.
+                Patients looking for a female gynaecologist in Moradabad can consult Dr. Priyanka for general gynaecological care, pregnancy-related concerns, fertility evaluation and selected minimally invasive procedures.
               </p>
             </div>
 
-            {/* Section 6 — Why Moradabad Needed This Clinic */}
+            {/* Section 4 — Women's Healthcare in Moradabad */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Moradabad Needed a Dedicated Women&apos;s Health Specialist
+                Women's Healthcare in Moradabad
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Moradabad, known widely for its brassware industry, has
-                historically had limited access to specialized, technology-driven
-                gynaecological care. Many women previously had to travel to
-                Delhi or bigger cities for advanced laparoscopic surgery or IVF
-                treatment.
+                Women's health concerns can vary significantly from one patient to another. Period-related symptoms, hormonal changes, pelvic pain, fertility problems and pregnancy complications may require different investigations and treatment approaches.
               </p>
-
-              <p className="text-gray-700">
-                Dr. Priyanka Gynaec was established to fill this exact gap,
-                bringing 3D laparoscopy, fertility technology, and high-risk
-                pregnancy expertise to Moradabad itself, so women no longer need
-                to leave the city for serious gynaecological intervention.
-              </p>
-            </div>
-
-            {/* Section 7 — Who Should Visit */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Who Should Visit Dr. Priyanka Gynaec?
-              </h2>
 
               <p className="text-gray-700 mb-4">
-                You should consider consulting Dr. Priyanka Pachauri if you are
-                dealing with:
+                Dr. Priyanka provides consultation for a range of women's health concerns, including:
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Difficulty conceiving after 12 months of trying (or 6 months if age is above 35)</li>
-                <li>Irregular, absent, or painful periods (possible PCOS or endometriosis)</li>
-                <li>A high-risk pregnancy requiring close monitoring</li>
-                <li>Fibroids, ovarian cysts, or pelvic pain</li>
-                <li>Abnormal uterine bleeding or suspected uterine polyps</li>
-                <li>Pelvic organ prolapse or urinary incontinence</li>
-                <li>Recurrent miscarriages or failed fertility attempts elsewhere</li>
-                <li>Male factor infertility concerns needing joint evaluation</li>
-                <li>A desire for a supportive, well-planned normal delivery</li>
-                <li>Routine antenatal care and pregnancy screening</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Irregular or painful periods</li>
+                <li>Heavy menstrual bleeding</li>
+                <li>PCOS and hormonal concerns</li>
+                <li>Fibroids</li>
+                <li>Ovarian cysts</li>
+                <li>Endometriosis</li>
+                <li>Uterine polyps</li>
+                <li>Pelvic pain</li>
+                <li>Infertility</li>
+                <li>Recurrent pregnancy loss</li>
+                <li>Pregnancy-related concerns</li>
+                <li>High-risk pregnancy</li>
+                <li>Pelvic organ prolapse</li>
+                <li>Gynaecological conditions requiring laparoscopic treatment</li>
               </ul>
 
               <p className="text-gray-700">
-                Even women without a specific complaint are encouraged to visit
-                for a routine gynaecological check-up, as Dr. Priyanka Gynaec
-                recommends periodic screening for long-term reproductive health.
+                The goal is to identify the underlying cause of symptoms and select treatment according to the patient's condition rather than following the same approach for every patient.
               </p>
             </div>
 
-            {/* Section 8 — The Difference */}
+            {/* Section 5 — Pregnancy & Antenatal Care */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                The Dr. Priyanka Gynaec Difference
+                Pregnancy & Antenatal Care
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Unlike clinics that rely on standard, one-size-fits-all
-                protocols, Dr. Priyanka Gynaec designs every treatment plan
-                around the individual patient, combining surgical precision
-                with genuine empathy. This patient-first approach is what
-                leads to outcomes patients hope for, not just temporary relief.
+                Pregnancy requires regular monitoring because the health needs of the mother and baby can change throughout the pregnancy.
               </p>
 
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka provides pregnancy and antenatal care in Moradabad, including routine pregnancy consultations, monitoring and management of pregnancy-related concerns.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Antenatal care may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Initial pregnancy assessment</li>
+                <li>Regular antenatal consultations</li>
+                <li>Maternal health monitoring</li>
+                <li>Fetal growth assessment</li>
+                <li>Pregnancy screening</li>
+                <li>Monitoring of blood pressure and blood sugar</li>
+                <li>Birth planning</li>
+                <li>Identification of pregnancy complications</li>
+                <li>Postnatal guidance</li>
+              </ul>
+
               <p className="text-gray-700">
-                Patient education is also central to care here, from
-                understanding treatment options to post-procedure recovery and
-                fertility planning. Patients leave every consultation with
-                clarity, not just a prescription.
+                Women who are planning a pregnancy can also seek preconception counselling to discuss existing medical conditions, previous pregnancy history, medications and other factors that may affect pregnancy.
               </p>
             </div>
 
-            {/* Section 9 — CTA */}
-            <div className="mb-12 bg-[#F8F4EA] text-black rounded-2xl p-8">
-
-              <h2 className="text-3xl font-serif mb-4">
-                Book a Consultation with Dr. Priyanka Gynaec
+            {/* Section 6 — High-Risk Pregnancy Management */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                High-Risk Pregnancy Management
               </h2>
 
-              <p className="text-black mb-6">
-                Women interested in expert gynaecological, fertility, or
-                pregnancy care can book a consultation with Dr. Priyanka
-                Pachauri in Moradabad. The initial consultation typically
-                involves a detailed history review and diagnostic evaluation,
-                followed by a personalized treatment plan. For patients
-                traveling from outside Moradabad, WhatsApp consultation is
-                available for initial queries and report review.
+              <p className="text-gray-700 mb-4">
+                Some pregnancies require closer monitoring because of maternal health conditions, previous pregnancy complications or problems that develop during pregnancy.
               </p>
 
-              <div className="space-y-4 mb-6">
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka provides obstetric consultation for high-risk pregnancy conditions such as:
+              </p>
 
-                {/* Clinic Address */}
-                <div className="flex items-start gap-3">
-                  <MapPin
-                    size={20}
-                    className="text-black mt-1 shrink-0"
-                  />
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>High blood pressure during pregnancy</li>
+                <li>Preeclampsia</li>
+                <li>Gestational diabetes</li>
+                <li>Fetal growth concerns</li>
+                <li>Previous pregnancy complications</li>
+                <li>Recurrent pregnancy loss</li>
+                <li>Other pregnancy conditions requiring specialist supervision</li>
+              </ul>
 
-                  <div>
-                    <p className="font-semibold">Dr. Priyanka Gynaec</p>
-                    <p className="text-black">
-                      A2, near Old Roadways, Gandhi Nagar, Moradabad,
-                      Uttar Pradesh, 244001
-                    </p>
+              <p className="text-gray-700">
+                Early identification and regular monitoring can help doctors determine when additional investigations, specialist care or closer follow-up may be required.
+              </p>
+            </div>
+
+            {/* Section 7 — Infertility & IVF Treatment */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Infertility & IVF Treatment in Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Difficulty conceiving can affect both partners and may have several possible causes. A proper fertility evaluation is therefore important before deciding on treatment.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka provides fertility consultation and treatment planning for couples experiencing difficulty conceiving.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the diagnosis, fertility treatment may involve:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Fertility evaluation</li>
+                <li>Ovulation assessment</li>
+                <li>Ovulation induction</li>
+                <li>IUI</li>
+                <li>IVF</li>
+                <li>ICSI</li>
+                <li>Evaluation of female reproductive factors</li>
+                <li>Evaluation of male fertility factors</li>
+                <li>Fertility counselling</li>
+                <li>Treatment planning after previous unsuccessful fertility treatment</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Fertility treatment is individualized according to factors such as age, medical history, ovarian reserve, ovulation, sperm parameters, previous treatment and other relevant investigations. Couples from Moradabad, Rampur, Amroha, Sambhal and nearby areas may consult for fertility evaluation and treatment planning.
+              </p>
+            </div>
+
+            {/* Section 8 — PCOS & Menstrual Problems */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                PCOS & Menstrual Problems
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Irregular periods are one of the common reasons women consult a gynaecologist. Changes in menstrual cycles can have several causes, including PCOS, hormonal disorders, thyroid-related problems, stress, changes in weight and other medical conditions.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka provides consultation for concerns such as:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Irregular periods</li>
+                <li>Delayed periods</li>
+                <li>Heavy periods</li>
+                <li>Painful periods</li>
+                <li>Absent periods</li>
+                <li>PCOS-related symptoms</li>
+                <li>Hormonal concerns</li>
+                <li>Abnormal uterine bleeding</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Treatment depends on the underlying cause, age, symptoms and reproductive goals of the patient.
+              </p>
+            </div>
+
+            {/* Section 9 — Fibroid & Ovarian Cyst Treatment */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Fibroid & Ovarian Cyst Treatment
+              </h2>
+
+              <p className="text-gray-700">
+                Fibroids and ovarian cysts are common gynaecological conditions, but their management depends on their size, location, symptoms and other clinical factors. A patient with fibroids or ovarian cysts may require observation, medication, repeat imaging or surgery depending on the individual case. Dr. Priyanka provides evaluation and treatment planning for uterine fibroids, symptomatic fibroids, ovarian cysts, complex ovarian cysts, and pelvic pain associated with gynaecological conditions. When surgery is indicated, minimally invasive laparoscopic procedures may be considered where clinically appropriate.
+              </p>
+            </div>
+
+            {/* Section 10 — Laparoscopic Gynaecological Surgery */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Laparoscopic Gynaecological Surgery
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Laparoscopic surgery uses small abdominal incisions instead of the larger incision generally associated with open surgery.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka has a focus on minimally invasive gynaecological procedures for selected conditions.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Laparoscopic procedures may be considered for conditions such as:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Uterine fibroids</li>
+                <li>Ovarian cysts</li>
+                <li>Endometriosis</li>
+                <li>Selected cases requiring hysterectomy</li>
+                <li>Other gynaecological conditions where minimally invasive surgery is appropriate</li>
+              </ul>
+
+              <p className="text-gray-700">
+                The suitability of laparoscopic surgery depends on the patient's diagnosis, previous surgeries, medical history and overall clinical condition.
+              </p>
+            </div>
+
+            {/* Section 11 — Endometriosis & Pelvic Pain */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Endometriosis & Pelvic Pain
+              </h2>
+
+              <p className="text-gray-700">
+                Endometriosis can cause painful periods, chronic pelvic pain, pain during intercourse and, in some women, difficulty conceiving. Because symptoms can overlap with other conditions, proper evaluation is important. Dr. Priyanka provides consultation for suspected or diagnosed endometriosis and related concerns, including severe period pain, chronic pelvic pain, endometriotic cysts, infertility associated with endometriosis, and pelvic adhesions. Where surgery is required, laparoscopic management may be considered based on the individual patient's condition.
+              </p>
+            </div>
+
+            {/* Section 12 — Hysteroscopy & Uterine Polyps */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Hysteroscopy & Uterine Polyps
+              </h2>
+
+              <p className="text-gray-700">
+                Hysteroscopy allows the inside of the uterus to be examined using a specialized camera. It may be used during the evaluation or treatment of conditions such as abnormal uterine bleeding, uterine polyps, some causes of infertility, and other abnormalities inside the uterine cavity. If a uterine polyp or other abnormality is identified, the appropriate treatment can be discussed based on the findings.
+              </p>
+            </div>
+
+            {/* Section 13 — When Should You Visit a Gynaecologist */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                When Should You Visit a Gynaecologist?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                You do not always need to wait until a problem becomes severe before consulting a gynaecologist.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Consider scheduling a consultation if you experience:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Periods that are consistently irregular</li>
+                <li>Very heavy menstrual bleeding</li>
+                <li>Severe period pain</li>
+                <li>Persistent pelvic pain</li>
+                <li>Unusual vaginal bleeding</li>
+                <li>Symptoms associated with PCOS</li>
+                <li>Difficulty becoming pregnant</li>
+                <li>Repeated pregnancy loss</li>
+                <li>A known fibroid or ovarian cyst</li>
+                <li>Symptoms of endometriosis</li>
+                <li>Pregnancy-related concerns</li>
+                <li>Menopause-related symptoms</li>
+                <li>A need for routine women's health consultation</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Early consultation can help determine whether symptoms require investigation or treatment.
+              </p>
+            </div>
+
+            {/* Section 14 — Why Choose a Female Gynaecologist */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Why Choose a Female Gynaecologist in Moradabad?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Many women prefer consulting a female gynaecologist because they may feel more comfortable discussing personal symptoms, reproductive health, menstrual concerns, fertility problems and pregnancy-related issues.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                However, choosing a gynaecologist should not be based only on gender. Important factors include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Medical qualifications</li>
+                <li>Relevant clinical experience</li>
+                <li>Area of specialization</li>
+                <li>Diagnostic facilities</li>
+                <li>Treatment options</li>
+                <li>Hospital and clinical support</li>
+                <li>Communication with patients</li>
+                <li>Availability of appropriate follow-up care</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Dr. Priyanka combines female gynaecological care with obstetric, infertility and minimally invasive surgical expertise.
+              </p>
+            </div>
+
+            {/* Section 15 — Advanced Diagnostic & Treatment Support */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Advanced Diagnostic & Treatment Support
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the clinical requirement and availability at the associated facility, women's healthcare may involve modern diagnostic and treatment technologies.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                These may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>High-definition laparoscopic systems</li>
+                <li>3D and 4D ultrasound</li>
+                <li>Fertility laboratory support</li>
+                <li>Time-lapse embryo monitoring</li>
+                <li>Semen analysis</li>
+                <li>Other investigations required for fertility and gynaecological diagnosis</li>
+              </ul>
+
+              <p className="text-gray-700">
+                The technology used for a patient depends on the medical indication and treatment plan.
+              </p>
+            </div>
+
+            {/* Section 16 — Care for Patients From Moradabad and Nearby Areas */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Care for Patients From Moradabad and Nearby Areas
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka provides women's healthcare in Moradabad and also sees patients who travel from nearby districts for specialist consultation.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Patients may travel from areas including:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Moradabad</li>
+                <li>Rampur</li>
+                <li>Amroha</li>
+                <li>Sambhal</li>
+                <li>Nearby towns and districts of Western Uttar Pradesh</li>
+              </ul>
+
+              <p className="text-gray-700">
+                For patients traveling from outside Moradabad, previous medical records, ultrasound reports, laboratory reports and treatment history can be useful during the consultation.
+              </p>
+            </div>
+
+            {/* Section 17 — Clinic Location */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Clinic Location
+              </h2>
+
+              <div className="bg-[#F8F4EA] text-black rounded-2xl p-8">
+                <h3 className="text-xl font-semibold mb-4">
+                  Contact Information
+                </h3>
+
+                <div className="space-y-4 mb-6">
+                  {/* Clinic Address */}
+                  <div className="flex items-start gap-3">
+                    <MapPin size={20} className="text-black mt-1 shrink-0" />
+                    <div>
+                      <p className="font-semibold">Dr. Priyanka Pachauri</p>
+                      <p className="text-black">
+                        A2, Near Old Roadways, Gandhi Nagar,
+                        Moradabad, Uttar Pradesh – 244001
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Phone size={20} className="text-black mt-1 shrink-0" />
+                    <div>
+                      <p className="font-semibold">Contact Us</p>
+
+                      <div className="flex items-center gap-3 text-black">
+                        <a href="tel:9079765578" className="hover:underline">
+                          +91 90797 65578
+                        </a>
+
+                        <span className="text-gray-400">|</span>
+
+                        <a href="tel:8979670705" className="hover:underline">
+                          +91 8979670705 (WhatsApp)
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <Phone
-                    size={20}
-                    className="text-black mt-1 shrink-0"
-                  />
+                <div className="flex gap-4 flex-wrap">
+                  <Link href="/contact">
+                    <button className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+                      <Phone className="inline mr-2" size={18} />
+                      Contact Us
+                    </button>
+                  </Link>
 
-                  <div>
-    <p className="font-semibold">Contact Us</p>
-
-    <div className="flex items-center gap-3 text-black">
-      <a href="tel:9079765578" className="hover:underline">
-        9079765578
-      </a>
-
-      <span className="text-gray-400">|</span>
-
-      <a href="tel:8979670705 " className="hover:underline">
-        8979670705 (WhatsApp)
-      </a>
-    </div>
-  </div>
+                  <Link href="/services">
+                    <button className="border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e181b5] transition">
+                      Explore Services
+                    </button>
+                  </Link>
                 </div>
-
-              </div>
-
-              <div className="flex gap-4 flex-wrap">
-
-                <Link href="/contact">
-                  <button className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
-                    <Phone className="inline mr-2" size={18} />
-                    Contact Us
-                  </button>
-                </Link>
-
-                <Link href="/services">
-                  <button className="border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e181b5] transition">
-                    Explore Services
-                  </button>
-                </Link>
-
               </div>
             </div>
 
-            {/* Section 10 — FAQs */}
+            {/* Section 18 — Book an Appointment */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Book an Appointment With Dr. Priyanka Pachauri
+              </h2>
+
+              <p className="text-gray-700">
+                If you are searching for a gynaecologist in Moradabad for menstrual problems, pregnancy care, infertility, PCOS, fibroids, ovarian cysts, endometriosis or other women's health concerns, a consultation can help determine the appropriate next step. During the consultation, you can discuss your symptoms, previous treatment, medical history and concerns. Existing reports and prescriptions can be brought to the appointment so they can be reviewed as part of your medical history.
+              </p>
+            </div>
+
+            {/* Section 19 — FAQs */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-6 text-gray-900">
                 Frequently Asked Questions
               </h2>
 
               <div className="space-y-5">
-
                 {faqs.map((faq) => (
                   <div
                     key={faq.q}
@@ -428,15 +556,11 @@ export default function BestGynaecologistMoradabad() {
                       {faq.q}
                     </h3>
 
-                    <p className="text-gray-700">
-                      {faq.a}
-                    </p>
+                    <p className="text-gray-700">{faq.a}</p>
                   </div>
                 ))}
-
               </div>
             </div>
-
           </div>
 
           {/* Sidebar */}
@@ -445,7 +569,6 @@ export default function BestGynaecologistMoradabad() {
               <LandingEnquiryForm />
             </div>
           </div>
-
         </div>
       </section>
     </main>

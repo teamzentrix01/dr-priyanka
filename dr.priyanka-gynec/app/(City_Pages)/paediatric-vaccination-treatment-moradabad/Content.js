@@ -10,6 +10,7 @@ import {
   Heart,
   Star,
   Award,
+  Globe,
 } from "lucide-react";
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
@@ -17,36 +18,44 @@ import Banner from "./Banner";
 export default function PaediatricVaccinationMoradabad() {
   const faqs = [
     {
-      q: "Which vaccines are given immediately after birth?",
-      a: "Certain initial vaccines are administered right after birth as part of the newborn schedule.",
+      q: "What is paediatric vaccination treatment in Moradabad?",
+      a: "Paediatric vaccination treatment in Moradabad refers to vaccination-related care and immunization guidance provided for babies, children, and adolescents, including vaccination record review, scheduled vaccines, missed-dose guidance, and post-vaccination advice.",
     },
     {
-      q: "How often should my newborn come in for growth and milestone checkups?",
-      a: "Regular visits are scheduled through infancy to track healthy growth and development.",
+      q: "When should children receive vaccinations?",
+      a: "Vaccinations are recommended at different stages from the newborn period through childhood and adolescence. The exact schedule should be confirmed according to the child's age, vaccination history, and applicable immunization recommendations.",
     },
     {
-      q: "How is vaccine safety and cold chain storage maintained at the clinic?",
-      a: "Vaccines are stored under strict, monitored temperature conditions following WHO compliant standards.",
+      q: "What should I bring to a vaccination appointment?",
+      a: "Bring your child's vaccination card or previous immunization records. You should also inform the doctor about recent illness, allergies, regular medicines, medical conditions, and previous vaccine reactions.",
     },
     {
-      q: "What should I do if my baby develops a fever after vaccination?",
-      a: "Mild fever is common, and simple home care usually helps, with guidance available from the clinic.",
+      q: "What are common reactions after vaccination?",
+      a: "Some children may experience mild soreness, redness or swelling at the injection site, temporary irritability, tiredness, or mild fever. Parents should follow the healthcare professional's advice about post-vaccination care.",
     },
     {
-      q: "What advice is given for newborn breastfeeding and digestive colic?",
-      a: "Personalized feeding guidance is provided to help manage common newborn digestive concerns.",
+      q: "What should I do if my child misses a vaccine?",
+      a: "Contact a healthcare professional and bring the child's available vaccination records. The doctor can review previous doses and advise whether a catch-up vaccination plan is required.",
     },
     {
-      q: "When should I seek immediate pediatric attention for my child?",
-      a: "High fever, persistent symptoms, or unusual reactions should prompt a timely consultation.",
+      q: "Can a child receive vaccination when they have a cold?",
+      a: "Whether vaccination should proceed depends on the child's health and the particular situation. Discuss the child's current symptoms with the doctor before vaccination.",
     },
     {
-      q: "Does Dr. Priyanka Gynaec's clinic offer paediatric vaccination services?",
-      a: "Yes, the clinic offers comprehensive paediatric care including vaccination among core services.",
+      q: "Why is proper vaccine storage important?",
+      a: "Vaccines can be sensitive to temperature and should be stored and handled according to their specified requirements. Proper storage is an important part of maintaining vaccine quality.",
     },
     {
-      q: "How can I book a vaccination appointment for my child?",
-      a: "You can call or message the clinic directly through the contact details listed on the website.",
+      q: "Can I discuss a previous vaccine reaction with the doctor?",
+      a: "Yes. Parents should inform the doctor about any concerning previous reaction or known allergy before another vaccine is administered.",
+    },
+    {
+      q: "Does vaccination continue after infancy?",
+      a: "Yes. Depending on the applicable immunization schedule, children may require additional vaccines or doses during later childhood and adolescence.",
+    },
+    {
+      q: "How can I book paediatric vaccination treatment in Moradabad?",
+      a: "You can contact Dr. Priyanka Gynaec using the clinic's phone or WhatsApp details to discuss your child's vaccination requirements and schedule a consultation.",
     },
   ];
 
@@ -61,416 +70,452 @@ export default function PaediatricVaccinationMoradabad() {
             {/* Section 1 — Introduction */}
             <div className="mb-12">
               <h1 className="text-3xl font-serif mb-4 text-gray-900">
-                Paediatric Vaccination Treatment In Moradabad, Safe Immunization Care For Your Child
+                Paediatric Vaccination Treatment In Moradabad
               </h1>
 
               <p className="text-gray-700 mb-4">
-                Vaccination is one of the most important steps a parent can take to protect a child&apos;s health from the earliest days of life. Timely immunization helps guard against serious infections during a stage when a child&apos;s immune system is still developing. For families in Moradabad looking for reliable paediatric vaccination treatment, having access to properly stored vaccines, an experienced medical team, and a comfortable clinic environment makes a meaningful difference in how safely and smoothly the vaccination journey goes.
+                Vaccination is an important part of preventive healthcare for babies, children, and adolescents. Timely immunization helps provide protection against several vaccine-preventable infections and supports a child's health during different stages of growth.
               </p>
 
               <p className="text-gray-700">
-                This guide covers everything you need to know about paediatric vaccination treatment in Moradabad, including why timely immunization matters, what a proper vaccination visit involves, and what parents can expect at each stage of their child&apos;s care.
+                For parents searching for paediatric vaccination treatment in Moradabad, having access to appropriate vaccination guidance can make it easier to understand which vaccines are due, how to maintain vaccination records, and what to expect before and after each vaccination visit.
               </p>
             </div>
 
-            {/* Section 2 — Why Timely Vaccination Matters For Children */}
+            {/* Section 2 — Why Is Vaccination Important */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Timely Vaccination Matters For Children
+                Why Is Vaccination Important For Children?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                A child&apos;s immune system takes time to fully develop, which makes early protection against preventable diseases especially important.
+                Children receive vaccines at different ages because their immunization needs change as they grow. Following an appropriate vaccination schedule helps ensure that children receive recommended protection at the relevant stages of childhood.
               </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Vaccines help the body build defenses before exposure to serious infections</li>
-                <li>Timely immunization reduces the risk of complications from childhood illnesses</li>
-                <li>Vaccination schedules are designed around a child&apos;s developing immune response</li>
-                <li>Consistent immunization also helps protect the wider community around your child</li>
-                <li>Delayed vaccination can leave infants vulnerable during critical early months</li>
-                <li>Regular vaccination visits allow doctors to track your child&apos;s overall health too</li>
-              </ul>
-            </div>
-
-            {/* Section 3 — What Paediatric Vaccination Treatment Includes */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What Paediatric Vaccination Treatment Includes
-              </h2>
 
               <p className="text-gray-700 mb-4">
-                A proper paediatric vaccination visit involves far more than just the injection itself. It is part of a broader approach to newborn and child wellness.
+                Vaccination can:
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>A review of your child&apos;s vaccination history and upcoming due dates</li>
-                <li>IAP recommended immunization schedules followed for age appropriate protection</li>
-                <li>Cold chain storage practices to keep vaccines safe and effective</li>
-                <li>A brief health check before vaccination to confirm the child is fit for the dose</li>
-                <li>Guidance on what to expect after vaccination, including mild common reactions</li>
-                <li>Growth and developmental tracking alongside routine immunization visits</li>
-                <li>A calm, child friendly environment designed to reduce fear and discomfort</li>
-              </ul>
-            </div>
-
-            {/* Section 4 — Understanding The IAP Recommended Vaccination Approach */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Understanding The IAP Recommended Vaccination Approach
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                The Indian Academy of Pediatrics publishes recommended immunization schedules that guide when children should receive specific vaccines.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Schedules are based on age milestones from birth through adolescence</li>
-                <li>They are reviewed and updated regularly based on medical research</li>
-                <li>Following a recommended schedule helps ensure timely, complete protection</li>
-                <li>Doctors adjust timing slightly based on each child&apos;s individual health needs</li>
-                <li>Parents are guided on which vaccines are due at each visit</li>
-                <li>Record keeping helps track completed doses and upcoming appointments</li>
-              </ul>
-            </div>
-
-            {/* Section 5 — Why Cold Chain Storage Is Critical For Vaccine Safety */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Cold Chain Storage Is Critical For Vaccine Safety
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Vaccines are sensitive to temperature, and improper storage can reduce their effectiveness significantly.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Vaccines must be stored within a strict, monitored temperature range</li>
-                <li>Cold chain storage protects the vaccine from the manufacturing site to the injection</li>
-                <li>Any break in the cold chain can compromise how well a vaccine works</li>
-                <li>Reliable clinics follow WHO compliant storage standards for every vaccine</li>
-                <li>Proper storage practices reduce the risk of reduced protection or wasted doses</li>
-                <li>Parents can ask their clinic directly about their cold chain storage practices</li>
-              </ul>
-            </div>
-
-            {/* Section 6 — Common Concerns Parents Have About Vaccination */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Common Concerns Parents Have About Vaccination
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                It is completely natural for parents to have questions and concerns about their child&apos;s vaccination visits.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Whether their child will experience pain or discomfort during the injection</li>
-                <li>Whether mild fever or fussiness after vaccination is normal</li>
-                <li>Whether it is safe to vaccinate a child who has a minor cold or cough</li>
-                <li>How to manage a child&apos;s anxiety about injections</li>
-                <li>Whether missed or delayed doses can still be safely completed later</li>
-                <li>What signs after vaccination would require medical attention</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Help protect children from vaccine-preventable infections</li>
+                <li>Reduce the risk of certain serious childhood diseases</li>
+                <li>Provide age-appropriate protection during infancy and childhood</li>
+                <li>Support preventive healthcare throughout childhood</li>
+                <li>Help reduce the spread of some preventable infections</li>
+                <li>Provide an opportunity to review the child's vaccination history regularly</li>
               </ul>
 
               <p className="text-gray-700">
-                Discussing these concerns openly with your pediatrician helps you feel confident and prepared before each visit.
+                Parents should follow the vaccination advice provided by their healthcare professional and maintain an updated immunization record.
               </p>
             </div>
 
-            {/* Section 7 — How A Paediatric Vaccination Visit Usually Works */}
+            {/* Section 3 — What Does Vaccination Treatment Include */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                How A Paediatric Vaccination Visit Usually Works
+                What Does Paediatric Vaccination Treatment In Moradabad Include?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Understanding the general flow of a vaccination appointment can help parents and children feel more at ease.
+                A vaccination visit involves more than simply administering a vaccine. Appropriate care includes reviewing the child's medical and vaccination history and providing parents with information about the vaccination process.
               </p>
-
-              <ol className="text-gray-700 space-y-4 mb-4 list-decimal pl-5">
-                <li>
-                  <strong>Check In:</strong> Your child&apos;s vaccination record and due dates are reviewed
-                </li>
-                <li>
-                  <strong>Health Assessment:</strong> A brief check confirms your child is fit for vaccination
-                </li>
-                <li>
-                  <strong>Guidance:</strong> The doctor explains which vaccines are being given and why
-                </li>
-                <li>
-                  <strong>Administration:</strong> The vaccine is given following proper safety protocols
-                </li>
-                <li>
-                  <strong>Observation:</strong> A short observation period follows to monitor for reactions
-                </li>
-                <li>
-                  <strong>Aftercare Advice:</strong> Parents receive guidance on caring for their child afterward
-                </li>
-                <li>
-                  <strong>Next Visit Planning:</strong> The following due date is scheduled before you leave
-                </li>
-              </ol>
-            </div>
-
-            {/* Section 8 — Newborn Care Alongside Vaccination */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Newborn Care Alongside Vaccination
-              </h2>
 
               <p className="text-gray-700 mb-4">
-                Vaccination is often just one part of a broader newborn and infant care journey that begins right after birth.
+                Depending on the child's individual situation, a vaccination consultation may include:
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Newborn physical assessment and jaundice evaluation soon after delivery</li>
-                <li>Feeding guidance to support healthy growth in the earliest weeks</li>
-                <li>Monitoring for common newborn concerns like digestive colic</li>
-                <li>Growth and milestone tracking during routine wellness visits</li>
-                <li>Early identification of any developmental concerns that need attention</li>
-                <li>A consistent care team that understands your child&apos;s health history</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Review of previous vaccination records</li>
+                <li>Identification of upcoming or missed vaccine doses</li>
+                <li>Discussion of the child's current health</li>
+                <li>Review of previous vaccine reactions or allergies</li>
+                <li>Information about the recommended vaccine</li>
+                <li>Guidance regarding possible common reactions</li>
+                <li>Advice about the next vaccination appointment</li>
+                <li>Maintenance of an updated vaccination record</li>
               </ul>
-            </div>
 
-            {/* Section 9 — Managing Common Childhood Illnesses */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Managing Common Childhood Illnesses
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Beyond vaccination, ongoing pediatric care often involves managing everyday childhood health concerns as they arise.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Respiratory concerns such as cough, cold, and mild breathing difficulty</li>
-                <li>Gastrointestinal issues including stomach upset and feeding related concerns</li>
-                <li>Skin conditions such as rashes, allergies, and minor irritations</li>
-                <li>Fever management and guidance on when home care is appropriate</li>
-                <li>Recognizing symptoms that require prompt medical evaluation</li>
-                <li>Ongoing support for children with recurring minor illnesses</li>
-              </ul>
-            </div>
-
-            {/* Section 10 — When To Consult A Pediatrician */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                When To Consult A Pediatrician
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Certain situations call for a timely pediatric consultation rather than waiting for the next scheduled visit.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Your newborn is due for a routine wellness checkup or feeding guidance</li>
-                <li>Your child is due for an upcoming vaccination or missed a scheduled dose</li>
-                <li>Your child develops a high fever, persistent cough, rash, or vomiting</li>
-                <li>You notice concerns about your child&apos;s physical growth or milestones</li>
-                <li>Your child shows unusual behavior or prolonged discomfort after vaccination</li>
-                <li>You simply want reassurance about your child&apos;s overall development</li>
-              </ul>
-            </div>
-
-            {/* Section 11 — Why Choose Dr. Priyanka Gynaec For Paediatric Vaccination In Moradabad */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Choose Dr. Priyanka Gynaec For Paediatric Vaccination In Moradabad
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Choosing a trusted pediatric care provider matters just as much as following the right vaccination schedule. Dr. Priyanka Gynaec is an experienced obstetrician, gynaecologist, and IVF specialist who co-leads Shree Advanced Urogynae Clinic and serves as a consultant at Ujala Cygnus BrightStar Hospital in Moradabad, offering paediatric care that combines newborn assessments, IAP recommended vaccination schedules, and strict cold chain immunization practices within a warm, child friendly clinic environment.
+              <p className="text-gray-700 mt-4">
+                The exact vaccination plan depends on the child's age, previous doses, health history, and applicable immunization recommendations.
               </p>
             </div>
 
-            {/* Section 12 — Supporting Your Child's Development Beyond The Vaccine Schedule */}
+            {/* Section 4 — Understanding Vaccination Schedules */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Supporting Your Child&apos;s Development Beyond The Vaccine Schedule
+                Understanding Childhood Vaccination Schedules
               </h2>
 
               <p className="text-gray-700 mb-4">
-                A complete approach to pediatric care looks beyond vaccination alone to support your child&apos;s overall wellbeing.
+                Vaccination schedules provide guidance about the vaccines and doses recommended at different stages of childhood.
               </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Regular growth tracking to monitor healthy physical development</li>
-                <li>Milestone assessments to identify any early developmental concerns</li>
-                <li>Nutritional guidance appropriate for each stage of childhood</li>
-                <li>Open communication with parents about behavioral or feeding questions</li>
-                <li>A consistent care relationship that builds trust as your child grows</li>
-                <li>Coordinated care between newborn checkups and later childhood visits</li>
-              </ul>
-            </div>
-
-            {/* Section 13 — Preparing Your Child For A Vaccination Visit */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Preparing Your Child For A Vaccination Visit
-              </h2>
 
               <p className="text-gray-700 mb-4">
-                A little preparation can make the entire vaccination experience smoother and less stressful for both children and parents.
+                A child's vaccination requirements may change during:
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Carry your child&apos;s existing vaccination card or record to every visit</li>
-                <li>Dress your child in comfortable clothing that allows easy access to the arm or thigh</li>
-                <li>Feed your infant shortly before the visit if that is part of your usual routine</li>
-                <li>Bring a favorite toy or comfort item to help ease any anxiety</li>
-                <li>Mention any recent illness or allergy to the doctor before vaccination</li>
-                <li>Plan for some quiet time at home after the visit for your child to rest</li>
-                <li>Keep a list of questions ready so nothing is missed during the consultation</li>
-              </ul>
-            </div>
-
-            {/* Section 14 — What To Expect After Vaccination */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What To Expect After Vaccination
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Most children handle vaccination well, and understanding common after effects helps parents respond calmly and confidently.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Mild soreness or redness at the injection site is common and temporary</li>
-                <li>Slight fussiness or reduced appetite for a short period is not unusual</li>
-                <li>A low grade fever may occur and typically resolves within a day or two</li>
-                <li>Comfort measures like extra cuddling and rest often help children settle</li>
-                <li>Most reactions are mild and resolve on their own without concern</li>
-                <li>Any unusual or prolonged symptoms should always be discussed with your doctor</li>
-              </ul>
-            </div>
-
-            {/* Section 15 — Building A Long Term Relationship With Your Child's Doctor */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Building A Long Term Relationship With Your Child&apos;s Doctor
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Consistent pediatric care goes beyond individual vaccination visits and grows into an ongoing relationship that benefits your child for years.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>A doctor who knows your child&apos;s history can spot changes more easily</li>
-                <li>Continuity of care makes it easier to track growth patterns over time</li>
-                <li>Familiarity helps reduce anxiety for children at every subsequent visit</li>
-                <li>Parents feel more comfortable asking questions with a trusted provider</li>
-                <li>A long term relationship supports smoother transitions between childhood stages</li>
-                <li>Consistent record keeping ensures no vaccination or checkup is ever missed</li>
-              </ul>
-            </div>
-
-            {/* Section 16 — Questions To Ask During Your Child's Vaccination Visit */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Questions To Ask During Your Child&apos;s Vaccination Visit
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Asking the right questions helps parents feel informed and confident about their child&apos;s immunization plan.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Which vaccines are being given today and what do they protect against</li>
-                <li>What mild reactions are normal and what would require a follow up call</li>
-                <li>When is the next vaccination due and what should we prepare for it</li>
-                <li>Are there any precautions we should take at home after this visit</li>
-                <li>How is the vaccine stored to ensure it remains safe and effective</li>
-                <li>What should we do if we miss an upcoming scheduled dose</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>The newborn period</li>
+                <li>Early infancy</li>
+                <li>Later infancy</li>
+                <li>Toddler years</li>
+                <li>Preschool years</li>
+                <li>School-age years</li>
+                <li>Adolescence</li>
               </ul>
 
               <p className="text-gray-700">
-                Having these answers ready helps parents feel more confident managing their child&apos;s ongoing immunization journey.
+                Parents should bring the child's vaccination card or available immunization records to every appointment. If the vaccination history is incomplete, the doctor can review the available information and advise on the appropriate next steps.
               </p>
             </div>
 
-            {/* Section 17 — Final Thoughts On Paediatric Vaccination Treatment In Moradabad */}
+            {/* Section 5 — Vaccination From Birth To Adolescence */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Final Thoughts On Paediatric Vaccination Treatment In Moradabad
+                Vaccination From Birth To Adolescence
               </h2>
 
               <p className="text-gray-700">
-                Vaccination remains one of the safest and most effective ways to protect a child&apos;s health during their most vulnerable early years. Choosing a clinic that follows IAP recommended schedules, maintains strict cold chain storage, and creates a calm, reassuring environment for both children and parents makes the entire immunization journey easier to navigate with confidence.
+                Immunization is not limited to the first few months of life. Children may require additional vaccines or doses as they progress through infancy, childhood, and adolescence. Regular vaccination visits help parents stay aware of upcoming immunizations and provide an opportunity to discuss questions about the child's health. For families looking for paediatric vaccination treatment in Moradabad, reviewing the vaccination record regularly can help reduce the possibility of missed or delayed doses.
               </p>
             </div>
 
-            {/* Section 18 — Contact Details */}
-            <div className="mb-12 bg-[#F8F4EA] text-black rounded-2xl p-8">
-              <h2 className="text-3xl font-serif mb-4">
-                Contact Details
+            {/* Section 6 — What Happens During A Vaccination Visit */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                What Happens During A Paediatric Vaccination Visit?
               </h2>
 
-              <p className="text-gray-700 mb-6">
-                For appointments or queries related to paediatric vaccination treatment in Moradabad, you can reach Dr. Priyanka Gynaec through the following details.
+              <p className="text-gray-700 mb-4">
+                A typical vaccination appointment may involve several steps.
               </p>
 
-              <div className="space-y-4 mb-6">
-                {/* Clinic Address */}
-                <div className="flex items-start gap-3">
-                  <MapPin size={20} className="text-black mt-1 shrink-0" />
-                  <div>
-                    <p className="font-semibold">Address</p>
-                    <p className="text-black">
-                      A2, near Old Roadways, Gandhi Nagar, Moradabad,
-                      Uttar Pradesh, 244001
-                    </p>
-                  </div>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    1. Vaccination Record Review
+                  </h3>
+                  <p className="text-gray-700">
+                    The child's vaccination card or previous medical records are checked to determine which vaccines and doses have already been received.
+                  </p>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <Phone size={20} className="text-black mt-1 shrink-0" />
-                  <div>
-                    <p className="font-semibold">Phone</p>
-                    <a href="tel:9079765578" className="hover:underline text-black">
-                      +91 90797 65578
-                    </a>
-                  </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    2. Health Assessment
+                  </h3>
+                  <p className="text-gray-700">
+                    The doctor may ask about recent illness, current medicines, allergies, medical conditions, and previous vaccine reactions.
+                  </p>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <Phone size={20} className="text-black mt-1 shrink-0" />
-                  <div>
-                    <p className="font-semibold">WhatsApp</p>
-                    <a href="tel:8979670705" className="hover:underline text-black">
-                      +91 8979670705
-                    </a>
-                  </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    3. Vaccine Discussion
+                  </h3>
+                  <p className="text-gray-700">
+                    Parents can ask which vaccine is being given, what it is intended to protect against, possible common reactions, and when the next dose may be due.
+                  </p>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <Mail size={20} className="text-black mt-1 shrink-0" />
-                  <div>
-                    <p className="font-semibold">Email</p>
-                    <a
-                      href="mailto:drpriyankagynec@gmail.com"
-                      className="hover:underline text-black"
-                    >
-                      drpriyankagynec@gmail.com
-                    </a>
-                  </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    4. Vaccine Administration
+                  </h3>
+                  <p className="text-gray-700">
+                    The vaccine is administered using appropriate clinical and hygiene practices.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    5. Post-Vaccination Guidance
+                  </h3>
+                  <p className="text-gray-700">
+                    Parents receive information about expected reactions and what to do if they notice symptoms that concern them.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    6. Next Appointment
+                  </h3>
+                  <p className="text-gray-700">
+                    The next vaccination date can be recorded to help parents maintain the child's immunization schedule.
+                  </p>
                 </div>
               </div>
+            </div>
 
-              <div className="flex gap-4 flex-wrap">
-                <Link href="/contact">
-                  <button className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
-                    <Phone className="inline mr-2" size={18} />
-                    Contact Us
-                  </button>
-                </Link>
+            {/* Section 7 — Common Reactions After Vaccination */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Common Reactions After Vaccination
+              </h2>
 
-                <Link href="/services">
-                  <button className="border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e181b5] transition">
-                    Explore Services
-                  </button>
-                </Link>
-              </div>
+              <p className="text-gray-700 mb-4">
+                Some children may experience temporary reactions following vaccination. These reactions can vary depending on the vaccine and the individual child.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Common reactions may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Mild soreness at the injection site</li>
+                <li>Temporary redness or swelling</li>
+                <li>Mild fever</li>
+                <li>Temporary irritability</li>
+                <li>Tiredness</li>
+                <li>Temporary changes in appetite</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Parents should follow the advice provided by their healthcare professional. If your child develops a severe, unusual, or concerning reaction after vaccination, seek appropriate medical attention promptly.
+              </p>
+            </div>
+
+            {/* Section 8 — What If Your Child Misses A Vaccination */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                What If Your Child Misses A Vaccination?
+              </h2>
+
+              <p className="text-gray-700">
+                Vaccination appointments can sometimes be missed because of illness, travel, school schedules, or other family circumstances. If your child has missed a vaccination, do not rely on guesswork about the next dose. Bring the available vaccination records to a doctor so the child's previous doses can be reviewed. Depending on the child's age and vaccination history, the doctor may recommend an appropriate catch-up vaccination plan.
+              </p>
+            </div>
+
+            {/* Section 9 — Importance Of Keeping A Vaccination Record */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Importance Of Keeping A Vaccination Record
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                A vaccination card provides an important record of your child's immunization history.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Parents should:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Keep the vaccination record safely</li>
+                <li>Bring it to every vaccination appointment</li>
+                <li>Record newly administered vaccines</li>
+                <li>Note upcoming vaccination dates</li>
+                <li>Keep previous vaccination documents</li>
+                <li>Inform the doctor if any information is missing</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                An accurate vaccination history helps healthcare professionals make appropriate recommendations.
+              </p>
+            </div>
+
+            {/* Section 10 — Vaccine Storage And Handling */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Vaccine Storage And Handling
+              </h2>
+
+              <p className="text-gray-700">
+                Vaccines are temperature-sensitive medical products and need to be stored and handled according to their specified requirements. Appropriate vaccine storage is an important part of a vaccination service. Parents who have questions about vaccine storage or handling can discuss their concerns with the clinic before vaccination. The exact storage requirements can vary between vaccines, so appropriate handling procedures should be followed for each product.
+              </p>
+            </div>
+
+            {/* Section 11 — How To Prepare Your Child For Vaccination */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                How To Prepare Your Child For Vaccination
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Parents can take a few simple steps to make a vaccination appointment more comfortable.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Before visiting the clinic:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Carry your child's vaccination card</li>
+                <li>Inform the doctor about recent illness</li>
+                <li>Mention known allergies</li>
+                <li>Tell the doctor about previous vaccine reactions</li>
+                <li>Inform the doctor about regular medicines</li>
+                <li>Prepare questions about upcoming vaccines</li>
+                <li>Bring a familiar toy or comfort item for a younger child</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Parents should avoid creating unnecessary fear around injections. A calm and reassuring approach can help children feel more comfortable.
+              </p>
+            </div>
+
+            {/* Section 12 — Helping Your Child Feel Comfortable */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Helping Your Child Feel Comfortable During Vaccination
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Some children become anxious when they know they are going to receive an injection. Parents can help by remaining calm and reassuring the child.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the child's age, parents can:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Explain the visit using simple language</li>
+                <li>Avoid frightening descriptions</li>
+                <li>Distract the child with conversation or a toy</li>
+                <li>Offer comfort before and after vaccination</li>
+                <li>Praise the child for cooperating</li>
+                <li>Follow the doctor's aftercare instructions</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Creating a positive experience can make future vaccination visits easier for the child.
+              </p>
+            </div>
+
+            {/* Section 13 — Vaccination For School-Going Children */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Vaccination For School-Going Children
+              </h2>
+
+              <p className="text-gray-700">
+                Vaccination needs can continue during school-age years and adolescence. Busy school schedules and family routines can sometimes result in missed appointments. Parents should periodically review their child's vaccination record and discuss age-appropriate immunization requirements with their healthcare provider. A vaccination visit can also be an opportunity to discuss general concerns related to growth, nutrition, development, and overall child health.
+              </p>
+            </div>
+
+            {/* Section 14 — When Should Parents Consult A Doctor */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                When Should Parents Consult A Doctor Before Vaccination?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                A consultation may be appropriate when:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Your child is currently unwell</li>
+                <li>Your child has a significant medical condition</li>
+                <li>Your child takes regular medication</li>
+                <li>Your child has experienced a concerning reaction to a previous vaccine</li>
+                <li>Your child has a history of significant allergies</li>
+                <li>You are unsure about previous vaccination doses</li>
+                <li>Your child has missed multiple vaccinations</li>
+                <li>You have questions about the next recommended vaccine</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The doctor can assess the child's individual circumstances and provide appropriate guidance.
+              </p>
+            </div>
+
+            {/* Section 15 — Vaccination And Preventive Child Healthcare */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Vaccination And Preventive Child Healthcare
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Vaccination is an important part of preventive healthcare, but it is not the only aspect of maintaining a child's wellbeing.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the child's age, routine healthcare may also involve discussions about:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Physical growth</li>
+                <li>Nutrition</li>
+                <li>Feeding</li>
+                <li>Sleep</li>
+                <li>Developmental milestones</li>
+                <li>General health</li>
+                <li>Age-appropriate preventive care</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Regular healthcare visits can help parents discuss concerns and understand the care appropriate for their child's stage of development.
+              </p>
+            </div>
+
+            {/* Section 16 — Vaccination Treatment At Dr. Priyanka Gynaec */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Paediatric Vaccination Treatment In Moradabad At Dr. Priyanka Gynaec
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                For parents searching for paediatric vaccination treatment in Moradabad, Dr. Priyanka Gynaec provides vaccination-related consultations and guidance for children and their parents.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                The consultation can include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Reviewing the child's immunization history</li>
+                <li>Discussing upcoming vaccination requirements</li>
+                <li>Reviewing missed vaccination doses</li>
+                <li>Discussing previous vaccine reactions</li>
+                <li>Addressing parent concerns</li>
+                <li>Providing post-vaccination guidance</li>
+                <li>Planning future vaccination visits</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The vaccination plan should always be based on the child's individual medical history and applicable immunization recommendations.
+              </p>
+            </div>
+
+            {/* Section 17 — Why Timely Vaccination Matters */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Why Timely Vaccination Matters
+              </h2>
+
+              <p className="text-gray-700">
+                Keeping vaccinations up to date helps children receive recommended immunization at the appropriate stages of development. Parents should avoid delaying scheduled vaccinations without discussing the situation with a healthcare professional. If a vaccination has been missed, professional guidance can help determine the next appropriate step. Keeping a vaccination calendar or setting reminders can also help parents remember upcoming appointments.
+              </p>
+            </div>
+
+            {/* Section 18 — Questions Parents Should Ask */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Questions Parents Should Ask About Vaccination
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Parents should feel comfortable discussing their concerns before their child's vaccination.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Useful questions include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Which vaccine is due today?</li>
+                <li>What does the vaccine protect against?</li>
+                <li>Are there any common reactions I should expect?</li>
+                <li>When is the next dose due?</li>
+                <li>What should I do if a dose is missed?</li>
+                <li>Does my child's current health affect today's vaccination?</li>
+                <li>Should I mention a previous vaccine reaction?</li>
+                <li>How should I care for my child after vaccination?</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Clear communication can help parents understand their child's immunization plan.
+              </p>
             </div>
 
             {/* Section 19 — FAQs */}
@@ -492,6 +537,87 @@ export default function PaediatricVaccinationMoradabad() {
                     <p className="text-gray-700">{faq.a}</p>
                   </div>
                 ))}
+              </div>
+            </div>
+
+            {/* Section 20 — Contact */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Contact Dr. Priyanka Gynaec
+              </h2>
+
+              <div className="bg-[#F8F4EA] text-black rounded-2xl p-8">
+                <h3 className="text-xl font-semibold mb-4">
+                  Contact Information
+                </h3>
+
+                <div className="space-y-4 mb-6">
+                  {/* Clinic Address */}
+                  <div className="flex items-start gap-3">
+                    <MapPin size={20} className="text-black mt-1 shrink-0" />
+                    <div>
+                      <p className="font-semibold">Dr. Priyanka Gynaec</p>
+                      <p className="text-black">
+                        Address: A2, Near Old Roadways, Gandhi Nagar,
+                        Moradabad, Uttar Pradesh – 244001
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Phone size={20} className="text-black mt-1 shrink-0" />
+                    <div>
+                      <p className="font-semibold">Contact Us</p>
+
+                      <div className="flex items-center gap-3 text-black">
+                        <a href="tel:9079765578" className="hover:underline">
+                          +91 90797 65578
+                        </a>
+
+                        <span className="text-gray-400">|</span>
+
+                        <a href="tel:8979670705" className="hover:underline">
+                          +91 8979670705 (WhatsApp)
+                        </a>
+                      </div>
+
+                      <div className="mt-2">
+                        <Mail size={18} className="inline mr-2 text-black" />
+                        <a
+                          href="mailto:drpriyankagynec@gmail.com"
+                          className="hover:underline"
+                        >
+                          drpriyankagynec@gmail.com
+                        </a>
+                      </div>
+
+                      <div className="mt-2">
+                        <Globe size={18} className="inline mr-2 text-black" />
+                        <a
+                          href="https://www.gynaecologistmoradabad.com/"
+                          className="hover:underline"
+                        >
+                          www.gynaecologistmoradabad.com
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex gap-4 flex-wrap">
+                  <Link href="/contact">
+                    <button className="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
+                      <Phone className="inline mr-2" size={18} />
+                      Contact Us
+                    </button>
+                  </Link>
+
+                  <Link href="/services">
+                    <button className="border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-[#e181b5] transition">
+                      Explore Services
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

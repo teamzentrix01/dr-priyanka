@@ -10,59 +10,52 @@ import {
   Heart,
   Star,
   Award,
+  Globe,
 } from "lucide-react";
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
 
-export default function PregnancyCareDoctorMoradabad() {
+export default function PregnancyCareMoradabad() {
   const faqs = [
     {
-      q: "What does complete pregnancy care include at Dr. Priyanka Gynaec Moradabad?",
-      a: "Everything from pre-pregnancy guidance and antenatal checkups to delivery support and postnatal follow-up, all under one doctor's care.",
+      q: "Who is a pregnancy care doctor?",
+      a: "A pregnancy care doctor, usually an obstetrician or gynaecologist providing obstetric care, monitors the health of the mother and pregnancy and provides guidance from early pregnancy through delivery and the postnatal period.",
     },
     {
-      q: "When should I first consult a pregnancy care doctor?",
-      a: "Ideally before conceiving, or as soon as pregnancy is confirmed, within the first 8-10 weeks.",
+      q: "When should I visit a pregnancy care doctor after a positive pregnancy test?",
+      a: "It is generally appropriate to contact your doctor after confirming pregnancy so that the timing of the first assessment and recommended care can be planned according to your individual circumstances.",
     },
     {
-      q: "Is high-risk pregnancy care available here?",
-      a: "Yes, gestational diabetes, hypertension and multiple pregnancies are managed with careful, coordinated monitoring.",
+      q: "How often should I have pregnancy checkups?",
+      a: "The frequency of antenatal visits varies according to gestational age and individual health. Some pregnancies require more frequent appointments, particularly when additional monitoring is needed.",
     },
     {
-      q: "Will the same doctor be present at my delivery?",
-      a: "Yes, Dr. Priyanka personally manages care from the first visit through delivery.",
+      q: "Can I consult Dr. Priyanka during the middle of my pregnancy?",
+      a: "Yes. You can bring your previous reports, scans, and medical history so the doctor can review your pregnancy and determine the appropriate next steps.",
     },
     {
-      q: "Is 3D/4D ultrasound available for pregnancy monitoring?",
-      a: "Yes, the Voluson E22 machine provides detailed 3D and 4D ultrasound imaging throughout pregnancy.",
+      q: "Is high-risk pregnancy care available in Moradabad?",
+      a: "High-risk pregnancies may require closer monitoring and, in some situations, specialist referral or coordinated care. The appropriate plan depends on the specific condition and pregnancy.",
     },
     {
-      q: "How often should I visit for pregnancy checkups?",
-      a: "Monthly until 28 weeks, every two weeks until 36 weeks, and weekly after that until delivery.",
+      q: "Can I discuss my previous C-section during pregnancy consultation?",
+      a: "Yes. Previous Caesarean delivery is an important part of pregnancy history and can be discussed during antenatal consultation to help determine appropriate delivery planning.",
     },
     {
-      q: "How can I book a pregnancy care consultation?",
-      a: "You can book directly by calling or messaging on WhatsApp (8979670705).",
+      q: "Are ultrasound scans part of pregnancy care?",
+      a: "Ultrasound may be recommended at different stages of pregnancy depending on gestational age and clinical requirements. Your doctor can advise which scans are appropriate for you.",
     },
     {
-      q: "Where is the clinic located?",
-      a: "It is located at A2, near Old Roadways, Gandhi Nagar, Moradabad, Uttar Pradesh – 244001.",
+      q: "What should I do if I experience bleeding or severe pain during pregnancy?",
+      a: "Bleeding, severe abdominal pain, fainting, difficulty breathing, or other serious symptoms require prompt medical assessment. If symptoms are severe, seek emergency medical care immediately.",
     },
     {
-      q: "Is postnatal and newborn care also available here?",
-      a: "Yes, postnatal care for the mother and newborn checkups are both available at the same center.",
+      q: "Can I get pregnancy care if I am planning to conceive?",
+      a: "Yes. Pre-pregnancy consultation can help review your medical history, medications, existing health conditions, lifestyle, and other factors that may be relevant before conception.",
     },
     {
-      q: "Can I switch to this doctor mid-pregnancy?",
-      a: "Yes, with your previous reports and scans, care can continue smoothly from where you left off.",
-    },
-    {
-      q: "What should I carry for my first pregnancy care visit?",
-      a: "Previous reports, your last menstrual period date, and a list of current medicines or supplements.",
-    },
-    {
-      q: "Can I get a second opinion on my current pregnancy care plan?",
-      a: "Yes, second opinions are welcomed for any aspect of ongoing pregnancy care.",
+      q: "Where is Dr. Priyanka Gynaec located?",
+      a: "Dr. Priyanka Gynaec is located at A2, Near Old Roadways, Gandhi Nagar, Moradabad, Uttar Pradesh – 244001.",
     },
   ];
 
@@ -77,381 +70,606 @@ export default function PregnancyCareDoctorMoradabad() {
             {/* Section 1 — Introduction */}
             <div className="mb-12">
               <h1 className="text-3xl font-serif mb-4 text-gray-900">
-                Pregnancy Care Doctor Moradabad – Your Partner Through Every Stage by Dr. Priyanka Gynaec
+                Pregnancy Care Doctor In Moradabad
               </h1>
 
               <p className="text-gray-700 mb-4">
-                Choosing a pregnancy care doctor is one of the most important decisions a woman makes during this stage of life, because this is the person who will guide her through nine months of physical, emotional and medical change, and who will ultimately be present at one of the most significant moments of her life — delivery. It's not just about finding someone with the right qualifications on paper, though that matters. It's about finding a doctor who listens carefully, explains things clearly, notices problems early, and makes both the mother and her family feel genuinely supported at every step. In Moradabad, Dr. Priyanka Gynaec has built a reputation around exactly this kind of complete, attentive pregnancy care, combining strong medical expertise with a personal, patient-first approach that many women say made all the difference in how they experienced their pregnancy.
+                Pregnancy is an important stage of a woman's life that requires regular medical care, timely checkups, appropriate investigations, and personalised guidance. Choosing the right Pregnancy Care Doctor In Moradabad can help you understand the changes happening during pregnancy, monitor maternal and fetal health, identify potential concerns early, and prepare for delivery and recovery.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka Gynaec provides pregnancy and antenatal care in Moradabad for women at different stages of pregnancy. Care may include pregnancy confirmation, routine antenatal checkups, screening and diagnostic tests, management of pregnancy-related conditions, delivery planning, and postnatal follow-up.
               </p>
 
               <p className="text-gray-700">
-                Pregnancy care isn't a single service — it's a continuous relationship that spans confirmation of pregnancy, regular checkups, monitoring, delivery planning, the birth itself, and recovery afterward. A good pregnancy care doctor treats all of these as connected parts of one journey rather than isolated appointments, which is exactly the approach Dr. Priyanka Gynaec brings to every patient in Moradabad.
-              </p>
-
-              <p className="text-gray-700">
-                This article explains what complete pregnancy care actually looks like, what services are available, and how to reach out for a consultation.
+                Every pregnancy is different. The frequency of appointments, investigations, treatment, and delivery planning depends on the mother's health, pregnancy history, gestational age, and individual medical needs.
               </p>
             </div>
 
-            {/* Section 2 — Why Choose Dr. Priyanka Gynaec */}
+            {/* Section 2 — Why Choose a Pregnancy Care Doctor */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Choose Dr. Priyanka Gynaec as Your Pregnancy Care Doctor in Moradabad?
+                Why Choose a Pregnancy Care Doctor In Moradabad?
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Gold medal credentials and international fellowship-qualified gynaec doctor</li>
-                <li>Complete pregnancy care spanning confirmation, antenatal visits, delivery and postnatal recovery</li>
-                <li>Advanced 3D/4D ultrasound for accurate monitoring at every stage</li>
-                <li>Proven experience managing both routine and high-risk pregnancies</li>
-                <li>Same doctor and team present through the entire journey</li>
-                <li>Female-friendly, comfortable and private consultation environment</li>
-                <li>24x7 availability for emergencies and urgent delivery needs</li>
-                <li>Strong local reputation — patients refer their own family and friends</li>
+              <p className="text-gray-700 mb-4">
+                Regular pregnancy care helps monitor both mother and baby throughout pregnancy. A pregnancy care consultation may help with:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Early pregnancy assessment and confirmation</li>
+                <li>Routine antenatal checkups</li>
+                <li>Monitoring blood pressure, weight, and other maternal health parameters</li>
+                <li>Assessment of fetal growth and wellbeing</li>
+                <li>Recommended blood tests and pregnancy screening</li>
+                <li>Ultrasound and other investigations when medically indicated</li>
+                <li>Management of common pregnancy-related concerns</li>
+                <li>Identification and monitoring of high-risk pregnancy factors</li>
+                <li>Birth and delivery planning</li>
+                <li>Postnatal care after delivery</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                The goal is to provide appropriate care at every stage while helping the mother understand her pregnancy and make informed decisions with her doctor.
+              </p>
             </div>
 
             {/* Section 3 — About Dr. Priyanka Gynaec */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                About Dr. Priyanka Gynaec – A Complete Pregnancy Care Doctor
+                About Dr. Priyanka Gynaec
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Dr. Priyanka Pachauri is a well-known gynaecologist in Moradabad, guided by her &quot;Her Health First&quot; philosophy. Every patient is treated as an individual with her own concerns, medical history and preferences, rather than being moved through a generic checklist of appointments.
+                Dr. Priyanka Pachauri provides gynaecology and obstetric care in Moradabad, including pregnancy-related consultations and antenatal care.
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Specialization in gynaecology and obstetrics</li>
-                <li>Experience across every stage of pregnancy, from early confirmation to delivery</li>
-                <li>Skilled management of complications like gestational diabetes and hypertension</li>
-                <li>Known for clear, honest communication with patients and families</li>
-                <li>Paediatric consultation available at the same center for the newborn</li>
-              </ul>
+              <p className="text-gray-700 mb-4">
+                Her approach focuses on understanding each patient's medical history, current concerns, pregnancy stage, and individual requirements before recommending investigations or treatment.
+              </p>
+
+              <p className="text-gray-700">
+                Pregnancy care may involve coordination with other medical specialists when a pregnancy requires additional evaluation or management.
+              </p>
             </div>
 
-            {/* Section 4 — What Complete Pregnancy Care Involves */}
+            {/* Section 4 — What Does Pregnancy Care Include */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What Complete Pregnancy Care Actually Involves
+                What Does Pregnancy Care Include?
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Confirming pregnancy and establishing an accurate due date</li>
-                <li>Regular checkups tracking the mother's health and the baby's development</li>
-                <li>Advanced monitoring through ultrasound, doppler and fetal heart rate checks</li>
-                <li>Managing any complications that arise, from mild to high-risk</li>
-                <li>Guidance and support through labor and delivery</li>
-                <li>Postnatal follow-up for both mother and newborn</li>
-              </ul>
-            </div>
+              <p className="text-gray-700 mb-4">
+                Pregnancy care is not limited to one appointment. It generally involves ongoing monitoring from early pregnancy through delivery and the postnatal period.
+              </p>
 
-            {/* Section 5 — Services Offered Across the Journey */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Services Offered Across the Journey
-              </h2>
+              <p className="text-gray-700 mb-4">
+                Depending on the pregnancy, care may include:
+              </p>
 
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                1. Pre-Pregnancy Consultation
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Guidance for women planning pregnancy before conception</li>
-                <li>Assessment of existing health conditions that may affect pregnancy</li>
-                <li>Advice on lifestyle, nutrition and supplements before conceiving</li>
-                <li>Discussion of family history and any genetic considerations</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                2. First Trimester Care
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Pregnancy confirmation and early dating scan</li>
-                <li>Baseline blood tests and infection screening</li>
-                <li>Early nutrition and lifestyle guidance</li>
-                <li>Assessment of early risk factors</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                3. Second Trimester Care
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Detailed anomaly scan for structural development</li>
-                <li>Gestational diabetes screening</li>
-                <li>Regular blood pressure and weight monitoring</li>
-                <li>Vaccination schedule guidance</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                4. Third Trimester Care
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Frequent visits as delivery approaches</li>
-                <li>Growth scan and doppler study</li>
-                <li>Delivery planning and birth preparation</li>
-                <li>Timely identification of late-pregnancy risks</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                5. High-Risk Pregnancy Management
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Careful monitoring of gestational diabetes and hypertension</li>
-                <li>Specialized care for multiple pregnancy (twins)</li>
-                <li>Safe management of previous C-section or complicated pregnancy history</li>
-                <li>Coordinated specialist referrals when required</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                6. Delivery Care
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Support for normal, vaginal delivery whenever medically safe</li>
-                <li>Painless labor options discussed in advance</li>
-                <li>Emergency C-section capability when needed</li>
-                <li>Continuous monitoring throughout labor</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                7. Postnatal Care
-              </h3>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Monitoring the mother's recovery after delivery</li>
-                <li>Breastfeeding guidance and support</li>
-                <li>Newborn's initial checkup and vaccination</li>
-                <li>Ongoing follow-up for both mother and baby</li>
-              </ul>
-            </div>
-
-            {/* Section 6 — Technology and Facilities */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Technology and Facilities Supporting Complete Pregnancy Care
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Voluson E22 BT2024:</strong> Advanced 3D and 4D ultrasound machine</li>
-                <li><strong>Doppler monitoring equipment:</strong> For fetal wellbeing</li>
-                <li><strong>Digital fetal heart rate monitoring:</strong> For accurate tracking</li>
-                <li><strong>Fully equipped labor room:</strong> For normal and emergency delivery</li>
-                <li><strong>Organized record-keeping:</strong> Connecting every stage of the pregnancy journey</li>
-              </ul>
-            </div>
-
-            {/* Section 7 — What Makes a Doctor the Right Choice */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What Makes a Pregnancy Care Doctor the Right Choice
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Consistency:</strong> The same doctor present from the first visit through delivery</li>
-                <li><strong>Communication:</strong> Clear explanations rather than rushed, generic advice</li>
-                <li><strong>Technology:</strong> Modern ultrasound and monitoring equipment available on-site</li>
-                <li><strong>Experience:</strong> A proven track record with both routine and high-risk pregnancies</li>
-                <li><strong>Availability:</strong> Genuine accessibility for questions and emergencies, not just scheduled visits</li>
-                <li><strong>Trust:</strong> Real patient referrals and word-of-mouth reputation, not just marketing claims</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Pregnancy confirmation and early assessment</li>
+                <li>Calculation of gestational age and expected delivery date</li>
+                <li>Maternal health monitoring</li>
+                <li>Fetal growth and wellbeing assessment</li>
+                <li>Recommended antenatal investigations</li>
+                <li>Ultrasound examinations when indicated</li>
+                <li>Screening for pregnancy-related conditions</li>
+                <li>Nutrition and lifestyle guidance</li>
+                <li>Preparation for labour and delivery</li>
+                <li>Postnatal follow-up</li>
               </ul>
 
               <p className="text-gray-700 mt-4">
-                Dr. Priyanka Gynaec meets each of these standards for patients across Moradabad.
+                The exact care plan is individualised according to the mother's health and pregnancy requirements.
               </p>
             </div>
 
-            {/* Section 8 — Who Should Book a Consultation */}
+            {/* Section 5 — First Trimester Care */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Who Should Book a Pregnancy Care Consultation
+                Pregnancy Care During the First Trimester
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Women planning pregnancy who want guidance before conceiving</li>
-                <li>Women who have just confirmed pregnancy and need a first consultation</li>
-                <li>Patients already pregnant looking for a doctor to manage the rest of their pregnancy</li>
-                <li>Anyone managing gestational diabetes, hypertension or other high-risk conditions</li>
-                <li>Women expecting twins or a multiple pregnancy</li>
-                <li>Patients with a history of complications in a previous pregnancy</li>
-                <li>Anyone seeking a second opinion on their current pregnancy care plan</li>
+              <p className="text-gray-700 mb-4">
+                The first trimester covers the early weeks of pregnancy and is an important time for establishing appropriate antenatal care.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                During an early pregnancy consultation, your doctor may assess:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Pregnancy confirmation</li>
+                <li>Gestational age</li>
+                <li>Previous pregnancy and medical history</li>
+                <li>Current medications and supplements</li>
+                <li>Existing medical conditions</li>
+                <li>Early pregnancy symptoms</li>
+                <li>Risk factors that may require closer monitoring</li>
+              </ul>
+
+              <p className="text-gray-700 mb-4">
+                Your doctor may also recommend blood tests, urine tests, ultrasound, or other investigations depending on your individual situation.
+              </p>
+
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Common First-Trimester Concerns
+              </h3>
+              <p className="text-gray-700 mb-2">
+                Women may experience:
+              </p>
+              <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                <li>Nausea or vomiting</li>
+                <li>Fatigue</li>
+                <li>Breast tenderness</li>
+                <li>Abdominal discomfort</li>
+                <li>Changes in appetite</li>
+                <li>Vaginal spotting or bleeding</li>
+              </ul>
+              <p className="text-gray-700">
+                Heavy bleeding, severe abdominal pain, fainting, or other concerning symptoms require prompt medical assessment.
+              </p>
+            </div>
+
+            {/* Section 6 — Second Trimester Care */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pregnancy Care During the Second Trimester
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                The second trimester is generally a period of continued fetal growth and maternal changes.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Antenatal visits may include monitoring of:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Blood pressure</li>
+                <li>Maternal weight</li>
+                <li>Pregnancy symptoms</li>
+                <li>Fetal growth</li>
+                <li>Maternal wellbeing</li>
+                <li>Relevant laboratory results</li>
+              </ul>
+
+              <p className="text-gray-700 mb-4">
+                Depending on gestational age and clinical requirements, your doctor may recommend ultrasound examinations and screening tests.
+              </p>
+
+              <h3 className="font-semibold text-gray-900 mb-2">
+                Important Second-Trimester Care
+              </h3>
+              <p className="text-gray-700 mb-2">
+                Pregnancy care may include guidance regarding:
+              </p>
+              <ul className="text-gray-700 space-y-1 list-disc pl-5">
+                <li>Nutrition</li>
+                <li>Physical activity appropriate for pregnancy</li>
+                <li>Supplements</li>
+                <li>Vaccination recommendations</li>
+                <li>Gestational diabetes screening</li>
+                <li>Anemia screening</li>
+                <li>Fetal development and pregnancy milestones</li>
               </ul>
             </div>
 
-            {/* Section 9 — Recommended Visit Schedule */}
+            {/* Section 7 — Third Trimester Care */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Recommended Pregnancy Care Visit Schedule
+                Pregnancy Care During the Third Trimester
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Weeks 4-28:</strong> One checkup every month</li>
-                <li><strong>Weeks 28-36:</strong> One checkup every two weeks</li>
-                <li><strong>Weeks 36 onwards:</strong> Weekly checkups until delivery</li>
-                <li><strong>High-Risk Pregnancies:</strong> Additional visits and monitoring as advised</li>
+              <p className="text-gray-700 mb-4">
+                As delivery approaches, antenatal visits usually become more frequent.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Third-trimester care may focus on:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Maternal blood pressure and health</li>
+                <li>Fetal growth</li>
+                <li>Fetal position</li>
+                <li>Symptoms and pregnancy complications</li>
+                <li>Recommended ultrasound or Doppler assessment when indicated</li>
+                <li>Birth planning</li>
+                <li>Preparation for labour</li>
+                <li>Planning for the postnatal period</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                Your doctor will advise how frequently you should attend appointments based on your pregnancy.
+              </p>
             </div>
 
-            {/* Section 10 — What Sets This Practice Apart */}
+            {/* Section 8 — High-Risk Pregnancy Care */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What Sets This Practice Apart
+                High-Risk Pregnancy Care In Moradabad
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Care spans the entire journey — pre-pregnancy through postnatal — rather than fragmented visits</li>
-                <li>The same doctor personally manages every stage, adding valuable continuity</li>
-                <li>Advanced ultrasound and monitoring technology available on-site</li>
-                <li>High-risk pregnancy management is a core strength, not an occasional referral case</li>
-                <li>Postnatal and newborn care continue at the same center after delivery</li>
+              <p className="text-gray-700 mb-4">
+                Some pregnancies require closer monitoring because of maternal health conditions, previous pregnancy complications, or factors affecting the pregnancy.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                High-risk pregnancy may be associated with conditions such as:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Gestational diabetes</li>
+                <li>High blood pressure during pregnancy</li>
+                <li>Previous Caesarean section</li>
+                <li>Previous pregnancy complications</li>
+                <li>Multiple pregnancy such as twins</li>
+                <li>Certain maternal medical conditions</li>
+                <li>Certain pregnancy-related complications</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                High-risk pregnancy does not mean that complications will definitely occur. It means that the pregnancy may require additional monitoring, investigations, or specialist care.
+              </p>
+
+              <p className="text-gray-700">
+                When required, appropriate referrals and coordination with other specialists can form part of the pregnancy care plan.
+              </p>
             </div>
 
-            {/* Section 11 — Safety and Comfort Standards */}
+            {/* Section 9 — Care After Previous C-Section */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Safety and Comfort Standards Throughout Pregnancy Care
+                Pregnancy Care After a Previous C-Section
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Sterilized examination rooms and modern equipment</li>
-                <li>Proper infection-control protocols followed at every stage</li>
-                <li>Female-friendly and private consultation environment</li>
-                <li>Trained staff available around the clock for emergencies</li>
-                <li>Clear explanations given for every test, scan and recommendation</li>
+              <p className="text-gray-700 mb-4">
+                Women who have had a previous Caesarean section may have questions about their current pregnancy and delivery options.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                During consultation, the doctor may review:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Previous pregnancy records</li>
+                <li>Reason for the previous C-section</li>
+                <li>Previous operative details when available</li>
+                <li>Current pregnancy health</li>
+                <li>Placental location</li>
+                <li>Maternal and fetal condition</li>
+                <li>Individual factors affecting delivery planning</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                The appropriate mode of delivery should be decided based on the individual pregnancy and medical circumstances.
+              </p>
             </div>
 
-            {/* Section 12 — Why Trust Dr. Priyanka Gynaec */}
+            {/* Section 10 — Twin or Multiple Pregnancy Care */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Trust Dr. Priyanka Gynaec as Your Pregnancy Care Doctor
+                Twin or Multiple Pregnancy Care
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Expertise with Heart:</strong> International fellowship and gold medal credentials</li>
-                <li><strong>Continuity of Care:</strong> The same doctor from the first visit through delivery and beyond</li>
-                <li><strong>Proven Outcomes:</strong> A strong track record of safe, well-managed pregnancies</li>
-                <li><strong>Earned Trust:</strong> Patients refer their own family and friends</li>
+              <p className="text-gray-700 mb-4">
+                Pregnancy with twins or more babies generally requires closer monitoring than a singleton pregnancy.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Care may involve:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>More frequent antenatal assessment</li>
+                <li>Monitoring fetal growth</li>
+                <li>Assessment of maternal health</li>
+                <li>Appropriate ultrasound examinations</li>
+                <li>Monitoring for pregnancy-related complications</li>
+                <li>Delivery planning according to the pregnancy</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                The recommended monitoring schedule depends on the type of multiple pregnancy and individual clinical findings.
+              </p>
             </div>
 
-            {/* Section 13 — Preparing for Your First Consultation */}
+            {/* Section 11 — Pregnancy-Related Conditions */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Preparing for Your First Pregnancy Care Consultation
+                Pregnancy-Related Conditions That May Need Monitoring
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Bring any previous medical records or test results you already have</li>
-                <li>Note your last menstrual period date</li>
-                <li>List current medicines, supplements and any allergies</li>
-                <li>Write down questions or concerns beforehand</li>
-                <li>Wear comfortable clothing for the examination</li>
-                <li>Bring a family member along if you'd like support</li>
-              </ul>
+              <p className="text-gray-700 mb-4">
+                During pregnancy, your doctor may assess or manage conditions such as:
+              </p>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Gestational Diabetes
+                  </h3>
+                  <p className="text-gray-700">
+                    Gestational diabetes is diabetes first diagnosed during pregnancy. Appropriate screening and follow-up can help manage blood glucose levels and reduce pregnancy-related risks.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    High Blood Pressure During Pregnancy
+                  </h3>
+                  <p className="text-gray-700">
+                    Blood pressure is routinely monitored during antenatal visits. Persistent high blood pressure or symptoms such as severe headache, visual disturbances, sudden swelling, or upper abdominal pain require medical assessment.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Anemia During Pregnancy
+                  </h3>
+                  <p className="text-gray-700">
+                    Anemia is common during pregnancy and may be evaluated through blood tests. Treatment depends on the cause and severity.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Pregnancy-Related Bleeding
+                  </h3>
+                  <p className="text-gray-700">
+                    Bleeding during pregnancy can have different causes depending on the stage of pregnancy. Any significant or unexplained bleeding should be assessed by a healthcare professional.
+                  </p>
+                </div>
+              </div>
             </div>
 
-            {/* Section 14 — Common Questions Discussed */}
+            {/* Section 12 — Ultrasound and Pregnancy Monitoring */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Common Questions Discussed at Pregnancy Care Consultations
+                Ultrasound and Pregnancy Monitoring
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>What can I expect at each stage of my pregnancy?</li>
-                <li>How should my diet and lifestyle change as pregnancy progresses?</li>
-                <li>What tests and scans will I need, and when?</li>
-                <li>How will complications, if any arise, be managed?</li>
-                <li>What are my options for delivery, and how is a birth plan created?</li>
-              </ul>
+              <p className="text-gray-700 mb-4">
+                Ultrasound examinations can provide information about pregnancy development, fetal growth, anatomy, placenta, and other findings depending on the stage of pregnancy and type of scan.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Your doctor may recommend different ultrasound examinations when clinically appropriate.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Additional monitoring such as Doppler assessment or fetal heart rate monitoring may also be recommended in selected pregnancies.
+              </p>
+
+              <p className="text-gray-700">
+                Not every woman requires the same scans or the same frequency of monitoring. Investigations should be based on gestational age and individual medical requirements.
+              </p>
             </div>
 
-            {/* Section 15 — Serving Moradabad and Nearby Areas */}
+            {/* Section 13 — Antenatal Care and Guidance */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Serving Moradabad and Nearby Areas
+                Antenatal Care and Pregnancy Guidance
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Patients travel from Moradabad city as well as nearby towns and villages for pregnancy care</li>
-                <li>The clinic's location near Old Roadways, Gandhi Nagar makes it centrally accessible</li>
-                <li>Same-day consultation slots available for urgent pregnancy concerns</li>
-                <li>Coordination support offered for patients travelling from a distance</li>
-                <li>Reports and prescriptions can be shared digitally for easier follow-up</li>
+              <p className="text-gray-700 mb-4">
+                Antenatal care is also an opportunity to discuss everyday pregnancy concerns.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Your consultation may include guidance about:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Balanced nutrition</li>
+                <li>Appropriate physical activity</li>
+                <li>Medicines and supplements</li>
+                <li>Sleep and rest</li>
+                <li>Travel during pregnancy</li>
+                <li>Work and daily activities</li>
+                <li>Warning signs requiring medical attention</li>
+                <li>Preparing for delivery</li>
+                <li>Breastfeeding preparation</li>
+                <li>Postnatal recovery</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                Do not start or stop medicines or supplements during pregnancy without discussing them with your doctor.
+              </p>
             </div>
 
-            {/* Section 16 — How to Evaluate a Doctor */}
+            {/* Section 14 — Preparing for Delivery */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                How to Evaluate a Pregnancy Care Doctor Before Choosing One
+                Preparing for Delivery
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Ask how many years of experience the doctor has in managing pregnancies</li>
-                <li>Check what technology and equipment are available on-site</li>
-                <li>Find out whether the same doctor handles delivery or if it's passed to someone else</li>
-                <li>Ask how emergencies are handled outside regular clinic hours</li>
-                <li>Look for genuine patient reviews and referrals rather than just online ratings</li>
-                <li>Consider how comfortable you feel asking questions during the first consultation</li>
+              <p className="text-gray-700 mb-4">
+                Delivery planning is an important part of pregnancy care.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                During the later stages of pregnancy, discussions may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Expected delivery timing</li>
+                <li>Baby's position</li>
+                <li>Maternal and fetal health</li>
+                <li>Previous delivery history</li>
+                <li>Vaginal delivery considerations</li>
+                <li>Caesarean delivery when medically indicated</li>
+                <li>When to contact the hospital or doctor</li>
+                <li>What to carry for admission</li>
+                <li>Post-delivery care</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                The final delivery plan may change if the mother's or baby's condition changes.
+              </p>
             </div>
 
-            {/* Section 17 — Building Trust */}
+            {/* Section 15 — Normal and Caesarean Delivery */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Building Trust With Your Pregnancy Care Doctor
+                Normal Delivery and Caesarean Delivery
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Share your full medical history honestly, even details that feel minor</li>
-                <li>Ask questions whenever something is unclear, rather than assuming it's fine</li>
-                <li>Bring a partner or family member to appointments if that helps you feel supported</li>
-                <li>Keep track of symptoms or concerns between visits so nothing gets forgotten</li>
-                <li>Follow the recommended checkup schedule even during weeks when you feel completely well</li>
-              </ul>
+              <p className="text-gray-700 mb-4">
+                A vaginal delivery may be appropriate for many women, depending on their individual pregnancy and medical circumstances.
+              </p>
+
+              <p className="text-gray-700">
+                A Caesarean section may be recommended when vaginal delivery would be unsafe or when there is a medical indication. The decision should be based on the health and safety of the mother and baby rather than on a fixed delivery plan.
+              </p>
             </div>
 
-            {/* Section 18 — Final Thoughts */}
+            {/* Section 16 — Postnatal Care After Delivery */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Choosing a Pregnancy Care Doctor in Moradabad
+                Postnatal Care After Delivery
               </h2>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Pregnancy care works best as one continuous relationship, not a series of disconnected visits</li>
-                <li>Dr. Priyanka Gynaec Moradabad offers that continuity, from pre-pregnancy guidance through postnatal recovery</li>
-                <li>Advanced monitoring technology combined with genuine, unhurried communication makes a real difference</li>
-                <li>Choosing the right doctor early in your pregnancy sets the tone for the months ahead</li>
-                <li>If you are pregnant or planning pregnancy, an early consultation is always a good first step</li>
+              <p className="text-gray-700 mb-4">
+                Pregnancy care continues after the baby is born.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Postnatal follow-up may address:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Recovery after vaginal delivery or C-section</li>
+                <li>Bleeding after delivery</li>
+                <li>Pain and wound care</li>
+                <li>Breastfeeding concerns</li>
+                <li>Maternal nutrition</li>
+                <li>Blood pressure or other medical conditions</li>
+                <li>Emotional wellbeing</li>
+                <li>Contraception and family planning</li>
+                <li>Follow-up after pregnancy complications</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                If you experience severe bleeding, difficulty breathing, chest pain, severe headache, seizures, high fever, severe abdominal pain, or thoughts of harming yourself or your baby, seek urgent medical care.
+              </p>
             </div>
 
-            {/* Section 19 — Contact Information */}
+            {/* Section 17 — When to Consult a Doctor */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Address, Contact and WhatsApp
+                When Should You Consult a Pregnancy Care Doctor?
               </h2>
+
+              <p className="text-gray-700 mb-4">
+                You can consider a pregnancy consultation if:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>You are planning to become pregnant</li>
+                <li>Your pregnancy test is positive</li>
+                <li>You have missed your period and suspect pregnancy</li>
+                <li>You have concerns during early pregnancy</li>
+                <li>You need routine antenatal care</li>
+                <li>You have a previous pregnancy complication</li>
+                <li>You have had a previous C-section</li>
+                <li>You have been diagnosed with gestational diabetes or high blood pressure</li>
+                <li>You are expecting twins or multiple babies</li>
+                <li>You want a second opinion about your pregnancy care</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Early consultation can help establish an appropriate pregnancy care plan.
+              </p>
+            </div>
+
+            {/* Section 18 — What to Bring to Your Consultation */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                What to Bring to Your Pregnancy Consultation
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                For your first appointment, consider bringing:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Previous medical records</li>
+                <li>Previous pregnancy or delivery records</li>
+                <li>Ultrasound reports</li>
+                <li>Blood test reports</li>
+                <li>Your last menstrual period date, if known</li>
+                <li>Current medicine and supplement details</li>
+                <li>Information about allergies</li>
+                <li>Details of previous surgeries</li>
+                <li>Any questions or symptoms you want to discuss</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Keeping your pregnancy reports organised can also make follow-up consultations easier.
+              </p>
+            </div>
+
+            {/* Section 19 — Questions to Ask Your Doctor */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Questions You Can Ask Your Pregnancy Care Doctor
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                It is completely appropriate to ask questions during antenatal appointments.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                You may want to discuss:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Is my pregnancy progressing normally?</li>
+                <li>Which tests or scans are recommended at this stage?</li>
+                <li>What symptoms should I watch for?</li>
+                <li>How frequently should I attend appointments?</li>
+                <li>What foods or activities should I avoid?</li>
+                <li>Do I need additional monitoring?</li>
+                <li>What are my delivery options?</li>
+                <li>When should I contact the doctor urgently?</li>
+                <li>What should I expect after delivery?</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Understanding your care plan can help you participate more confidently in decisions about your pregnancy.
+              </p>
+            </div>
+
+            {/* Section 20 — Clinic Information */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pregnancy Care Doctor In Moradabad – Dr. Priyanka Gynaec
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you are looking for a Pregnancy Care Doctor In Moradabad, Dr. Priyanka Gynaec provides pregnancy and antenatal consultations based on the individual needs of the mother and pregnancy.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                The focus is on appropriate monitoring, clear communication, early identification of concerns, and planning care according to medical requirements.
+              </p>
 
               <div className="bg-[#F8F4EA] text-black rounded-2xl p-8">
                 <h3 className="text-xl font-semibold mb-4">
-                  Contact Information
+                  Clinic Location
                 </h3>
 
                 <div className="space-y-4 mb-6">
-                  {/* Clinic Address */}
                   <div className="flex items-start gap-3">
                     <MapPin size={20} className="text-black mt-1 shrink-0" />
                     <div>
                       <p className="font-semibold">Dr. Priyanka Gynaec</p>
                       <p className="text-black">
-                        A2, near Old Roadways, Gandhi Nagar, Moradabad,
-                        Uttar Pradesh – 244001
+                        A2, Near Old Roadways, Gandhi Nagar,
+                        Moradabad, Uttar Pradesh – 244001
                       </p>
                     </div>
                   </div>
@@ -484,20 +702,11 @@ export default function PregnancyCareDoctorMoradabad() {
                       </div>
                     </div>
                   </div>
-
-                  <div className="flex items-start gap-3">
-                    <Shield size={20} className="text-black mt-1 shrink-0" />
-                    <div>
-                      <p className="font-semibold">Website</p>
-                      <a
-                        href="https://www.gynaecologistmoradabad.com/"
-                        className="hover:underline text-black"
-                      >
-                        https://www.gynaecologistmoradabad.com/
-                      </a>
-                    </div>
-                  </div>
                 </div>
+
+                <p className="text-gray-700 mb-4">
+                  For urgent or emergency pregnancy symptoms, seek immediate medical attention rather than waiting for a routine appointment or WhatsApp response.
+                </p>
 
                 <div className="flex gap-4 flex-wrap">
                   <Link href="/contact">
@@ -514,16 +723,12 @@ export default function PregnancyCareDoctorMoradabad() {
                   </Link>
                 </div>
               </div>
-
-              <p className="text-gray-700 mt-6">
-                Message directly on WhatsApp for appointment booking, directions or any query. For emergencies or urgent concerns, calling is better than messaging.
-              </p>
             </div>
 
-            {/* Section 20 — FAQs */}
+            {/* Section 21 — FAQs */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-6 text-gray-900">
-                Frequently Asked Questions (FAQs)
+                Frequently Asked Questions
               </h2>
 
               <div className="space-y-5">

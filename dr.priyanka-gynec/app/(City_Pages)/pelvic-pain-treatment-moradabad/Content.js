@@ -10,6 +10,7 @@ import {
   Heart,
   Star,
   Award,
+  Globe,
 } from "lucide-react";
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
@@ -17,36 +18,36 @@ import Banner from "./Banner";
 export default function PelvicPainMoradabad() {
   const faqs = [
     {
-      q: "What are the most common causes of pelvic pain in women?",
-      a: "Common causes include endometriosis, ovarian cysts, pelvic inflammatory disease, fibroids, and urinary tract infections.",
+      q: "What is the most common cause of pelvic pain in women?",
+      a: "Pelvic pain can have many causes. Common gynaecological causes include endometriosis, ovarian cysts, fibroids, adenomyosis, and pelvic inflammatory disease. Urinary, gastrointestinal, and pelvic floor conditions can also cause pelvic pain.",
     },
     {
-      q: "When should chronic pelvic pain be evaluated by a doctor?",
-      a: "Pain lasting six months or longer, or pain that disrupts daily activities, should always be evaluated by a Gynaecologist.",
+      q: "Is pelvic pain normal during periods?",
+      a: "Mild menstrual cramps can be common, but severe, worsening, or persistent pelvic pain should not automatically be considered normal. It may require evaluation for conditions such as endometriosis or adenomyosis.",
     },
     {
-      q: "Can pelvic pain be a sign of an emergency?",
-      a: "Yes, sudden severe pain, especially with fever, fainting, or heavy bleeding, may indicate a medical emergency requiring immediate attention.",
+      q: "Can ovarian cysts cause pelvic pain?",
+      a: "Yes. Some ovarian cysts can cause pelvic discomfort or pain. The appropriate treatment depends on the type, size, appearance, and symptoms associated with the cyst.",
     },
     {
-      q: "Is laparoscopic surgery used to treat pelvic pain?",
-      a: "Yes, laparoscopic surgery is commonly used to diagnose and treat conditions like endometriosis, ovarian cysts, and fibroids causing pelvic pain.",
+      q: "Can endometriosis cause chronic pelvic pain?",
+      a: "Yes. Endometriosis is a recognized cause of recurring or chronic pelvic pain, particularly around menstruation. Treatment depends on individual symptoms and disease characteristics.",
     },
     {
-      q: "Can pelvic inflammatory disease be cured completely?",
-      a: "Yes, with prompt antibiotic treatment, PID can be effectively treated, though delayed treatment may lead to complications.",
+      q: "Does pelvic pain always require surgery?",
+      a: "No. Many causes of pelvic pain can be managed without surgery. Surgery is considered when it is appropriate for the underlying condition.",
     },
     {
-      q: "Is pelvic pain always related to the reproductive organs?",
-      a: "No, pelvic pain can also arise from the urinary tract, digestive system, or pelvic floor muscles.",
+      q: "When is pelvic pain an emergency?",
+      a: "Sudden severe pain, heavy bleeding, fainting, severe dizziness, fever, or pelvic pain during pregnancy can require urgent medical assessment.",
     },
     {
-      q: "Does endometriosis always require surgery?",
-      a: "Not always; treatment depends on symptom severity and may include hormonal therapy, with surgery reserved for more significant cases.",
+      q: "Can pelvic pain affect pregnancy?",
+      a: "Some conditions that cause pelvic pain can also affect fertility, but pelvic pain itself does not necessarily mean that pregnancy will be difficult. The underlying cause should be evaluated.",
     },
     {
-      q: "How can I book a consultation for pelvic pain treatment in Moradabad?",
-      a: "You can call or WhatsApp the clinic directly using the contact details above to schedule a consultation and evaluation.",
+      q: "How can I get pelvic pain treatment in Moradabad?",
+      a: "You can contact Dr. Priyanka Gynaec in Moradabad to discuss your symptoms and schedule a gynaecological consultation. The appropriate treatment can be planned after evaluation.",
     },
   ];
 
@@ -61,266 +62,536 @@ export default function PelvicPainMoradabad() {
             {/* Section 1 — Introduction */}
             <div className="mb-12">
               <h1 className="text-3xl font-serif mb-4 text-gray-900">
-                Pelvic Pain Treatment in Moradabad – Expert Care by Dr. Priyanka Gynaec
+                Pelvic Pain Treatment in Moradabad
               </h1>
 
               <p className="text-gray-700 mb-4">
-                Pelvic pain is one of the most common yet often overlooked health concerns among women, ranging from mild, occasional discomfort to severe, persistent pain that disrupts daily life. Because pelvic pain can stem from many different causes, ranging from the reproductive organs to the digestive or urinary system, accurate diagnosis is essential for effective treatment. Dr. Priyanka Gynaec offers expert pelvic pain treatment in Moradabad, combining detailed diagnostic evaluation with advanced treatment options to help women find lasting relief and understand what is truly causing their discomfort.
+                Pelvic pain can affect women at different stages of life and may range from mild discomfort to persistent or severe pain. It can be related to the uterus, ovaries, fallopian tubes, urinary system, bowel, or pelvic floor muscles. Because several conditions can cause similar symptoms, identifying the underlying cause is an important part of effective treatment.
               </p>
 
               <p className="text-gray-700">
-                This detailed guide explains the possible causes of pelvic pain, when it should be evaluated, how it is diagnosed, and the treatment options available in Moradabad.
+                If you are looking for pelvic pain treatment in Moradabad, Dr. Priyanka Gynaec provides gynaecological evaluation and treatment based on the cause, severity of symptoms, medical history, and individual health needs.
               </p>
             </div>
 
-            {/* Section 2 — What Is Pelvic Pain? */}
+            {/* Section 2 — What Is Pelvic Pain */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
                 What Is Pelvic Pain?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Pelvic pain refers to discomfort or pain felt in the lower abdomen, below the belly button, between the hip bones. It can be sharp, dull, constant, or intermittent, and may occur on one side or both sides of the pelvis. Pelvic pain is generally classified into two categories:
+                Pelvic pain is discomfort felt in the lower abdomen or pelvic region, usually below the belly button and between the hip bones. The pain may be:
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Acute Pelvic Pain:</strong> Sudden, severe pain that comes on quickly and often requires prompt medical attention.</li>
-                <li><strong>Chronic Pelvic Pain:</strong> Persistent pain lasting six months or longer, which may be constant or come and go, often requiring a more detailed evaluation to identify the underlying cause.</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Sharp or stabbing</li>
+                <li>Dull or aching</li>
+                <li>Constant or intermittent</li>
+                <li>Felt on one side or both sides</li>
+                <li>Related to periods or ovulation</li>
+                <li>Associated with intercourse, urination, or bowel movements</li>
               </ul>
 
               <p className="text-gray-700">
-                Because the pelvic region houses the reproductive organs, bladder, and parts of the digestive system, pelvic pain can originate from a wide range of sources, making a thorough evaluation essential for proper treatment.
+                Pelvic pain may be acute, meaning it develops suddenly, or chronic, meaning it continues or repeatedly occurs over a longer period. Since pelvic pain can have different causes, treatment should focus on finding the reason behind the pain rather than treating the symptom alone.
               </p>
             </div>
 
             {/* Section 3 — Common Causes of Pelvic Pain */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Common Causes of Pelvic Pain
+                Common Causes of Pelvic Pain in Women
               </h2>
 
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Gynaecological Causes
-              </h3>
+              <div className="space-y-6">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Endometriosis
+                  </h3>
+                  <p className="text-gray-700">
+                    Endometriosis occurs when tissue similar to the lining of the uterus grows outside the uterus. It can cause pelvic pain, particularly around menstruation, and may also be associated with painful intercourse or fertility problems. Treatment depends on symptoms, disease severity, age, and pregnancy plans.
+                  </p>
+                </div>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Endometriosis:</strong> A condition where tissue similar to the uterine lining grows outside the uterus, often causing chronic, severe pelvic pain, particularly during periods.</li>
-                <li><strong>Ovarian Cysts:</strong> Fluid-filled sacs on the ovaries that can cause pain, especially if they rupture or twist.</li>
-                <li><strong>Pelvic Inflammatory Disease (PID):</strong> An infection of the reproductive organs, often caused by untreated sexually transmitted infections, leading to pain and, if untreated, potential fertility complications.</li>
-                <li><strong>Uterine Fibroids:</strong> Non-cancerous growths in the uterus that can cause pelvic pressure and pain, particularly if they are large.</li>
-                <li><strong>Adenomyosis:</strong> A condition where the uterine lining grows into the muscular wall of the uterus, causing pain and heavy periods.</li>
-                <li><strong>Ovarian Torsion:</strong> A medical emergency where the ovary twists on its supporting ligaments, cutting off blood supply and causing sudden, severe pain.</li>
-                <li><strong>Ectopic Pregnancy:</strong> A pregnancy that implants outside the uterus, most commonly in the fallopian tube, which can cause severe pain and requires immediate medical attention.</li>
-              </ul>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Ovarian Cysts
+                  </h3>
+                  <p className="text-gray-700">
+                    Ovarian cysts are fluid-filled or other types of sacs that develop on or inside an ovary. Many cysts resolve without treatment, while some may cause pelvic pain or require further evaluation. Treatment may include observation, medication in selected situations, or surgery when clinically indicated.
+                  </p>
+                </div>
 
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                Non-Gynaecological Causes
-              </h3>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Uterine Fibroids
+                  </h3>
+                  <p className="text-gray-700">
+                    Fibroids are non-cancerous growths of the uterus. Depending on their size and location, they may cause pelvic pressure, pain, heavy menstrual bleeding, or other symptoms. Treatment depends on the symptoms and characteristics of the fibroids.
+                  </p>
+                </div>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Urinary Tract Infections:</strong> Infections of the bladder or urinary tract can cause pelvic discomfort along with urinary symptoms.</li>
-                <li><strong>Irritable Bowel Syndrome (IBS):</strong> A digestive condition that can cause pelvic and lower abdominal pain, often linked to bowel habits.</li>
-                <li><strong>Musculoskeletal Issues:</strong> Pelvic floor muscle tension or strain can also contribute to chronic pelvic discomfort.</li>
-                <li><strong>Interstitial Cystitis:</strong> A chronic bladder condition causing pelvic pain and urinary urgency.</li>
-              </ul>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Adenomyosis
+                  </h3>
+                  <p className="text-gray-700">
+                    Adenomyosis occurs when tissue similar to the uterine lining grows within the muscular wall of the uterus. It can cause painful periods, heavy menstrual bleeding, and pelvic discomfort. Treatment may involve medicines or other interventions depending on the severity of symptoms.
+                  </p>
+                </div>
 
-              <p className="text-gray-700">
-                Given this wide range of potential causes, a comprehensive evaluation by an experienced Gynaecologist is essential to identify the true source of the pain and guide appropriate treatment.
-              </p>
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Pelvic Inflammatory Disease
+                  </h3>
+                  <p className="text-gray-700">
+                    Pelvic inflammatory disease (PID) is an infection involving the female reproductive organs. It may cause lower abdominal or pelvic pain, abnormal vaginal discharge, fever, or pain during intercourse. Prompt medical evaluation and appropriate antibiotic treatment are important when PID is suspected.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Urinary Tract Problems
+                  </h3>
+                  <p className="text-gray-700">
+                    Urinary tract infections and other bladder-related conditions can sometimes cause pain or pressure in the lower abdomen and pelvis. Urinary symptoms such as burning while urinating, frequent urination, or urgency may provide additional clues.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Pelvic Floor Muscle Problems
+                  </h3>
+                  <p className="text-gray-700">
+                    Tightness, weakness, or dysfunction of the pelvic floor muscles may contribute to persistent pelvic discomfort. In selected cases, pelvic floor exercises or physiotherapy may form part of treatment.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Gastrointestinal Causes
+                  </h3>
+                  <p className="text-gray-700">
+                    Conditions affecting the digestive system, including irritable bowel syndrome and other bowel problems, can cause lower abdominal or pelvic pain. A gynaecological cause should not be assumed without proper evaluation.
+                  </p>
+                </div>
+              </div>
             </div>
 
-            {/* Section 4 — Warning Signs That Require Immediate Medical Attention */}
+            {/* Section 4 — Symptoms Associated With Pelvic Pain */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Warning Signs That Require Immediate Medical Attention
+                Symptoms Associated With Pelvic Pain
               </h2>
 
               <p className="text-gray-700 mb-4">
-                While chronic pelvic pain often warrants a scheduled evaluation, certain symptoms require urgent medical care:
+                Pelvic pain may occur alone or together with other symptoms, such as:
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Sudden, severe pelvic pain, especially on one side</li>
-                <li>Pain accompanied by fever or chills</li>
-                <li>Heavy vaginal bleeding along with pain</li>
-                <li>Pain accompanied by fainting, dizziness, or feeling unwell</li>
-                <li>Pain during pregnancy, particularly in early pregnancy</li>
-                <li>Severe pain that comes on suddenly and worsens rapidly</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Painful periods</li>
+                <li>Heavy or irregular menstrual bleeding</li>
+                <li>Pain during sexual intercourse</li>
+                <li>Lower abdominal pressure</li>
+                <li>Pain during urination</li>
+                <li>Changes in bowel movements</li>
+                <li>Abnormal vaginal discharge</li>
+                <li>Fever or chills</li>
+                <li>Difficulty becoming pregnant</li>
               </ul>
 
-              <p className="text-gray-700">
-                These symptoms may indicate conditions such as ovarian torsion, ectopic pregnancy, or a ruptured ovarian cyst, all of which require prompt medical evaluation.
+              <p className="text-gray-700 mt-4">
+                The combination of symptoms can help a doctor determine which investigations may be appropriate.
               </p>
             </div>
 
-            {/* Section 5 — How Is Pelvic Pain Diagnosed? */}
+            {/* Section 5 — When Should You See a Gynaecologist */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                When Should You See a Gynaecologist for Pelvic Pain?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                You should consider a medical evaluation if pelvic pain:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Keeps coming back</li>
+                <li>Lasts for several weeks</li>
+                <li>Becomes more severe over time</li>
+                <li>Interferes with work, sleep, exercise, or daily activities</li>
+                <li>Occurs with abnormal bleeding</li>
+                <li>Is associated with painful periods or intercourse</li>
+                <li>Occurs along with fertility difficulties</li>
+                <li>Is accompanied by unusual vaginal discharge or urinary symptoms</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Persistent pelvic pain should not simply be assumed to be a normal part of menstruation.
+              </p>
+            </div>
+
+            {/* Section 6 — Warning Signs That Need Urgent Attention */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pelvic Pain Warning Signs That Need Urgent Medical Attention
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Some pelvic pain symptoms can indicate a condition requiring urgent evaluation.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Seek immediate medical care for:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Sudden and severe pelvic or abdominal pain</li>
+                <li>Severe pain mainly on one side</li>
+                <li>Pelvic pain with fainting or significant dizziness</li>
+                <li>Heavy vaginal bleeding</li>
+                <li>Severe pain with fever or chills</li>
+                <li>Pelvic pain during pregnancy</li>
+                <li>Severe pain accompanied by vomiting or significant weakness</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Conditions such as ectopic pregnancy or ovarian torsion can require urgent medical assessment and treatment.
+              </p>
+            </div>
+
+            {/* Section 7 — How Is Pelvic Pain Diagnosed */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
                 How Is Pelvic Pain Diagnosed?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                At Dr. Priyanka Gynaec, diagnosing the cause of pelvic pain begins with a detailed medical history, including the nature, timing, and pattern of the pain, followed by a thorough pelvic examination. Depending on the suspected cause, further evaluation may include:
+                The first step in pelvic pain treatment in Moradabad is understanding what is causing the symptoms.
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Pelvic Ultrasound:</strong> To examine the uterus, ovaries, and surrounding structures for cysts, fibroids, or other abnormalities</li>
-                <li><strong>Blood Tests:</strong> To check for infection, inflammation, or pregnancy-related causes</li>
-                <li><strong>Urine Tests:</strong> To rule out urinary tract infections as a cause of pain</li>
-                <li><strong>Diagnostic Laparoscopy:</strong> A minimally invasive procedure to directly visualize the pelvic organs, particularly useful in diagnosing conditions like endometriosis that may not be visible on imaging alone</li>
-                <li><strong>Hysteroscopy:</strong> In select cases, to examine the inside of the uterus for structural causes of pain</li>
-                <li><strong>MRI:</strong> In complex cases, for more detailed imaging of the pelvic structures</li>
+              <p className="text-gray-700 mb-4">
+                During a consultation, the doctor may ask about:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Location of the pain</li>
+                <li>When the pain started</li>
+                <li>Pain severity and frequency</li>
+                <li>Relationship with menstrual periods</li>
+                <li>Previous pregnancies or surgeries</li>
+                <li>Pain during intercourse</li>
+                <li>Urinary or bowel symptoms</li>
+                <li>Previous gynaecological conditions</li>
+                <li>Current medicines and medical history</li>
+              </ul>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the symptoms, investigations may include:
+              </p>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Pelvic Ultrasound
+                  </h3>
+                  <p className="text-gray-700">
+                    Ultrasound can help evaluate the uterus and ovaries and may identify conditions such as ovarian cysts, fibroids, or other structural abnormalities.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Blood Tests
+                  </h3>
+                  <p className="text-gray-700">
+                    Blood tests may be recommended when infection, inflammation, pregnancy-related conditions, or other causes need to be evaluated.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Urine Tests
+                  </h3>
+                  <p className="text-gray-700">
+                    Urine testing can help identify urinary tract infections or other urinary causes of pelvic discomfort.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    MRI
+                  </h3>
+                  <p className="text-gray-700">
+                    MRI may be recommended in selected cases when more detailed imaging of the pelvic organs is required.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Diagnostic Laparoscopy
+                  </h3>
+                  <p className="text-gray-700">
+                    Laparoscopy is a minimally invasive surgical procedure that allows the pelvic organs to be examined directly. It may be considered in selected patients, including those with suspected endometriosis or other pelvic conditions.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Hysteroscopy
+                  </h3>
+                  <p className="text-gray-700">
+                    Hysteroscopy examines the inside of the uterus and may be recommended when an intrauterine problem is suspected.
+                  </p>
+                </div>
+              </div>
+
+              <p className="text-gray-700 mt-4">
+                Not every patient requires all of these tests. Investigations are selected according to the individual's symptoms and clinical findings.
+              </p>
+            </div>
+
+            {/* Section 8 — Pelvic Pain Treatment Options */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pelvic Pain Treatment in Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Treatment depends on the underlying cause. There is no single treatment that is appropriate for every type of pelvic pain.
+              </p>
+
+              <div className="space-y-6">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    1. Medicines
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    Depending on the diagnosis, treatment may include medicines for:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Pain management</li>
+                    <li>Hormonal conditions</li>
+                    <li>Endometriosis or adenomyosis</li>
+                    <li>Infections</li>
+                    <li>Other underlying conditions contributing to symptoms</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    Medicines should be taken according to medical advice.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    2. Treatment for Endometriosis
+                  </h3>
+                  <p className="text-gray-700">
+                    Endometriosis may be managed with medication, hormonal treatment, surgery, or a combination of approaches. The treatment plan may depend on the severity of symptoms, previous treatment, fertility plans, and the extent of disease.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    3. Treatment for Ovarian Cysts
+                  </h3>
+                  <p className="text-gray-700">
+                    Some ovarian cysts may only require monitoring. If a cyst is persistent, large, symptomatic, or has other concerning features, further treatment may be considered. In selected cases, laparoscopic surgery may be used to remove an ovarian cyst.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    4. Treatment for Fibroids
+                  </h3>
+                  <p className="text-gray-700">
+                    Fibroid treatment depends on symptoms, size, location, number of fibroids, age, and reproductive plans. Options may include observation, medicines, or surgical treatment when required.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    5. Treatment for Pelvic Inflammatory Disease
+                  </h3>
+                  <p className="text-gray-700">
+                    PID generally requires appropriate antibiotic treatment. Early treatment is important because untreated or inadequately treated infection can result in complications.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    6. Laparoscopic Treatment
+                  </h3>
+                  <p className="text-gray-700">
+                    Laparoscopic surgery may be considered for selected causes of pelvic pain, including certain cases of endometriosis, ovarian cysts, fibroids, and pelvic adhesions. Compared with traditional open surgery, laparoscopy generally involves smaller incisions, although suitability depends on the individual case.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    7. Pelvic Floor Management
+                  </h3>
+                  <p className="text-gray-700">
+                    When pelvic pain is related to pelvic floor muscle dysfunction, treatment may include pelvic floor exercises or physiotherapy as recommended by a healthcare professional.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 9 — Can Pelvic Pain Affect Fertility */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Can Pelvic Pain Affect Fertility?
+              </h2>
+
+              <p className="text-gray-700">
+                Some conditions associated with pelvic pain can also affect fertility. For example, endometriosis, pelvic inflammatory disease, blocked fallopian tubes, and certain ovarian or uterine conditions may be associated with difficulty conceiving. However, pelvic pain does not automatically mean that a woman will have fertility problems. The underlying diagnosis is important. Women experiencing pelvic pain together with difficulty conceiving may benefit from a gynaecological and fertility evaluation.
+              </p>
+            </div>
+
+            {/* Section 10 — Pelvic Pain and Endometriosis */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pelvic Pain and Endometriosis
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Endometriosis is an important cause of recurring pelvic pain in women.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Symptoms may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Painful periods</li>
+                <li>Chronic pelvic pain</li>
+                <li>Pain during intercourse</li>
+                <li>Pain during bowel movements or urination around periods</li>
+                <li>Difficulty conceiving</li>
               </ul>
 
               <p className="text-gray-700">
-                This thorough diagnostic approach ensures that treatment is targeted at the actual underlying cause rather than simply managing symptoms.
+                Treatment is individualized. Some women may be managed with medication, while others may require surgical evaluation or treatment. If pelvic pain repeatedly occurs around menstruation, discussing the symptoms with a gynaecologist can help determine whether further evaluation is needed.
               </p>
             </div>
 
-            {/* Section 6 — Treatment Options for Pelvic Pain in Moradabad */}
+            {/* Section 11 — Can Pelvic Pain Be Treated Without Surgery */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Treatment Options for Pelvic Pain in Moradabad
+                Can Pelvic Pain Be Treated Without Surgery?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Treatment for pelvic pain depends entirely on the underlying cause identified during evaluation. Dr. Priyanka Gynaec offers a comprehensive range of treatment options tailored to each diagnosis.
+                Yes. Surgery is not required for every cause of pelvic pain.
               </p>
 
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                1. Medical Management
-              </h3>
-
-              <p className="text-gray-700 mb-3">
-                For many causes of pelvic pain, medication is the first line of treatment, including:
+              <p className="text-gray-700 mb-4">
+                Depending on the diagnosis, treatment may involve:
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-6 list-disc pl-5">
-                <li>Pain-relief medication to manage discomfort</li>
-                <li>Hormonal therapy to manage conditions like endometriosis or adenomyosis</li>
-                <li>Antibiotics for pelvic inflammatory disease or urinary tract infections</li>
-                <li>Medications to manage underlying conditions like IBS, when relevant</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Medicines</li>
+                <li>Hormonal therapy</li>
+                <li>Antibiotics for infections</li>
+                <li>Observation and follow-up</li>
+                <li>Pelvic floor physiotherapy</li>
+                <li>Lifestyle and symptom-management strategies</li>
               </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                2. Laparoscopic Surgery
-              </h3>
-
-              <p className="text-gray-700 mb-3">
-                For conditions like endometriosis, ovarian cysts, or fibroids that do not respond to medical management, advanced 3D laparoscopic surgery offers a minimally invasive solution. Benefits of this approach include:
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-6 list-disc pl-5">
-                <li>Smaller incisions and minimal scarring</li>
-                <li>Reduced blood loss and post-operative pain</li>
-                <li>Shorter hospital stay and faster recovery</li>
-                <li>Precise removal or treatment of the underlying cause while preserving healthy tissue and fertility whenever possible</li>
-              </ul>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                3. Treatment for Ovarian Cysts
-              </h3>
-
-              <p className="text-gray-700 mb-4">
-                Depending on the size and nature of the cyst, treatment may range from watchful monitoring for small, simple cysts to laparoscopic removal for larger or persistent cysts, especially if they are causing significant pain.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                4. Management of Endometriosis
-              </h3>
-
-              <p className="text-gray-700 mb-4">
-                Endometriosis treatment is highly individualized and may include hormonal therapy to manage symptoms, laparoscopic surgery to remove endometrial tissue, or a combination of both, depending on the severity of the condition and the patient&apos;s fertility goals.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                5. Treatment for Pelvic Inflammatory Disease
-              </h3>
-
-              <p className="text-gray-700 mb-4">
-                PID is treated promptly with appropriate antibiotics to clear the infection and prevent long-term complications such as chronic pelvic pain or fertility issues.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                6. Emergency Surgical Care
-              </h3>
-
-              <p className="text-gray-700 mb-4">
-                In cases of ovarian torsion, ruptured ectopic pregnancy, or other surgical emergencies, prompt surgical intervention is essential to prevent serious complications and preserve reproductive organs whenever possible.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                7. Pelvic Floor Therapy
-              </h3>
 
               <p className="text-gray-700">
-                For pelvic pain related to musculoskeletal causes or pelvic floor muscle tension, targeted pelvic floor exercises and physical therapy can provide significant relief.
+                Surgery may be considered when a structural condition requires surgical treatment or when symptoms continue despite appropriate non-surgical management.
               </p>
             </div>
 
-            {/* Section 7 — The Importance of Not Ignoring Pelvic Pain */}
+            {/* Section 12 — Lifestyle Measures That May Help */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                The Importance of Not Ignoring Pelvic Pain
-              </h2>
-
-              <p className="text-gray-700">
-                Many women delay seeking treatment for pelvic pain, assuming it is a normal part of being a woman or something they simply have to live with. This delay can allow underlying conditions like endometriosis or pelvic inflammatory disease to progress, potentially leading to complications such as chronic pain, fertility challenges, or, in emergency situations, serious risk to reproductive organs. Seeking timely evaluation ensures that the underlying cause is identified early and treated effectively.
-              </p>
-            </div>
-
-            {/* Section 8 — Why Choose Dr. Priyanka Gynaec for Pelvic Pain Treatment */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Choose Dr. Priyanka Gynaec for Pelvic Pain Treatment in Moradabad?
+                Lifestyle Measures That May Help
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Women across Moradabad trust Dr. Priyanka Gynaec for pelvic pain evaluation and treatment because of a thorough, patient-first approach backed by advanced medical technology. Key reasons include:
+                Lifestyle measures do not replace medical treatment when an underlying condition is present, but some women may find them useful for managing symptoms.
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Comprehensive diagnostic evaluation to accurately identify the cause of pelvic pain</li>
-                <li>Expertise in advanced 3D laparoscopic surgery for conditions like endometriosis, cysts, and fibroids</li>
-                <li>Personalized treatment plans based on the specific diagnosis and the patient&apos;s overall health goals</li>
-                <li>A compassionate, judgment-free environment where women feel comfortable discussing their symptoms</li>
-                <li>Prompt recognition and management of emergency conditions when needed</li>
-                <li>Continuity of care from diagnosis through treatment and follow-up</li>
+              <p className="text-gray-700 mb-4">
+                These may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Maintaining a regular sleep routine</li>
+                <li>Staying physically active according to comfort</li>
+                <li>Using heat for temporary relief from menstrual-related discomfort</li>
+                <li>Tracking periods and pain symptoms</li>
+                <li>Staying hydrated</li>
+                <li>Following medical advice for diagnosed conditions</li>
+                <li>Discussing persistent or worsening symptoms with your doctor</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                Keeping a pelvic pain and menstrual symptom diary can also help during a medical consultation.
+              </p>
             </div>
 
-            {/* Section 9 — Living with Chronic Pelvic Pain: Coping Strategies */}
+            {/* Section 13 — Why Choose Dr. Priyanka */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Living with Chronic Pelvic Pain: Coping Strategies
+                Why Choose Dr. Priyanka for Pelvic Pain Treatment in Moradabad?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                While seeking proper medical treatment, women dealing with chronic pelvic pain can also benefit from:
+                Dr. Priyanka Gynaec focuses on identifying the possible cause of pelvic pain before deciding on treatment.
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Keeping a symptom diary to track pain patterns and potential triggers</li>
-                <li>Applying heat therapy to the lower abdomen for symptomatic relief</li>
-                <li>Practicing relaxation techniques to manage stress, which can worsen pain perception</li>
-                <li>Maintaining open communication with the treating doctor about symptom changes</li>
-                <li>Joining support groups or counselling, particularly for chronic conditions like endometriosis</li>
+              <p className="text-gray-700 mb-4">
+                The consultation may involve:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Detailed discussion of symptoms and medical history</li>
+                <li>Appropriate gynaecological examination</li>
+                <li>Selection of relevant diagnostic tests</li>
+                <li>Individualized treatment planning</li>
+                <li>Medical or surgical management when clinically appropriate</li>
+                <li>Follow-up based on the patient's condition and response to treatment</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                The goal is to address the underlying condition while considering the patient's symptoms, overall health, and reproductive goals.
+              </p>
             </div>
 
-            {/* Section 10 — Speciality & Contact Information */}
+            {/* Section 14 — FAQs */}
             <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Speciality &amp; Contact Information
+              <h2 className="text-3xl font-serif mb-6 text-gray-900">
+                Frequently Asked Questions About Pelvic Pain
               </h2>
 
-              <p className="text-gray-700 mb-4">
-                <strong>Speciality:</strong> Gynaecology, Pelvic Pain &amp; Endometriosis Management, Advanced 3D Laparoscopy, Fertility &amp; IVF, Pregnancy &amp; Maternity Care, Paediatrics
-              </p>
+              <div className="space-y-5">
+                {faqs.map((faq) => (
+                  <div
+                    key={faq.q}
+                    className="border border-gray-200 rounded-lg p-5"
+                  >
+                    <h3 className="font-semibold text-gray-900 mb-2">
+                      {faq.q}
+                    </h3>
+
+                    <p className="text-gray-700">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Section 15 — Contact */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Contact Dr. Priyanka Gynaec in Moradabad
+              </h2>
 
               <div className="bg-[#F8F4EA] text-black rounded-2xl p-8">
                 <h3 className="text-xl font-semibold mb-4">
-                  Contact &amp; Clinic Address
+                  Contact Information
                 </h3>
 
                 <div className="space-y-4 mb-6">
@@ -330,8 +601,8 @@ export default function PelvicPainMoradabad() {
                     <div>
                       <p className="font-semibold">Dr. Priyanka Gynaec</p>
                       <p className="text-black">
-                        A2, near Old Roadways, Gandhi Nagar, Moradabad,
-                        Uttar Pradesh, 244001
+                        A2, Near Old Roadways, Gandhi Nagar,
+                        Moradabad, Uttar Pradesh – 244001
                       </p>
                     </div>
                   </div>
@@ -354,27 +625,14 @@ export default function PelvicPainMoradabad() {
                       </div>
 
                       <div className="mt-2">
-                        <Mail size={18} className="inline mr-2 text-black" />
+                        <Globe size={18} className="inline mr-2 text-black" />
                         <a
-                          href="mailto:contact@drpriyankaGynaec.com"
+                          href="https://www.gynaecologistmoradabad.com/"
                           className="hover:underline"
                         >
-                          contact@drpriyankaGynaec.com
+                          www.gynaecologistmoradabad.com
                         </a>
                       </div>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3">
-                    <Shield size={20} className="text-black mt-1 shrink-0" />
-                    <div>
-                      <p className="font-semibold">Website</p>
-                      <a
-                        href="https://www.gynaecologistmoradabad.com/"
-                        className="hover:underline text-black"
-                      >
-                        https://www.gynaecologistmoradabad.com/
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -393,32 +651,6 @@ export default function PelvicPainMoradabad() {
                     </button>
                   </Link>
                 </div>
-              </div>
-
-              <p className="text-gray-700 mt-6">
-                If you are experiencing persistent or severe pelvic pain, do not ignore it. Book a consultation with Dr. Priyanka Gynaec in Moradabad today for a thorough evaluation and effective, personalized treatment.
-              </p>
-            </div>
-
-            {/* Section 11 — FAQs */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-6 text-gray-900">
-                Frequently Asked Questions (FAQs)
-              </h2>
-
-              <div className="space-y-5">
-                {faqs.map((faq) => (
-                  <div
-                    key={faq.q}
-                    className="border border-gray-200 rounded-lg p-5"
-                  >
-                    <h3 className="font-semibold text-gray-900 mb-2">
-                      {faq.q}
-                    </h3>
-
-                    <p className="text-gray-700">{faq.a}</p>
-                  </div>
-                ))}
               </div>
             </div>
           </div>

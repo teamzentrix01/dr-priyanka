@@ -10,59 +10,64 @@ import {
   Heart,
   Star,
   Award,
+  Globe,
 } from "lucide-react";
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
 
-export default function GestationalDiabetesPregnancyDoctorMoradabad() {
+export default function GestationalDiabetesMoradabad() {
   const faqs = [
     {
+      q: "What is the best doctor for gestational diabetes in Moradabad?",
+      a: "A gynaecologist or obstetrician experienced in pregnancy care can assess gestational diabetes and coordinate additional medical care when required. Dr. Priyanka Gynaec provides pregnancy and obstetric consultations in Moradabad.",
+    },
+    {
       q: "What is gestational diabetes?",
-      a: "It is a type of diabetes that develops during pregnancy due to hormonal changes affecting insulin function, usually resolving after delivery.",
+      a: "Gestational diabetes is diabetes that is first diagnosed during pregnancy. It occurs when blood glucose levels become elevated during pregnancy.",
     },
     {
-      q: "When is gestational diabetes usually diagnosed?",
-      a: "It is typically screened for between 24 and 28 weeks of pregnancy through a glucose test.",
+      q: "When is gestational diabetes usually tested?",
+      a: "Screening is commonly performed during the middle part of pregnancy, often between 24 and 28 weeks. Testing may be recommended earlier in women with certain risk factors.",
     },
     {
-      q: "Who is a trusted doctor for gestational diabetes in Moradabad?",
-      a: "Dr. Priyanka Pachauri at Dr. Priyanka Gynaec clinic, Moradabad, is experienced in managing gestational diabetes pregnancies.",
+      q: "Does gestational diabetes require insulin?",
+      a: "Not always. Some women can manage their blood glucose through nutrition and appropriate physical activity, while others may need medication or insulin based on their glucose levels.",
+    },
+    {
+      q: "Can I have a normal delivery with gestational diabetes?",
+      a: "Gestational diabetes does not automatically require a C-section. Vaginal delivery may be possible depending on blood glucose control, fetal growth, gestational age, and other medical factors.",
     },
     {
       q: "Can gestational diabetes affect the baby?",
-      a: "Yes, unmanaged gestational diabetes can lead to a larger baby and other complications, but proper management reduces these risks.",
-    },
-    {
-      q: "Is normal delivery possible with gestational diabetes?",
-      a: "Yes, if blood sugar is well controlled and the baby's growth is normal, vaginal delivery is often still possible.",
+      a: "Uncontrolled gestational diabetes can increase the risk of excessive fetal growth and other pregnancy or newborn complications. Appropriate monitoring and management can help reduce these risks.",
     },
     {
       q: "Does gestational diabetes go away after delivery?",
-      a: "In most cases, yes, though blood sugar is usually rechecked a few weeks after delivery to confirm.",
+      a: "Blood glucose often returns toward normal after delivery, but women who have had gestational diabetes have an increased future risk of type 2 diabetes. Postpartum testing and long-term follow-up are therefore important.",
     },
     {
-      q: "What symptoms of gestational diabetes should I watch for?",
-      a: "Excessive thirst, frequent urination, unusual fatigue, and blurred vision are common symptoms to report.",
+      q: "Can gestational diabetes happen again?",
+      a: "Yes. A previous history of gestational diabetes increases the likelihood of developing it during a future pregnancy.",
     },
     {
-      q: "Is diet the only treatment for gestational diabetes?",
-      a: "Not always; some women manage it through diet alone, while others may need medication or insulin as advised by their doctor.",
+      q: "What should I eat if I have gestational diabetes?",
+      a: "Diet should be individualised. Your healthcare team can advise you about balanced meals, carbohydrate portions, meal timing, and suitable foods according to your pregnancy and glucose readings.",
     },
     {
-      q: "How can I book an appointment for gestational diabetes management?",
-      a: "You can book an appointment by messaging or calling the WhatsApp number +91 8979670705.",
+      q: "Should I exercise if I have gestational diabetes?",
+      a: "Appropriate physical activity may be recommended for many pregnant women, but it depends on individual health and pregnancy circumstances. Follow your doctor's advice.",
     },
     {
-      q: "Does gestational diabetes always lead to a C-section?",
-      a: "No, the mode of delivery depends on blood sugar control and the baby's growth, decided closer to the due date.",
+      q: "Is gestational diabetes the same as type 1 or type 2 diabetes?",
+      a: "No. Gestational diabetes is diagnosed during pregnancy and is different from diabetes that was already present before pregnancy.",
     },
     {
-      q: "Can gestational diabetes happen again in future pregnancies?",
-      a: "Yes, women who have had it once have a higher chance of developing it again in future pregnancies.",
+      q: "Can I consult a doctor for gestational diabetes during the third trimester?",
+      a: "Yes. If you have been diagnosed with gestational diabetes during the third trimester or require continued monitoring, consult your pregnancy care doctor for an appropriate management and delivery plan.",
     },
     {
-      q: "Is monitoring needed after delivery for gestational diabetes?",
-      a: "Yes, the mother's blood sugar is usually rechecked postpartum to ensure it has returned to a normal level.",
+      q: "Where can I consult a Gestational Diabetes Doctor In Moradabad?",
+      a: "Dr. Priyanka Gynaec provides pregnancy and obstetric consultations at A2, Near Old Roadways, Gandhi Nagar, Moradabad, Uttar Pradesh – 244001.",
     },
   ];
 
@@ -77,229 +82,680 @@ export default function GestationalDiabetesPregnancyDoctorMoradabad() {
             {/* Section 1 — Introduction */}
             <div className="mb-12">
               <h1 className="text-3xl font-serif mb-4 text-gray-900">
-                Gestational Diabetes Pregnancy Doctor – Expert Guidance for a Healthy Pregnancy
+                Gestational Diabetes Doctor In Moradabad
               </h1>
 
               <p className="text-gray-700 mb-4">
-                Hearing the words &quot;gestational diabetes&quot; during a routine pregnancy checkup can feel overwhelming, especially for first-time mothers who were not expecting any complications. The good news is that gestational diabetes is one of the most common and most manageable pregnancy conditions, and with the right gestational diabetes pregnancy doctor, most women go on to have completely normal, healthy deliveries. The key lies in early diagnosis, consistent monitoring, and following a structured management plan under expert supervision.
+                Gestational diabetes is a form of diabetes that develops during pregnancy and causes blood glucose levels to become higher than normal. Finding a suitable Gestational Diabetes Doctor In Moradabad can help pregnant women understand their diagnosis, monitor blood sugar levels, manage pregnancy-related risks, and receive appropriate antenatal care.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Gestational diabetes does not mean that a pregnancy will necessarily have complications. However, it needs proper evaluation and regular monitoring because uncontrolled blood sugar can affect both the mother and baby.
               </p>
 
               <p className="text-gray-700">
-                This guide explains what gestational diabetes actually is, why it develops, how it is diagnosed and managed, and why choosing an experienced specialist like Dr. Priyanka Pachauri in Moradabad makes such a meaningful difference to the outcome.
+                Dr. Priyanka Gynaec provides pregnancy and obstetric consultations in Moradabad, including assessment and management of pregnancy-related conditions such as gestational diabetes. The care plan is based on the mother's medical history, pregnancy stage, blood glucose readings, fetal growth, and other individual factors.
               </p>
             </div>
 
-            {/* Section 2 — What Is Gestational Diabetes? */}
+            {/* Section 2 — Gestational Diabetes Treatment */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Gestational Diabetes Treatment In Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you have been diagnosed with gestational diabetes, treatment generally focuses on maintaining blood glucose within the range recommended by your healthcare team while supporting healthy pregnancy and fetal growth.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on your individual condition, management may involve:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Blood glucose monitoring</li>
+                <li>Dietary and nutrition guidance</li>
+                <li>Appropriate physical activity</li>
+                <li>Regular antenatal checkups</li>
+                <li>Monitoring fetal growth</li>
+                <li>Additional blood or urine investigations when required</li>
+                <li>Medication or insulin when recommended</li>
+                <li>Monitoring blood pressure and other pregnancy-related conditions</li>
+                <li>Delivery planning based on maternal and fetal health</li>
+                <li>Postpartum diabetes testing and follow-up</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Not every woman with gestational diabetes needs medication or insulin. Your doctor will determine the appropriate approach according to your blood sugar results and overall pregnancy.
+              </p>
+            </div>
+
+            {/* Section 3 — What Is Gestational Diabetes */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
                 What Is Gestational Diabetes?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Gestational diabetes is a type of diabetes that develops specifically during pregnancy in women who did not have diabetes before conceiving. It happens because pregnancy hormones can make it harder for the body to use insulin effectively, leading to higher blood sugar levels.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>It usually develops in the second or third trimester</li>
-                <li>It is different from pre-existing (Type 1 or Type 2) diabetes, which exists before pregnancy</li>
-                <li>In most cases, it resolves after delivery, though it does increase future diabetes risk</li>
-                <li>It is diagnosed through a specific glucose tolerance test done during pregnancy</li>
-                <li>With proper management, most women deliver healthy babies without major complications</li>
-              </ul>
-            </div>
-
-            {/* Section 3 — Who Is More Likely to Develop It? */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Who Is More Likely to Develop Gestational Diabetes?
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Women with a family history of diabetes</li>
-                <li>Women who are overweight or gained excess weight before pregnancy</li>
-                <li>Women who have had gestational diabetes in a previous pregnancy</li>
-                <li>Women with PCOS (Polycystic Ovary Syndrome)</li>
-                <li>Women conceiving after the age of 35</li>
-                <li>Women who have previously delivered a large baby (over 4 kg)</li>
-                <li>Women from certain ethnic backgrounds with a higher genetic predisposition</li>
-              </ul>
-            </div>
-
-            {/* Section 4 — Why Specialist's Attention Is Needed */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Gestational Diabetes Needs a Specialist's Attention
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Unmanaged blood sugar can lead to the baby growing larger than average, complicating delivery</li>
-                <li>It increases the risk of preterm birth and preeclampsia</li>
-                <li>It can affect the baby's blood sugar levels immediately after birth</li>
-                <li>Poorly controlled gestational diabetes raises the chance of needing a C-section</li>
-                <li>A specialist doctor helps balance blood sugar control with the baby's continued healthy growth</li>
-                <li>Regular monitoring ensures any change in condition is caught and managed early</li>
-              </ul>
-            </div>
-
-            {/* Section 5 — How Gestational Diabetes Is Diagnosed */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                How Gestational Diabetes Is Diagnosed
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>A glucose challenge test is typically done between 24 and 28 weeks of pregnancy</li>
-                <li>If initial results are high, a glucose tolerance test confirms the diagnosis with more detailed readings</li>
-                <li>Some women with higher risk factors may be tested earlier in pregnancy</li>
-                <li>Regular home blood sugar monitoring is often started once diagnosed</li>
-                <li>Ongoing lab tests help track how well the condition is being managed over time</li>
-              </ul>
-            </div>
-
-            {/* Section 6 — What the Doctor Actually Does */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What a Gestational Diabetes Pregnancy Doctor Actually Does
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Creates a personalised management plan based on the mother's specific readings and health history</li>
-                <li>Coordinates with a dietician for a customised meal plan when needed</li>
-                <li>Monitors the baby's growth closely through regular ultrasounds</li>
-                <li>Adjusts treatment as needed, including medication or insulin if diet alone isn't sufficient</li>
-                <li>Plans delivery timing and mode based on blood sugar control and baby's growth</li>
-                <li>Provides postpartum guidance, since blood sugar needs to be rechecked after delivery</li>
-                <li>Educates the mother on warning signs that need immediate medical attention</li>
-              </ul>
-            </div>
-
-            {/* Section 7 — About Dr. Priyanka Pachauri */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Dr. Priyanka Pachauri – Trusted Gestational Diabetes Pregnancy Doctor in Moradabad
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Dr. Priyanka Pachauri, founder of Dr. Priyanka Gynaec clinic in Gandhi Nagar, Moradabad, brings together expertise in antenatal care, high risk pregnancy management, and fertility treatment, making her well-suited to manage conditions like gestational diabetes with a comprehensive approach. According to her clinic's website, her practice follows the philosophy &quot;Her Health First,&quot; ensuring every mother receives individualised, attentive care.
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Specialised experience managing high risk and complicated pregnancies, including gestational diabetes cases</li>
-                <li>International fellowships and gold medal credentials reflecting strong clinical expertise</li>
-                <li>In-house Voluson 3D and 4D ultrasound machine, allowing accurate monitoring of the baby's growth patterns</li>
-                <li>A structured, evidence-based approach to managing blood sugar levels throughout pregnancy</li>
-                <li>An integrated care team that tracks the mother's complete history from diagnosis through delivery</li>
-                <li>A gentle approach that prioritises normal delivery whenever blood sugar and growth remain well controlled</li>
-                <li>On-site paediatric care, ensuring the newborn's blood sugar and health are checked immediately after birth</li>
-              </ul>
-            </div>
-
-            {/* Section 8 — Warning Signs */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Warning Signs Related to Gestational Diabetes That Need Attention
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Excessive thirst or a constantly dry mouth</li>
-                <li>Frequent urination beyond the usual pregnancy pattern</li>
-                <li>Unusual fatigue or tiredness that doesn't improve with rest</li>
-                <li>Blurred vision</li>
-                <li>Recurrent infections, such as urinary tract infections</li>
-                <li>Sudden, unexplained weight changes</li>
-                <li>Reduced baby movement, which should always be reported immediately</li>
-                <li>Signs of high blood pressure, such as headaches or swelling, since gestational diabetes increases preeclampsia risk</li>
-              </ul>
-            </div>
-
-            {/* Section 9 — Managing Through Diet and Lifestyle */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Managing Gestational Diabetes Through Diet and Lifestyle
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Follow the personalised meal plan provided by your doctor or dietician rather than a generic diet found online</li>
-                <li>Eat smaller, more frequent meals to help maintain steadier blood sugar levels throughout the day</li>
-                <li>Include a balance of complex carbohydrates, protein, and fibre, as guided by your care team</li>
-                <li>Engage in doctor-approved light physical activity, such as walking, unless advised otherwise</li>
-                <li>Monitor blood sugar levels as instructed, keeping a consistent record to share at appointments</li>
-                <li>Stay well hydrated and prioritise adequate sleep</li>
-                <li>Avoid making significant dietary changes without first consulting your doctor</li>
-                <li>Attend every scheduled appointment, since gestational diabetes requires closer monitoring than a standard pregnancy</li>
-              </ul>
-            </div>
-
-            {/* Section 10 — Delivery Planning */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Delivery Planning for Gestational Diabetes
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>If blood sugar remains well controlled and the baby's growth is normal, vaginal delivery is often still possible</li>
-                <li>If the baby is significantly larger than average, a C-section may be recommended to reduce delivery complications</li>
-                <li>Delivery timing is sometimes planned slightly earlier if blood sugar control becomes difficult later in pregnancy</li>
-                <li>The baby's blood sugar is checked shortly after birth, since newborns of mothers with gestational diabetes can experience temporary low blood sugar</li>
-                <li>The mother's blood sugar is usually rechecked a few weeks after delivery to confirm it has returned to normal</li>
-              </ul>
-            </div>
-
-            {/* Section 11 — How to Choose the Right Doctor */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                How to Choose the Right Doctor for Gestational Diabetes Management
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Proven experience managing gestational diabetes alongside general high risk pregnancy care</li>
-                <li>Access to in-house ultrasound and lab facilities for consistent monitoring</li>
-                <li>Willingness to coordinate with a dietician or diabetes specialist when needed</li>
-                <li>Clear, judgement-free communication about diet, weight, and blood sugar readings</li>
-                <li>A hospital tie-up with NICU support, in case the newborn needs monitoring after birth</li>
-                <li>Positive outcomes and reviews from previous patients managed for gestational diabetes</li>
-              </ul>
-            </div>
-
-            {/* Section 12 — Understanding the Diagnosis */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Understanding That a Gestational Diabetes Diagnosis Is Manageable, Not Alarming
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                One of the most important things a mother can hear after a gestational diabetes diagnosis is that this condition, while requiring genuine attention, is highly manageable and does not define the outcome of her pregnancy. Many women feel an initial wave of guilt or worry, wondering if something they did caused this condition, but gestational diabetes is primarily driven by pregnancy hormones affecting insulin function, not by personal failure or poor choices. A good doctor addresses this emotional response directly, reassuring the mother early on that with consistent monitoring and a reasonable management plan, the vast majority of women with gestational diabetes deliver healthy babies without lasting complications for either themselves or their child.
+                Gestational diabetes mellitus, commonly called GDM, is diabetes that is first diagnosed during pregnancy.
               </p>
 
               <p className="text-gray-700 mb-4">
-                The relationship between the mother and her care team also plays a significant role in how smoothly this condition is managed. Since gestational diabetes requires more frequent monitoring, more detailed conversations about diet, and sometimes daily blood sugar tracking, a doctor who takes time to explain the reasoning behind each recommendation tends to see far better compliance and outcomes than one who simply hands over a list of restrictions.
+                During pregnancy, hormonal changes can affect the way the body uses insulin. When the body cannot produce or use enough insulin to maintain normal blood glucose levels, blood sugar can increase.
               </p>
 
               <p className="text-gray-700">
-                Families are also encouraged to stay involved throughout this process, whether that means helping plan balanced meals at home, encouraging light daily activity, or simply providing emotional support during a phase that can feel demanding. With the right combination of medical guidance, consistent monitoring, and a supportive environment at home, gestational diabetes becomes just one more manageable chapter in an otherwise healthy pregnancy journey, rather than a source of ongoing worry.
+                Gestational diabetes is different from diabetes that was present before pregnancy. Some women may not experience noticeable symptoms, which is one reason routine pregnancy screening is important.
               </p>
             </div>
 
-            {/* Section 13 — Contact Information */}
+            {/* Section 4 — Can Gestational Diabetes Be Managed */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Address, Contact & WhatsApp
+                Can Gestational Diabetes Be Managed?
               </h2>
+
+              <p className="text-gray-700 mb-4">
+                Yes. Gestational diabetes can often be managed with appropriate medical care, blood glucose monitoring, nutrition guidance, physical activity when suitable, and medication when necessary.
+              </p>
+
+              <p className="text-gray-700">
+                Management is individual. The goal is to reduce pregnancy-related risks while maintaining the health of both mother and baby.
+              </p>
+            </div>
+
+            {/* Section 5 — Why Choose a Gestational Diabetes Doctor */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Why Choose a Gestational Diabetes Doctor In Moradabad?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Gestational diabetes requires more than checking a single blood sugar reading. Pregnancy itself causes continuous changes in the mother's body, so blood glucose, maternal health, and fetal development may need to be monitored throughout pregnancy.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                A pregnancy doctor can help you understand:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>What your glucose test results mean</li>
+                <li>How often you should monitor blood sugar</li>
+                <li>What dietary changes may be appropriate</li>
+                <li>Whether medication is required</li>
+                <li>What pregnancy warning signs to watch for</li>
+                <li>Whether additional fetal monitoring is required</li>
+                <li>How gestational diabetes may affect delivery planning</li>
+                <li>What follow-up is required after delivery</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Regular communication with your pregnancy care doctor can make it easier to identify changes that require additional assessment.
+              </p>
+            </div>
+
+            {/* Section 6 — When Is Gestational Diabetes Diagnosed */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                When Is Gestational Diabetes Diagnosed?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Gestational diabetes is commonly screened during the middle part of pregnancy, although the timing of testing can vary depending on medical history and risk factors.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Your doctor may recommend glucose testing based on:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Stage of pregnancy</li>
+                <li>Previous gestational diabetes</li>
+                <li>Family history of diabetes</li>
+                <li>Pre-pregnancy health</li>
+                <li>Previous pregnancy history</li>
+                <li>Other medical risk factors</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                If an initial screening result is abnormal, additional testing may be recommended to determine whether gestational diabetes is present.
+              </p>
+            </div>
+
+            {/* Section 7 — Who Has Higher Risk */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Who Has a Higher Risk of Gestational Diabetes?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Gestational diabetes can occur in women without obvious risk factors. However, certain factors can increase the likelihood of developing it.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                These may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Previous gestational diabetes</li>
+                <li>Family history of diabetes</li>
+                <li>Overweight or obesity</li>
+                <li>Polycystic ovary syndrome (PCOS)</li>
+                <li>Previous baby with high birth weight</li>
+                <li>Previous pregnancy complications</li>
+                <li>Certain maternal medical conditions</li>
+                <li>Increasing maternal age</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Having a risk factor does not mean that you will definitely develop gestational diabetes.
+              </p>
+            </div>
+
+            {/* Section 8 — Symptoms of Gestational Diabetes */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Symptoms of Gestational Diabetes
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Many women with gestational diabetes do not have clear symptoms.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                When symptoms occur, they may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Increased thirst</li>
+                <li>Frequent urination</li>
+                <li>Fatigue</li>
+                <li>Blurred vision</li>
+                <li>Recurrent infections</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                These symptoms can also occur for other reasons during pregnancy, so symptoms alone cannot diagnose gestational diabetes. The appropriate glucose testing recommended during pregnancy is important for diagnosis.
+              </p>
+            </div>
+
+            {/* Section 9 — How Is Gestational Diabetes Managed */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                How Is Gestational Diabetes Managed?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                The management plan depends on your glucose readings, pregnancy stage, health history, and fetal growth.
+              </p>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    1. Blood Sugar Monitoring
+                  </h3>
+                  <p className="text-gray-700">
+                    Your doctor may recommend checking blood glucose at specific times, such as before or after meals. Keeping a record of your readings can help your healthcare team understand your glucose pattern and decide whether your current management plan needs adjustment.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    2. Nutrition Guidance
+                  </h3>
+                  <p className="text-gray-700 mb-2">
+                    Nutrition is an important part of gestational diabetes management. Your healthcare team may advise you about:
+                  </p>
+                  <ul className="text-gray-700 space-y-1 list-disc pl-5 mb-2">
+                    <li>Balanced meals</li>
+                    <li>Appropriate carbohydrate portions</li>
+                    <li>Protein and fibre</li>
+                    <li>Meal timing</li>
+                    <li>Healthy snacks</li>
+                    <li>Limiting foods and drinks that can cause unnecessary blood glucose spikes</li>
+                  </ul>
+                  <p className="text-gray-700">
+                    There is no single diet that is appropriate for every pregnant woman with gestational diabetes. Nutrition advice should be individualised according to your health and pregnancy.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    3. Physical Activity
+                  </h3>
+                  <p className="text-gray-700">
+                    For many pregnant women, appropriate physical activity can form part of gestational diabetes management. Walking or other pregnancy-appropriate activity may be recommended depending on your medical condition. If you have pregnancy complications or have been advised to restrict activity, follow your doctor's instructions instead.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    4. Medication or Insulin
+                  </h3>
+                  <p className="text-gray-700">
+                    If blood glucose cannot be adequately controlled through lifestyle measures, your doctor may recommend medication or insulin. The decision depends on your blood glucose pattern and individual pregnancy. Do not start, stop, or change diabetes medication during pregnancy without medical advice.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 10 — How GDM Can Affect Pregnancy */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                How Gestational Diabetes Can Affect Pregnancy
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Uncontrolled gestational diabetes can increase the risk of certain pregnancy complications.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the severity and level of glucose control, these may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Excessive fetal growth</li>
+                <li>Higher birth weight</li>
+                <li>Pregnancy-related high blood pressure</li>
+                <li>Preeclampsia</li>
+                <li>Preterm birth</li>
+                <li>Newborn low blood sugar after delivery</li>
+                <li>Increased likelihood of Caesarean delivery in some situations</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Good monitoring and appropriate management can help reduce the risks associated with high blood glucose during pregnancy.
+              </p>
+            </div>
+
+            {/* Section 11 — GDM and Baby's Growth */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Gestational Diabetes and Baby's Growth
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Blood glucose levels can influence fetal growth. When maternal blood glucose remains elevated, the baby may grow larger than expected. Your doctor may therefore monitor fetal growth during pregnancy when clinically appropriate.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the pregnancy, monitoring may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Routine antenatal assessment</li>
+                <li>Ultrasound</li>
+                <li>Fetal growth assessment</li>
+                <li>Doppler studies when indicated</li>
+                <li>Fetal heart rate monitoring when required</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The exact monitoring schedule depends on your pregnancy and medical condition.
+              </p>
+            </div>
+
+            {/* Section 12 — GDM During Third Trimester */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Gestational Diabetes During the Third Trimester
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                The third trimester is an important period for women with gestational diabetes because pregnancy is approaching delivery.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Your doctor may review:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Blood glucose records</li>
+                <li>Blood pressure</li>
+                <li>Maternal symptoms</li>
+                <li>Fetal growth</li>
+                <li>Fetal position</li>
+                <li>Other pregnancy complications</li>
+                <li>Delivery planning</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Additional monitoring may be recommended if blood glucose is difficult to control or other risk factors are present.
+              </p>
+            </div>
+
+            {/* Section 13 — GDM and Delivery Planning */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Gestational Diabetes and Delivery Planning
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Having gestational diabetes does not automatically mean that you will need a Caesarean delivery.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                The mode and timing of delivery depend on factors such as:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Blood glucose control</li>
+                <li>Baby's growth</li>
+                <li>Gestational age</li>
+                <li>Maternal health</li>
+                <li>Fetal wellbeing</li>
+                <li>Blood pressure and other pregnancy complications</li>
+                <li>Previous delivery history</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Some women with well-controlled gestational diabetes may be able to have a vaginal delivery, while others may require a Caesarean section for medical reasons. Your delivery plan should be discussed with your doctor as pregnancy progresses.
+              </p>
+            </div>
+
+            {/* Section 14 — GDM After Delivery */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Gestational Diabetes After Delivery
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Gestational diabetes usually improves after pregnancy because the hormonal changes responsible for insulin resistance decrease after delivery.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                However, having gestational diabetes increases the mother's future risk of developing type 2 diabetes. For this reason, postpartum follow-up is important.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Your doctor may advise:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Postpartum glucose testing</li>
+                <li>Diabetes screening at recommended intervals</li>
+                <li>Healthy nutrition</li>
+                <li>Appropriate physical activity</li>
+                <li>Weight management where appropriate</li>
+                <li>Future pregnancy planning</li>
+                <li>Ongoing primary care or diabetes follow-up when required</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                A history of gestational diabetes should also be mentioned during future pregnancies.
+              </p>
+            </div>
+
+            {/* Section 15 — GDM in Future Pregnancy */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Gestational Diabetes In a Future Pregnancy
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Women who have had gestational diabetes previously have a higher risk of developing it again during a future pregnancy.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                If you previously experienced gestational diabetes, tell your doctor when planning another pregnancy or during your next pregnancy. Earlier assessment or closer monitoring may be recommended depending on your medical history.
+              </p>
+            </div>
+
+            {/* Section 16 — GDM With Previous C-Section */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Gestational Diabetes With Previous C-Section
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you have both gestational diabetes and a history of Caesarean delivery, your doctor may review your previous pregnancy and delivery records along with your current pregnancy.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Important considerations may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Reason for the previous C-section</li>
+                <li>Previous operative history</li>
+                <li>Current glucose control</li>
+                <li>Current fetal growth</li>
+                <li>Maternal health</li>
+                <li>Current pregnancy complications</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The appropriate delivery plan is made according to the individual pregnancy.
+              </p>
+            </div>
+
+            {/* Section 17 — GDM With PCOS */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Gestational Diabetes With PCOS
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Women with PCOS may have an increased risk of developing gestational diabetes during pregnancy.
+              </p>
+
+              <p className="text-gray-700">
+                If you have PCOS and are pregnant, tell your pregnancy care doctor about your previous diagnosis, medications, and pregnancy history. Your doctor can determine whether additional glucose screening or monitoring is appropriate.
+              </p>
+            </div>
+
+            {/* Section 18 — Warning Signs During Pregnancy */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Warning Signs During Pregnancy
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Gestational diabetes itself may not cause obvious symptoms, so regular monitoring is important.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                However, pregnant women should seek medical advice promptly if they experience concerning symptoms such as:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Severe abdominal pain</li>
+                <li>Vaginal bleeding</li>
+                <li>Severe headache</li>
+                <li>Changes in vision</li>
+                <li>Sudden or significant swelling</li>
+                <li>Difficulty breathing</li>
+                <li>Persistent vomiting</li>
+                <li>Reduced fetal movement</li>
+                <li>Feeling faint or seriously unwell</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Reduced fetal movement, heavy bleeding, severe pain, or other emergency symptoms require urgent medical assessment.
+              </p>
+            </div>
+
+            {/* Section 19 — How to Prepare for Consultation */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                How to Prepare for a Gestational Diabetes Consultation
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Before visiting a Gestational Diabetes Doctor In Moradabad, keep your pregnancy records organised.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Bring:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Glucose test reports</li>
+                <li>Blood sugar monitoring records</li>
+                <li>Previous ultrasound reports</li>
+                <li>Antenatal records</li>
+                <li>Previous pregnancy records</li>
+                <li>Current medicines and supplements</li>
+                <li>Medical history</li>
+                <li>Details of previous diabetes or gestational diabetes</li>
+                <li>Questions about diet, medication, delivery, or monitoring</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                A complete medical history can help your doctor develop a more appropriate care plan.
+              </p>
+            </div>
+
+            {/* Section 20 — Questions to Ask Your Doctor */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Questions to Ask Your Gestational Diabetes Doctor
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                During your consultation, you can ask:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>What do my glucose test results indicate?</li>
+                <li>How frequently should I check my blood sugar?</li>
+                <li>What should I eat during pregnancy?</li>
+                <li>Do I need a dietician?</li>
+                <li>Do I need medication or insulin?</li>
+                <li>How often will my baby's growth be monitored?</li>
+                <li>Does gestational diabetes affect my delivery options?</li>
+                <li>What symptoms require urgent medical attention?</li>
+                <li>When should my blood sugar be tested after delivery?</li>
+                <li>What is my risk of gestational diabetes in a future pregnancy?</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Understanding your treatment plan can help you follow your doctor's recommendations more confidently.
+              </p>
+            </div>
+
+            {/* Section 21 — GDM Pregnancy Care In Moradabad */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Gestational Diabetes Pregnancy Care In Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Gestational diabetes care is closely connected with regular antenatal care.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                A complete pregnancy care plan may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Routine pregnancy checkups</li>
+                <li>Blood glucose monitoring</li>
+                <li>Blood pressure monitoring</li>
+                <li>Maternal health assessment</li>
+                <li>Fetal growth monitoring</li>
+                <li>Recommended laboratory investigations</li>
+                <li>Ultrasound when clinically indicated</li>
+                <li>Nutrition and lifestyle guidance</li>
+                <li>Management of pregnancy complications</li>
+                <li>Delivery planning</li>
+                <li>Postnatal follow-up</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                The frequency of appointments depends on your pregnancy and whether additional monitoring is required.
+              </p>
+            </div>
+
+            {/* Section 22 — Choosing the Right Doctor */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Choosing the Right Gestational Diabetes Doctor In Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                When selecting a doctor for gestational diabetes pregnancy care, consider:
+              </p>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Experience in Pregnancy Care
+                  </h3>
+                  <p className="text-gray-700">
+                    Choose a doctor who regularly provides obstetric and antenatal care and can assess pregnancy-related medical conditions.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Individualised Management
+                  </h3>
+                  <p className="text-gray-700">
+                    Gestational diabetes does not affect every woman in the same way. Your care plan should be based on your blood glucose readings and pregnancy.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Clear Communication
+                  </h3>
+                  <p className="text-gray-700">
+                    Your doctor should explain your test results, treatment options, monitoring requirements, and warning signs clearly.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Appropriate Monitoring
+                  </h3>
+                  <p className="text-gray-700">
+                    Ask how maternal health and fetal growth will be monitored throughout pregnancy.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Referral When Required
+                  </h3>
+                  <p className="text-gray-700">
+                    Some patients may require care from an endocrinologist, physician, dietician, or other specialist. Appropriate coordination or referral is an important part of medical care when needed.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 23 — Dr. Priyanka Gynaec */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Gestational Diabetes Doctor In Moradabad – Dr. Priyanka
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Dr. Priyanka Gynaec provides pregnancy and obstetric consultations in Gandhi Nagar, Moradabad.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                If you have recently been diagnosed with gestational diabetes or have been advised to undergo additional glucose testing during pregnancy, a consultation can help you understand your results and determine the appropriate next steps.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                The focus of pregnancy care is not simply on blood sugar numbers. Maternal health, fetal growth, pregnancy stage, medical history, and other pregnancy-related factors also need to be considered.
+              </p>
 
               <div className="bg-[#F8F4EA] text-black rounded-2xl p-8">
                 <h3 className="text-xl font-semibold mb-4">
-                  Contact Information
+                  Clinic Location and Contact Details
                 </h3>
 
                 <div className="space-y-4 mb-6">
-                  {/* Clinic Address */}
                   <div className="flex items-start gap-3">
                     <MapPin size={20} className="text-black mt-1 shrink-0" />
                     <div>
-                      <p className="font-semibold">Dr. Priyanka Gynaec Clinic</p>
+                      <p className="font-semibold">Dr. Priyanka Gynaec</p>
                       <p className="text-black">
-                        A2, near Old Roadways, Gandhi Nagar, Moradabad,
-                        Uttar Pradesh, 244001
+                        A2, Near Old Roadways, Gandhi Nagar,
+                        Moradabad, Uttar Pradesh – 244001
                       </p>
                     </div>
                   </div>
@@ -332,19 +788,6 @@ export default function GestationalDiabetesPregnancyDoctorMoradabad() {
                       </div>
                     </div>
                   </div>
-
-                  <div className="flex items-start gap-3">
-                    <Shield size={20} className="text-black mt-1 shrink-0" />
-                    <div>
-                      <p className="font-semibold">Website</p>
-                      <a
-                        href="https://www.gynaecologistmoradabad.com/"
-                        className="hover:underline text-black"
-                      >
-                        https://www.gynaecologistmoradabad.com/
-                      </a>
-                    </div>
-                  </div>
                 </div>
 
                 <div className="flex gap-4 flex-wrap">
@@ -362,16 +805,12 @@ export default function GestationalDiabetesPregnancyDoctorMoradabad() {
                   </Link>
                 </div>
               </div>
-
-              <p className="text-gray-700 mt-6">
-                For appointments, directions, or any urgent pregnancy-related query, reach out directly on WhatsApp at +91 8979670705.
-              </p>
             </div>
 
-            {/* Section 14 — FAQs */}
+            {/* Section 24 — FAQs */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-6 text-gray-900">
-                Frequently Asked Questions (FAQs)
+                Frequently Asked Questions
               </h2>
 
               <div className="space-y-5">

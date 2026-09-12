@@ -10,6 +10,7 @@ import {
   Heart,
   Star,
   Award,
+  Globe,
 } from "lucide-react";
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
@@ -17,36 +18,36 @@ import Banner from "./Banner";
 export default function NormalDeliveryMoradabad() {
   const faqs = [
     {
-      q: "Is normal delivery safer than a cesarean section?",
-      a: "For low-risk pregnancies, normal delivery is generally considered safer, with faster recovery and fewer surgical risks compared to a cesarean section.",
+      q: "Is normal delivery always possible?",
+      a: "No. Vaginal delivery is not appropriate in every pregnancy. The safest mode of delivery depends on the condition of the mother, baby, pregnancy, and labor.",
     },
     {
-      q: "How can I increase my chances of having a normal delivery?",
-      a: "Regular antenatal check-ups, staying active, maintaining healthy weight gain, and following your doctor's guidance can improve the chances of a normal delivery.",
+      q: "How can I increase my chances of normal delivery?",
+      a: "Regular antenatal care, following your doctor's recommendations, maintaining appropriate physical activity when medically suitable, eating a balanced diet, and learning about labor can support a healthy pregnancy. However, no doctor can guarantee a normal delivery.",
     },
     {
-      q: "Is labor pain manageable during normal delivery?",
-      a: "Yes, options like epidural anesthesia, breathing techniques, and supportive labor positions can significantly help manage labor pain.",
+      q: "Is normal delivery safer than C-section?",
+      a: "Both vaginal and Cesarean delivery can be safe when appropriately recommended. The safest option depends on the individual medical circumstances of the mother and baby.",
     },
     {
-      q: "Can I have a normal delivery after a previous cesarean?",
-      a: "In many cases, a trial of labor after cesarean (TOLAC) is possible and can be discussed with your doctor based on your specific history.",
+      q: "Is normal delivery possible after a C-section?",
+      a: "In some women, VBAC may be possible. Eligibility depends on several medical factors and should be discussed with an obstetrician.",
     },
     {
-      q: "How long does labor usually last?",
-      a: "Labor duration varies widely, but first labors often last longer, averaging 12 to 18 hours, while subsequent labors are typically shorter.",
+      q: "How painful is normal delivery?",
+      a: "Labor pain varies from person to person. Breathing techniques, movement, support, medication, and other pain-relief options may help manage discomfort.",
     },
     {
-      q: "What if my baby is in a breech position?",
-      a: "A breech position often requires a cesarean section, although some cases may be evaluated for repositioning techniques before delivery.",
+      q: "Can a breech baby be delivered normally?",
+      a: "A breech presentation can affect delivery planning. The appropriate option depends on the baby's position, pregnancy stage, mother's condition, and the clinical circumstances.",
     },
     {
-      q: "How soon can I go home after a normal delivery?",
-      a: "Most mothers can be discharged within 24 to 48 hours after an uncomplicated normal delivery.",
+      q: "When should I start pregnancy care?",
+      a: "Ideally, pregnancy care should begin early in pregnancy. If you are planning pregnancy, a preconception consultation can also help identify health factors that may need attention.",
     },
     {
-      q: "How can I book a consultation for normal delivery care in Moradabad?",
-      a: "You can call or WhatsApp the clinic directly using the contact details above to schedule a consultation and evaluation.",
+      q: "Where can I consult for normal delivery in Moradabad?",
+      a: "You can consult Dr. Priyanka Pachauri at her clinic in Gandhi Nagar, Moradabad, for pregnancy, antenatal, and delivery-related care.",
     },
   ];
 
@@ -61,264 +62,449 @@ export default function NormalDeliveryMoradabad() {
             {/* Section 1 — Introduction */}
             <div className="mb-12">
               <h1 className="text-3xl font-serif mb-4 text-gray-900">
-                Normal Delivery Treatment in Moradabad – Expert Care by Dr. Priyanka Gynaec
+                Normal Delivery in Moradabad – Dr. Priyanka Pachauri
               </h1>
 
               <p className="text-gray-700 mb-4">
-                Bringing a new life into the world is one of the most beautiful experiences a woman can have, and for most healthy pregnancies, a normal (vaginal) delivery is the safest and most natural way to give birth. Many expectant mothers, however, feel anxious about labor pain, complications, or whether they will need a cesarean section. With the right guidance, preparation, and medical support, the majority of women can have a safe and successful normal delivery. Dr. Priyanka Gynaec offers expert normal delivery treatment in Moradabad, focusing on personalized antenatal care, labor support, and a patient-first approach to help every mother experience a safe and empowering birth.
+                Pregnancy is an important journey, and every mother wants the safest possible experience for herself and her baby. For many women, normal delivery in Moradabad is a preferred option when vaginal birth is medically suitable. Proper antenatal care, regular pregnancy monitoring, healthy lifestyle habits, and timely medical guidance can help prepare the mother for labor and delivery.
               </p>
 
               <p className="text-gray-700">
-                This detailed guide explains what normal delivery involves, how to prepare for it, what to expect during labor, and why choosing the right Gynaecologist in Moradabad makes all the difference.
+                Dr. Priyanka Pachauri is an obstetrician and gynaecologist providing pregnancy and maternity care in Moradabad. Her approach focuses on personalized antenatal care, monitoring the health of both mother and baby, preparing women for labor, and choosing the safest mode of delivery according to individual medical needs.
               </p>
             </div>
 
-            {/* Section 2 — What Is Normal Delivery? */}
+            {/* Section 2 — What Is Normal Delivery */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
                 What Is Normal Delivery?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Normal delivery, also called vaginal birth, refers to the natural process of childbirth in which the baby is delivered through the birth canal without surgical intervention. It is generally considered the safest mode of delivery for both mother and baby when there are no medical complications, offering benefits such as faster recovery, shorter hospital stay, and reduced risk of surgical complications compared to a cesarean section.
+                Normal delivery, also called vaginal delivery, is the birth of a baby through the vagina without a Cesarean operation.
               </p>
-
-              <p className="text-gray-700">
-                Normal delivery typically progresses through three stages of labor: the first stage (cervical dilation), the second stage (delivery of the baby), and the third stage (delivery of the placenta). Understanding this process can help expectant mothers feel more prepared and less anxious as their due date approaches.
-              </p>
-            </div>
-
-            {/* Section 3 — Benefits of Normal Delivery */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Benefits of Normal Delivery
-              </h2>
 
               <p className="text-gray-700 mb-4">
-                Choosing a normal delivery, when medically appropriate, offers several advantages for both mother and baby:
+                A normal delivery usually involves three main stages:
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Faster Recovery:</strong> Mothers typically recover within a few days and can resume daily activities sooner compared to a cesarean.</li>
-                <li><strong>Shorter Hospital Stay:</strong> Most women can go home within 24 to 48 hours after an uncomplicated normal delivery.</li>
-                <li><strong>Lower Risk of Infection:</strong> Since there is no surgical incision, the risk of surgical site infection is significantly reduced.</li>
-                <li><strong>Immediate Bonding and Breastfeeding:</strong> Vaginal birth often allows for earlier skin-to-skin contact and easier initiation of breastfeeding.</li>
-                <li><strong>Benefits for the Baby:</strong> Passing through the birth canal helps clear the baby&apos;s lungs of fluid and supports the development of healthy gut bacteria.</li>
-                <li><strong>Lower Risk for Future Pregnancies:</strong> Normal delivery avoids the risks associated with repeat cesarean sections in future pregnancies.</li>
-              </ul>
-            </div>
-
-            {/* Section 4 — Who Is a Good Candidate for Normal Delivery? */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Who Is a Good Candidate for Normal Delivery?
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                Most pregnancies with no significant complications are suitable for a normal delivery. Favorable factors include:
-              </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>A healthy, low-risk pregnancy with no major complications</li>
-                <li>The baby positioned head-down (cephalic presentation) closer to the due date</li>
-                <li>Normal placental position, without conditions like placenta previa</li>
-                <li>No prior cesarean section, or a pregnancy suitable for a trial of labor after cesarean (TOLAC), when medically appropriate</li>
-                <li>Absence of conditions like severe preeclampsia that may require early surgical delivery</li>
-                <li>A pelvis adequate in size for vaginal delivery, assessed during antenatal check-ups</li>
+              <ul className="text-gray-700 space-y-2 list-decimal pl-5 mb-4">
+                <li>The cervix gradually opens during labor.</li>
+                <li>The baby moves through the birth canal and is delivered.</li>
+                <li>The placenta is delivered after the baby is born.</li>
               </ul>
 
               <p className="text-gray-700">
-                Each pregnancy is unique, and the final decision about the mode of delivery is made closely with the treating Gynaecologist based on the mother&apos;s health, the baby&apos;s condition, and how labor progresses.
+                The duration and experience of labor can vary considerably from one woman to another. The doctor and maternity team monitor the mother and baby throughout labor and make decisions based on their condition and the progress of delivery.
               </p>
             </div>
 
-            {/* Section 5 — Preparing for a Normal Delivery */}
+            {/* Section 3 — Normal Delivery Care in Moradabad */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Preparing for a Normal Delivery
+                Normal Delivery Care in Moradabad
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Preparation throughout pregnancy plays a significant role in increasing the chances of a smooth, normal delivery. Dr. Priyanka Gynaec guides expectant mothers through this preparation with a structured antenatal care plan that includes:
+                Good preparation for childbirth begins well before labor. Antenatal care allows your gynaecologist to monitor pregnancy and identify potential concerns at an early stage.
               </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                1. Regular Antenatal Check-Ups
-              </h3>
-
-              <p className="text-gray-700 mb-3">
-                Consistent prenatal visits allow the doctor to monitor the baby&apos;s growth, position, and overall health of the mother, catching any potential complications early so they can be managed proactively.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                2. Nutrition and Weight Management
-              </h3>
-
-              <p className="text-gray-700 mb-3">
-                A well-balanced diet rich in essential nutrients supports healthy fetal growth while helping the mother maintain an appropriate weight gain during pregnancy, which is associated with a smoother labor process.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                3. Physical Activity and Prenatal Exercises
-              </h3>
-
-              <p className="text-gray-700 mb-3">
-                Light exercises, walking, and pelvic floor exercises, when approved by the doctor, help improve stamina, flexibility, and pelvic strength, all of which support the labor process.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                4. Birth Preparation and Counselling
-              </h3>
-
-              <p className="text-gray-700 mb-3">
-                Understanding what to expect during labor reduces fear and anxiety. Dr. Priyanka Gynaec provides guidance on breathing techniques, labor positions, and pain management options well before the due date.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                5. Monitoring Baby&apos;s Position
-              </h3>
-
-              <p className="text-gray-700">
-                As the due date approaches, the doctor monitors the baby&apos;s position to ensure it is head-down, which is favorable for a normal delivery. In some cases, techniques may be recommended to help encourage optimal positioning.
-              </p>
-            </div>
-
-            {/* Section 6 — What Happens During Labor and Normal Delivery? */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                What Happens During Labor and Normal Delivery?
-              </h2>
 
               <p className="text-gray-700 mb-4">
-                Understanding the stages of labor can help expectant mothers feel more confident and prepared:
+                During pregnancy, your care may include:
               </p>
 
-              <ul className="text-gray-700 space-y-3 mb-4 list-disc pl-5">
-                <li><strong>First Stage – Cervical Dilation:</strong> This is usually the longest stage, during which the cervix gradually dilates from 0 to 10 centimeters. Contractions become progressively stronger and more frequent as this stage advances.</li>
-                <li><strong>Second Stage – Delivery of the Baby:</strong> Once the cervix is fully dilated, the mother begins pushing with contractions to help the baby move through the birth canal until delivery.</li>
-                <li><strong>Third Stage – Delivery of the Placenta:</strong> After the baby is born, mild contractions help expel the placenta, usually within 5 to 30 minutes.</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Regular antenatal check-ups</li>
+                <li>Monitoring blood pressure and weight</li>
+                <li>Tracking the baby's growth</li>
+                <li>Routine pregnancy investigations</li>
+                <li>Ultrasound examinations when required</li>
+                <li>Monitoring fetal development</li>
+                <li>Nutrition and lifestyle guidance</li>
+                <li>Screening for pregnancy-related complications</li>
+                <li>Birth preparation and labor guidance</li>
+                <li>Planning for delivery according to the pregnancy</li>
               </ul>
 
               <p className="text-gray-700">
-                Throughout labor, the mother and baby are continuously monitored to ensure both are progressing safely, with the medical team ready to intervene promptly if any complications arise.
+                Every pregnancy is different, so the recommended schedule of tests and appointments depends on the mother's health, pregnancy stage, and medical history.
               </p>
             </div>
 
-            {/* Section 7 — Pain Management Options During Normal Delivery */}
+            {/* Section 4 — Who May Be Suitable for Normal Delivery */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Pain Management Options During Normal Delivery
+                Who May Be Suitable for a Normal Delivery?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                One of the biggest concerns for expectant mothers is labor pain. Dr. Priyanka Gynaec offers guidance on several pain management options, including:
+                Whether a woman can have a normal delivery cannot always be determined at the beginning of pregnancy. The possibility of vaginal birth depends on several factors that can change as pregnancy progresses.
               </p>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li><strong>Breathing and Relaxation Techniques:</strong> Controlled breathing helps manage pain and maintain calm during contractions.</li>
-                <li><strong>Epidural Anesthesia:</strong> A widely used and effective method to significantly reduce labor pain while allowing the mother to remain alert and participate in the delivery.</li>
-                <li><strong>Labor Positions and Movement:</strong> Changing positions, using a birthing ball, or walking during early labor can help ease discomfort and support labor progress.</li>
-                <li><strong>Continuous Support:</strong> Having a supportive medical team and companion present throughout labor has been shown to reduce perceived pain and anxiety.</li>
-              </ul>
-            </div>
-
-            {/* Section 8 — When Is a Cesarean Considered Instead? */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                When Is a Cesarean Considered Instead?
-              </h2>
 
               <p className="text-gray-700 mb-4">
-                While the goal is always to support a safe normal delivery, certain situations may require a cesarean section for the safety of mother and baby, such as:
+                Factors considered by the doctor may include:
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Fetal distress during labor</li>
-                <li>Abnormal baby position, such as breech presentation</li>
-                <li>Labor not progressing despite adequate time and effort</li>
-                <li>Placenta previa or other placental complications</li>
-                <li>Severe maternal health conditions requiring immediate delivery</li>
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Mother's overall health</li>
+                <li>Baby's growth and development</li>
+                <li>Baby's position</li>
+                <li>Placental location</li>
+                <li>Previous pregnancy and delivery history</li>
+                <li>Previous Cesarean delivery</li>
+                <li>Blood pressure and other pregnancy conditions</li>
+                <li>Progress of labor</li>
+                <li>Condition of the mother and baby during labor</li>
               </ul>
 
               <p className="text-gray-700">
-                Dr. Priyanka Gynaec&apos;s approach always prioritizes a trial of normal labor when it is medically safe, reserving cesarean delivery only for situations where it is genuinely necessary, ensuring mothers are neither pushed toward unnecessary surgery nor placed at risk by avoiding it when needed.
+                If vaginal delivery is medically appropriate, the maternity team can support the mother through labor while continuing to monitor her and the baby.
               </p>
             </div>
 
-            {/* Section 9 — Recovery After Normal Delivery */}
+            {/* Section 5 — How to Prepare for Normal Delivery */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                How to Prepare for Normal Delivery
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Preparation during pregnancy can help women understand labor and feel more confident about childbirth.
+              </p>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    1. Attend Regular Antenatal Visits
+                  </h3>
+                  <p className="text-gray-700">
+                    Regular antenatal appointments allow your doctor to monitor your pregnancy and identify issues that may require additional care. Do not skip scheduled pregnancy check-ups even if you feel healthy.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    2. Follow a Healthy Pregnancy Diet
+                  </h3>
+                  <p className="text-gray-700">
+                    A balanced diet during pregnancy supports maternal health and fetal development. Your doctor can guide you regarding appropriate nutrition, supplements, hydration, and weight gain according to your individual needs.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    3. Stay Physically Active When Appropriate
+                  </h3>
+                  <p className="text-gray-700">
+                    For women whose pregnancy is progressing normally and who have no medical restrictions, suitable physical activity may be beneficial. However, exercise during pregnancy should be based on your doctor's advice, especially if you have a high-risk pregnancy or pregnancy-related complications.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    4. Learn About Labor
+                  </h3>
+                  <p className="text-gray-700">
+                    Understanding the stages of labor, possible pain-relief options, and what happens during delivery can reduce anxiety and help you prepare for childbirth.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    5. Discuss Your Birth Preferences
+                  </h3>
+                  <p className="text-gray-700">
+                    You can discuss your preferred birth plan with your obstetrician. Your doctor can explain which options may be suitable for your pregnancy and what circumstances could require a change in the delivery plan.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 6 — What Happens During Labor */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                What Happens During Labor?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Labor generally progresses through three stages.
+              </p>
+
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    First Stage
+                  </h3>
+                  <p className="text-gray-700">
+                    The cervix begins to soften, thin, and open. Contractions gradually become stronger and more regular. This stage can be the longest part of labor and may vary significantly between women.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Second Stage
+                  </h3>
+                  <p className="text-gray-700">
+                    Once the cervix is fully dilated, the mother pushes and the baby is delivered through the birth canal. The medical team provides guidance and monitors the mother and baby during this stage.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-2">
+                    Third Stage
+                  </h3>
+                  <p className="text-gray-700">
+                    After the baby is born, the placenta is delivered. The mother continues to be monitored after delivery to identify any immediate complications and support her recovery.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Section 7 — Pain Management During Normal Delivery */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Pain Management During Normal Delivery
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Labor can be painful, but women may have different experiences and pain-management needs.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the clinical situation and availability of services, pain-relief approaches may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Breathing and relaxation techniques</li>
+                <li>Changing labor positions</li>
+                <li>Movement during labor when appropriate</li>
+                <li>Support from the maternity team</li>
+                <li>Medication-based pain relief</li>
+                <li>Epidural analgesia where available and medically appropriate</li>
+              </ul>
+
+              <p className="text-gray-700">
+                Discuss pain-management options with your obstetrician before labor so you understand what may be available to you.
+              </p>
+            </div>
+
+            {/* Section 8 — Monitoring Mother and Baby During Labor */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Monitoring Mother and Baby During Labor
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Monitoring during labor is an important part of maternity care.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                The medical team may assess:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Mother's blood pressure and pulse</li>
+                <li>Contractions</li>
+                <li>Cervical dilation</li>
+                <li>Baby's position</li>
+                <li>Baby's heart rate</li>
+                <li>Progress of labor</li>
+                <li>Any signs of maternal or fetal distress</li>
+              </ul>
+
+              <p className="text-gray-700">
+                The exact type and frequency of monitoring depends on the pregnancy and clinical situation.
+              </p>
+            </div>
+
+            {/* Section 9 — When May a Cesarean Delivery Be Recommended */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                When May a Cesarean Delivery Be Recommended?
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                A normal delivery cannot always be safely achieved.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                A Cesarean delivery may be recommended when vaginal birth could create significant risk for the mother or baby. The reasons can vary and may include certain problems with the placenta, baby's position, fetal distress, failure of labor to progress, or other maternal or fetal complications.
+              </p>
+
+              <p className="text-gray-700">
+                The decision should be based on the individual pregnancy rather than pressure to achieve a particular type of birth. A safe delivery is more important than simply choosing normal delivery or Cesarean delivery.
+              </p>
+            </div>
+
+            {/* Section 10 — Normal Delivery After Previous C-Section */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Normal Delivery After Previous C-Section
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                Some women who have previously had a Cesarean may be candidates for a vaginal birth after Cesarean (VBAC), while others may not be.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Whether VBAC is appropriate depends on factors such as:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Reason for the previous C-section</li>
+                <li>Type of uterine incision</li>
+                <li>Previous delivery history</li>
+                <li>Current pregnancy</li>
+                <li>Baby's position</li>
+                <li>Placental condition</li>
+                <li>Availability of appropriate emergency care</li>
+              </ul>
+
+              <p className="text-gray-700">
+                If you have had a previous Cesarean, discuss your options with your obstetrician early in pregnancy.
+              </p>
+            </div>
+
+            {/* Section 11 — Recovery After Normal Delivery */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
                 Recovery After Normal Delivery
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Recovery after a normal delivery is generally quicker than after a cesarean section. Most mothers can expect:
+                Recovery after vaginal delivery varies from woman to woman.
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Mild soreness in the vaginal area for a few days, which gradually improves</li>
-                <li>Ability to walk and move around within hours after delivery</li>
-                <li>Hospital discharge within 24 to 48 hours in uncomplicated cases</li>
-                <li>Gradual return to normal activities within one to two weeks</li>
-                <li>Postpartum check-ups to monitor healing, breastfeeding, and overall recovery</li>
+              <p className="text-gray-700 mb-4">
+                After delivery, mothers may experience tiredness, vaginal soreness, bleeding, breast discomfort, or changes associated with breastfeeding and hormonal fluctuations.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Postnatal care is important for:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Monitoring recovery</li>
+                <li>Supporting breastfeeding</li>
+                <li>Managing postpartum discomfort</li>
+                <li>Checking maternal health</li>
+                <li>Discussing contraception when appropriate</li>
+                <li>Identifying postpartum complications</li>
+                <li>Supporting emotional wellbeing</li>
               </ul>
 
               <p className="text-gray-700">
-                Guidance is also provided on perineal care, pelvic floor exercises, and managing common postpartum concerns to support a smooth recovery.
+                Your doctor can advise you about activity, nutrition, follow-up appointments, and when you can gradually return to your normal routine.
               </p>
             </div>
 
-            {/* Section 10 — Why Choose Dr. Priyanka Gynaec for Normal Delivery */}
+            {/* Section 12 — When Should You Contact Your Doctor */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Why Choose Dr. Priyanka Gynaec for Normal Delivery in Moradabad?
+                When Should You Contact Your Doctor During Pregnancy?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                Expectant mothers across Moradabad trust Dr. Priyanka Gynaec for a safe and supportive normal delivery experience because of a genuine, patient-first philosophy backed by advanced medical care. Key reasons include:
+                Pregnant women should seek medical advice promptly if they experience concerning symptoms.
               </p>
 
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Personalized antenatal care plans focused on supporting a healthy, normal delivery</li>
-                <li>Advanced 3D/4D ultrasound monitoring throughout pregnancy</li>
-                <li>Continuous fetal and maternal monitoring during labor for safety</li>
-                <li>A calm, encouraging approach that helps reduce fear and anxiety around childbirth</li>
-                <li>Availability of epidural and other pain management options</li>
-                <li>Readiness to manage complications promptly, including cesarean delivery when genuinely required</li>
-                <li>A strong reputation built on safe deliveries and positive birth experiences</li>
+              <p className="text-gray-700 mb-4">
+                Depending on the stage of pregnancy, these may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Vaginal bleeding</li>
+                <li>Leakage of fluid</li>
+                <li>Severe abdominal pain</li>
+                <li>Severe headache or vision changes</li>
+                <li>Sudden swelling</li>
+                <li>Fever</li>
+                <li>Reduced or unusual fetal movement</li>
+                <li>Regular painful contractions before the expected time</li>
+                <li>Any symptom that feels unusual or concerning</li>
               </ul>
+
+              <p className="text-gray-700 mt-4">
+                In an emergency, seek immediate medical attention rather than waiting for a routine appointment.
+              </p>
             </div>
 
-            {/* Section 11 — Tips for Expectant Mothers Aiming for a Normal Delivery */}
+            {/* Section 13 — Why Choose Dr. Priyanka */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Tips for Expectant Mothers Aiming for a Normal Delivery
-              </h2>
-
-              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
-                <li>Attend all scheduled antenatal appointments to monitor your and your baby&apos;s health</li>
-                <li>Stay physically active with doctor-approved exercises throughout pregnancy</li>
-                <li>Maintain a healthy, balanced diet and appropriate weight gain</li>
-                <li>Practice breathing and relaxation techniques before your due date</li>
-                <li>Discuss your birth preferences and concerns openly with your doctor</li>
-                <li>Stay informed about the stages of labor to reduce fear of the unknown</li>
-                <li>Choose a hospital and doctor experienced in supporting normal deliveries</li>
-              </ul>
-            </div>
-
-            {/* Section 12 — Speciality & Contact Information */}
-            <div className="mb-12">
-              <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                Speciality &amp; Contact Information
+                Why Choose Dr. Priyanka for Pregnancy and Normal Delivery Care in Moradabad?
               </h2>
 
               <p className="text-gray-700 mb-4">
-                <strong>Speciality:</strong> Pregnancy &amp; Birthing Care, Normal &amp; High Risk Delivery, Antenatal Services, Gynaecology &amp; Advanced 3D Laparoscopy, Fertility &amp; IVF, Paediatrics
+                Choosing an obstetrician is an important decision during pregnancy. Dr. Priyanka Pachauri provides obstetric and gynaecological care with an emphasis on individualized pregnancy management.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Depending on the needs of the pregnancy, care may include:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5 mb-4">
+                <li>Antenatal pregnancy monitoring</li>
+                <li>Pregnancy counselling</li>
+                <li>Normal delivery planning</li>
+                <li>High-risk pregnancy management</li>
+                <li>Labor and delivery guidance</li>
+                <li>Postnatal care</li>
+                <li>Gynaecological consultation</li>
+                <li>Fertility and infertility care</li>
+                <li>Laparoscopic gynaecological procedures</li>
+              </ul>
+
+              <p className="text-gray-700">
+                The delivery plan is based on the mother's health, baby's condition, pregnancy progress, and medical indications.
+              </p>
+            </div>
+
+            {/* Section 14 — Normal Delivery and Antenatal Care */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Normal Delivery and Antenatal Care in Moradabad
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                A healthy pregnancy requires more than a single delivery appointment. Antenatal care throughout pregnancy helps your doctor understand how the pregnancy is progressing and whether any additional monitoring or treatment is required.
+              </p>
+
+              <p className="text-gray-700 mb-4">
+                Women planning pregnancy or already pregnant can discuss:
+              </p>
+
+              <ul className="text-gray-700 space-y-2 list-disc pl-5">
+                <li>Pregnancy check-ups</li>
+                <li>Expected due date</li>
+                <li>Routine investigations</li>
+                <li>Ultrasound requirements</li>
+                <li>Nutrition and supplements</li>
+                <li>Physical activity</li>
+                <li>Labor preparation</li>
+                <li>Delivery preferences</li>
+                <li>Warning signs during pregnancy</li>
+                <li>Postpartum planning</li>
+              </ul>
+
+              <p className="text-gray-700 mt-4">
+                Starting pregnancy care early can help you make informed decisions throughout your pregnancy.
+              </p>
+            </div>
+
+            {/* Section 15 — Book a Consultation */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                Normal Delivery in Moradabad – Book a Consultation
+              </h2>
+
+              <p className="text-gray-700 mb-4">
+                If you are looking for normal delivery in Moradabad, you can consult Dr. Priyanka Pachauri for pregnancy and maternity care.
               </p>
 
               <div className="bg-[#F8F4EA] text-black rounded-2xl p-8">
                 <h3 className="text-xl font-semibold mb-4">
-                  Contact &amp; Clinic Address
+                  Clinic Address
                 </h3>
 
                 <div className="space-y-4 mb-6">
@@ -326,10 +512,10 @@ export default function NormalDeliveryMoradabad() {
                   <div className="flex items-start gap-3">
                     <MapPin size={20} className="text-black mt-1 shrink-0" />
                     <div>
-                      <p className="font-semibold">Dr. Priyanka Gynaec</p>
+                      <p className="font-semibold">Dr. Priyanka Pachauri</p>
                       <p className="text-black">
-                        A2, near Old Roadways, Gandhi Nagar, Moradabad,
-                        Uttar Pradesh, 244001
+                        A2, Near Old Roadways, Gandhi Nagar,
+                        Moradabad, Uttar Pradesh – 244001
                       </p>
                     </div>
                   </div>
@@ -354,25 +540,12 @@ export default function NormalDeliveryMoradabad() {
                       <div className="mt-2">
                         <Mail size={18} className="inline mr-2 text-black" />
                         <a
-                          href="mailto:contact@drpriyankaGynaec.com"
+                          href="mailto:drpriyankagynec@gmail.com"
                           className="hover:underline"
                         >
-                          contact@drpriyankaGynaec.com
+                          drpriyankagynec@gmail.com
                         </a>
                       </div>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3">
-                    <Shield size={20} className="text-black mt-1 shrink-0" />
-                    <div>
-                      <p className="font-semibold">Website</p>
-                      <a
-                        href="https://www.gynaecologistmoradabad.com/"
-                        className="hover:underline text-black"
-                      >
-                        https://www.gynaecologistmoradabad.com/
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -394,10 +567,10 @@ export default function NormalDeliveryMoradabad() {
               </div>
             </div>
 
-            {/* Section 13 — FAQs */}
+            {/* Section 16 — FAQs */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-6 text-gray-900">
-                Frequently Asked Questions (FAQs)
+                Frequently Asked Questions About Normal Delivery in Moradabad
               </h2>
 
               <div className="space-y-5">

@@ -27,7 +27,7 @@ export default function Banner() {
         <div className="relative max-w-7xl mx-auto text-center">
 
           <h1 className="text-1xl md:text-2xl font-serif mb-4 mt-2 leading-tight">
-            Best Gynaecologist in Moradabad
+            IVF Treatment in Moradabad
           </h1>
 
           <p className="text-2xl md:text-3xl mb-3 font-serif">
