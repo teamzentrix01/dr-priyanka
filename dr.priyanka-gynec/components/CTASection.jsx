@@ -33,6 +33,7 @@ export default function CTASection() {
         width={1200}
         height={1200}
         priority
+        unoptimized
         className="w-[520px] md:w-[620px] lg:w-[720px] h-auto object-contain"
       />
     </div>
