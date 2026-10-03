@@ -1,4 +1,4 @@
-import {
+﻿import {
   Phone,
   CheckCircle2,
   Clock,
@@ -6,6 +6,7 @@ import {
   Star,
   Calendar,
 } from "lucide-react";
+import Link from "next/link";
 
 export default function Banner() {
   return (
@@ -27,7 +28,7 @@ export default function Banner() {
         <div className="relative max-w-7xl mx-auto text-center">
 
           <h1 className="text-1xl md:text-2xl font-serif mb-4 mt-2 leading-tight">
-          Doctor for Women Stomach Problems 
+           Delayed Period Diagnosis Moradabad
           </h1>
 
           <p className="text-2xl md:text-3xl mb-3 font-serif">
@@ -44,19 +45,11 @@ export default function Banner() {
           {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4 justify-center">
 
-            <a href="/contact">
-              <button className="flex items-center gap-2 bg-white text-green-700 px-6 py-3 rounded-lg font-semibold border border-white hover:bg-green-50 transition">
-                <Calendar size={20} />
-                Book an Appointment
-              </button>
-            </a>
+            <Link href="/contact" className="flex items-center gap-2 bg-white text-green-700 px-6 py-3 rounded-lg font-semibold border border-white hover:bg-green-50 transition"><Calendar size={20} />
+                Book an Appointment</Link>
 
-            <a href="/services">
-              <button className="flex items-center gap-2 bg-transparent text-white px-6 py-3 rounded-lg font-semibold border border-white hover:bg-white hover:text-green-700 transition">
-                <CheckCircle2 size={20} />
-                Explore Services
-              </button>
-            </a>
+            <Link href="/services" className="flex items-center gap-2 bg-transparent text-white px-6 py-3 rounded-lg font-semibold border border-white hover:bg-white hover:text-green-700 transition"><CheckCircle2 size={20} />
+                Explore Services</Link>
 
           </div>
 

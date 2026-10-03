@@ -1,12 +1,16 @@
 import React from "react";
 import Content from "./Content";
 
+
+
 // SEO METADATA – MINIMALLY INVASIVE GYNAE SURGEON MORADABAD
 export const metadata = {
   title: "Minimally Invasive Gynae Surgeon in Moradabad | Dr. Priyanka Pachauri",
 
+
   description:
     "Looking for a minimally invasive gynae surgeon in Moradabad? Get faster recovery, less scarring and expert keyhole surgery care from Dr. Priyanka Pachauri.",
+
 
   keywords: [
     "minimally invasive gynae surgeon Moradabad",
@@ -21,9 +25,11 @@ export const metadata = {
     "painless surgery gynaecology",
   ],
 
+
   alternates: {
     canonical: "https://www.gynaecologistmoradabad.com/minimally-invasive-gynae-surgeon-moradabad",
   },
+
 
   openGraph: {
     title: "Minimally Invasive Gynae Surgeon in Moradabad | Dr. Priyanka Pachauri",
@@ -43,6 +49,7 @@ export const metadata = {
     ],
   },
 
+
   twitter: {
     card: "summary_large_image",
     site: "@DrPriyankaGynaec",
@@ -54,17 +61,21 @@ export const metadata = {
     ],
   },
 
+
   icons: {
     icon: "/favicon.ico",
   },
 };
 
+
 const Page = () => {
   return (
     <div>
+      
       <Content />
     </div>
   );
 };
+
 
 export default Page;
