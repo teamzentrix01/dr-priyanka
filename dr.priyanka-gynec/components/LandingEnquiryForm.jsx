@@ -9,7 +9,7 @@ import {
   X,
 } from "lucide-react";
 
-export default function LandingEnquiryForm() {
+export default function LandingEnquiryForm({ compact = false }) {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -56,28 +56,38 @@ export default function LandingEnquiryForm() {
   };
 
   return (
-    <section className="py-1 px-6 bg-white">
-      <div className="max-w-4xl mx-auto grid lg:grid-cols-3 gap-10">
+    <section className="bg-white py-1">
+      <div className="mx-auto w-full">
 
         {/* SIDEBAR */}
-        <div className="w-[300px] lg:w-[380px] xl:w-[400px] order-2">
-          <div className="lg:sticky lg:top-30 space-y-4">
+        <div className="w-full order-2">
+          <div
+            className={
+              compact
+                ? "space-y-2"
+                : "lg:sticky lg:top-30 space-y-4"
+            }
+          >
 
             {/* Appointment Card */}
-            <div className="bg-[#F8F4EA] text-gray-900 rounded-2xl p-6 shadow-lg">
+            <div
+              className={`bg-[#F8F4EA] text-gray-900 rounded-2xl ${
+                compact ? "p-3" : "p-5"
+              } shadow-lg`}
+            >
 
               <h3 className="text-xl font-semibold mb-1">
                 Book an Appointment
               </h3>
 
-              <p className="text-gray-700 text-sm mb-5">
+              <p className={`text-gray-700 text-sm ${compact ? "mb-2" : "mb-4"}`}>
                 Begin your journey towards expert gynaecological &amp; fertility
                 care with Dr. Priyanka Gynaec.
               </p>
 
               {/* Contact Numbers */}
 {/* Contact Numbers */}
-<div className="w-full bg-white text-[#7A5C35] py-3 rounded-lg mb-4 flex items-center justify-center text-sm">
+<div className={`w-full bg-white text-[#7A5C35] ${compact ? "py-2 mb-2" : "py-2.5 mb-4"} rounded-lg flex items-center justify-center text-sm`}>
 
   <a
     href="tel:9079765578"
@@ -110,14 +120,14 @@ export default function LandingEnquiryForm() {
 </div>
 
               {/* Appointment Form */}
-              <div className="bg-white rounded-xl p-4">
+              <div className={`bg-white rounded-xl ${compact ? "p-2" : "p-3"}`}>
 
-                <p className="text-[#7A5C35] font-semibold text-sm mb-3 flex items-center gap-1">
+                <p className={`text-[#7A5C35] font-semibold text-sm ${compact ? "mb-2" : "mb-3"} flex items-center gap-1`}>
                   <Calendar size={15} />
                   Book Online
                 </p>
 
-                <form onSubmit={handleSubmit} className="space-y-3">
+                <form onSubmit={handleSubmit} className={compact ? "space-y-2" : "space-y-3"}>
 
                   {/* Name */}
                   <input
@@ -127,7 +137,7 @@ export default function LandingEnquiryForm() {
                     placeholder="Full name *"
                     value={form.name}
                     onChange={handleChange}
-                    className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]"
+                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
                   />
 
                   {/* Mobile */}
@@ -138,7 +148,7 @@ export default function LandingEnquiryForm() {
                     placeholder="Mobile number *"
                     value={form.mobile}
                     onChange={handleChange}
-                    className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]"
+                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
                   />
 
                   {/* Email */}
@@ -148,7 +158,7 @@ export default function LandingEnquiryForm() {
                     placeholder="Email address"
                     value={form.email}
                     onChange={handleChange}
-                    className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]"
+                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
                   />
 
                   {/* Date & Time */}
@@ -160,7 +170,7 @@ export default function LandingEnquiryForm() {
                       required
                       value={form.date || ""}
                       onChange={handleChange}
-                      className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]"
+                      className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
                     />
 
                    
@@ -173,7 +183,7 @@ export default function LandingEnquiryForm() {
                     required
                     value={form.department}
                     onChange={handleChange}
-                    className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B] bg-white"
+                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B] bg-white`}
                   >
                     <option value="">
                       Select service *
@@ -218,18 +228,20 @@ export default function LandingEnquiryForm() {
                   {/* Reason */}
                   <textarea
                     name="reason"
-                    rows={2}
+                    rows={compact ? 1 : 2}
                     placeholder="Tell us about your enquiry"
                     value={form.reason}
                     onChange={handleChange}
-                    className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B] resize-none"
+                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B] resize-none`}
                   />
 
                   {/* Submit */}
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full bg-[#e181b5]  text-white font-semibold py-2.5 rounded-lg transition text-sm flex items-center justify-center gap-2 disabled:opacity-60"
+                    className={`w-full bg-[#e181b5] text-white font-semibold ${
+                      compact ? "py-2" : "py-2.5"
+                    } rounded-lg transition text-sm flex items-center justify-center gap-2 disabled:opacity-60`}
                   >
                     <Calendar size={15} />
 
@@ -242,8 +254,10 @@ export default function LandingEnquiryForm() {
               </div>
             </div>
 
-            {/* Why Choose Dr. Priyanka Gynaec */}
-            <div className="bg-[#F8F4EA] border border-[#E6DDCC] rounded-2xl p-6">
+            {!compact && (
+              <>
+                {/* Why Choose Dr. Priyanka Gynaec */}
+                <div className="bg-[#F8F4EA] border border-[#E6DDCC] rounded-2xl p-6">
 
               <h3 className="font-semibold text-gray-900 mb-4">
                 Why Choose Dr. Priyanka Gynaec
@@ -274,7 +288,9 @@ export default function LandingEnquiryForm() {
                 ))}
 
               </ul>
-            </div>
+                </div>
+              </>
+            )}
 
 
           </div>
