@@ -50,7 +50,7 @@ export default function ReverseTubalLigationForPregnancy() {
     },
     {
       q: "Where can I consult Dr. Priyanka Pachauri about tubal ligation reversal in Moradabad?",
-      a: "You can book a consultation via call at +91 90797 65578, WhatsApp at +91 89796 70705, email at drpriyankagynec@gmail.com, or visit gynaecologistmoradabad.com.",
+      a: "You can book a consultation via call at +91 90797 65578, WhatsApp at +91 89796 70705, email at drpriyankagynaec@gmail.com, or visit gynaecologistmoradabad.com.",
     },
   ];
 
@@ -636,10 +636,10 @@ export default function ReverseTubalLigationForPregnancy() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

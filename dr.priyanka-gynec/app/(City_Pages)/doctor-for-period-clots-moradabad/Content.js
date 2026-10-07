@@ -34,7 +34,7 @@ export default function DoctorForPeriodClotsMoradabad() {
     },
     {
       q: "What tests will I need?",
-      a: "Blood tests and a pelvic ultrasound, and sometimes hysteroscopy or a biopsy. Email: drpriyankagynec@gmail.com.",
+      a: "Blood tests and a pelvic ultrasound, and sometimes hysteroscopy or a biopsy. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "Can heavy periods be treated without surgery?",
@@ -947,10 +947,10 @@ export default function DoctorForPeriodClotsMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

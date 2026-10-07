@@ -38,7 +38,7 @@ export default function DoctorForPregnancySwellingMoradabad() {
     },
     {
       q: "Can I take water tablets for swelling?",
-      a: "No, never take diuretics in pregnancy without your doctor's prescription. Email: drpriyankagynec@gmail.com.",
+      a: "No, never take diuretics in pregnancy without your doctor's prescription. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "What if only one leg is swollen?",
@@ -801,10 +801,10 @@ export default function DoctorForPregnancySwellingMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

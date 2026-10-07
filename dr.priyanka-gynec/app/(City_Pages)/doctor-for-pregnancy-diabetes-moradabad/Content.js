@@ -42,7 +42,7 @@ export default function DoctorForPregnancyDiabetesMoradabad() {
     },
     {
       q: "How often should I check my sugar at home?",
-      a: "Your doctor will advise, commonly fasting and after meals. Email: drpriyankagynec@gmail.com.",
+      a: "Your doctor will advise, commonly fasting and after meals. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "Which foods should I avoid with pregnancy diabetes?",
@@ -837,10 +837,10 @@ export default function DoctorForPregnancyDiabetesMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

@@ -2,20 +2,20 @@ import React from "react";
 import Content from "./Content";
 
 
-// SEO METADATA – GYNECOLOGIST NEAR GANDHI NAGAR MORADABAD
+// SEO METADATA – gynaecOLOGIST NEAR GANDHI NAGAR MORADABAD
 export const metadata = {
-  title: "Gynecologist Near Gandhi Nagar Moradabad | Dr. Priyanka Pachauri",
+  title: "gynaecologist Near Gandhi Nagar Moradabad | Dr. Priyanka Pachauri",
 
 
   description:
-    "Looking for the best gynecologist near Gandhi Nagar, Moradabad? Consult Dr. Priyanka Pachauri for pregnancy care, PCOS, IVF, and laparoscopic surgery. Book your appointment today.",
+    "Looking for the best gynaecologist near Gandhi Nagar, Moradabad? Consult Dr. Priyanka Pachauri for pregnancy care, PCOS, IVF, and laparoscopic surgery. Book your appointment today.",
 
 
   keywords: [
-    "gynecologist near Gandhi Nagar Moradabad",
-    "best gynecologist in Gandhi Nagar Moradabad",
+    "gynaecologist near Gandhi Nagar Moradabad",
+    "best gynaecologist in Gandhi Nagar Moradabad",
     "lady doctor Gandhi Nagar Moradabad",
-    "gynecologist in Moradabad",
+    "gynaecologist in Moradabad",
     "pregnancy doctor Moradabad",
     "IVF centre Moradabad",
     "laparoscopic surgeon Moradabad",
@@ -25,15 +25,15 @@ export const metadata = {
 
 
   alternates: {
-    canonical: "https://www.gynaecologistmoradabad.com/gynecologist-near-gandhi-nagar-moradabad",
+    canonical: "https://www.gynaecologistmoradabad.com/gynaecologist-near-gandhi-nagar-moradabad",
   },
 
 
   openGraph: {
-    title: "Gynecologist Near Gandhi Nagar Moradabad | Dr. Priyanka Pachauri",
+    title: "gynaecologist Near Gandhi Nagar Moradabad | Dr. Priyanka Pachauri",
     description:
-      "Looking for the best gynecologist near Gandhi Nagar, Moradabad? Consult Dr. Priyanka Pachauri for pregnancy care, PCOS, IVF, and laparoscopic surgery. Book your appointment today.",
-    url: "https://www.gynaecologistmoradabad.com/gynecologist-near-gandhi-nagar-moradabad",
+      "Looking for the best gynaecologist near Gandhi Nagar, Moradabad? Consult Dr. Priyanka Pachauri for pregnancy care, PCOS, IVF, and laparoscopic surgery. Book your appointment today.",
+    url: "https://www.gynaecologistmoradabad.com/gynaecologist-near-gandhi-nagar-moradabad",
     siteName: "Dr. Priyanka Pachauri",
     locale: "en_IN",
     type: "website",
@@ -42,7 +42,7 @@ export const metadata = {
         url: "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
         width: 1200,
         height: 630,
-        alt: "Gynecologist Near Gandhi Nagar Moradabad | Dr. Priyanka Pachauri",
+        alt: "gynaecologist Near Gandhi Nagar Moradabad | Dr. Priyanka Pachauri",
       },
     ],
   },
@@ -51,9 +51,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@DrPriyankaGynaec",
-    title: "Gynecologist Near Gandhi Nagar Moradabad | Dr. Priyanka Pachauri",
+    title: "gynaecologist Near Gandhi Nagar Moradabad | Dr. Priyanka Pachauri",
     description:
-      "Looking for the best gynecologist near Gandhi Nagar, Moradabad? Consult Dr. Priyanka Pachauri for pregnancy care, PCOS, IVF, and laparoscopic surgery. Book your appointment today.",
+      "Looking for the best gynaecologist near Gandhi Nagar, Moradabad? Consult Dr. Priyanka Pachauri for pregnancy care, PCOS, IVF, and laparoscopic surgery. Book your appointment today.",
     images: [
       "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
     ],

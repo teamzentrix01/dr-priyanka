@@ -3,7 +3,7 @@ import Content from "./Content";
 export const metadata = {
   title: "Doctor for Period Delay in Moradabad | Dr. Priyanka Pachauri",
   description:
-    "Consult Dr. Priyanka Pachauri in Moradabad about delayed or missed periods, menstrual changes, and appropriate gynecological evaluation.",
+    "Consult Dr. Priyanka Pachauri in Moradabad about delayed or missed periods, menstrual changes, and appropriate gynaecological evaluation.",
   keywords: [
     "doctor for period delay Moradabad",
     "delayed periods doctor Moradabad",
@@ -23,7 +23,7 @@ export const metadata = {
   openGraph: {
     title: "Doctor for Period Delay in Moradabad | Dr. Priyanka Pachauri",
     description:
-      "Consult Dr. Priyanka Pachauri in Moradabad about delayed or missed periods, menstrual changes, and appropriate gynecological evaluation.",
+      "Consult Dr. Priyanka Pachauri in Moradabad about delayed or missed periods, menstrual changes, and appropriate gynaecological evaluation.",
     url: "https://www.gynaecologistmoradabad.com/doctor-for-period-delay-moradabad",
     siteName: "Dr. Priyanka Gynaec",
     locale: "en_IN",

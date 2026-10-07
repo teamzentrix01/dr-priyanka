@@ -52,7 +52,7 @@ export default function GynaecologistSafeDeliveryMoradabad() {
     },
     {
       q: "Can I email the clinic for pregnancy queries?",
-      a: "Yes, you can email drpriyankagynec@gmail.com for detailed questions.",
+      a: "Yes, you can email drpriyankagynaec@gmail.com for detailed questions.",
     },
     {
       q: "Is surgical backup available if normal delivery isn't possible?",
@@ -345,10 +345,10 @@ export default function GynaecologistSafeDeliveryMoradabad() {
                       <div className="mt-2">
                         <Mail size={18} className="inline mr-2 text-black" />
                         <a
-                          href="mailto:drpriyankagynec@gmail.com"
+                          href="mailto:drpriyankagynaec@gmail.com"
                           className="hover:underline"
                         >
-                          drpriyankagynec@gmail.com
+                          drpriyankagynaec@gmail.com
                         </a>
                       </div>
                     </div>

@@ -56,7 +56,7 @@ export default function LandingEnquiryForm({ compact = false }) {
   };
 
   return (
-    <section className="bg-white py-1">
+    <section className="landing-enquiry-form bg-white py-1">
       <div className="mx-auto w-full">
 
         {/* SIDEBAR */}
@@ -72,7 +72,7 @@ export default function LandingEnquiryForm({ compact = false }) {
             {/* Appointment Card */}
             <div
               className={`bg-[#F8F4EA] text-gray-900 rounded-2xl ${
-                compact ? "p-3" : "p-5"
+                compact ? "p-3"                 : "p-4"
               } shadow-lg`}
             >
 
@@ -127,7 +127,14 @@ export default function LandingEnquiryForm({ compact = false }) {
                   Book Online
                 </p>
 
-                <form onSubmit={handleSubmit} className={compact ? "space-y-2" : "space-y-3"}>
+                <form
+                  onSubmit={handleSubmit}
+                  className={
+                    compact
+                      ? "space-y-2"
+                      : "grid grid-cols-1 sm:grid-cols-2 gap-2"
+                  }
+                >
 
                   {/* Name */}
                   <input
@@ -137,7 +144,7 @@ export default function LandingEnquiryForm({ compact = false }) {
                     placeholder="Full name *"
                     value={form.name}
                     onChange={handleChange}
-                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
+                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
                   />
 
                   {/* Mobile */}
@@ -148,7 +155,7 @@ export default function LandingEnquiryForm({ compact = false }) {
                     placeholder="Mobile number *"
                     value={form.mobile}
                     onChange={handleChange}
-                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
+                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
                   />
 
                   {/* Email */}
@@ -158,7 +165,7 @@ export default function LandingEnquiryForm({ compact = false }) {
                     placeholder="Email address"
                     value={form.email}
                     onChange={handleChange}
-                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
+                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
                   />
 
                   {/* Date & Time */}
@@ -170,7 +177,7 @@ export default function LandingEnquiryForm({ compact = false }) {
                       required
                       value={form.date || ""}
                       onChange={handleChange}
-                      className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
+                      className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B]`}
                     />
 
                    
@@ -183,7 +190,7 @@ export default function LandingEnquiryForm({ compact = false }) {
                     required
                     value={form.department}
                     onChange={handleChange}
-                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B] bg-white`}
+                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B] bg-white sm:col-span-2`}
                   >
                     <option value="">
                       Select service *
@@ -228,11 +235,11 @@ export default function LandingEnquiryForm({ compact = false }) {
                   {/* Reason */}
                   <textarea
                     name="reason"
-                    rows={compact ? 1 : 2}
+                    rows={1}
                     placeholder="Tell us about your enquiry"
                     value={form.reason}
                     onChange={handleChange}
-                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1.5"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B] resize-none`}
+                    className={`w-full border border-gray-200 rounded-lg px-3 ${compact ? "py-1" : "py-1"} text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#B69B6B] resize-none sm:col-span-2`}
                   />
 
                   {/* Submit */}
@@ -240,8 +247,8 @@ export default function LandingEnquiryForm({ compact = false }) {
                     type="submit"
                     disabled={loading}
                     className={`w-full bg-[#e181b5] text-white font-semibold ${
-                      compact ? "py-2" : "py-2.5"
-                    } rounded-lg transition text-sm flex items-center justify-center gap-2 disabled:opacity-60`}
+                      compact ? "py-2" : "py-2"
+                    } rounded-lg transition text-sm flex items-center justify-center gap-2 disabled:opacity-60 sm:col-span-2`}
                   >
                     <Calendar size={15} />
 

@@ -34,7 +34,7 @@ export default function WomensReproductiveHealthSpecialist() {
     },
     {
       q: "What is the clinic's email address?",
-      a: "You can reach the clinic at drpriyankagynec@gmail.com.",
+      a: "You can reach the clinic at drpriyankagynaec@gmail.com.",
     },
     {
       q: "Where is the clinic located?",
@@ -555,10 +555,10 @@ export default function WomensReproductiveHealthSpecialist() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

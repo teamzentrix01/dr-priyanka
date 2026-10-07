@@ -42,7 +42,7 @@ export default function DoctorForTwinPregnancyMoradabad() {
     },
     {
       q: "Can IVF cause twin pregnancy?",
-      a: "Yes, the chance is higher, especially if more than one embryo is transferred. Email: drpriyankagynec@gmail.com.",
+      a: "Yes, the chance is higher, especially if more than one embryo is transferred. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "What are warning signs in twin pregnancy?",
@@ -727,10 +727,10 @@ export default function DoctorForTwinPregnancyMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

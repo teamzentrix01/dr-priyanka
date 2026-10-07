@@ -38,7 +38,7 @@ export default function DoctorForUterusProlapseMoradabad() {
     },
     {
       q: "Can prolapse come back after surgery?",
-      a: "It can, especially with heavy lifting, chronic cough or constipation. Follow your doctor's advice. Email: drpriyankagynec@gmail.com.",
+      a: "It can, especially with heavy lifting, chronic cough or constipation. Follow your doctor's advice. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "Can I get pregnant with uterine prolapse?",
@@ -913,10 +913,10 @@ export default function DoctorForUterusProlapseMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

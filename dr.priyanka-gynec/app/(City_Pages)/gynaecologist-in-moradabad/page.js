@@ -15,7 +15,7 @@ export const metadata = {
     "gynaecologist in Moradabad",
     "best gynaecologist Moradabad",
     "women's health care Moradabad",
-    "gynecologist near me",
+    "gynaecologist near me",
     "fertility specialist Moradabad",
     "IVF doctor Moradabad",
     "pregnancy care Moradabad",
@@ -23,7 +23,7 @@ export const metadata = {
     "endometriosis treatment Moradabad",
     "fibroid treatment Moradabad",
     "Dr. Priyanka Pachauri",
-    "gynecologist Gandhi Nagar Moradabad",
+    "gynaecologist Gandhi Nagar Moradabad",
   ],
 
 

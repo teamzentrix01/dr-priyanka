@@ -42,7 +42,7 @@ export default function DoctorForPregnancyWeightCheckMoradabad() {
     },
     {
       q: "Does exercise help control pregnancy weight?",
-      a: "Yes, gentle activity helps, but ask your doctor before starting. Email: drpriyankagynec@gmail.com.",
+      a: "Yes, gentle activity helps, but ask your doctor before starting. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "How often should weight be checked during pregnancy?",
@@ -707,10 +707,10 @@ export default function DoctorForPregnancyWeightCheckMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

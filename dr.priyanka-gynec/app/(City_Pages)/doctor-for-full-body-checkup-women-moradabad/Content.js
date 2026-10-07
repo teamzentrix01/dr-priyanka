@@ -38,7 +38,7 @@ export default function DoctorForFullBodyCheckupMoradabad() {
     },
     {
       q: "Is a Pap smear painful?",
-      a: "It is usually quick and mildly uncomfortable, but not painful. Email: drpriyankagynec@gmail.com.",
+      a: "It is usually quick and mildly uncomfortable, but not painful. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "Can I get a check-up during my period?",
@@ -799,10 +799,10 @@ export default function DoctorForFullBodyCheckupMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

@@ -13,9 +13,9 @@ export const metadata = {
 
   keywords: [
     "lady doctor in Moradabad",
-    "female gynecologist Moradabad",
+    "female gynaecologist Moradabad",
     "women doctor Moradabad",
-    "lady gynecologist near me",
+    "lady gynaecologist near me",
     "best lady doctor Moradabad",
     "female fertility specialist Moradabad",
     "women's health doctor Moradabad",

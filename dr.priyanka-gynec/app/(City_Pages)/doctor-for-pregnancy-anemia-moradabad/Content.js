@@ -38,7 +38,7 @@ export default function DoctorForPregnancyAnemiaMoradabad() {
     },
     {
       q: "When are iron injections needed?",
-      a: "When tablets are not tolerated, not working, or anaemia is moderate to severe. Email: drpriyankagynec@gmail.com.",
+      a: "When tablets are not tolerated, not working, or anaemia is moderate to severe. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "Do iron tablets cause constipation?",
@@ -904,10 +904,10 @@ export default function DoctorForPregnancyAnemiaMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

@@ -42,7 +42,7 @@ export default function GynaecologistInMoradabadNearMe() {
     },
     {
       q: "How can I contact Dr. Priyanka Gynaec, Moradabad?",
-      a: "Call +91 90797 65578, WhatsApp +91 89796 70705, email drpriyankagynec@gmail.com, or visit gynaecologistmoradabad.com.",
+      a: "Call +91 90797 65578, WhatsApp +91 89796 70705, email drpriyankagynaec@gmail.com, or visit gynaecologistmoradabad.com.",
     },
     {
       q: "Where is the clinic located in Moradabad?",
@@ -530,10 +530,10 @@ export default function GynaecologistInMoradabadNearMe() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

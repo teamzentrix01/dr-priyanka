@@ -10,10 +10,10 @@ import {
 import LandingEnquiryForm from "@/components/LandingEnquiryForm";
 import Banner from "./Banner";
 
-export default function ExperiencedLadyGynecologistMoradabad() {
+export default function ExperiencedLadygynaecologistMoradabad() {
   const faqs = [
     {
-      q: "Moradabad me experienced lady gynecologist doctor kaun hai?",
+      q: "Moradabad me experienced lady gynaecologist doctor kaun hai?",
       a: "Dr. Priyanka Pachauri ek experienced gynaecologist hain, jinke paas multiple certifications aur wide-ranging clinical practice hai.",
     },
     {
@@ -63,7 +63,7 @@ export default function ExperiencedLadyGynecologistMoradabad() {
           <div className="order-1 flex-1">
             <section className="mb-12">
               <h1 className="mb-4 font-serif text-3xl text-gray-900">
-                Moradabad Me Experienced Lady Gynecologist Doctor: Complete
+                Moradabad Me Experienced Lady gynaecologist Doctor: Complete
                 Guide
               </h1>
 
@@ -71,7 +71,7 @@ export default function ExperiencedLadyGynecologistMoradabad() {
                 Jab baat gynaecological health ki ho — chahe wo complex surgery
                 ho, high-risk pregnancy ho, ya persistent fertility issue ho —
                 to doctor ka experience genuinely ek bada farak la sakta hai. Ek
-                experienced lady gynecologist na sirf apni technical skills se,
+                experienced lady gynaecologist na sirf apni technical skills se,
                 balki saalon ke practical clinical exposure se bhi patients ko
                 better outcomes de sakti hai. Is guide mein hum samjhayenge ki
                 experience kyun matter karta hai, ek truly experienced
@@ -157,7 +157,7 @@ export default function ExperiencedLadyGynecologistMoradabad() {
 
             <section className="mb-12">
               <h2 className="mb-4 font-serif text-3xl text-gray-900">
-                Experienced Lady Gynecologist Mein Kya Dekhna Chahiye
+                Experienced Lady gynaecologist Mein Kya Dekhna Chahiye
               </h2>
 
               <ul className="list-disc space-y-2 pl-5 text-gray-700">
@@ -325,12 +325,12 @@ export default function ExperiencedLadyGynecologistMoradabad() {
             <section className="mb-12">
               <h2 className="mb-4 font-serif text-3xl text-gray-900">
                 Dr. Priyanka Pachauri — Moradabad Ki Experienced Lady
-                Gynecologist
+                gynaecologist
               </h2>
 
               <p className="mb-4 text-gray-700">
                 Moradabad ki un mahilayon ke liye jo genuinely experienced,
-                skilled lady gynecologist dhund rahi hain, Dr. Priyanka Pachauri
+                skilled lady gynaecologist dhund rahi hain, Dr. Priyanka Pachauri
                 (MS in Obstetrics & Gynaecology, FMAS, Advanced Infertility
                 Fellowship) ek well-rounded, experience-backed practice offer
                 karti hain. Unki official website,{" "}
@@ -601,7 +601,7 @@ export default function ExperiencedLadyGynecologistMoradabad() {
               </ul>
 
               <p className="mt-4 text-gray-700">
-                Ek experienced lady gynecologist dhundna genuinely difference la
+                Ek experienced lady gynaecologist dhundna genuinely difference la
                 sakta hai, especially jab baat complex surgery, high-risk
                 pregnancy, ya persistent fertility challenges ki ho. Experience
                 sirf saalon ki practice se define nahi hoti — isme specialised

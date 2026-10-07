@@ -34,7 +34,7 @@ export default function DoctorForBabyGrowthCheckMoradabad() {
     },
     {
       q: "Can slow growth be treated?",
-      a: "The cause is treated, and monitoring, nutrition and timely delivery protect the baby. Email: drpriyankagynec@gmail.com.",
+      a: "The cause is treated, and monitoring, nutrition and timely delivery protect the baby. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "Is ultrasound safe for the baby?",
@@ -870,10 +870,10 @@ export default function DoctorForBabyGrowthCheckMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

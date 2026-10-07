@@ -586,10 +586,10 @@ export default function GynaecologistNearMeMoradabad() {
 
 
                     <a
-                      href="mailto:drpriyankagynec@gmail.com"
+                      href="mailto:drpriyankagynaec@gmail.com"
                       className="hover:underline"
                     >
-                      drpriyankagynec@gmail.com
+                      drpriyankagynaec@gmail.com
                     </a>
                   </div>
                 </div>

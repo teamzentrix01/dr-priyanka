@@ -17,7 +17,7 @@ import Banner from "./Banner";
 export default function GynaecologyClinicLatePeriodsMoradabad() {
   const faqs = [
     {
-      q: "Which gynecology clinic can I visit for late periods in Moradabad?",
+      q: "Which gynaecology clinic can I visit for late periods in Moradabad?",
       a: "Dr. Priyanka Gynaec, led by Dr. Priyanka Pachauri, is a women's health and fertility centre in Moradabad.",
     },
     {
@@ -38,7 +38,7 @@ export default function GynaecologyClinicLatePeriodsMoradabad() {
     },
     {
       q: "How do I book an appointment?",
-      a: "Call +91 90797 65578 or WhatsApp +91 89796 70705. You can also email drpriyankagynec@gmail.com or visit the website.",
+      a: "Call +91 90797 65578 or WhatsApp +91 89796 70705. You can also email drpriyankagynaec@gmail.com or visit the website.",
     },
     {
       q: "Where is the clinic located?",
@@ -268,10 +268,10 @@ export default function GynaecologyClinicLatePeriodsMoradabad() {
               </ul>
             </div>
 
-            {/* Section 8 — How Care Typically Flows at a Gynecology Clinic */}
+            {/* Section 8 — How Care Typically Flows at a gynaecology Clinic */}
             <div className="mb-12">
               <h2 className="text-3xl font-serif mb-4 text-gray-900">
-                How Care Typically Flows at a Gynecology Clinic
+                How Care Typically Flows at a gynaecology Clinic
               </h2>
 
               <ol className="text-gray-700 space-y-4 mb-4 list-decimal pl-5">
@@ -579,10 +579,10 @@ export default function GynaecologyClinicLatePeriodsMoradabad() {
                   <div>
                     <p className="font-semibold">Email</p>
                     <a
-                      href="mailto:drpriyankagynec@gmail.com"
+                      href="mailto:drpriyankagynaec@gmail.com"
                       className="text-black hover:underline"
                     >
-                      drpriyankagynec@gmail.com
+                      drpriyankagynaec@gmail.com
                     </a>
                   </div>
                 </div>

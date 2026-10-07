@@ -38,7 +38,7 @@ export default function DoctorForBreastPainAfterDeliveryMoradabad() {
     },
     {
       q: "When should I see a doctor for a breast lump?",
-      a: "If it is hard, painful, does not improve in 1 to 2 days, or comes with fever. Email: drpriyankagynec@gmail.com.",
+      a: "If it is hard, painful, does not improve in 1 to 2 days, or comes with fever. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "Are antibiotics safe while breastfeeding?",
@@ -899,10 +899,10 @@ export default function DoctorForBreastPainAfterDeliveryMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

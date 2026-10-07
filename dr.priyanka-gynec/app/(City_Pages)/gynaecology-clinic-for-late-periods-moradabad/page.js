@@ -3,9 +3,9 @@ import Content from "./Content";
 
 
 
-// SEO METADATA – GYNECOLOGY CLINIC FOR LATE PERIODS MORADABAD
+// SEO METADATA – gynaecOLOGY CLINIC FOR LATE PERIODS MORADABAD
 export const metadata = {
-  title: "Gynecology Clinic for Late Periods in Moradabad | Dr. Priyanka Pachauri",
+  title: "gynaecology Clinic for Late Periods in Moradabad | Dr. Priyanka Pachauri",
 
 
   description:
@@ -14,7 +14,7 @@ export const metadata = {
 
   keywords: [
     "moradabad doctor for late periods",
-    "gynecologist for delayed periods in moradabad",
+    "gynaecologist for delayed periods in moradabad",
     "treatment for delayed periods Moradabad",
     "causes of delayed periods Moradabad",
     "how to treat late periods Moradabad",
@@ -22,7 +22,7 @@ export const metadata = {
     "moradabad delayed period specialist",
     "late period symptoms and treatment",
     "moradabad doctor appointment delayed periods",
-    "gynecology clinic for late periods Moradabad",
+    "gynaecology clinic for late periods Moradabad",
     "delayed period diagnosis Moradabad",
     "moradabad doctor reviews delayed periods",
     "online consultation for delayed periods Moradabad",
@@ -30,15 +30,15 @@ export const metadata = {
 
 
   alternates: {
-    canonical: "https://www.gynaecologistmoradabad.com/gynecology-clinic-for-late-periods-moradabad",
+    canonical: "https://www.gynaecologistmoradabad.com/gynaecology-clinic-for-late-periods-moradabad",
   },
 
 
   openGraph: {
-    title: "Gynecology Clinic for Late Periods in Moradabad | Dr. Priyanka Pachauri",
+    title: "gynaecology Clinic for Late Periods in Moradabad | Dr. Priyanka Pachauri",
     description:
       "Contact a gynaecology clinic in Moradabad for consultation about late periods and menstrual cycle changes.",
-    url: "https://www.gynaecologistmoradabad.com/gynecology-clinic-for-late-periods-moradabad",
+    url: "https://www.gynaecologistmoradabad.com/gynaecology-clinic-for-late-periods-moradabad",
     siteName: "Dr. Priyanka Gynaec",
     locale: "en_IN",
     type: "website",
@@ -48,7 +48,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@DrPriyankaGynaec",
-    title: "Gynecology Clinic for Late Periods in Moradabad | Dr. Priyanka Pachauri",
+    title: "gynaecology Clinic for Late Periods in Moradabad | Dr. Priyanka Pachauri",
     description:
       "Contact a gynaecology clinic in Moradabad for consultation about late periods and menstrual cycle changes.",
   },

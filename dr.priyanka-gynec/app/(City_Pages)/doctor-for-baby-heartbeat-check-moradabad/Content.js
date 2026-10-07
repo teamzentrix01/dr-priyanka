@@ -34,7 +34,7 @@ export default function DoctorForPregnancyFoodProblemsMoradabad() {
     },
     {
       q: "Can I get diet guidance during antenatal visits?",
-      a: "Yes. Personalised diet advice is part of antenatal care. Email: drpriyankagynec@gmail.com.",
+      a: "Yes. Personalised diet advice is part of antenatal care. Email: drpriyankagynaec@gmail.com.",
     },
   ];
 
@@ -600,10 +600,10 @@ export default function DoctorForPregnancyFoodProblemsMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

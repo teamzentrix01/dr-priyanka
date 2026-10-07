@@ -10,7 +10,7 @@ export const metadata = {
     "doctor for women's surgery consultation Moradabad",
     "women's surgery consultation",
     "gynaecological surgeon Moradabad",
-    "gynecological surgery consultation",
+    "gynaecological surgery consultation",
     "laparoscopic gynaecologist Moradabad",
     "women's health surgery doctor",
     "surgery second opinion Moradabad",

@@ -21,7 +21,7 @@ export default function DelayedPeriodAppointmentTreatment() {
     },
     {
       q: "What is the clinic's email and website?",
-      a: "Email drpriyankagynec@gmail.com or visit www.gynaecologistmoradabad.com.",
+      a: "Email drpriyankagynaec@gmail.com or visit www.gynaecologistmoradabad.com.",
     },
     {
       q: "Where is the clinic located?",
@@ -670,10 +670,10 @@ export default function DelayedPeriodAppointmentTreatment() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

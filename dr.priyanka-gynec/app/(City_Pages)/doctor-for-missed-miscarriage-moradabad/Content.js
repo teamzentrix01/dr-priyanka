@@ -38,7 +38,7 @@ export default function DoctorForMissedMiscarriageMoradabad() {
     },
     {
       q: "When can I try for pregnancy again?",
-      a: "Often after you feel ready and your doctor confirms. Ask for personal advice. Email: drpriyankagynec@gmail.com.",
+      a: "Often after you feel ready and your doctor confirms. Ask for personal advice. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "Will I need tests after a miscarriage?",
@@ -764,10 +764,10 @@ export default function DoctorForMissedMiscarriageMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

@@ -19,7 +19,7 @@ export const metadata = {
     "fibroid treatment Moradabad",
     "laparoscopic surgeon Moradabad",
     "Dr. Priyanka Pachauri",
-    "gynecological problems",
+    "gynaecological problems",
     "female health issues",
     "gynaecology clinic Moradabad",
   ],

@@ -38,7 +38,7 @@ export default function DoctorForAfterDeliveryBleedingMoradabad() {
     },
     {
       q: "What are signs of infection after delivery?",
-      a: "Fever, foul-smelling discharge and abdominal pain. Email: drpriyankagynec@gmail.com.",
+      a: "Fever, foul-smelling discharge and abdominal pain. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "Can I use a tampon after delivery?",
@@ -891,10 +891,10 @@ export default function DoctorForAfterDeliveryBleedingMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

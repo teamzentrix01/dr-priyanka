@@ -4,11 +4,11 @@ import Content from "./Content";
 
 // SEO METADATA – PREGNANCY CARE HOSPITAL MORADABAD
 export const metadata = {
-  title: "Pregnancy Care Hospital Moradabad | Best Gynaecologist Dr. Priyanka Gynec",
+  title: "Pregnancy Care Hospital Moradabad | Best Gynaecologist Dr. Priyanka gynaec",
 
 
   description:
-    "Looking for a trusted pregnancy care hospital in Moradabad? From antenatal checkups to normal delivery and high-risk pregnancy management, get expert, safe care at Dr. Priyanka Gynec. Book your appointment today.",
+    "Looking for a trusted pregnancy care hospital in Moradabad? From antenatal checkups to normal delivery and high-risk pregnancy management, get expert, safe care at Dr. Priyanka gynaec. Book your appointment today.",
 
 
   keywords: [
@@ -33,9 +33,9 @@ export const metadata = {
 
 
   openGraph: {
-    title: "Pregnancy Care Hospital Moradabad | Best Gynaecologist Dr. Priyanka Gynec",
+    title: "Pregnancy Care Hospital Moradabad | Best Gynaecologist Dr. Priyanka gynaec",
     description:
-      "Looking for a trusted pregnancy care hospital in Moradabad? From antenatal checkups to normal delivery and high-risk pregnancy management, get expert, safe care at Dr. Priyanka Gynec. Book your appointment today.",
+      "Looking for a trusted pregnancy care hospital in Moradabad? From antenatal checkups to normal delivery and high-risk pregnancy management, get expert, safe care at Dr. Priyanka gynaec. Book your appointment today.",
     url: "https://www.gynaecologistmoradabad.com/pregnancy-care-hospital-moradabad",
     siteName: "Dr. Priyanka Pachauri",
     locale: "en_IN",
@@ -45,7 +45,7 @@ export const metadata = {
         url: "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
         width: 1200,
         height: 630,
-        alt: "Pregnancy Care Hospital Moradabad | Best Gynaecologist Dr. Priyanka Gynec",
+        alt: "Pregnancy Care Hospital Moradabad | Best Gynaecologist Dr. Priyanka gynaec",
       },
     ],
   },
@@ -54,9 +54,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@DrPriyankaGynaec",
-    title: "Pregnancy Care Hospital Moradabad | Best Gynaecologist Dr. Priyanka Gynec",
+    title: "Pregnancy Care Hospital Moradabad | Best Gynaecologist Dr. Priyanka gynaec",
     description:
-      "Looking for a trusted pregnancy care hospital in Moradabad? From antenatal checkups to normal delivery and high-risk pregnancy management, get expert, safe care at Dr. Priyanka Gynec. Book your appointment today.",
+      "Looking for a trusted pregnancy care hospital in Moradabad? From antenatal checkups to normal delivery and high-risk pregnancy management, get expert, safe care at Dr. Priyanka gynaec. Book your appointment today.",
     images: [
       "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
     ],

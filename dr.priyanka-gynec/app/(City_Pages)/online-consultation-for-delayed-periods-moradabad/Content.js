@@ -22,7 +22,7 @@ export default function OnlineConsultationDelayedPeriodsMoradabad() {
     },
     {
       q: "How do I contact Dr. Priyanka?",
-      a: "Call +91 90797 65578, WhatsApp +91 89796 70705, or email drpriyankagynec@gmail.com.",
+      a: "Call +91 90797 65578, WhatsApp +91 89796 70705, or email drpriyankagynaec@gmail.com.",
     },
     {
       q: "Can a delayed period be diagnosed online?",
@@ -468,10 +468,10 @@ export default function OnlineConsultationDelayedPeriodsMoradabad() {
                   <div>
                     <p className="font-semibold">Email</p>
                     <a
-                      href="mailto:drpriyankagynec@gmail.com"
+                      href="mailto:drpriyankagynaec@gmail.com"
                       className="text-black hover:underline"
                     >
-                      drpriyankagynec@gmail.com
+                      drpriyankagynaec@gmail.com
                     </a>
                   </div>
                 </div>

@@ -400,10 +400,10 @@ export default function PeriodIrregularityTreatmentMoradabad() {
                       <div className="mt-2">
                         <Mail size={18} className="inline mr-2 text-black" />
                         <a
-                          href="mailto:drpriyankagynec@gmail.com"
+                          href="mailto:drpriyankagynaec@gmail.com"
                           className="hover:underline"
                         >
-                          drpriyankagynec@gmail.com
+                          drpriyankagynaec@gmail.com
                         </a>
                       </div>
                     </div>

@@ -4,11 +4,11 @@ import Content from "./Content";
 
 // SEO METADATA – BEST MATERNITY HOSPITAL IN MORADABAD
 export const metadata = {
-  title: "Best Maternity Hospital in Moradabad | Dr. Priyanka Gynec",
+  title: "Best Maternity Hospital in Moradabad | Dr. Priyanka gynaec",
 
 
   description:
-    "Searching for the best maternity hospital in Moradabad? From antenatal checkups to normal delivery and postnatal care, get expert, safe support at Dr. Priyanka Gynec. Book your appointment today.",
+    "Searching for the best maternity hospital in Moradabad? From antenatal checkups to normal delivery and postnatal care, get expert, safe support at Dr. Priyanka gynaec. Book your appointment today.",
 
 
   keywords: [
@@ -31,11 +31,11 @@ export const metadata = {
 
 
   openGraph: {
-    title: "Best Maternity Hospital in Moradabad | Dr. Priyanka Gynec",
+    title: "Best Maternity Hospital in Moradabad | Dr. Priyanka gynaec",
     description:
-      "Searching for the best maternity hospital in Moradabad? From antenatal checkups to normal delivery and postnatal care, get expert, safe support at Dr. Priyanka Gynec. Book your appointment today.",
+      "Searching for the best maternity hospital in Moradabad? From antenatal checkups to normal delivery and postnatal care, get expert, safe support at Dr. Priyanka gynaec. Book your appointment today.",
     url: "https://www.gynaecologistmoradabad.com/best-maternity-hospital-in-moradabad",
-    siteName: "Dr. Priyanka Gynec",
+    siteName: "Dr. Priyanka gynaec",
     locale: "en_IN",
     type: "website",
     images: [
@@ -43,7 +43,7 @@ export const metadata = {
         url: "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
         width: 1200,
         height: 630,
-        alt: "Best Maternity Hospital in Moradabad | Dr. Priyanka Gynec",
+        alt: "Best Maternity Hospital in Moradabad | Dr. Priyanka gynaec",
       },
     ],
   },
@@ -52,9 +52,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@DrPriyankaGynaec",
-    title: "Best Maternity Hospital in Moradabad | Dr. Priyanka Gynec",
+    title: "Best Maternity Hospital in Moradabad | Dr. Priyanka gynaec",
     description:
-      "Searching for the best maternity hospital in Moradabad? From antenatal checkups to normal delivery and postnatal care, get expert, safe support at Dr. Priyanka Gynec. Book your appointment today.",
+      "Searching for the best maternity hospital in Moradabad? From antenatal checkups to normal delivery and postnatal care, get expert, safe support at Dr. Priyanka gynaec. Book your appointment today.",
     images: [
       "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
     ],

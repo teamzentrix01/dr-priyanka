@@ -14,7 +14,7 @@ export const metadata = {
 
   keywords: [
     "moradabad doctor for late periods",
-    "gynecologist for delayed periods in moradabad",
+    "gynaecologist for delayed periods in moradabad",
     "treatment for delayed periods Moradabad",
     "causes of delayed periods Moradabad",
     "how to treat late periods Moradabad",
@@ -22,7 +22,7 @@ export const metadata = {
     "moradabad delayed period specialist",
     "late period symptoms and treatment",
     "moradabad doctor appointment delayed periods",
-    "gynecology clinic for late periods Moradabad",
+    "gynaecology clinic for late periods Moradabad",
     "delayed period diagnosis Moradabad",
     "moradabad doctor reviews delayed periods",
     "online consultation for delayed periods Moradabad",

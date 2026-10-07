@@ -4,11 +4,11 @@ import Content from "./Content";
 
 // SEO METADATA – LAPAROSCOPIC SURGEON IN MORADABAD
 export const metadata = {
-  title: "Laparoscopic Surgeon in Moradabad | Dr. Priyanka Gynec",
+  title: "Laparoscopic Surgeon in Moradabad | Dr. Priyanka gynaec",
 
 
   description:
-    "Looking for the best laparoscopic surgeon in Moradabad? Get safe, precise treatment with advanced 3D laparoscopic surgery at Dr. Priyanka Gynec. Book your appointment today.",
+    "Looking for the best laparoscopic surgeon in Moradabad? Get safe, precise treatment with advanced 3D laparoscopic surgery at Dr. Priyanka gynaec. Book your appointment today.",
 
 
   keywords: [
@@ -30,11 +30,11 @@ export const metadata = {
 
 
   openGraph: {
-    title: "Laparoscopic Surgeon in Moradabad | Dr. Priyanka Gynec",
+    title: "Laparoscopic Surgeon in Moradabad | Dr. Priyanka gynaec",
     description:
-      "Looking for the best laparoscopic surgeon in Moradabad? Get safe, precise treatment with advanced 3D laparoscopic surgery at Dr. Priyanka Gynec. Book your appointment today.",
+      "Looking for the best laparoscopic surgeon in Moradabad? Get safe, precise treatment with advanced 3D laparoscopic surgery at Dr. Priyanka gynaec. Book your appointment today.",
     url: "https://www.gynaecologistmoradabad.com/laparoscopic-surgeon-in-moradabad",
-    siteName: "Dr. Priyanka Gynec",
+    siteName: "Dr. Priyanka gynaec",
     locale: "en_IN",
     type: "website",
     images: [
@@ -42,7 +42,7 @@ export const metadata = {
         url: "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
         width: 1200,
         height: 630,
-        alt: "Laparoscopic Surgeon in Moradabad | Dr. Priyanka Gynec",
+        alt: "Laparoscopic Surgeon in Moradabad | Dr. Priyanka gynaec",
       },
     ],
   },
@@ -51,9 +51,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@DrPriyankaGynaec",
-    title: "Laparoscopic Surgeon in Moradabad | Dr. Priyanka Gynec",
+    title: "Laparoscopic Surgeon in Moradabad | Dr. Priyanka gynaec",
     description:
-      "Looking for the best laparoscopic surgeon in Moradabad? Get safe, precise treatment with advanced 3D laparoscopic surgery at Dr. Priyanka Gynec. Book your appointment today.",
+      "Looking for the best laparoscopic surgeon in Moradabad? Get safe, precise treatment with advanced 3D laparoscopic surgery at Dr. Priyanka gynaec. Book your appointment today.",
     images: [
       "https://res.cloudinary.com/yu4j3qdc/image/upload/v1788252804/dr.priyanka.log-10kb.jpg",
     ],

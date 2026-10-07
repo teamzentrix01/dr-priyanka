@@ -42,7 +42,7 @@ export default function DoctorForStomachInfectionInWomenMoradabad() {
     },
     {
       q: "Are infections dangerous in pregnancy?",
-      a: "They can be, so early treatment matters. Email: drpriyankagynec@gmail.com.",
+      a: "They can be, so early treatment matters. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "How can I prevent infections?",
@@ -897,10 +897,10 @@ export default function DoctorForStomachInfectionInWomenMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>

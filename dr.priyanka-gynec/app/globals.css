@@ -100,6 +100,21 @@ body {
 .text-balance {
   text-wrap: balance;
 }
+
+@media (min-width: 1024px) {
+  aside:has(.landing-enquiry-form) {
+    flex: 0 0 420px;
+    width: 420px;
+  }
+}
+
+@media (min-width: 1280px) {
+  aside:has(.landing-enquiry-form) {
+    flex-basis: 460px;
+    width: 460px;
+  }
+}
+
 .font-display {
   font-family: "Cormorant Garamond", serif;
 }

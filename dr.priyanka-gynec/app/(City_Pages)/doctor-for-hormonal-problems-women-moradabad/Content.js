@@ -34,7 +34,7 @@ export default function DoctorForHormonalProblemsMoradabad() {
     },
     {
       q: "Can thyroid problems cause irregular periods?",
-      a: "Yes, both low and high thyroid levels can disturb your cycle. Email: drpriyankagynec@gmail.com.",
+      a: "Yes, both low and high thyroid levels can disturb your cycle. Email: drpriyankagynaec@gmail.com.",
     },
     {
       q: "Can diet and exercise balance hormones?",
@@ -908,10 +908,10 @@ export default function DoctorForHormonalProblemsMoradabad() {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a
-                        href="mailto:drpriyankagynec@gmail.com"
+                        href="mailto:drpriyankagynaec@gmail.com"
                         className="break-all hover:underline"
                       >
-                        drpriyankagynec@gmail.com
+                        drpriyankagynaec@gmail.com
                       </a>
                     </div>
                   </div>
