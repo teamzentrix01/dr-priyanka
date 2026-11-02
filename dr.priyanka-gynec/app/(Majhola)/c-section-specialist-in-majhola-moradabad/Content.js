@@ -1,0 +1,660 @@
+﻿
+import Link from "next/link";
+import {
+  Award,
+  Globe,
+  Mail,
+  MapPin,
+  Phone,
+  Shield,
+} from "lucide-react";
+import LandingEnquiryForm from "@/components/LandingEnquiryForm";
+import Banner from "./Banner";
+
+export default function CSectionSpecialistMajhola() {
+  const faqs = [
+    {
+      q: "Who decides if I need a C-section?",
+      a: "Your obstetrician, based on your health, your baby&apos;s condition and the progress of labour.",
+    },
+    {
+      q: "Can a C-section be planned in advance?",
+      a: "Yes, in some cases. Your doctor will explain the reasons and timing.",
+    },
+    {
+      q: "How do I verify a specialist&apos;s credentials?",
+      a: "Look up the relevant medical council&apos;s records and ask about training.",
+    },
+    {
+      q: "Is a second opinion acceptable?",
+      a: "Yes, if time allows and you feel unsure.",
+    },
+    {
+      q: "What should I ask about the hospital?",
+      a: "Ask about emergency care, anaesthesia, blood support and newborn care.",
+    },
+    {
+      q: "How long is recovery?",
+      a: "It varies. Your doctor will give guidance for your case.",
+    },
+    {
+      q: "When should I seek urgent help after surgery?",
+      a: "For fever, heavy bleeding, severe pain or wound changes, contact your doctor immediately.",
+    },
+    {
+      q: "Where can I learn more about hospital planning?",
+      a: "Visit spacebuild.co.in to learn about healthcare interior planning.",
+    },
+  ];
+
+  return (
+    <main className="bg-white">
+      <Banner />
+
+      <section className="px-6 py-16">
+        <div className="mx-auto flex max-w-7xl flex-col gap-10 lg:flex-row">
+          <div className="order-1 flex-1">
+            <section className="mb-12">
+              <h1 className="mb-4 font-serif text-3xl text-gray-900">
+                C-Section Specialist in Majhola, Moradabad: How to Find and
+                Choose the Right Specialist
+              </h1>
+
+              <p className="mb-4 text-gray-700">
+                A caesarean delivery is a major surgery, so choosing the
+                specialist and the hospital deserves careful thought. Some
+                C-sections are planned, while others are decided during labour,
+                so it helps to be prepared for either route. This guide explains
+                the basics, how to judge a specialist and facility, and how to
+                prepare. It is general information, not medical advice. It names
+                no individual doctors, because I cannot verify or rank them, and
+                only a qualified doctor can advise you on your pregnancy and
+                delivery.{" "}
+                <a
+                  href="https://www.spacebuild.co.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-700 hover:underline"
+                >
+                  Space Build
+                </a>{" "}
+                works in interior planning, and its insight appears in the
+                sections on hospital environment.
+              </p>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                What Is a C-Section?
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                A caesarean is a surgical way of delivering a baby. The right
+                method is the one that is safest for you and your baby.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  The baby is delivered through a cut in the abdomen and uterus.
+                </li>
+                <li>
+                  It takes place in an operation theatre with a trained team.
+                </li>
+                <li>
+                  It may be planned in advance or become necessary during
+                  labour.
+                </li>
+                <li>
+                  Recovery takes longer than after most routine procedures.
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Who Is a C-Section Specialist?
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                The surgery is performed by an obstetrician or gynaecologist.
+                Ask who will be in your team and who covers if your doctor is
+                unavailable.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>An anaesthetist manages pain relief and monitoring.</li>
+                <li>Nurses and assistants support the operation.</li>
+                <li>
+                  A paediatrician or newborn care team may attend the baby.
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                When Might a C-Section Be Advised?
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Only your doctor can decide, based on your situation. Ask your
+                doctor to explain the reason in plain language.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>Certain pregnancy or health conditions</li>
+                <li>The baby&apos;s position or wellbeing</li>
+                <li>Labor not progressing as expected</li>
+                <li>A previous surgical delivery, in some cases</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Choose Early
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Decide on your doctor and hospital during pregnancy.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>Early antenatal visits build trust and history.</li>
+                <li>You have time to compare options calmly.</li>
+                <li>
+                  You can plan for both normal and surgical delivery.
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                How to Shortlist Specialists
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Gather names from reliable sources. Aim for two or three names
+                to compare.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>Your family doctor or earlier gynaecologist</li>
+                <li>Friends and relatives with good experiences</li>
+                <li>Hospital and clinic listings</li>
+                <li>Official medical council directories</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Verify Qualifications
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Look for clear, checkable details. Credentials can be verified
+                through the council&apos;s records.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>Recognised medical degree and specialist training</li>
+                <li>Registration with the relevant medical council</li>
+                <li>Years of experience in obstetrics and surgery</li>
+                <li>The hospital where the doctor operates</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Judge Communication
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                You will rely on your doctor at a vulnerable time. A good
+                specialist should make you feel informed and respected.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  Does the doctor listen to your history and worries?
+                </li>
+                <li>Does the doctor explain in simple language?</li>
+                <li>Does the doctor welcome questions?</li>
+                <li>
+                  Does the doctor discuss all options honestly?
+                </li>
+                <li>
+                  Does the doctor avoid pressure or fear-based advice?
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Questions to Ask the Specialist
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Write the answers down, or take someone along.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  Why is a C-section advised in my case, if it is?
+                </li>
+                <li>
+                  What are the benefits and risks compared with other options?
+                </li>
+                <li>What type of anaesthesia is usual?</li>
+                <li>
+                  Who will assist, and who covers if you are unavailable?
+                </li>
+                <li>How long is the hospital stay?</li>
+                <li>What does recovery involve?</li>
+                <li>What are the total estimated costs?</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Consider a Second Opinion
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                A second opinion is sensible when surgery is advised and you
+                feel unsure. A good doctor will not be offended.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  Compare explanations, not only recommendations.
+                </li>
+                <li>Carry the same reports to each visit.</li>
+                <li>
+                  Never delay urgent care while seeking another opinion.
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Choosing the Hospital
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                The hospital matters as much as the specialist. Visit before
+                your due date if possible.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>Distance from your home and travel time</li>
+                <li>Emergency and newborn care arrangements</li>
+                <li>Availability of anaesthesia and blood support</li>
+                <li>Trained nursing and support staff</li>
+                <li>Clear billing and discharge process</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Ask About Facilities
+              </h2>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  A clean, well-maintained operation theatre area
+                </li>
+                <li>Recovery space with monitoring</li>
+                <li>Comfortable postnatal rooms</li>
+                <li>A newborn care area</li>
+                <li>Lift access and wide doors for stretchers</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Privacy and Dignity
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Staff should explain what they are doing and ask before
+                examining. If privacy feels weak, consider another hospital.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  Screens and curtains should protect you in shared areas.
+                </li>
+                <li>
+                  Registration and discussions should not be overheard.
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                What a Good Hospital Environment Looks Like
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                The environment affects comfort, safety and confidence.
+                Planners such as{" "}
+                <a
+                  href="https://www.spacebuild.co.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-700 hover:underline"
+                >
+                  Space Build
+                </a>{" "}
+                focus on these elements when designing healthcare interiors.
+                Clinical standards remain the responsibility of the medical
+                team.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  <strong>Hygiene:</strong> Washable, non-porous surfaces and
+                  tidy rooms.
+                </li>
+                <li>
+                  <strong>Comfort:</strong> Supportive beds and chairs, soft
+                  lighting and good ventilation.
+                </li>
+                <li>
+                  <strong>Access:</strong> Step-free entry, non-slip floors and
+                  accessible washrooms.
+                </li>
+                <li>
+                  <strong>Calm:</strong> Quiet corridors and rooms that reduce
+                  noise.
+                </li>
+                <li>
+                  <strong>Order:</strong> Clear signs and an organised
+                  reception.
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Preparing for a Planned C-Section
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Your doctor will give specific instructions. Follow your own
+                doctor&apos;s advice, not general lists.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  Follow guidance on food, drink and medicines before surgery.
+                </li>
+                <li>Complete tests and checks on time.</li>
+                <li>Arrange a family member to stay with you.</li>
+                <li>
+                  Pack comfortable clothes, documents and baby essentials.
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Consent
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Never sign without understanding. You have the right to clear
+                information before any procedure.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>Understand what will be done and why.</li>
+                <li>Know the risks and expected recovery.</li>
+                <li>Read consent forms carefully.</li>
+                <li>Ask about anything unclear.</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Recovery After Surgery
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Recovery differs from person to person. Follow your doctor&apos;s
+                instructions and attend every follow-up visit.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>Follow wound care and activity advice.</li>
+                <li>Take medicines exactly as prescribed.</li>
+                <li>
+                  Ask when lifting, driving and exercise are safe.
+                </li>
+                <li>Rest, eat well and accept help at home.</li>
+                <li>Attend all follow-up visits.</li>
+                <li>
+                  Report fever, heavy bleeding, severe pain or wound changes
+                  promptly.
+                </li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Emotional Wellbeing
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Recovery includes emotional adjustment as well as physical
+                healing.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  Talk to your doctor or someone you trust about how you feel.
+                </li>
+                <li>Ask for support with feeding and newborn care.</li>
+                <li>Seek help if low mood or anxiety continues.</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Understanding Costs
+              </h2>
+
+              <p className="mb-4 text-gray-700">
+                Ask early and clearly. Request a written estimate where
+                possible.
+              </p>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>Surgeon, anaesthesia and hospital charges</li>
+                <li>Room and nursing charges</li>
+                <li>Tests, medicines and newborn care</li>
+                <li>Costs if the plan changes</li>
+                <li>Insurance acceptance and claim process</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Red Flags
+              </h2>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  Pressure to choose surgery without a clear reason
+                </li>
+                <li>Guaranteed outcomes or unrealistic promises</li>
+                <li>Dismissing your questions or a second opinion</li>
+                <li>Unclear costs and no written estimate</li>
+                <li>Poor privacy or hygiene</li>
+                <li>Unverifiable qualifications</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Common Mistakes to Avoid
+              </h2>
+
+              <ul className="list-disc space-y-2 pl-5 text-gray-700">
+                <li>
+                  Leaving hospital planning until the last moment
+                </li>
+                <li>Skipping antenatal checkups</li>
+                <li>
+                  Not asking about anaesthesia and emergencies
+                </li>
+                <li>Ignoring recovery planning</li>
+                <li>Self-medicating from online advice</li>
+                <li>Not asking about costs</li>
+              </ul>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-4 font-serif text-3xl text-gray-900">
+                Contact Space Build — Healthcare Interior Planning in Majhola,
+                Moradabad
+              </h2>
+
+              <div className="rounded-2xl bg-[#F8F4EA] p-8 text-black">
+                <div className="mb-6 space-y-4">
+                  <div className="flex items-start gap-3">
+                    <Award className="mt-1 shrink-0" size={20} />
+                    <div>
+                      <p className="font-semibold">Interior Partner</p>
+                      <p>Space Build</p>
+                      <p className="text-sm text-gray-600">
+                        Healthcare interior planning and hospital design support
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Shield className="mt-1 shrink-0" size={20} />
+                    <div>
+                      <p className="font-semibold">Important Note</p>
+                      <p className="text-sm text-gray-600">
+                        This page provides general information only. It does not
+                        recommend or rank any doctor. Consult a qualified
+                        healthcare professional for pregnancy and delivery
+                        advice.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Phone className="mt-1 shrink-0" size={20} />
+                    <div>
+                      <p className="font-semibold">Call</p>
+                      <a
+                        href="tel:+919927611780"
+                        className="hover:underline"
+                      >
+                        +91 99276 11780
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Phone className="mt-1 shrink-0" size={20} />
+                    <div>
+                      <p className="font-semibold">Call</p>
+                      <a
+                        href="tel:+918077973797"
+                        className="hover:underline"
+                      >
+                        +91 80779 73797
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Mail className="mt-1 shrink-0" size={20} />
+                    <div>
+                      <p className="font-semibold">Email</p>
+                      <a
+                        href="mailto:spacebuild.india@gmail.com"
+                        className="break-all hover:underline"
+                      >
+                        spacebuild.india@gmail.com
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <MapPin className="mt-1 shrink-0" size={20} />
+                    <div>
+                      <p className="font-semibold">Service Area</p>
+                      <p>Majhola, Moradabad, Uttar Pradesh, India</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <Globe className="mt-1 shrink-0" size={20} />
+                    <div>
+                      <p className="font-semibold">Website</p>
+                      <a
+                        href="https://www.spacebuild.co.in/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="break-all hover:underline"
+                      >
+                        www.spacebuild.co.in
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-4">
+                  <Link
+                    href="/contact"
+                    className="rounded-lg bg-white px-6 py-3 font-semibold text-blue-900 transition hover:bg-blue-50"
+                  >
+                    <Phone className="mr-2 inline" size={18} />
+                    Contact Us
+                  </Link>
+
+                  <Link
+                    href="/services"
+                    className="rounded-lg border-2 border-white px-6 py-3 font-semibold transition hover:bg-[#e181b5]"
+                  >
+                    Explore Services
+                  </Link>
+                </div>
+              </div>
+            </section>
+
+            <section className="mb-12">
+              <h2 className="mb-6 font-serif text-3xl text-gray-900">
+                Frequently Asked Questions (FAQ)
+              </h2>
+
+              <div className="space-y-5">
+                {faqs.map((faq) => (
+                  <article
+                    key={faq.q}
+                    className="rounded-lg border border-gray-200 p-5"
+                  >
+                    <h3 className="mb-2 font-semibold text-gray-900">
+                      {faq.q}
+                    </h3>
+                    <p className="text-gray-700">{faq.a}</p>
+                  </article>
+                ))}
+              </div>
+            </section>
+          </div>
+
+          <aside className="order-2 w-full lg:w-[380px] xl:w-[420px]">
+            <div className="space-y-6 lg:sticky lg:top-28">
+              <LandingEnquiryForm />
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  );
+}
