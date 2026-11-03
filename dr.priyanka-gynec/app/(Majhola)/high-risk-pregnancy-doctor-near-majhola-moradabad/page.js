@@ -38,7 +38,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/high-risk-pregnancy-doctor-near-majhola-moradabad",
   },
 
   openGraph: {
@@ -49,7 +49,7 @@ export const metadata = {
       "Looking for a high risk pregnancy doctor near Majhola, Moradabad? Learn what high risk care involves, how to verify a specialist, what to ask and how to judge a hospital's readiness.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/high-risk-pregnancy-doctor-near-majhola-moradabad",
 
     siteName: "Dr. Priyanka Gynaec",
     locale: "en_IN",

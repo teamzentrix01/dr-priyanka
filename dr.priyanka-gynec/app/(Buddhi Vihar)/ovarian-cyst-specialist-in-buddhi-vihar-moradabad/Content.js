@@ -1,0 +1,627 @@
+import Link from "next/link";
+import {
+  Phone,
+  CheckCircle2,
+  MapPin,
+  Shield,
+  Mail,
+  Clock,
+  Activity,
+  Heart,
+  Star,
+  Award,
+  Globe,
+  MessageCircle,
+} from "lucide-react";
+import LandingEnquiryForm from "@/components/LandingEnquiryForm";
+import Banner from "./Banner";
+
+
+export default function OvarianCystSpecialistBuddhiViharMoradabad() {
+  const faqs = [
+    {
+      q: "Are all ovarian cysts serious?",
+      a: "No. Many are harmless, but a doctor must review your scan to say.",
+    },
+    {
+      q: "Which doctor should I see first?",
+      a: "A gynaecologist is usually the right starting point.",
+    },
+    {
+      q: "Does every cyst need surgery?",
+      a: "No. Many are only monitored. Your doctor will explain what suits your case.",
+    },
+    {
+      q: "What symptoms need urgent care?",
+      a: "Sudden severe pain, fainting, fever, or vomiting need immediate attention.",
+    },
+    {
+      q: "Why are repeat scans advised?",
+      a: "To see whether the cyst changes over time.",
+    },
+    {
+      q: "How do I verify a doctor’s credentials?",
+      a: "Check the relevant medical council’s records and ask about training.",
+    },
+    {
+      q: "Is a second opinion acceptable?",
+      a: "Yes, especially before surgery or if you feel unsure.",
+    },
+    {
+      q: "Where can I learn more about clinic planning?",
+      a: "Visit spacebuild.co.in to learn about healthcare interior planning.",
+    },
+    {
+      q: "Can I self-diagnose an ovarian cyst from symptoms?",
+      a: "No. Symptoms alone cannot confirm a cyst. A doctor must review your scan and medical history.",
+    },
+    {
+      q: "Can an ovarian cyst affect future pregnancy?",
+      a: "Some cysts may affect ovulation or fertility, depending on their type. Discuss your pregnancy plans openly with your doctor.",
+    },
+    {
+      q: "Should I bring old reports to the consultation?",
+      a: "Yes. Earlier scans, prescriptions, and reports help the doctor assess changes and plan the right next step.",
+    },
+  ];
+
+
+  return (
+    <main className="bg-white">
+      <Banner />
+
+
+      <section className="py-16 px-6">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10">
+          {/* Main Content */}
+          <div className="flex-1 order-1">
+            {/* Section 1 — Introduction */}
+            <div className="mb-12">
+              <h1 className="text-3xl font-serif mb-4 text-gray-900">
+                Ovarian Cyst Specialist in Buddhi Vihar, Moradabad: Understanding Your Options and Choosing the Right Doctor
+              </h1>
+
+
+              <p className="text-gray-700 mb-4">
+                Hearing the words &quot;ovarian cyst&quot; on a scan report can be unsettling. Many cysts are harmless and settle on their own, while others need monitoring or treatment. The right specialist explains your report clearly and helps you choose the next step calmly.
+              </p>
+
+
+              <p className="text-gray-700 mb-4">
+                This guide covers the basics and how to judge a doctor and clinic. It is general information, not medical advice. It names no individual doctors, because I cannot verify or rank them, and only a qualified doctor can diagnose you and recommend treatment.
+              </p>
+
+
+              <p className="text-gray-700">
+                <a
+                  href="https://www.spacebuild.co.in/"
+                  className="text-blue-600 hover:underline"
+                >
+                  Space Build
+                </a>{" "}
+                works in interior planning, and its insight appears in the sections on clinic environment.
+              </p>
+            </div>
+
+
+            {/* Section 2 — What Is an Ovarian Cyst? */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                1. What Is an Ovarian Cyst?
+              </h2>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>It is a fluid-filled sac on or inside an ovary.</li>
+                <li>Cysts vary in size, type, and cause.</li>
+                <li>Many are found by chance on a scan.</li>
+                <li>Some are linked to the normal monthly cycle.</li>
+                <li>Others need closer follow-up.</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Never self-diagnose. A doctor must review your scan and history.
+              </p>
+            </div>
+
+
+            {/* Section 3 — Symptoms */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                2. Symptoms That May Prompt a Visit
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                Some women have no symptoms at all. Others notice:
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Pelvic or lower abdominal pain</li>
+                <li>Bloating or a feeling of fullness</li>
+                <li>Irregular or painful periods</li>
+                <li>Pain during intimacy</li>
+                <li>Frequent urination</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Seek urgent care for sudden severe pain, fainting, fever, or vomiting. Do not wait for an appointment.
+              </p>
+            </div>
+
+
+            {/* Section 4 — Which Doctor to See */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                3. Which Doctor to See
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                A gynaecologist is usually the right starting point.
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>They examine you and review your scan.</li>
+                <li>They may refer you to a surgeon or another specialist if needed.</li>
+                <li>Bring all earlier reports and scans.</li>
+              </ul>
+            </div>
+
+
+            {/* Section 5 — Tests */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                4. Tests You May Be Advised
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                Your doctor chooses tests based on your case.
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Ultrasound scan to see the cyst’s size and features</li>
+                <li>Blood tests, where relevant</li>
+                <li>Repeat scans to watch changes over time</li>
+                <li>Other imaging, if needed</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Ask what each test will show and when results will be ready.
+              </p>
+            </div>
+
+
+            {/* Section 6 — Not Every Cyst Needs Surgery */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                5. Not Every Cyst Needs Surgery
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                Management depends on the cyst and your situation.
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li><strong>Watchful Monitoring:</strong> Repeat scans over time.</li>
+                <li><strong>Medicines:</strong> To manage symptoms, where suitable.</li>
+                <li><strong>Surgery:</strong> Considered for certain cysts, large or persistent ones, or when symptoms are significant.</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Ask why a particular option is advised for you.
+              </p>
+            </div>
+
+
+            {/* Section 7 — Symptom Diary */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                6. Keep a Symptom Diary
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                Notes help your doctor see the pattern.
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Record period dates and flow.</li>
+                <li>Note pain, its timing, and severity.</li>
+                <li>Mark bloating, urinary changes, and tiredness.</li>
+                <li>Note any link with your cycle.</li>
+              </ul>
+            </div>
+
+
+            {/* Section 8 — Future Plans */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                7. Think About Future Plans
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                Your goals shape the advice.
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Do you hope to conceive in future?</li>
+                <li>How do symptoms affect daily life?</li>
+                <li>How do you feel about each option?</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Share these openly with your doctor.
+              </p>
+            </div>
+
+
+            {/* Section 9 — Shortlist Specialists */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                8. How to Shortlist Specialists
+              </h2>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Your family doctor or earlier gynaecologist</li>
+                <li>Friends and relatives with similar experience</li>
+                <li>Hospital and clinic listings</li>
+                <li>Official medical council directories</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Aim for two or three names to compare.
+              </p>
+            </div>
+
+
+            {/* Section 10 — Verify Qualifications */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                9. Verify Qualifications
+              </h2>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Recognised medical degree and specialist training</li>
+                <li>Registration with the relevant medical council</li>
+                <li>Experience with similar cases</li>
+                <li>The hospital where surgery would take place, if needed</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Credentials can be verified through the council’s records.
+              </p>
+            </div>
+
+
+            {/* Section 11 — Judge Communication */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                10. Judge Communication
+              </h2>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Does the doctor listen to your full history?</li>
+                <li>Does the doctor explain your scan in simple language?</li>
+                <li>Does the doctor welcome questions?</li>
+                <li>Does the doctor discuss alternatives and avoid pressure?</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                You should leave informed, not rushed.
+              </p>
+            </div>
+
+
+            {/* Section 12 — Female or Male Doctor */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                11. Female or Male Doctor
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                This is a personal preference.
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Ask when booking whether a female doctor is available.</li>
+                <li>You can request a female staff member during examinations.</li>
+              </ul>
+            </div>
+
+
+            {/* Section 13 — Questions to Ask */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                12. Questions to Ask the Doctor
+              </h2>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>What type of cyst do I have, and how large is it?</li>
+                <li>Does it need treatment now, or can it be monitored?</li>
+                <li>When should the scan be repeated?</li>
+                <li>What symptoms should make me call urgently?</li>
+                <li>What are my options, with benefits and risks?</li>
+                <li>How could this affect future pregnancy plans?</li>
+                <li>What is the estimated cost?</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Write the answers down, or take someone along.
+              </p>
+            </div>
+
+
+            {/* Section 14 — Second Opinion */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                13. Consider a Second Opinion
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                It is sensible before any surgery.
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>A good doctor will not be offended.</li>
+                <li>Compare explanations, not only recommendations.</li>
+                <li>Carry the same scans and reports to every visit.</li>
+              </ul>
+            </div>
+
+
+            {/* Section 15 — If Surgery Is Advised */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                14. If Surgery Is Advised
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                Your surgeon will give specific instructions.
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Ask why surgery is needed and what type is planned.</li>
+                <li>Ask about hospital stay and recovery.</li>
+                <li>Follow guidance on food, drink, and medicines.</li>
+                <li>Arrange a family member to stay with you.</li>
+                <li>Read consent forms carefully and ask about anything unclear.</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Never sign without understanding.
+              </p>
+            </div>
+
+
+            {/* Section 16 — Preparing for First Visit */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                15. Preparing for Your First Visit
+              </h2>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Write down symptoms and when they began.</li>
+                <li>Note your cycle dates.</li>
+                <li>List current medicines and past conditions.</li>
+                <li>Bring earlier scans and reports.</li>
+                <li>Prepare your questions.</li>
+                <li>Take a trusted companion if you wish.</li>
+              </ul>
+            </div>
+
+
+            {/* Section 17 — Costs */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                16. Understanding Costs
+              </h2>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Consultation fee</li>
+                <li>Scan and test charges</li>
+                <li>Procedure, hospital, and medicine costs</li>
+                <li>Follow-up visit charges</li>
+                <li>Insurance acceptance, if relevant</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Request a written estimate for any procedure.
+              </p>
+            </div>
+
+
+            {/* Section 18 — Privacy */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                17. Privacy and Dignity
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                Privacy is essential in a gynaecology clinic.
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Consultation doors should not open onto the waiting area.</li>
+                <li>Examination areas should be screened.</li>
+                <li>Registration should not be overheard.</li>
+                <li>Staff should explain what they are doing and ask before examining.</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                If privacy feels weak, consider another clinic.
+              </p>
+            </div>
+
+
+            {/* Section 19 — Clinic Environment */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                18. What a Good Clinic Environment Looks Like
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                Design supports comfort and trust.
+              </p>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li><strong>Layout:</strong> A clear flow from reception to waiting to consultation.</li>
+                <li><strong>Surfaces:</strong> Washable, non-porous materials that are easy to keep clean.</li>
+                <li><strong>Lighting:</strong> Soft, glare-free light in waiting areas and bright light for examination.</li>
+                <li><strong>Sound:</strong> Rooms that keep conversations private.</li>
+                <li><strong>Access:</strong> Step-free entry, wide doors, and accessible washrooms.</li>
+              </ul>
+
+
+              <p className="text-gray-700 mt-4">
+                Planners such as{" "}
+                <a
+                  href="https://www.spacebuild.co.in/"
+                  className="text-blue-600 hover:underline"
+                >
+                  Space Build
+                </a>{" "}
+                focus on these elements when designing healthcare interiors. Clinical standards remain the responsibility of the medical team.
+              </p>
+            </div>
+
+
+            {/* Section 20 — Red Flags */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                19. Red Flags
+              </h2>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Pressure to book surgery immediately</li>
+                <li>No clear explanation of your scan</li>
+                <li>Dismissing questions or a second opinion</li>
+                <li>Guaranteed cures or unrealistic promises</li>
+                <li>Unclear costs</li>
+                <li>Unverifiable qualifications</li>
+              </ul>
+            </div>
+
+
+            {/* Section 21 — Mistakes */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                20. Common Mistakes to Avoid
+              </h2>
+
+
+              <ul className="text-gray-700 space-y-2 mb-4 list-disc pl-5">
+                <li>Ignoring severe or sudden pain</li>
+                <li>Skipping repeat scans</li>
+                <li>Self-medicating from online advice</li>
+                <li>Choosing only by advertisements</li>
+                <li>Not asking about alternatives</li>
+                <li>Missing follow-up visits</li>
+              </ul>
+            </div>
+
+
+            {/* Section 22 — About Space Build */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-4 text-gray-900">
+                About Space Build
+              </h2>
+
+
+              <p className="text-gray-700 mb-4">
+                <a
+                  href="https://www.spacebuild.co.in/"
+                  className="text-blue-600 hover:underline"
+                >
+                  Space Build
+                </a>{" "}
+                is a Moradabad-based interior design and construction firm offering interior designing, Vastu guidance, renovation, modular kitchens, project management consultation, and related services. Its team works on residential, commercial, and healthcare-oriented spaces with a focus on functionality, comfort, and thoughtful design.
+              </p>
+
+
+              <p className="text-gray-700 mb-4">
+                For gynaecology and ovarian cyst clinics, practical interior planning can support privacy, hygiene, accessibility, calm lighting, and a clear flow from reception to consultation. Clinical accuracy, qualified staff, equipment standards, and patient safety remain the responsibility of the clinic and medical team.
+              </p>
+
+
+              <p className="text-gray-700 mb-4">
+                Space Build is based in Moradabad, Uttar Pradesh, and can be contacted through its website for interior planning and design consultation.
+              </p>
+            </div>
+
+
+            {/* Section 23 — FAQs */}
+            <div className="mb-12">
+              <h2 className="text-3xl font-serif mb-6 text-gray-900">
+                Frequently Asked Questions (FAQs)
+              </h2>
+
+
+              <div className="space-y-5">
+                {faqs.map((faq) => (
+                  <div
+                    key={faq.q}
+                    className="border border-gray-200 rounded-lg p-5"
+                  >
+                    <h3 className="font-semibold text-gray-900 mb-2">
+                      {faq.q}
+                    </h3>
+
+
+                    <p className="text-gray-700">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+
+          {/* Sidebar */}
+          <div className="w-full lg:w-[380px] xl:w-[420px] order-2">
+            <div className="lg:sticky lg:top-28 space-y-6">
+              <LandingEnquiryForm />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}

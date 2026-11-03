@@ -38,7 +38,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/best-gynaecologist-in-ramganga-vihar-moradabad",
   },
 
   openGraph: {
@@ -49,7 +49,7 @@ export const metadata = {
       "Looking for the best gynaecologist in Ramganga Vihar, Moradabad? Learn how to check qualifications, judge communication and clinic quality, and prepare for your first visit.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/best-gynaecologist-in-ramganga-vihar-moradabad",
 
     siteName: "Dr. Priyanka Gynaec",
     locale: "en_IN",

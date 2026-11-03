@@ -43,7 +43,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/best-gynaecologist-in-majhola-moradabad",
   },
 
   openGraph: {
@@ -54,7 +54,7 @@ export const metadata = {
       "Planning a gynaecologist clinic in Majhola, Moradabad? Explore layout, privacy, hygiene-friendly materials, lighting and furniture ideas with Space Build. Book a free consultation today.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/best-gynaecologist-in-majhola-moradabad",
 
     siteName: "Space Build",
     locale: "en_IN",

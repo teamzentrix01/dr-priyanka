@@ -38,7 +38,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/antenatal-checkup-doctor-in-ramganga-vihar-moradabad",
   },
 
   openGraph: {
@@ -49,7 +49,7 @@ export const metadata = {
       "Looking for an antenatal checkup doctor in Ramganga Vihar, Moradabad? Learn what antenatal visits involve, how to verify a doctor, what to ask and how to judge a clinic's comfort and privacy.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/antenatal-checkup-doctor-in-ramganga-vihar-moradabad",
 
     siteName: "Dr. Priyanka Gynaec",
     locale: "en_IN",

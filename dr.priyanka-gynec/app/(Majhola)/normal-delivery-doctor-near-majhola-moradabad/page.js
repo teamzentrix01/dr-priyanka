@@ -43,7 +43,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/normal-delivery-doctor-near-majhola-moradabad",
   },
 
   openGraph: {
@@ -54,7 +54,7 @@ export const metadata = {
       "Planning a maternity clinic or delivery room in Majhola, Moradabad? Explore calm layouts, privacy, hygienic materials, lighting and furniture ideas with Space Build. Book a free consultation.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/normal-delivery-doctor-near-majhola-moradabad",
 
     siteName: "Space Build",
     locale: "en_IN",

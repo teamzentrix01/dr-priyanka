@@ -42,7 +42,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/antenatal-care-doctor-in-majhola-moradabad",
   },
 
   openGraph: {
@@ -53,7 +53,7 @@ export const metadata = {
       "Planning an antenatal care clinic in Majhola, Moradabad? Explore comfortable waiting areas, private consultation rooms, safe layouts and hygienic materials with Space Build. Book a free consultation.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/antenatal-care-doctor-in-majhola-moradabad",
 
     siteName: "Space Build",
     locale: "en_IN",

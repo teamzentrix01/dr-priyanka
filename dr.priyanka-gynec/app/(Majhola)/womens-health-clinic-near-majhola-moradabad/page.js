@@ -38,7 +38,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/womens-health-clinic-near-majhola-moradabad",
   },
 
   openGraph: {
@@ -49,7 +49,7 @@ export const metadata = {
       "Looking for a women's health clinic near Majhola, Moradabad? Learn what services clinics offer, how to judge privacy, hygiene and staff, and how to prepare for your first visit.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/womens-health-clinic-near-majhola-moradabad",
 
     siteName: "Space Build",
     locale: "en_IN",

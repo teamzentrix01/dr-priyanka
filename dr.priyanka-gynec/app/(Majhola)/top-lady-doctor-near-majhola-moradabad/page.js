@@ -35,7 +35,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/top-lady-doctor-near-majhola-moradabad",
   },
 
   openGraph: {

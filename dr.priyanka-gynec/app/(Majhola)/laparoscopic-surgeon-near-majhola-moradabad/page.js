@@ -38,7 +38,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/laparoscopic-surgeon-near-majhola-moradabad",
   },
 
   openGraph: {
@@ -49,7 +49,7 @@ export const metadata = {
       "Looking for a laparoscopic surgeon near Majhola, Moradabad? Learn what laparoscopic surgery is, how to check a surgeon's experience, questions to ask and what to look for in a hospital.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/laparoscopic-surgeon-near-majhola-moradabad",
 
     siteName: "Space Build",
     locale: "en_IN",

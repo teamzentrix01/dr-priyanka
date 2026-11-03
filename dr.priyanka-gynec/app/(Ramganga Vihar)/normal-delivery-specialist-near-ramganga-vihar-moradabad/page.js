@@ -38,7 +38,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/normal-delivery-specialist-near-ramganga-vihar-moradabad",
   },
 
   openGraph: {
@@ -49,7 +49,7 @@ export const metadata = {
       "Planning a normal delivery near Ramganga Vihar, Moradabad? Learn labour stages, birth plan tips, what to pack, when to go to hospital and how to judge a delivery facility’s comfort and privacy.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/normal-delivery-specialist-near-ramganga-vihar-moradabad",
 
     siteName: "Dr. Priyanka Gynaec",
     locale: "en_IN",

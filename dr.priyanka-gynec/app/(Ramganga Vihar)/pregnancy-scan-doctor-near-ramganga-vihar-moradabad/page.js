@@ -38,7 +38,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/pregnancy-scan-doctor-near-ramganga-vihar-moradabad",
   },
 
   openGraph: {
@@ -49,7 +49,7 @@ export const metadata = {
       "Looking for a pregnancy scan doctor near Ramganga Vihar, Moradabad? Learn about scan types, how to verify a sonologist, what to ask, how to prepare and what a comfortable scan centre looks like.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/pregnancy-scan-doctor-near-ramganga-vihar-moradabad",
 
     siteName: "Dr. Priyanka Gynaec",
     locale: "en_IN",

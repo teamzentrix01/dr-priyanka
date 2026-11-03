@@ -38,7 +38,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/pcos-and-periods-doctor-in-majhola-moradabad",
   },
 
   openGraph: {
@@ -49,7 +49,7 @@ export const metadata = {
       "Looking for a PCOS and periods doctor in Majhola, Moradabad? Learn when to see a gynaecologist, what to track, questions to ask and what to look for in a clinic.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/pcos-and-periods-doctor-in-majhola-moradabad",
 
     siteName: "Space Build",
     locale: "en_IN",

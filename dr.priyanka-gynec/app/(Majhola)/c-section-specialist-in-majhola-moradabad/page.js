@@ -38,7 +38,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/c-section-specialist-in-majhola-moradabad",
   },
 
   openGraph: {
@@ -49,7 +49,7 @@ export const metadata = {
       "Looking for a C-section specialist in Majhola, Moradabad? Learn how to verify an obstetrician, what to ask, how to judge a delivery hospital and prepare for surgery and recovery.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/c-section-specialist-in-majhola-moradabad",
 
     siteName: "Dr. Priyanka Gynaec",
     locale: "en_IN",

@@ -38,7 +38,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/fibroid-surgery-doctor-in-majhola-moradabad",
   },
 
   openGraph: {
@@ -49,7 +49,7 @@ export const metadata = {
       "Looking for a fibroid surgery doctor in Majhola, Moradabad? Learn about fibroids, when to consult a specialist, questions to ask, what to check in a clinic and how to prepare for a visit.",
 
     url:
-      "https://www.gynaecologistmoradabad.com/best-gynaecologist-near-delhi-road-moradabad",
+      "https://www.gynaecologistmoradabad.com/fibroid-surgery-doctor-in-majhola-moradabad",
 
     siteName: "Space Build",
     locale: "en_IN",
